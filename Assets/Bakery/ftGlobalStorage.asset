@@ -1,0 +1,939 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c789d55c4f1cff34799abba03737e8f7, type: 3}
+  m_Name: ftGlobalStorage
+  m_EditorClassIdentifier: 
+  modifiedAssetPathList:
+  - Assets/Bakery/examples/content/sponza/sponza.FBX
+  - Assets/_Worlds/JapanZenInterior/Models/Door Large.fbx
+  - Assets/_Worlds/JapanZenInterior/Models/Door Small.fbx
+  - Assets/_Worlds/JapanZenInterior/Models/Japan Zen Interior Optimized.fbx
+  - Assets/_Model/Hosipital/Hospital_Entrance/reception_area.fbx
+  - Assets/_Model/Hosipital/Hospital_Entrance/structure_outline.fbx
+  - Assets/_Model/Hosipital/Hospital_Entrance/panda_reference.fbx
+  modifiedAssetPaddingHash: d6a958ff14f33a0680c5d890dbe53a8433f4f357bebe8f083651edc5
+  modifiedMeshList: []
+  modifiedMeshPaddingList: 
+  modifiedAssets:
+  - meshName:
+    - sponza_00
+    - sponza_01
+    - sponza_03
+    - sponza_05
+    - sponza_06
+    - sponza_07
+    - sponza_08
+    - sponza_09
+    - sponza_10
+    - sponza_11
+    - sponza_12
+    - sponza_13
+    - sponza_14
+    - sponza_15
+    - sponza_16
+    - sponza_17
+    - sponza_18
+    - sponza_19
+    - sponza_20
+    - sponza_21
+    - sponza_22
+    - sponza_23
+    - sponza_24
+    - sponza_25
+    - sponza_26
+    - sponza_27
+    - sponza_28
+    - sponza_29
+    - sponza_30
+    - sponza_31
+    - sponza_32
+    - sponza_33
+    - sponza_34
+    - sponza_35
+    - sponza_36
+    - sponza_37
+    - sponza_38
+    - sponza_39
+    - sponza_40
+    - sponza_41
+    - sponza_42
+    - sponza_43
+    - sponza_44
+    - sponza_45
+    - sponza_46
+    - sponza_47
+    - sponza_48
+    - sponza_49
+    - sponza_50
+    - sponza_51
+    - sponza_52
+    - sponza_53
+    - sponza_54
+    - sponza_55
+    - sponza_56
+    - sponza_57
+    - sponza_58
+    - sponza_59
+    - sponza_60
+    - sponza_61
+    - sponza_62
+    - sponza_63
+    - sponza_64
+    - sponza_65
+    - sponza_67
+    - sponza_68
+    - sponza_69
+    - sponza_70
+    - sponza_71
+    - sponza_72
+    - sponza_73
+    - sponza_74
+    - sponza_75
+    - sponza_76
+    - sponza_77
+    - sponza_78
+    - sponza_79
+    - sponza_80
+    - sponza_81
+    - sponza_82
+    - sponza_83
+    - sponza_84
+    - sponza_85
+    - sponza_86
+    - sponza_87
+    - sponza_88
+    - sponza_89
+    - sponza_90
+    - sponza_91
+    - sponza_92
+    - sponza_93
+    - sponza_94
+    - sponza_95
+    - sponza_96
+    - sponza_97
+    - sponza_98
+    - sponza_99
+    - sponza_100
+    - sponza_101
+    - sponza_102
+    - sponza_103
+    - sponza_104
+    - sponza_105
+    - sponza_106
+    - sponza_107
+    - sponza_108
+    - sponza_109
+    - sponza_110
+    - sponza_111
+    - sponza_112
+    - sponza_113
+    - sponza_114
+    - sponza_115
+    - sponza_116
+    - sponza_117
+    - sponza_118
+    - sponza_119
+    - sponza_120
+    - sponza_121
+    - sponza_122
+    - sponza_123
+    - sponza_124
+    - sponza_125
+    - sponza_126
+    - sponza_127
+    - sponza_128
+    - sponza_129
+    - sponza_130
+    - sponza_131
+    - sponza_132
+    - sponza_133
+    - sponza_134
+    - sponza_135
+    - sponza_136
+    - sponza_137
+    - sponza_138
+    - sponza_139
+    - sponza_140
+    - sponza_141
+    - sponza_142
+    - sponza_143
+    - sponza_144
+    - sponza_145
+    - sponza_146
+    - sponza_147
+    - sponza_148
+    - sponza_149
+    - sponza_150
+    - sponza_151
+    - sponza_152
+    - sponza_153
+    - sponza_154
+    - sponza_155
+    - sponza_156
+    - sponza_157
+    - sponza_158
+    - sponza_159
+    - sponza_160
+    - sponza_161
+    - sponza_162
+    - sponza_163
+    - sponza_164
+    - sponza_165
+    - sponza_166
+    - sponza_167
+    - sponza_168
+    - sponza_169
+    - sponza_170
+    - sponza_171
+    - sponza_172
+    - sponza_173
+    - sponza_174
+    - sponza_175
+    - sponza_176
+    - sponza_177
+    - sponza_178
+    - sponza_179
+    - sponza_180
+    - sponza_181
+    - sponza_182
+    - sponza_183
+    - sponza_184
+    - sponza_185
+    - sponza_186
+    - sponza_187
+    - sponza_188
+    - sponza_189
+    - sponza_190
+    - sponza_191
+    - sponza_192
+    - sponza_193
+    - sponza_194
+    - sponza_195
+    - sponza_196
+    - sponza_197
+    - sponza_198
+    - sponza_199
+    - sponza_200
+    - sponza_201
+    - sponza_202
+    - sponza_203
+    - sponza_204
+    - sponza_205
+    - sponza_206
+    - sponza_207
+    - sponza_208
+    - sponza_209
+    - sponza_210
+    - sponza_211
+    - sponza_212
+    - sponza_213
+    - sponza_214
+    - sponza_215
+    - sponza_216
+    - sponza_217
+    - sponza_218
+    - sponza_219
+    - sponza_220
+    - sponza_221
+    - sponza_222
+    - sponza_223
+    - sponza_224
+    - sponza_225
+    - sponza_226
+    - sponza_227
+    - sponza_228
+    - sponza_229
+    - sponza_230
+    - sponza_231
+    - sponza_232
+    - sponza_233
+    - sponza_234
+    - sponza_235
+    - sponza_236
+    - sponza_237
+    - sponza_238
+    - sponza_239
+    - sponza_240
+    - sponza_241
+    - sponza_242
+    - sponza_243
+    - sponza_244
+    - sponza_245
+    - sponza_246
+    - sponza_247
+    - sponza_248
+    - sponza_249
+    - sponza_250
+    - sponza_251
+    - sponza_252
+    - sponza_253
+    - sponza_254
+    - sponza_255
+    - sponza_256
+    - sponza_257
+    - sponza_259
+    - sponza_260
+    - sponza_261
+    - sponza_262
+    - sponza_263
+    - sponza_264
+    - sponza_265
+    - sponza_266
+    - sponza_267
+    - sponza_268
+    - sponza_269
+    - sponza_270
+    - sponza_271
+    - sponza_272
+    - sponza_273
+    - sponza_274
+    - sponza_275
+    - sponza_276
+    - sponza_277
+    - sponza_278
+    - sponza_279
+    - sponza_280
+    - sponza_281
+    - sponza_282
+    - sponza_283
+    - sponza_284
+    - sponza_285
+    - sponza_286
+    - sponza_287
+    - sponza_288
+    - sponza_289
+    - sponza_290
+    - sponza_291
+    - sponza_292
+    - sponza_293
+    - sponza_294
+    - sponza_295
+    - sponza_296
+    - sponza_297
+    - sponza_298
+    - sponza_299
+    - sponza_300
+    - sponza_301
+    - sponza_302
+    - sponza_303
+    - sponza_304
+    - sponza_305
+    - sponza_306
+    - sponza_307
+    - sponza_308
+    - sponza_309
+    - sponza_310
+    - sponza_311
+    - sponza_312
+    - sponza_313
+    - sponza_314
+    - sponza_315
+    - sponza_316
+    - sponza_317
+    - sponza_318
+    - sponza_319
+    - sponza_320
+    - sponza_321
+    - sponza_322
+    - sponza_323
+    - sponza_324
+    - sponza_325
+    - sponza_326
+    - sponza_327
+    - sponza_328
+    - sponza_329
+    - sponza_330
+    - sponza_331
+    - sponza_332
+    - sponza_333
+    - sponza_334
+    - sponza_335
+    - sponza_336
+    - sponza_337
+    - sponza_338
+    - sponza_339
+    - sponza_340
+    - sponza_341
+    - sponza_342
+    - sponza_343
+    - sponza_344
+    - sponza_345
+    - sponza_346
+    - sponza_347
+    - sponza_348
+    - sponza_349
+    - sponza_350
+    - sponza_351
+    - sponza_352
+    - sponza_353
+    - sponza_354
+    - sponza_355
+    - sponza_356
+    - sponza_357
+    - sponza_358
+    - sponza_359
+    - sponza_360
+    - sponza_361
+    - sponza_362
+    - sponza_363
+    - sponza_364
+    - sponza_365
+    - sponza_366
+    - sponza_367
+    - sponza_368
+    - sponza_369
+    - sponza_370
+    - sponza_371
+    - sponza_372
+    - sponza_373
+    - sponza_374
+    - sponza_375
+    - sponza_376
+    - sponza_377
+    - sponza_378
+    - sponza_381
+    padding: 2e000000460000002a000000110000000e0000000c0000000400000033000000330000003300000033000000330000003300000033000000330000000a00000007000000060000002b0000002b00000011000000140000001400000014000000140000002a0000001d000000320000003200000032000000320000002a000000080000000d0000000500000087000000fa00000087000000fa00000087000000fa00000087000000fa00000087000000fb00000087000000fb00000087000000fb00000087000000fb00000087000000fb00000051000000510000005100000051000000510000005100000051000000510000005100000051000000510000000c00000006000000060000002700000028000000390000002b000000150000002700000000010000ba0000009b0000009b000000b70000009d000000b7000000b7000000b70000009b000000b70000009d000000b7000000b7000000b70000009b0000009b0000009b00000083000000ba00000000010000ba0000009b0000009b000000b70000009d000000b7000000b7000000b70000009b000000b70000009d000000b7000000b7000000b70000009b0000009b0000009b00000083000000000100002700000006000000270000002700000027000000270000002d0000001000000010000000230000006a000000000100006a000000000100006a000000000100006a000000000100001e0000002c000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000230000006a000000000100006a000000000100006a000000000100006a000000000100001e0000002c000000630000004300000000010000000100004300000000010000430000000001000043000000430000009400000094000000430000009400000043000000940000004300000024000000270000004600000030000000360000002d000000360000001d0000001d0000001d0000001d0000001d0000001d0000001d0000001d00000000010000ad0000000001000000010000ad0000000001000000010000ad0000000001000000010000ad0000000001000000010000ad0000000001000000010000ad0000000001000000010000ad0000000001000000010000ad0000000001000000010000ad0000000001000000010000ad000000000100001b0000001b0000001b0000001b0000001b0000001b0000001b0000001b0000001b0000001b000000000100000001000000010000000100008c00000000010000000100000001000000010000000100000001000000010000000100008c00000000010000000100000001000000010000000100000001000000010000000100008c00000000010000000100000001000000010000000100000001000000010000000100008c000000000100000001000000010000000100004600000046000000460000004900000049000000490000004900000024000000240000002400000024000000220000001800000004000000
+    unwrapper: 
+  - meshName:
+    - Slide door.014
+    padding: 0a000000
+    unwrapper: 00000000
+  - meshName:
+    - Slide door.001
+    padding: 0e000000
+    unwrapper: 00000000
+  - meshName:
+    - Table
+    - Outer Wall
+    - Ceiling.000
+    - Lamp.000
+    - Floor
+    - Inner support
+    - Folding screen
+    - Ceiling.001
+    - Inner wall
+    - Outer support
+    padding: 0a00000004000000060000002800000003000000090000000e000000040000000700000004000000
+    unwrapper: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - meshName:
+    - White Paper cup
+    - wenjianaigui.001
+    - transparent_cabinet
+    - trunk.001
+    - soil_rock_small.001
+    - soil_rock_big.001
+    - soil.001
+    - sakura_stamen.073
+    - sakura_stamen.071
+    - sakura_stamen.061
+    - sakura_stamen.057
+    - sakura_stamen.056
+    - sakura_stamen.048
+    - sakura_stamen.045
+    - sakura_stamen.044
+    - sakura_stamen.042
+    - sakura_stamen.029
+    - sakura_stamen.026
+    - sakura_stamen.005
+    - sakura_stamen.004
+    - sakura_petal.019
+    - sakura_petal.018
+    - sakura_petal.017
+    - sakura_petal.016
+    - sakura_petal.015
+    - sakura_petal.014
+    - sakura_petal.013
+    - sakura_petal.012
+    - sakura_petal.009
+    - sakura_petal.008
+    - sakura_petal.007
+    - sakura_petal.003
+    - sakura_petal.002
+    - sakura_leaf_archive0.002
+    - leaf.010
+    - leaf.009
+    - leaf.005
+    - leaf.004
+    - leaf.003
+    - leaf.002
+    - Cylinder.050
+    - Cylinder.049
+    - Cylinder.048
+    - Cylinder.047
+    - Cylinder.046
+    - Cylinder.045
+    - Cylinder.044
+    - Cylinder.043
+    - Cylinder.042
+    - Cylinder.041
+    - Cylinder.040
+    - Cylinder.039
+    - Cylinder.038
+    - Cylinder.037
+    - Cylinder.036
+    - Cylinder.035
+    - Cylinder.034
+    - Cylinder.033
+    - Cylinder.032
+    - Cylinder.031
+    - Cylinder.030
+    - Cylinder.029
+    - Cylinder.028
+    - Cylinder.027
+    - Cylinder.026
+    - Cylinder.025
+    - Cylinder.024
+    - Cylinder.023
+    - Cylinder.022
+    - Cylinder.021
+    - Cylinder.020
+    - Cylinder.019
+    - Cylinder.018
+    - Circle.001
+    - sakura_pot.001
+    - reception_glass
+    - Plane.007
+    - door_window
+    - reception_door
+    - Plane.022
+    - Plane.021
+    - Plane.015
+    - Plane.003
+    - Plane.002
+    - Cylinder.003
+    - Cube.046
+    - Cube.045
+    - pen.001
+    - Paper_clip_body_frame.003
+    - Paper_clip_body_frame.002
+    - Paper_clip_body_frame.001
+    - Object_313.001
+    - movable_drawer.001
+    - movable_drawer
+    - Monitor 27' Curved
+    - LODEX3D_VOL1_BOOKS_L3DV1B001_
+    - Kastel_kompasso (high back) headreset
+    - GOMA
+    - Plane.011
+    - Plane.010
+    - Plane.009
+    - Plane.008
+    - Plane.006
+    - Plane.004
+    - Drawer with casters.001
+    - Drawer with casters
+    - Cylinder
+    - Cube.039
+    - Cube.074
+    - Cube.017
+    - Plane.020
+    - Cube.071
+    - Plane.019
+    - Cube.070
+    - Plane.018
+    - Cube.069
+    - Cube.057
+    - Cube.054
+    - Cube.040
+    - Plane.017
+    - Cube.028
+    - Plane.012
+    - Cube.025
+    - Plane.014
+    - Cube.022
+    - Cube.015
+    - Cube.011
+    - Cube.005
+    - Plane.016
+    - Cube.002
+    - Cube.001
+    - Cilindro
+    - ceiling_glass.004
+    - board_case
+    - 10105_Computer Keyboard_v1_L3
+    padding: cb000000390000003f00000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000037000000000100000001000000010000000100000001000051000000180000000001000000010000000100000001000000010000000100000001000000010000000100007500000075000000de000000530000006300000000010000000100000001000000010000000100000001000000010000000100004d0000000001000000010000a200000000010000000100000001000000010000000100000001000000010000fa000000aa000000a2000000000100000001000000010000000100000001000000010000000100003e0000000001000000010000000100003e00000000010000000100000001000000010000
+    unwrapper: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - meshName:
+    - Plane
+    - entrance_big_pillar.005
+    - entrance_big_pillar.004
+    - entrance_big_pillar.003
+    - entrance_big_pillar.002
+    - entrance_big_pillar.001
+    - entrance_big_pillar
+    - Cube.064
+    - Cube.063
+    - Cube.058
+    - Cube.038
+    - Cube.034
+    - Cube.026
+    - Cube.012
+    - Cube.010
+    - Cube.009
+    - Cube.008
+    - Cube.007
+    - Cube.006
+    - Cube.003
+    - Cube
+    - ceilling_air_duct.004
+    - ceilling_air_duct.003
+    - ceilling_air_duct.002
+    - ceilling_air_duct.001
+    - ceilling_air_duct
+    - ceilling.001
+    - ceiling_glass.003
+    - ceiling_glass.002
+    - ceiling_glass.001
+    - ceiling_glass
+    padding: 0100000014000000140000001400000014000000140000001400000000010000110000001b00000013000000000100000f0000000300000014000000180000001e0000001300000005000000060000006d0000003500000035000000350000003500000035000000030000008b000000a10000005800000058000000
+    unwrapper: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - meshName:
+    - panda.008
+    - panda.011
+    - panda.004
+    - panda.002
+    - panda.006
+    - panda.013
+    - panda.005
+    - panda.001
+    - panda.014
+    - panda.012
+    - panda.003
+    - panda
+    - panda.010
+    - panda.007
+    - panda.009
+    padding: 460000004600000046000000460000004600000046000000460000004600000046000000460000004600000046000000460000004600000046000000
+    unwrapper: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  assetList:
+  - Assets/Bakery/examples/content/sponza/bush.FBX
+  - Assets/Bakery/examples/content/floor_lamp.FBX
+  - Assets/00Kamishiro/AKSwitch/_Resources/Models/Switch.fbx
+  - Assets/Thry/BeerPong/3dmodels/table.dae
+  - Assets/Thry/BeerPong/3dmodels/arrow.dae
+  - Assets/Thry/BeerPong/3dmodels/arrow.blend
+  - Assets/Thry/BeerPong/3dmodels/glass.blend
+  - Assets/Thry/BeerPong/3dmodels/table.blend
+  - Assets/VRCMarker/Mesh/marker.fbx
+  - Assets/_pi_/_LTCGI/Propaganda/ltcgi_sign.fbx
+  - Assets/ArchiTechAnon/ProTV/Models/ProTVLogo3D/ProTVLogo3D.fbx
+  - Assets/ArchiTechAnon/ProTV/Models/CurvedTV/Tv Set.fbx
+  - Assets/ArchiTechAnon/ProTV/Models/ProTV Logo.fbx
+  - Assets/ArchiTechAnon/ProTV/Plugins/Skybox/Models/VideoSphere.fbx
+  - Assets/ArchiTechAnon/ProTV/Models/ProTVBox/ProTVBox.fbx
+  - "Assets/\u68DA\u30BB\u30C3\u30C8/Materials/FBX/\u68DA 4.fbx"
+  - "Assets/\u68DA\u30BB\u30C3\u30C8/Materials/FBX/\u58C1\u639B\u3051\u68DA 4.fbx"
+  - "Assets/\u68DA\u30BB\u30C3\u30C8/Materials/FBX/\u68DA 3.fbx"
+  - "Assets/\u68DA\u30BB\u30C3\u30C8/Materials/FBX/\u58C1\u639B\u3051\u68DA 1.fbx"
+  - "Assets/\u68DA\u30BB\u30C3\u30C8/Materials/FBX/\u58C1\u639B\u3051\u68DA 3.fbx"
+  - "Assets/\u68DA\u30BB\u30C3\u30C8/Materials/FBX/\u58C1\u639B\u3051\u68DA 8.fbx"
+  - "Assets/\u68DA\u30BB\u30C3\u30C8/Materials/FBX/\u58C1\u639B\u3051\u68DA 5.fbx"
+  - "Assets/\u68DA\u30BB\u30C3\u30C8/Materials/FBX/\u58C1\u639B\u3051\u68DA 7.fbx"
+  - "Assets/\u68DA\u30BB\u30C3\u30C8/Materials/FBX/\u58C1\u639B\u3051\u68DA 6.fbx"
+  - "Assets/\u68DA\u30BB\u30C3\u30C8/Materials/FBX/\u58C1\u639B\u3051\u68DA 2.fbx"
+  - "Assets/\u68DA\u30BB\u30C3\u30C8/Materials/FBX/\u68DA 1.fbx"
+  - "Assets/\u68DA\u30BB\u30C3\u30C8/Materials/FBX/\u68DA 2.fbx"
+  - Assets/Rollthered/Tablet/tablet drawing.fbx
+  - Assets/Rollthered/Canvas/Canvas.fbx
+  - Assets/Rollthered/Canvas/paintt.fbx
+  - Assets/[Ofuton]/WallFan/FBX/wallfan.fbx
+  - Assets/SGB Free Furniture Pack/fbx/single_sofa_grey.fbx
+  - Assets/SGB Free Furniture Pack/fbx/rugs_and_pillows_circle_rug.fbx
+  - Assets/SGB Free Furniture Pack/fbx/light_floor_lamp.fbx
+  - Assets/SGB Free Furniture Pack/fbx/light_ceiling_light.fbx
+  - Assets/SGB Free Furniture Pack/fbx/rugs_and_pillows_square_rug.fbx
+  - Assets/SGB Free Furniture Pack/fbx/dresser.fbx
+  - Assets/SGB Free Furniture Pack/fbx/bedroom_desk.fbx
+  - Assets/SGB Free Furniture Pack/fbx/light_ceiling_fan.fbx
+  - Assets/SGB Free Furniture Pack/fbx/room_end_coffee_tables_coffeetable.fbx
+  - Assets/SGB Free Furniture Pack/fbx/Shelf_props_small_bowl.fbx
+  - Assets/SGB Free Furniture Pack/fbx/Shelf_props_small_vases.fbx
+  - Assets/SGB Free Furniture Pack/fbx/full_bed.fbx
+  - Assets/SGB Free Furniture Pack/fbx/square_arm_sofa.fbx
+  - Assets/SGB Free Furniture Pack/fbx/floor_cactus_plant.fbx
+  - Assets/SGB Free Furniture Pack/fbx/console.fbx
+  - Assets/SGB Free Furniture Pack/fbx/light_exterior_light.fbx
+  - Assets/SGB Free Furniture Pack/fbx/Shelf_props_3books.fbx
+  - Assets/SGB Free Furniture Pack/fbx/light_square_chandelier.fbx
+  - Assets/SGB Free Furniture Pack/fbx/rugs_and_pillows_large_square_rug.fbx
+  - Assets/SGB Free Furniture Pack/fbx/room_end_trable.fbx
+  - Assets/SGB Free Furniture Pack/fbx/dining_room_table.fbx
+  - Assets/SGB Free Furniture Pack/fbx/Shelf_props_cactus.fbx
+  - Assets/SGB Free Furniture Pack/fbx/rugs_and_pillows_pillow_tan.fbx
+  - Assets/SGB Free Furniture Pack/fbx/bean_bag_with_blanket.fbx
+  - Assets/SGB Free Furniture Pack/fbx/light_chandelier.fbx
+  - Assets/SGB Free Furniture Pack/fbx/bean_bag_tan.fbx
+  - Assets/SGB Free Furniture Pack/fbx/light_outdoor_side_lamp.fbx
+  - Assets/SGB Free Furniture Pack/fbx/rugs_and_pillows_pillow_red.fbx
+  - Assets/SGB Free Furniture Pack/fbx/bedroom_dresser.fbx
+  - Assets/SGB Free Furniture Pack/fbx/light_table_lamp.fbx
+  - Assets/SGB Free Furniture Pack/fbx/light_sidetable_lamp.fbx
+  - Assets/SGB Free Furniture Pack/fbx/dining_room_chair.fbx
+  - Assets/SGB Free Furniture Pack/fbx/room_end_coffee_tables_TVStand.fbx
+  - Assets/SGB Free Furniture Pack/fbx/Shelf_props_2books.fbx
+  - Assets/SGB Free Furniture Pack/fbx/Shelf_props_small_cactus.fbx
+  - Assets/SGB Free Furniture Pack/fbx/bedroom_nightstand.fbx
+  - Assets/Furniture Pack/Fbx/Plants_Pots_14.fbx
+  - Assets/Furniture Pack/Fbx/Tables_Other_Tables_2.fbx
+  - Assets/Furniture Pack/Fbx/Lights_Table_Lamps_6.fbx
+  - Assets/Furniture Pack/Fbx/Plants_Pots_8.fbx
+  - Assets/Furniture Pack/Fbx/Tables_Side_Tables_10.fbx
+  - Assets/Furniture Pack/Fbx/Lights_Floor_Lamps_6.fbx
+  - Assets/Furniture Pack/Fbx/Lights_Floor_Lamps_5.fbx
+  - Assets/Furniture Pack/Fbx/Couches_L_Couches_Light_Red.fbx
+  - Assets/Furniture Pack/Fbx/Tables_Side_Tables_4.fbx
+  - Assets/Furniture Pack/Fbx/Tables_Kitchen_Tables_1.fbx
+  - Assets/Furniture Pack/Fbx/Bean_Bags_2.fbx
+  - Assets/Furniture Pack/Fbx/Chairs_Bar_Chairs_2.fbx
+  - Assets/Furniture Pack/Fbx/Couches_Love_Seat_White.fbx
+  - Assets/Furniture Pack/Fbx/Tables_Side_Tables_11.fbx
+  - Assets/Furniture Pack/Fbx/Chairs_Short_Chairs_2.fbx
+  - Assets/Furniture Pack/Fbx/Bean_Bags_1.fbx
+  - Assets/Furniture Pack/Fbx/Lights_Table_Lamps_4.fbx
+  - Assets/Furniture Pack/Fbx/Lights_Floor_Lamps_1.fbx
+  - Assets/Furniture Pack/Fbx/Tables_Other_Tables_1.fbx
+  - Assets/Furniture Pack/Fbx/Plants_Pots_2.fbx
+  - Assets/Furniture Pack/Fbx/Couches_Misc_3.fbx
+  - Assets/Furniture Pack/Fbx/Couches_Love_Seat_Green.fbx
+  - Assets/Furniture Pack/Fbx/Bathroom_And_Misc_6.fbx
+  - Assets/Furniture Pack/Fbx/Lights_Chandelier_1.fbx
+  - Assets/Furniture Pack/Fbx/Lights_Floor_Lamps_3.fbx
+  - Assets/Furniture Pack/Fbx/Plants_Pots_13.fbx
+  - Assets/Furniture Pack/Fbx/Lights_Table_Lamps_2.fbx
+  - Assets/Furniture Pack/Fbx/Lights_Table_Lamps_3.fbx
+  - Assets/Furniture Pack/Fbx/Bathroom_And_Misc_2.fbx
+  - Assets/Furniture Pack/Fbx/Couches_Theatre_Chair_Leather.fbx
+  - Assets/Furniture Pack/Fbx/Tables_Restaurant_Tables_2.fbx
+  - Assets/Furniture Pack/Fbx/Lights_Table_Lamps_8.fbx
+  - Assets/Furniture Pack/Fbx/Tables_Side_Tables_3.fbx
+  - Assets/Furniture Pack/Fbx/Lights_Floor_Lamps_4.fbx
+  - Assets/Furniture Pack/Fbx/Chairs_Short_Chairs_1.fbx
+  - Assets/Furniture Pack/Fbx/Lights_Table_Lamps_7.fbx
+  - Assets/Furniture Pack/Fbx/Tables_Side_Tables_5.fbx
+  - Assets/Furniture Pack/Fbx/Bathroom_And_Misc_3.fbx
+  - Assets/Furniture Pack/Fbx/Plants_Pots_12.fbx
+  - Assets/Furniture Pack/Fbx/Tables_Other_Tables_4.fbx
+  - Assets/Furniture Pack/Fbx/Couches_Curved_Couch_Red.fbx
+  - Assets/Furniture Pack/Fbx/Couches_Single_Sofa_White.fbx
+  - Assets/Furniture Pack/Fbx/Tables_Side_Tables_7.fbx
+  - Assets/Furniture Pack/Fbx/Plants_Pots_5.fbx
+  - Assets/Furniture Pack/Fbx/Tables_Other_Tables_5.fbx
+  - Assets/Furniture Pack/Fbx/Lights_Chandelier_3.fbx
+  - Assets/Furniture Pack/Fbx/Bathroom_And_Misc_5.fbx
+  - Assets/Furniture Pack/Fbx/Tables_Other_Tables_3.fbx
+  - Assets/Furniture Pack/Fbx/Couches_Couch_Green.fbx
+  - Assets/Furniture Pack/Fbx/Plants_Pots_1.fbx
+  - Assets/Furniture Pack/Fbx/Plants_Pots_6.fbx
+  - Assets/Furniture Pack/Fbx/Chairs_Bar_Chairs_5.fbx
+  - Assets/Furniture Pack/Fbx/Couches_Single_Sofa_Light_Light_Grey.fbx
+  - Assets/Furniture Pack/Fbx/Couches_Single_Sofa_Light_Comfy_Grey.fbx
+  - Assets/Furniture Pack/Fbx/Lights_Floor_Lamps_2.fbx
+  - Assets/Furniture Pack/Fbx/Couches_Love_Seat_Grey.fbx
+  - Assets/Furniture Pack/Fbx/Rocks_1.fbx
+  - Assets/Furniture Pack/Fbx/Tables_Side_Tables_1.fbx
+  - Assets/Furniture Pack/Fbx/Chairs_Bar_Chairs_4.fbx
+  - Assets/Furniture Pack/Fbx/Tables_Kitchen_Tables_2.fbx
+  - Assets/Furniture Pack/Fbx/Pillows_1.fbx
+  - Assets/Furniture Pack/Fbx/Bathroom_And_Misc_4.fbx
+  - Assets/Furniture Pack/Fbx/Rocks_2.fbx
+  - Assets/Furniture Pack/Fbx/Couches_Theatre_Chair_Fabric.fbx
+  - Assets/Furniture Pack/Fbx/Pillows_3.fbx
+  - Assets/Furniture Pack/Fbx/Pillows_2.fbx
+  - Assets/Furniture Pack/Fbx/Couches_Single_Sofa_Light_Grey_With_Pillow.fbx
+  - Assets/Furniture Pack/Fbx/Couches_Single_Sofa_Light_Dark_Grey_With_Pillow.fbx
+  - Assets/Furniture Pack/Fbx/Lights_Table_Lamps_5.fbx
+  - Assets/Furniture Pack/Fbx/Lights_Table_Lamps_1.fbx
+  - Assets/Furniture Pack/Fbx/Tables_Restaurant_Tables_1.fbx
+  - Assets/Furniture Pack/Fbx/Bathroom_And_Misc_1.fbx
+  - Assets/Furniture Pack/Fbx/Couches_Misc_2.fbx
+  - Assets/Furniture Pack/Fbx/Chairs_Bar_Chairs_1.fbx
+  - Assets/Furniture Pack/Fbx/Plants_Pots_10.fbx
+  - Assets/Furniture Pack/Fbx/Plants_Pots_4.fbx
+  - Assets/Furniture Pack/Fbx/Tables_Side_Tables_2.fbx
+  - Assets/Furniture Pack/Fbx/Tables_Kitchen_Tables_3.fbx
+  - Assets/Furniture Pack/Fbx/Tables_Side_Tables_6.fbx
+  - Assets/Furniture Pack/Fbx/Lights_Overhead_1.fbx
+  - Assets/Furniture Pack/Fbx/Chairs_Short_Chairs_3.fbx
+  - Assets/Furniture Pack/Fbx/Couches_U_Couch.fbx
+  - Assets/Furniture Pack/Fbx/Plants_Pots_7.fbx
+  - Assets/Furniture Pack/Fbx/Beds_Red_Bed.fbx
+  - Assets/Furniture Pack/Fbx/Lights_Overhead_2.fbx
+  - Assets/Furniture Pack/Fbx/Couches_Misc_1.fbx
+  - Assets/Furniture Pack/Fbx/Chairs_Short_Chairs_4.fbx
+  - Assets/Furniture Pack/Fbx/Lights_Chandelier_2.fbx
+  - Assets/Furniture Pack/Fbx/Pillows_4.fbx
+  - Assets/Furniture Pack/Fbx/Couches_L_Couches_Dark_Grey.fbx
+  - Assets/Furniture Pack/Fbx/Plants_Pots_11.fbx
+  - Assets/Furniture Pack/Fbx/Beds_Grey_Bed.fbx
+  - Assets/Furniture Pack/Fbx/Chairs_Bar_Chairs_3.fbx
+  - Assets/Furniture Pack/Fbx/Plants_Pots_9.fbx
+  - Assets/Furniture Pack/Fbx/Couches_Couch_Dark_Blue.fbx
+  - Assets/Furniture Pack/Fbx/Tables_Side_Tables_8.fbx
+  - Assets/Furniture Pack/Fbx/Lights_Table_Lamps_9.fbx
+  - Assets/Furniture Pack/Fbx/Tables_Side_Tables_9.fbx
+  - Assets/Furniture Pack/Fbx/Plants_Pots_3.fbx
+  - Assets/Furniture Pack/Fbx/Tables_Restaurant_Tables_3.fbx
+  - Assets/inpo/sofa/sofa.fbx
+  - Assets/SGB Free Furniture Pack/fbx/Shelf_props_small_vases_02.fbx
+  - Assets/SGB Free Furniture Pack/fbx/Shelf_props_small_vases_01.fbx
+  - Assets/SGB Free Furniture Pack/Shelf_props_small_vases_02.fbx
+  - Packages/online.kamishiro.udon.kmbook/Models/BookModel.fbx
+  - Assets/RED_SIM/Water/Examples/Models/SuzanneMirror.fbx
+  - Assets/RED_SIM/Water/Examples/Models/ObjectsMirror.fbx
+  - Assets/RED_SIM/Water/Examples/EnvironmentGradient/TerrainExample.fbx
+  - Assets/RED_SIM/Water/Examples/Models/smallwater.fbx
+  - Assets/RED_SIM/Water/Examples/Models/smallmountain.fbx
+  - Assets/LeanTween/Examples/Models/ExampleCar.fbx
+  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand_Tail.fbx
+  - Assets/LeanTween/Examples/Models/BasicExamplesText.fbx
+  - Assets/LeanTween/Examples/Models/2dText.fbx
+  - Assets/Bakery/examples/content/logolight.FBX
+  - Assets/_Model/staffroom/locker_curtain.fbx
+  - Assets/_Model/New_restaurant_area/goods.fbx
+  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal9.fbx
+  - Assets/_Model/New_restaurant_area/bar_area.fbx
+  - Assets/_Model/Hosipital/Hospital_Entrance/panda_reference.fbx
+  - Assets/_Model/New_restaurant_area/counter.fbx
+  - Assets/LeanTween/Examples/Models/CurvePathsText.fbx
+  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal7.fbx
+  - Assets/_Model/Title/Title_Shot.fbx
+  - Assets/LeanTween/Examples/Models/EndlessDrivingText.fbx
+  - Assets/_Model/New_restaurant_area/flower.fbx
+  - Assets/_Model/characters/Mya_Fans_Panda.fbx
+  - Assets/_Model/staffroom/hospital_outside.fbx
+  - Assets/LeanTween/Examples/Models/DirectionalArrow.fbx
+  - Assets/LeanTween/Examples/Models/CameraShakeText.fbx
+  - Assets/_Model/restaurant_entrance/Outside_Teahouse/Outside_Teahouse_Logo.fbx
+  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal1.fbx
+  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal_Still.fbx
+  - Assets/LeanTween/Examples/Models/ExampleFirTree.fbx
+  - Assets/_Model/New_restaurant_area/closeup.fbx
+  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal4.fbx
+  - Assets/_Model/New_restaurant_area/Interior_Area.fbx
+  - Assets/LeanTween/Examples/Models/AdvancedExamplesText.fbx
+  - Assets/_Model/staffroom/bed_curtain.fbx
+  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal5.fbx
+  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal2.fbx
+  - Assets/LeanTween/Examples/Models/SimpleAvatar.fbx
+  - Assets/DynamicBone/Demo/tail.FBX
+  - Assets/_Model/staffroom/staffroom.fbx
+  - Assets/_Model/New_restaurant_area/bar_area_kitchen.fbx
+  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal6.fbx
+  - Assets/LeanTween/Examples/Models/SimpleAvatarPieces.fbx
+  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand.fbx
+  - Assets/_Model/restaurant_entrance/menu.fbx
+  - Assets/DynamicBone/Demo/c1.fbx
+  - Assets/_Model/New_restaurant_area/restaurant_pictures.fbx
+  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand_Small_Petals.fbx
+  - Assets/_Model/staffroom/corridor_pipes.fbx
+  - Assets/_Model/restaurant_entrance/Outside_Teahouse/Outside_Teahouse.fbx
+  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal3.fbx
+  - Assets/_Model/New_restaurant_area/clock.fbx
+  - Assets/LeanTween/Examples/Models/LeanTweenHD-Icon.fbx
+  - Assets/_Model/New_restaurant_area/restaurant_seats.fbx
+  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal10.fbx
+  - Assets/_Model/New_restaurant_area/kitchen.fbx
+  - Packages/com.unity.render-pipelines.core/Editor/Resources/DebugProbe.fbx
+  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal8.fbx
+  - Assets/_Model/restaurant_entrance/Road_Sign_New.fbx
+  - Assets/LeanTween/Examples/Models/LeanTween-Icon.fbx
+  - Assets/_Model/restaurant_entrance/windows.fbx
+  - Assets/LeanTween/Examples/Models/Grid.fbx
+  - Assets/_Model/Hosipital/Hospital_Entrance/structure_outline.fbx
+  uvOverlapAssetList: 000000000000000000000000010100000101000001010000010100000101000000000000010100000101000001010000010100000000000001010000010100000101000001010000010100000101000000000000010100000101000001010000010100000101000001010000010100000000000001010000010100000101000000000000000000000000000000000000010100000000000001010000000000000000000000000000010100000101000001010000010100000101000001010000010100000000000001010000000000000101000000000000010100000101000000000000000000000000000001010000000000000101000000000000010100000101000000000000010100000101000000000000010100000101000000000000010100000101000001010000010100000101000000000000010100000101000001010000000000000000000001010000010100000000000001010000000000000101000000000000010100000101000001010000010100000101000000000000010100000101000001010000010100000101000001010000010100000101000000000000010100000000000001010000000000000101000001010000000000000101000001010000010100000101000001010000010100000000000000000000010100000101000001010000000000000000000000000000000000000101000001010000000000000101000000000000010100000101000001010000010100000101000001010000000000000000000001010000010100000101000001010000010100000101000001010000000000000101000001010000010100000101000000000000000000000101000000000000010100000101000001010000000000000101000001010000010100000101000000000000010100000000000001010000000000000000000000000000000000000101000001010000000000000101000001010000ffffffff00000000000000000000000000000000000000000101000000000000010100000101000001010000000000000000000001010000ffffffff0101000001010000010100000101000000000000000000000000000000000000ffffffff010100000000000001010000000000000000000000000000000000000000000000000000010100000101000000000000000000000101000001010000000000000101000000000000010100000101000000000000000000000000000001010000000000000101000000000000000000000000000000000000010100000000000001010000
+  xatlasWarningShown: 0
+  foundCompatibleSetup: 1
+  gpuName: NVIDIA GeForce RTX 3070
+  runsNonRTX: 0
+  runsOptix5: 0
+  runsOptix6: 1
+  runsOptix7: 1
+  runsOIDN: 1
+  alwaysEnableRTX: 0
+  checkerPreviewOn: 0
+  rtSceneViewPreviewOn: 0
+  renderSettingsBounces: 5
+  renderSettingsGISamples: 16
+  renderSettingsGIBackFaceWeight: 0
+  renderSettingsTileSize: 512
+  renderSettingsPriority: 2
+  renderSettingsTexelsPerUnit: 20
+  renderSettingsForceRefresh: 1
+  renderSettingsForceRebuildGeometry: 1
+  renderSettingsPerformRendering: 1
+  renderSettingsUserRenderMode: 0
+  renderSettingsDistanceShadowmask: 0
+  renderSettingsSettingsMode: 0
+  renderSettingsFixSeams: 1
+  renderSettingsDenoise: 1
+  renderSettingsDenoise2x: 0
+  renderSettingsEncode: 1
+  renderSettingsEncodeMode: 0
+  renderSettingsOverwriteWarning: 0
+  renderSettingsAutoAtlas: 1
+  renderSettingsUnwrapUVs: 1
+  renderSettingsForceDisableUnwrapUVs: 0
+  renderSettingsMaxAutoResolution: 4096
+  renderSettingsMinAutoResolution: 16
+  renderSettingsUnloadScenes: 1
+  renderSettingsAdjustSamples: 1
+  renderSettingsGILODMode: 2
+  renderSettingsGILODModeEnabled: 0
+  renderSettingsCheckOverlaps: 0
+  renderSettingsSkipOutOfBoundsUVs: 1
+  renderSettingsHackEmissiveBoost: 1
+  renderSettingsHackIndirectBoost: 1
+  renderSettingsTempPath: 
+  renderSettingsOutPath: 
+  renderSettingsUseScenePath: 0
+  renderSettingsHackAOIntensity: 0
+  renderSettingsHackAOSamples: 16
+  renderSettingsHackAORadius: 1
+  renderSettingsShowAOSettings: 0
+  renderSettingsShowTasks: 1
+  renderSettingsShowTasks2: 0
+  renderSettingsShowPaths: 1
+  renderSettingsShowNet: 1
+  renderSettingsOcclusionProbes: 0
+  renderSettingsTexelsPerMap: 0
+  renderSettingsTexelsColor: 1
+  renderSettingsTexelsMask: 1
+  renderSettingsTexelsDir: 1
+  renderSettingsShowDirWarning: 1
+  renderSettingsRenderDirMode: 0
+  renderSettingsShowCheckerSettings: 0
+  renderSettingsSamplesWarning: 1
+  renderSettingsPrefabWarning: 1
+  renderSettingsSplitByScene: 0
+  renderSettingsUVPaddingMax: 0
+  renderSettingsPostPacking: 1
+  renderSettingsHoleFilling: 0
+  renderSettingsBeepOnFinish: 0
+  renderSettingsExportTerrainAsHeightmap: 1
+  renderSettingsRTXMode: 1
+  renderSettingsLightProbeMode: 1
+  renderSettingsClientMode: 0
+  renderSettingsServerAddress: 127.0.0.1
+  renderSettingsUnwrapper: 0
+  renderSettingsDenoiserType: 100
+  renderSettingsExportTerrainTrees: 0
+  renderSettingsShowPerf: 1
+  renderSettingsSampleDiv: 1
+  renderSettingsAtlasPacker: 0
+  renderSettingsBatchPoints: 1
+  renderSettingsCompressVolumes: 0
+  renderSettingsRTPVExport: 1
+  renderSettingsRTPVSceneView: 0
+  renderSettingsRTPVWidth: 640
+  renderSettingsRTPVHeight: 360
+  modifiedMeshPaddingArray: 0100000014000000140000001400000014000000140000001400000000010000110000001b00000013000000000100000f0000000300000014000000180000001e0000001300000005000000060000006d0000003500000035000000350000003500000035000000030000008b000000a10000005800000058000000
+  modifiedMeshUnwrapperArray: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000

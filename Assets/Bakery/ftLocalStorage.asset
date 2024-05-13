@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05ca84e725c7c764aa5ed097918d14b7, type: 3}
+  m_Name: ftLocalStorage
+  m_EditorClassIdentifier: 
+  modifiedAssetPathList:
+  - Assets/Bakery/examples/content/sponza/sponza.FBX
+  - Assets/_Worlds/JapanZenInterior/Models/Door Large.fbx
+  - Assets/_Worlds/JapanZenInterior/Models/Door Small.fbx
+  - Assets/_Worlds/JapanZenInterior/Models/Japan Zen Interior Optimized.fbx
+  - Assets/_Model/Hosipital/Hospital_Entrance/reception_area.fbx
+  - Assets/_Model/Hosipital/Hospital_Entrance/structure_outline.fbx
+  - Assets/_Model/Hosipital/Hospital_Entrance/panda_reference.fbx
+  modifiedAssetPaddingHash: d6a958ff14f33a0680c5d890dbe53a8433f4f357bebe8f083651edc5
