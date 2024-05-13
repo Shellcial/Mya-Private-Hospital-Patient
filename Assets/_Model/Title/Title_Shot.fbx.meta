@@ -1,0 +1,326 @@
+fileFormatVersion: 2
+guid: 3338107fcf0361646b16389d5031f43f
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bed_base_frame
+    second: {fileID: 2100000, guid: 90bf600e6a89ad94ca242b956577613a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bed_black
+    second: {fileID: 2100000, guid: 564aac1cc34a42b4b966840fedfede72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bed_body
+    second: {fileID: 2100000, guid: a4e97a26d30d01a438b1cd5e2356a51d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bed_fence
+    second: {fileID: 2100000, guid: 1272b39e4ffab4e4cb755a9ca294166d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bed_fence_color_var
+    second: {fileID: 2100000, guid: 02a6ac1da40540f4e8eb536e2a04dc20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bed_fench_pillar
+    second: {fileID: 2100000, guid: b4b3922f75956c642a8646b15f4468a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bed_file_folder
+    second: {fileID: 2100000, guid: e0a65d994b053a743b5641806dc5eee6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bed_file_folder_stand
+    second: {fileID: 2100000, guid: ceea771a2608d1540a0bcf2a63964594, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bed_head_ears
+    second: {fileID: 2100000, guid: f7eafebc83004bf47b19297f6000ac9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bed_panda_nose
+    second: {fileID: 2100000, guid: 3464505f75950b248ad550b121b1f634, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bed_pillar
+    second: {fileID: 2100000, guid: b5507de9966293449ab97168f6f52df0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bed_quilt
+    second: {fileID: 2100000, guid: 3fb1ff19c5d2cc74caf75a72a3287d88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bed_screw
+    second: {fileID: 2100000, guid: 7ce389b9faea0fe428705f93b371b0c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bed_wheel_connector
+    second: {fileID: 2100000, guid: 28c5923da24b86243a3cfd5f86ef0003, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bed_white
+    second: {fileID: 2100000, guid: a9240ddaaf87c274484603b61cdf4626, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bed_white.001
+    second: {fileID: 2100000, guid: dc15345c16fa59e4ca5d4747f57eb12e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cusion
+    second: {fileID: 2100000, guid: 5a47b78796b1d6f4aa1bca4f201b6c07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cylinder_head
+    second: {fileID: 2100000, guid: a78a72e9358e2ff45a9acd000f5ff10d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cylinder_lid_pattern
+    second: {fileID: 2100000, guid: 78612da04306f864abe9028745604fa1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cylinder_lid_white
+    second: {fileID: 2100000, guid: 2611c230f8dc08e4a9ec6cd3aca704a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: monitor_frame
+    second: {fileID: 2100000, guid: 7b3707937a02ed14893adf5ffcc1688a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: monitor_stand
+    second: {fileID: 2100000, guid: dca45a0a6c31f474b9fd4e827ee44361, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mya_fan_panda_body
+    second: {fileID: 2100000, guid: d884731854c47764eb7592cdd78cdf35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: patient_drawer_pink
+    second: {fileID: 2100000, guid: 170b2c923d4e8144c949852307992124, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: patient_drawer_white
+    second: {fileID: 2100000, guid: 2d0bc47c4a37dc44e937cce8217daba6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: patient_ground
+    second: {fileID: 2100000, guid: 01b05cbaf029b4145b082cd68c114686, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: salt_water_bag_edge
+    second: {fileID: 2100000, guid: 9b77cbabc4d59a94c87cab3f8f4cb438, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: salt_water_bag_full
+    second: {fileID: 2100000, guid: fbd742209c37508429e100df3c27897f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: salt_water_lid
+    second: {fileID: 2100000, guid: f005a47ccfcbe1642ae41735b5e8a7f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: salt_water_lid_cover
+    second: {fileID: 2100000, guid: efadac25adfa7534f8d4985821382db5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: salt_water_stand
+    second: {fileID: 2100000, guid: 1d74444fd069e494bb1cc554ee96199a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: salt_water_stand_hook
+    second: {fileID: 2100000, guid: 238233a0b5ebb034a96131e09deaea5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: salt_water_stand_wheel
+    second: {fileID: 2100000, guid: 08520d543745f874c9404378f013c96e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: salw_water_hose
+    second: {fileID: 2100000, guid: e081bd4f1e0ff5f47a3430486476b795, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: small_table_pillar_frame
+    second: {fileID: 2100000, guid: ae85561d74bb1934faf0f003f0ced9d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: small_table_pillar_metal
+    second: {fileID: 2100000, guid: 8d1862894600f2d46819da7511a91348, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: small_table_screw
+    second: {fileID: 2100000, guid: f93210c2a3995f245bdc024985215dcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: table_plate_bottom
+    second: {fileID: 2100000, guid: cf8c927f227a54f4fa72db041e8e0193, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: table_plate_top
+    second: {fileID: 2100000, guid: 9bc6c1aabcb260b4fafd58e7ca1c943a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wheel_center
+    second: {fileID: 2100000, guid: 1cf40dc8f389749468aec87f3857d965, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wheel_green_switches
+    second: {fileID: 2100000, guid: d45d694afccbc954594360882d7c38bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wheel_pink_switches
+    second: {fileID: 2100000, guid: 227d8bd10c7939e449894ad95bfa51c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wheel_switches
+    second: {fileID: 2100000, guid: 3d164eaa2c75b894c84949a152df37b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wheel_white
+    second: {fileID: 2100000, guid: 4983259b4a751ad4d98c15bbb00c3889, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
