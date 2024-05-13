@@ -73,15 +73,6 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": true
                 },
                 {
-                    ""name"": ""TouchPress"",
-                    ""type"": ""Value"",
-                    ""id"": ""1867d3c3-2ba2-46af-8fa7-134cef0e2061"",
-                    ""expectedControlType"": """",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": true
-                },
-                {
                     ""name"": ""Debug"",
                     ""type"": ""Button"",
                     ""id"": ""e00df01e-8273-4f96-9672-9f4f4abe950d"",
@@ -149,33 +140,11 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""0a0b355e-e81d-4782-9933-bb53aa95a74f"",
-                    ""path"": ""<Gamepad>/leftStick"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Gamepad"",
-                    ""action"": ""Movement"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""b67f22c9-9ec2-4dd2-9848-65c8a9012a8b"",
                     ""path"": ""<Mouse>/delta"",
                     ""interactions"": """",
                     ""processors"": ""ScaleVector2(x=0.9,y=0.6)"",
                     ""groups"": ""Keyboard"",
-                    ""action"": ""Look"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""e7e5919a-c10a-4f84-8c62-a483e3d5c553"",
-                    ""path"": ""<Gamepad>/rightStick"",
-                    ""interactions"": """",
-                    ""processors"": ""ScaleVector2(x=4,y=4)"",
-                    ""groups"": ""Gamepad"",
                     ""action"": ""Look"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
@@ -204,67 +173,12 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""9e9fcddf-6067-4c6a-802a-38da0e4c11d7"",
-                    ""path"": ""<Touchscreen>/touch0/tap"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Touchscreen"",
-                    ""action"": ""Click"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""9980d0b5-d323-4508-b70b-6833820cd267"",
-                    ""path"": ""<Touchscreen>/touch1/tap"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Touchscreen"",
-                    ""action"": ""Click"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""c31e89cb-a5e7-4cdc-8ddc-0a618846af56"",
-                    ""path"": ""<Touchscreen>/touch2/tap"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Touchscreen"",
-                    ""action"": ""Click"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""0a04974a-c60b-4a75-a5e3-9d4de92069c8"",
                     ""path"": ""<Mouse>/position"",
                     ""interactions"": ""Hold"",
                     ""processors"": """",
                     ""groups"": ""Keyboard"",
                     ""action"": ""ClickPosition"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""cfe45d90-d769-4f44-9b4a-cd814efc8b37"",
-                    ""path"": ""<Touchscreen>/touch0/position"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Touchscreen"",
-                    ""action"": ""ClickPosition"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""35750b88-b759-46dc-99e0-965e59bd1279"",
-                    ""path"": ""<Touchscreen>/primaryTouch/press"",
-                    ""interactions"": ""Press"",
-                    ""processors"": """",
-                    ""groups"": ""Touchscreen"",
-                    ""action"": ""TouchPress"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -325,7 +239,6 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         m_Player_Accelerate = m_Player.FindAction("Accelerate", throwIfNotFound: true);
         m_Player_Click = m_Player.FindAction("Click", throwIfNotFound: true);
         m_Player_ClickPosition = m_Player.FindAction("ClickPosition", throwIfNotFound: true);
-        m_Player_TouchPress = m_Player.FindAction("TouchPress", throwIfNotFound: true);
         m_Player_Debug = m_Player.FindAction("Debug", throwIfNotFound: true);
     }
 
@@ -393,7 +306,6 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Accelerate;
     private readonly InputAction m_Player_Click;
     private readonly InputAction m_Player_ClickPosition;
-    private readonly InputAction m_Player_TouchPress;
     private readonly InputAction m_Player_Debug;
     public struct PlayerActions
     {
@@ -404,7 +316,6 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         public InputAction @Accelerate => m_Wrapper.m_Player_Accelerate;
         public InputAction @Click => m_Wrapper.m_Player_Click;
         public InputAction @ClickPosition => m_Wrapper.m_Player_ClickPosition;
-        public InputAction @TouchPress => m_Wrapper.m_Player_TouchPress;
         public InputAction @Debug => m_Wrapper.m_Player_Debug;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
@@ -430,9 +341,6 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
             @ClickPosition.started += instance.OnClickPosition;
             @ClickPosition.performed += instance.OnClickPosition;
             @ClickPosition.canceled += instance.OnClickPosition;
-            @TouchPress.started += instance.OnTouchPress;
-            @TouchPress.performed += instance.OnTouchPress;
-            @TouchPress.canceled += instance.OnTouchPress;
             @Debug.started += instance.OnDebug;
             @Debug.performed += instance.OnDebug;
             @Debug.canceled += instance.OnDebug;
@@ -455,9 +363,6 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
             @ClickPosition.started -= instance.OnClickPosition;
             @ClickPosition.performed -= instance.OnClickPosition;
             @ClickPosition.canceled -= instance.OnClickPosition;
-            @TouchPress.started -= instance.OnTouchPress;
-            @TouchPress.performed -= instance.OnTouchPress;
-            @TouchPress.canceled -= instance.OnTouchPress;
             @Debug.started -= instance.OnDebug;
             @Debug.performed -= instance.OnDebug;
             @Debug.canceled -= instance.OnDebug;
@@ -512,7 +417,6 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
         void OnAccelerate(InputAction.CallbackContext context);
         void OnClick(InputAction.CallbackContext context);
         void OnClickPosition(InputAction.CallbackContext context);
-        void OnTouchPress(InputAction.CallbackContext context);
         void OnDebug(InputAction.CallbackContext context);
     }
 }
