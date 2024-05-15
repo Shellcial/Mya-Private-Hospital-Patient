@@ -1,0 +1,46 @@
+{
+    "name": "DialogueInputActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "bf6f53a3-3733-403d-96fc-af9c8b670413",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "1c5671c2-4bcd-45a2-8b50-e0f2ab36c23a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "71d38ca9-9d3b-42bf-bd7b-bf582b9d593c",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Mouse",
+            "bindingGroup": "Mouse",
+            "devices": [
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

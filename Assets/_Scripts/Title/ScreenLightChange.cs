@@ -10,7 +10,7 @@ public class ScreenLightChange : MonoBehaviour
     float changeDuration = 0f;
     float repeatTime = 2f;
     float range = 0.05f;
-    float changeValue = 0f;
+    float frequencySecond = 0f;
     Light referenceLight;
     List<Light> otherLights = new List<Light>(); 
     // Start is called before the first frame update
@@ -26,7 +26,7 @@ public class ScreenLightChange : MonoBehaviour
         otherLights.Add(rimLight);
         otherLights.Add(saltWaterStandLight);
         otherLights.Add(screenBeamLight);
-        changeValue = UnityEngine.Random.Range(-range,range);
+        frequencySecond = UnityEngine.Random.Range(-range,range);
     }
 
     // Update is called once per frame
@@ -34,7 +34,7 @@ public class ScreenLightChange : MonoBehaviour
     {
         if (changeDuration > repeatTime){
             changeDuration = 0f; 
-            changeValue = UnityEngine.Random.Range(-range,range);
+            frequencySecond = UnityEngine.Random.Range(-range,range);
         }
         else{
             changeDuration += Time.deltaTime;
@@ -44,11 +44,11 @@ public class ScreenLightChange : MonoBehaviour
         // alter a up or down 
         
         float redValue = referenceLight.color.r;
-        float targetValueR = Mathf.Clamp(Mathf.Lerp(redValue, redValue+changeValue, currentScale),0,1);
+        float targetValueR = Mathf.Clamp(Mathf.Lerp(redValue, redValue+frequencySecond, currentScale),0,1);
         float greenValue = referenceLight.color.g;
-        float targetValueG = Mathf.Clamp(Mathf.Lerp(greenValue, greenValue+changeValue, currentScale),0,1);
+        float targetValueG = Mathf.Clamp(Mathf.Lerp(greenValue, greenValue+frequencySecond, currentScale),0,1);
         float blueValue = referenceLight.color.b;
-        float targetValueB = Mathf.Clamp(Mathf.Lerp(blueValue, blueValue+changeValue, currentScale),0,1);
+        float targetValueB = Mathf.Clamp(Mathf.Lerp(blueValue, blueValue+frequencySecond, currentScale),0,1);
 
         Color finalColor = new Color(targetValueR, targetValueG, targetValueB, 1);
 

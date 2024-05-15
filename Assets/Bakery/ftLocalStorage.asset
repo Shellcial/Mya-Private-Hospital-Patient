@@ -20,4 +20,5 @@ MonoBehaviour:
   - Assets/_Model/Hosipital/Hospital_Entrance/reception_area.fbx
   - Assets/_Model/Hosipital/Hospital_Entrance/structure_outline.fbx
   - Assets/_Model/Hosipital/Hospital_Entrance/panda_reference.fbx
-  modifiedAssetPaddingHash: d6a958ff14f33a0680c5d890dbe53a8433f4f357bebe8f083651edc5
+  - Assets/_Model/teahouse/restaurant_entrance/Outside_Teahouse/Dog_House.fbx
+  modifiedAssetPaddingHash: d6a958ff14f33a0680c5d890dbe53a8433f4f357bebe8f083651edc5bce4819e
