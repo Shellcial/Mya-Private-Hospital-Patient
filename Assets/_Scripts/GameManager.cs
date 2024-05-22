@@ -3,21 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-public class GameManager : MonoBehaviour
+public class GameManager : Singleton<GameManager>
 {
-    //General UI setting
-    private GameObject androidControlCanvas;
-    public bool isAndroidPlatform;
-
     //game status control
     private bool isPlayerMovable;
     private bool isPointerDirectControlAllowed;
     private bool isGameStarted;
-
-    //whether palyer is holding meals
-    public bool isHoldingMeals;
-    public bool isHoldingCup;
-    public bool isHoldingCupPlate;
 
     //let other script to reference this camera (since player can only trigger one event at the same time)
     public GameObject cameraEvent;
@@ -34,51 +25,22 @@ public class GameManager : MonoBehaviour
             Destroy(this.gameObject);
             return;
         }
-        //set canvas between android and window platform
-        isAndroidPlatform = false;
-        androidControlCanvas = GameObject.Find("Canvas_TouchControl");
-        if (Application.platform == RuntimePlatform.WindowsPlayer)
-        {
-            androidControlCanvas.SetActive(false);
-            Debug.Log("on WindowPlayer");
-        }
 
-        // cameraEvent = GameObject.Find("Camera_Event");
-        // cameraEvent.SetActive(false);
-       
-        // SetStartStatus();
         LockCursor(true);
     }
 
     void Start()
     {
+        Application.targetFrameRate = 60;
         string savePath = Application.persistentDataPath + "/Save";
         if (System.IO.Directory.Exists(savePath))
         {
-            // Debug.Log("file exist: " + savePath);
+            Debug.Log("file exist: " + savePath);
         }
         else
         {
             System.IO.Directory.CreateDirectory(Application.persistentDataPath + "/Save");
-            // Debug.Log("file does not exist and is created: " + savePath);
-        }
-       
-        //development only
-        Debug.Log(GraphicsSettings.currentRenderPipeline);
-    }
-
-    public void EnableAndroidCanvas(bool isEnable)
-    {
-        if (isAndroidPlatform)
-        {
-            if (isEnable)
-            {
-                androidControlCanvas.SetActive(true);
-            }
-            else
-            {
-                androidControlCanvas.SetActive(false);
-            }
+            Debug.Log("file does not exist and is created: " + savePath);
         }
     }
 

@@ -40,7 +40,8 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
+    extraUserProperties:
+    - '#BAKERY{"meshName":["Cube.018","screw1","Cube.002","lightbulb.002","Plane.003","ceiling_light_glass.003","lightbulb.001","Plane.001","ceiling_light_glass.002","Cube.005","Plane.014","screw1.004","Cube.032","Cube.035","Cube.020","Plane.011","ceiling_light_glass","Cube.004","Cube.024","Plane.013","Plane.010","Cube.034","Cube.019","Cube.009","Cube.010","Plane","Cube.030","Cube.001","Cube","Cube.140"],"padding":[173,256,143,256,35,256,256,37,256,30,256,256,143,256,256,44,256,256,256,256,82,256,256,256,256,33,256,256,108,256],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 using UnityEngine.UI;
+using Cysharp.Threading.Tasks;
+using System.Threading.Tasks;
 
 public class SceneManager_TeahouseStaffroom : MonoBehaviour, ISceneManager
 {
@@ -46,6 +48,7 @@ public class SceneManager_TeahouseStaffroom : MonoBehaviour, ISceneManager
     private Transform cameraPlayer;
 
     void Awake(){
+        
         blackBackground = GameObject.Find("BlackForeground").GetComponent<RawImage>();
         blackBackground.enabled = true;
 
@@ -57,12 +60,15 @@ public class SceneManager_TeahouseStaffroom : MonoBehaviour, ISceneManager
         cameraPlayer = player.transform.Find("Character_Camera");
         cameraPlayer.localPosition = playerCameraStartPosition;
         cameraPlayer.localRotation = Quaternion.Euler(playerCameraStartRotation);
+
+        GeneralUIManager.Instance.SetBlack();
         GameManager.instance.PauseGame();
     }
 
-    void Start()
+    public async UniTask Start()
     {
         StartCoroutine(FadeBackground(true, 0.5f, 2));
+        await GeneralUIManager.Instance.FadeOutBlack();
     }
 
     public IEnumerator FadeBackground(bool isFadeIn, float waitTime, float fadeTime){

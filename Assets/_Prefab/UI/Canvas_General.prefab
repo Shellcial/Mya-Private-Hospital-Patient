@@ -194,7 +194,7 @@ CanvasGroup:
   m_Enabled: 1
   m_Alpha: 0
   m_Interactable: 1
-  m_BlocksRaycasts: 0
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!1 &3396609775901679560
 GameObject:
@@ -244,7 +244,7 @@ CanvasGroup:
   m_Enabled: 1
   m_Alpha: 0
   m_Interactable: 1
-  m_BlocksRaycasts: 0
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!1 &3396609775936937656
 GameObject:
@@ -306,7 +306,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1000
   m_TargetDisplay: 0
 --- !u!114 &3396609775936937662
 MonoBehaviour:
@@ -360,7 +360,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3072c908577fecc47b768bd288b8591c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _persistent: 1
   canvasGroup: {fileID: 3396609776214193943}
   blackCanvas: {fileID: 3396609775577586410}
   whiteCanvas: {fileID: 3396609775901679566}

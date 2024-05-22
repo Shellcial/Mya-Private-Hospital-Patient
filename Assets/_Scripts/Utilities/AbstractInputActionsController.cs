@@ -5,8 +5,9 @@ public class AbstractInputActionsController : MonoBehaviour
 {
     private protected PlayerInput playerInput;
     public bool AutoStartInputs;
-    void Awake(){
+    public virtual void InitiateInputActions(){
         playerInput = GetComponent<PlayerInput>();
+        Debug.Log(playerInput);
         if (AutoStartInputs){
             EnablePlayerInput();
         }

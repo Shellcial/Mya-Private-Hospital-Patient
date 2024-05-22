@@ -97,8 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: c91ad68499cc6e745a6e2fe9cad4e6b9,
-    type: 2}
+  m_LightingDataAsset: {fileID: 0}
   m_LightingSettings: {fileID: 4890085278179872738, guid: f1f9f7c908ad9464f980470ada950b2c,
     type: 2}
 --- !u!196 &4
@@ -506,6 +505,54 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f8d64a5811705646999b4d7e7e7c728, type: 3}
+--- !u!23 &381634673 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 2f8d64a5811705646999b4d7e7e7c728,
+    type: 3}
+  m_PrefabInstance: {fileID: 381634672}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &381634674 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -4718040791104185828, guid: 2f8d64a5811705646999b4d7e7e7c728,
+    type: 3}
+  m_PrefabInstance: {fileID: 381634672}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &381634675 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6148596154634031546, guid: 2f8d64a5811705646999b4d7e7e7c728,
+    type: 3}
+  m_PrefabInstance: {fileID: 381634672}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &381634676 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7252206974635170655, guid: 2f8d64a5811705646999b4d7e7e7c728,
+    type: 3}
+  m_PrefabInstance: {fileID: 381634672}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &381634677 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -5485553893301749710, guid: 2f8d64a5811705646999b4d7e7e7c728,
+    type: 3}
+  m_PrefabInstance: {fileID: 381634672}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &381634678 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -2334370859168182795, guid: 2f8d64a5811705646999b4d7e7e7c728,
+    type: 3}
+  m_PrefabInstance: {fileID: 381634672}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &381634679 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -2051642447455672638, guid: 2f8d64a5811705646999b4d7e7e7c728,
+    type: 3}
+  m_PrefabInstance: {fileID: 381634672}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &381634680 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2f8d64a5811705646999b4d7e7e7c728,
+    type: 3}
+  m_PrefabInstance: {fileID: 381634672}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -621,6 +668,47 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
+--- !u!114 &434615124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
+  m_Name: Path_To_Teahouse_LM0
+  m_EditorClassIdentifier: 
+  resolution: 16
+  bitmask: 1
+  id: 0
+  sortingID: 0
+  isImplicit: 1
+  area: 1.393651
+  totalVertexCount: 0
+  vertexCounter: 0
+  sceneLodLevel: -1
+  sceneName: 
+  containsTerrains: 0
+  probes: 0
+  mode: 1
+  renderMode: 1000
+  renderDirMode: 1000
+  atlasPacker: 1000
+  computeSSS: 0
+  sssSamples: 16
+  sssDensity: 10
+  sssColor: {r: 1, g: 1, b: 1, a: 1}
+  sssScale: 1
+  fakeShadowBias: 0
+  transparentSelfShadow: 0
+  flipNormal: 0
+  parentName: 
+  overridePath: 
+  fixPos3D: 0
+  voxelSize: {x: 1, y: 1, z: 1}
+  passedFilter: 0
 --- !u!1 &656089178
 GameObject:
   m_ObjectHideFlags: 0
@@ -637,7 +725,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!154 &656089179
 TerrainCollider:
@@ -680,7 +768,7 @@ Terrain:
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
   m_ScaleInLightmap: 0.0256
-  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+  m_LightmapParameters: {fileID: 0}
   m_GroupingID: 0
   m_RenderingLayerMask: 1
   m_AllowAutoConnect: 1
@@ -947,6 +1035,54 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f8d64a5811705646999b4d7e7e7c728, type: 3}
+--- !u!23 &763553669 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 2f8d64a5811705646999b4d7e7e7c728,
+    type: 3}
+  m_PrefabInstance: {fileID: 763553668}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &763553670 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -4718040791104185828, guid: 2f8d64a5811705646999b4d7e7e7c728,
+    type: 3}
+  m_PrefabInstance: {fileID: 763553668}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &763553671 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6148596154634031546, guid: 2f8d64a5811705646999b4d7e7e7c728,
+    type: 3}
+  m_PrefabInstance: {fileID: 763553668}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &763553672 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7252206974635170655, guid: 2f8d64a5811705646999b4d7e7e7c728,
+    type: 3}
+  m_PrefabInstance: {fileID: 763553668}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &763553673 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -5485553893301749710, guid: 2f8d64a5811705646999b4d7e7e7c728,
+    type: 3}
+  m_PrefabInstance: {fileID: 763553668}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &763553674 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -2334370859168182795, guid: 2f8d64a5811705646999b4d7e7e7c728,
+    type: 3}
+  m_PrefabInstance: {fileID: 763553668}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &763553675 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -2051642447455672638, guid: 2f8d64a5811705646999b4d7e7e7c728,
+    type: 3}
+  m_PrefabInstance: {fileID: 763553668}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &763553676 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2f8d64a5811705646999b4d7e7e7c728,
+    type: 3}
+  m_PrefabInstance: {fileID: 763553668}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1534,7 +1670,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 126
   m_IsActive: 1
 --- !u!154 &1380202045
 TerrainCollider:
@@ -1697,6 +1833,47 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1519105980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
+  m_Name: Path_To_Teahouse_LMA1
+  m_EditorClassIdentifier: 
+  resolution: 16
+  bitmask: 1
+  id: 1
+  sortingID: 1
+  isImplicit: 1
+  area: 0
+  totalVertexCount: 0
+  vertexCounter: 0
+  sceneLodLevel: -1
+  sceneName: 
+  containsTerrains: 0
+  probes: 0
+  mode: 1
+  renderMode: 1000
+  renderDirMode: 1000
+  atlasPacker: 1000
+  computeSSS: 0
+  sssSamples: 16
+  sssDensity: 10
+  sssColor: {r: 1, g: 1, b: 1, a: 1}
+  sssScale: 1
+  fakeShadowBias: 0
+  transparentSelfShadow: 0
+  flipNormal: 0
+  parentName: 
+  overridePath: 
+  fixPos3D: 0
+  voxelSize: {x: 1, y: 1, z: 1}
+  passedFilter: 0
 --- !u!1 &1587706360
 GameObject:
   m_ObjectHideFlags: 0
@@ -2854,6 +3031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26277e7386489c94b9a583294db93b16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AutoStartInputs: 1
 --- !u!114 &2032679875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2868,7 +3046,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Actions: {fileID: -944628639613478452, guid: de25cbec8efbf6846b63abb1f7ec5d89,
     type: 3}
-  m_NotificationBehavior: 2
+  m_NotificationBehavior: 3
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
     m_PersistentCalls:
@@ -3045,7 +3223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7fa80e7116296f4eb4f49ec1544ee22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  renderSettingsBounces: 5
+  renderSettingsBounces: 3
   renderSettingsGISamples: 16
   renderSettingsGIBackFaceWeight: 0
   renderSettingsTileSize: 512
@@ -3120,15 +3298,23 @@ MonoBehaviour:
   renderSettingsRTPVSceneView: 0
   renderSettingsRTPVWidth: 640
   renderSettingsRTPVHeight: 360
-  lastBakeTime: 0
+  lastBakeTime: 5
   enlightenWarningShown: 0
   enlightenWarningShown2: 0
   lightUIDs: 
   lights: []
-  implicitGroups: []
-  implicitGroupedObjects: []
-  bounds: []
-  hasEmissive: 
+  implicitGroups:
+  - {fileID: 434615124}
+  - {fileID: 1519105980}
+  implicitGroupedObjects:
+  - {fileID: 763553676}
+  - {fileID: 381634680}
+  bounds:
+  - m_Center: {x: -172.49013, y: 7.1401153, z: 27.987143}
+    m_Extent: {x: 0.17965698, y: 0.45147943, z: 0.053087234}
+  - m_Center: {x: -33.81213, y: 7.1401153, z: 27.987143}
+    m_Extent: {x: 0.17965317, y: 0.45147943, z: 0.053087234}
+  hasEmissive: 0101
   uvBuffOffsets: 
   uvBuffLengths: 
   uvSrcBuff: []
@@ -3140,24 +3326,68 @@ MonoBehaviour:
   lmGroupMinLOD: 
   lmGroupLODMatrix: 
   serverGetFileList: []
-  lightmapHasColor: 
-  lightmapHasMask: 
-  lightmapHasDir: 
-  lightmapHasRNM: 
+  lightmapHasColor: 0101
+  lightmapHasMask: 0000
+  lightmapHasDir: 0000
+  lightmapHasRNM: 0000
   modifiedAssetPathList: []
   modifiedAssets: []
-  maps: []
+  maps:
+  - {fileID: 2800000, guid: 886340c4a6a593e4cb8c6a2aca987197, type: 3}
+  - {fileID: 2800000, guid: f4e9fefbd005bd74db801856fa78daff, type: 3}
   masks: []
   dirMaps: []
   rnmMaps0: []
   rnmMaps1: []
   rnmMaps2: []
   mapsMode: 
-  bakedRenderers: []
-  bakedIDs: 
-  bakedScaleOffset: []
-  bakedVertexOffset: 
-  bakedVertexColorMesh: []
+  bakedRenderers:
+  - {fileID: 763553675}
+  - {fileID: 763553674}
+  - {fileID: 763553673}
+  - {fileID: 763553672}
+  - {fileID: 763553671}
+  - {fileID: 763553670}
+  - {fileID: 381634679}
+  - {fileID: 381634678}
+  - {fileID: 381634677}
+  - {fileID: 381634676}
+  - {fileID: 381634675}
+  - {fileID: 381634674}
+  - {fileID: 381634673}
+  - {fileID: 763553669}
+  bakedIDs: 0000000000000000000000000000000000000000000000000100000001000000010000000100000001000000010000000100000000000000
+  bakedScaleOffset:
+  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+  bakedVertexOffset: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  bakedVertexColorMesh:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   nonBakedRenderers: []
   bakedLights: []
   bakedLightChannels: 
@@ -3166,12 +3396,72 @@ MonoBehaviour:
   bakedScaleOffsetTerrain: []
   assetList: []
   uvOverlapAssetList: 
-  idremap: 
+  idremap: 0000000001000000
   usesRealtimeGI: 0
   emptyDirectionTex: {fileID: 0}
   anyVolumes: 0
   compressedVolumes: 0
-  sectors: []
+  sectors:
+  - name: $G
+    maps:
+    - {fileID: 2800000, guid: 886340c4a6a593e4cb8c6a2aca987197, type: 3}
+    - {fileID: 2800000, guid: f4e9fefbd005bd74db801856fa78daff, type: 3}
+    masks: []
+    dirMaps: []
+    rnmMaps0: []
+    rnmMaps1: []
+    rnmMaps2: []
+    mapsMode: 
+    bakedRenderers:
+    - {fileID: 763553675}
+    - {fileID: 763553674}
+    - {fileID: 763553673}
+    - {fileID: 763553672}
+    - {fileID: 763553671}
+    - {fileID: 763553670}
+    - {fileID: 381634679}
+    - {fileID: 381634678}
+    - {fileID: 381634677}
+    - {fileID: 381634676}
+    - {fileID: 381634675}
+    - {fileID: 381634674}
+    - {fileID: 381634673}
+    - {fileID: 763553669}
+    bakedRenderersTerrain: []
+    bakedIDs: 0000000000000000000000000000000000000000000000000100000001000000010000000100000001000000010000000100000000000000
+    bakedIDsTerrain: 
+    bakedScaleOffset:
+    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+    bakedScaleOffsetTerrain: []
+    bakedVertexColorMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    nonBakedRenderers: []
 --- !u!4 &2069718871
 Transform:
   m_ObjectHideFlags: 1

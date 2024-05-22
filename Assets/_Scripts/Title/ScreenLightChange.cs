@@ -11,17 +11,12 @@ public class ScreenLightChange : MonoBehaviour
     float repeatTime = 2f;
     float range = 0.05f;
     float frequencySecond = 0f;
-    Light referenceLight;
+    [SerializeField]
+    Light referenceLight, displayLight, rimLight, saltWaterStandLight, screenBeamLight;
     List<Light> otherLights = new List<Light>(); 
     // Start is called before the first frame update
     void Start()
     {
-        referenceLight = GameObject.Find("Screen_Light_reference").GetComponent<Light>();
-        Light displayLight = GameObject.Find("Screen_Light_display").GetComponent<Light>();
-        Light rimLight = GameObject.Find("Rim_Light").GetComponent<Light>();
-        Light saltWaterStandLight  = GameObject.Find("salt_water_stand_light").GetComponent<Light>();;
-        Light screenBeamLight  = GameObject.Find("Screen_Spotlight_and_Beam").GetComponent<Light>();
-
         otherLights.Add(displayLight);
         otherLights.Add(rimLight);
         otherLights.Add(saltWaterStandLight);

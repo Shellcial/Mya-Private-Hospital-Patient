@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Outside_Teahouse.unity
     guid: f70ce4c118134af48853394e621ec9d4
+  - enabled: 1
+    path: Assets/_Scenes/Teahouse_Staffroom.unity
+    guid: db4e7a0e41dfeb14b889a54cc90e4763
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: eb76f4ddd0473ad4bad23376356c10b1,
       type: 2}
