@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 410087040}
-  m_IndirectSpecularColor: {r: 0.5436883, g: 0.59318334, b: 0.6950908, a: 1}
+  m_IndirectSpecularColor: {r: 0.54369617, g: 0.5931918, b: 0.69509846, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -456,7 +456,7 @@ PrefabInstance:
     - target: {fileID: -8383124558419344257, guid: 2f8d64a5811705646999b4d7e7e7c728,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 2f8d64a5811705646999b4d7e7e7c728,
         type: 3}
@@ -466,22 +466,22 @@ PrefabInstance:
     - target: {fileID: -6577237425059042219, guid: 2f8d64a5811705646999b4d7e7e7c728,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: -6008492175829368446, guid: 2f8d64a5811705646999b4d7e7e7c728,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: -5546747315237514756, guid: 2f8d64a5811705646999b4d7e7e7c728,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 769409822697918629, guid: 2f8d64a5811705646999b4d7e7e7c728,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2f8d64a5811705646999b4d7e7e7c728,
         type: 3}
@@ -496,12 +496,12 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 2f8d64a5811705646999b4d7e7e7c728,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2431254097441435907, guid: 2f8d64a5811705646999b4d7e7e7c728,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f8d64a5811705646999b4d7e7e7c728, type: 3}
@@ -564,6 +564,7 @@ GameObject:
   - component: {fileID: 410087041}
   - component: {fileID: 410087040}
   - component: {fileID: 410087042}
+  - component: {fileID: 410087043}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -668,7 +669,34 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
---- !u!114 &434615124
+--- !u!114 &410087043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410087039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c74ce2158ae608549902afb4112fd042, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: {r: 0.99077487, g: 1, b: 0.64705884, a: 1}
+  intensity: 1.2
+  shadowSpread: 0.01
+  samples: 16
+  bitmask: 1
+  bakeToIndirect: 0
+  shadowmask: 0
+  shadowmaskDenoise: 0
+  indirectIntensity: 1
+  cloudShadow: {fileID: 0}
+  cloudShadowTilingX: 0.01
+  cloudShadowTilingY: 0.01
+  cloudShadowOffsetX: 0
+  cloudShadowOffsetY: 0
+  UID: -1307252859
+--- !u!114 &603707286
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -680,7 +708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
   m_Name: Path_To_Teahouse_LM0
   m_EditorClassIdentifier: 
-  resolution: 16
+  resolution: 32
   bitmask: 1
   id: 0
   sortingID: 0
@@ -986,7 +1014,7 @@ PrefabInstance:
     - target: {fileID: -8383124558419344257, guid: 2f8d64a5811705646999b4d7e7e7c728,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 2f8d64a5811705646999b4d7e7e7c728,
         type: 3}
@@ -996,22 +1024,22 @@ PrefabInstance:
     - target: {fileID: -6577237425059042219, guid: 2f8d64a5811705646999b4d7e7e7c728,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: -6008492175829368446, guid: 2f8d64a5811705646999b4d7e7e7c728,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: -5546747315237514756, guid: 2f8d64a5811705646999b4d7e7e7c728,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 769409822697918629, guid: 2f8d64a5811705646999b4d7e7e7c728,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2f8d64a5811705646999b4d7e7e7c728,
         type: 3}
@@ -1026,12 +1054,12 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 2f8d64a5811705646999b4d7e7e7c728,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2431254097441435907, guid: 2f8d64a5811705646999b4d7e7e7c728,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 1
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f8d64a5811705646999b4d7e7e7c728, type: 3}
@@ -1143,6 +1171,7 @@ GameObject:
   - component: {fileID: 909028455}
   - component: {fileID: 909028454}
   - component: {fileID: 909028453}
+  - component: {fileID: 909028456}
   m_Layer: 0
   m_Name: Road_sign_Spot Light
   m_TagString: Untagged
@@ -1247,6 +1276,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 134.597, y: 67.697, z: 16.873001}
+--- !u!114 &909028456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909028452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57f24a4aaa0761b45ba25e7e5108e2c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UID: -893202121
+  color: {r: 1, g: 1, b: 1, a: 1}
+  intensity: 6.94
+  shadowSpread: 0.05
+  cutoff: 10
+  realisticFalloff: 1
+  samples: 8
+  projMode: 4
+  cookie: {fileID: 2800000, guid: 3a66602b8cc7fdd4ab57d07b4176432b, type: 3}
+  angle: 109.30731
+  innerAngle: 19.945675
+  cubemap: {fileID: 0}
+  iesFile: {fileID: 0}
+  bitmask: 1
+  bakeToIndirect: 0
+  shadowmask: 0
+  indirectIntensity: 1
+  falloffMinRadius: 0.01
+  shadowmaskGroupID: 0
+  directionMode: 0
 --- !u!1 &1134750085
 GameObject:
   m_ObjectHideFlags: 0
@@ -1289,6 +1350,7 @@ GameObject:
   - component: {fileID: 1274798695}
   - component: {fileID: 1274798694}
   - component: {fileID: 1274798693}
+  - component: {fileID: 1274798696}
   m_Layer: 0
   m_Name: Road_sign_Spot Light (1)
   m_TagString: Untagged
@@ -1393,6 +1455,38 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 134.854, y: 49.968002, z: 9.751007}
+--- !u!114 &1274798696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274798692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57f24a4aaa0761b45ba25e7e5108e2c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UID: 1173451976
+  color: {r: 1, g: 1, b: 1, a: 1}
+  intensity: 4
+  shadowSpread: 0.05
+  cutoff: 10
+  realisticFalloff: 1
+  samples: 8
+  projMode: 4
+  cookie: {fileID: 2800000, guid: 3a66602b8cc7fdd4ab57d07b4176432b, type: 3}
+  angle: 62.777695
+  innerAngle: 34.729023
+  cubemap: {fileID: 0}
+  iesFile: {fileID: 0}
+  bitmask: 1
+  bakeToIndirect: 0
+  shadowmask: 0
+  indirectIntensity: 1
+  falloffMinRadius: 0.01
+  shadowmaskGroupID: 0
+  directionMode: 0
 --- !u!1 &1282299879
 GameObject:
   m_ObjectHideFlags: 0
@@ -1833,47 +1927,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1519105980
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
-  m_Name: Path_To_Teahouse_LMA1
-  m_EditorClassIdentifier: 
-  resolution: 16
-  bitmask: 1
-  id: 1
-  sortingID: 1
-  isImplicit: 1
-  area: 0
-  totalVertexCount: 0
-  vertexCounter: 0
-  sceneLodLevel: -1
-  sceneName: 
-  containsTerrains: 0
-  probes: 0
-  mode: 1
-  renderMode: 1000
-  renderDirMode: 1000
-  atlasPacker: 1000
-  computeSSS: 0
-  sssSamples: 16
-  sssDensity: 10
-  sssColor: {r: 1, g: 1, b: 1, a: 1}
-  sssScale: 1
-  fakeShadowBias: 0
-  transparentSelfShadow: 0
-  flipNormal: 0
-  parentName: 
-  overridePath: 
-  fixPos3D: 0
-  voxelSize: {x: 1, y: 1, z: 1}
-  passedFilter: 0
 --- !u!1 &1587706360
 GameObject:
   m_ObjectHideFlags: 0
@@ -2564,6 +2617,47 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 30.072, y: -89.351, z: -90.37}
+--- !u!114 &1847772974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
+  m_Name: Path_To_Teahouse_LMA1
+  m_EditorClassIdentifier: 
+  resolution: 32
+  bitmask: 1
+  id: 1
+  sortingID: 1
+  isImplicit: 1
+  area: 0
+  totalVertexCount: 0
+  vertexCounter: 0
+  sceneLodLevel: -1
+  sceneName: 
+  containsTerrains: 0
+  probes: 0
+  mode: 1
+  renderMode: 1000
+  renderDirMode: 1000
+  atlasPacker: 1000
+  computeSSS: 0
+  sssSamples: 16
+  sssDensity: 10
+  sssColor: {r: 1, g: 1, b: 1, a: 1}
+  sssScale: 1
+  fakeShadowBias: 0
+  transparentSelfShadow: 0
+  flipNormal: 0
+  parentName: 
+  overridePath: 
+  fixPos3D: 0
+  voxelSize: {x: 1, y: 1, z: 1}
+  passedFilter: 0
 --- !u!1 &1881867122
 GameObject:
   m_ObjectHideFlags: 0
@@ -3228,13 +3322,13 @@ MonoBehaviour:
   renderSettingsGIBackFaceWeight: 0
   renderSettingsTileSize: 512
   renderSettingsPriority: 2
-  renderSettingsTexelsPerUnit: 20
+  renderSettingsTexelsPerUnit: 40
   renderSettingsForceRefresh: 1
   renderSettingsForceRebuildGeometry: 1
   renderSettingsPerformRendering: 1
-  renderSettingsUserRenderMode: 0
+  renderSettingsUserRenderMode: 1
   renderSettingsDistanceShadowmask: 1
-  renderSettingsSettingsMode: 0
+  renderSettingsSettingsMode: 1
   renderSettingsFixSeams: 1
   renderSettingsDenoise: 1
   renderSettingsDenoise2x: 0
@@ -3244,7 +3338,7 @@ MonoBehaviour:
   renderSettingsAutoAtlas: 1
   renderSettingsUnwrapUVs: 1
   renderSettingsForceDisableUnwrapUVs: 0
-  renderSettingsMaxAutoResolution: 4096
+  renderSettingsMaxAutoResolution: 2048
   renderSettingsMinAutoResolution: 16
   renderSettingsUnloadScenes: 1
   renderSettingsAdjustSamples: 1
@@ -3255,8 +3349,8 @@ MonoBehaviour:
   renderSettingsHackEmissiveBoost: 1
   renderSettingsHackIndirectBoost: 1
   renderSettingsTempPath: 
-  renderSettingsOutPath: BakeryLightmaps
-  renderSettingsUseScenePath: 0
+  renderSettingsOutPath: _Scenes/Path_To_Teahouse
+  renderSettingsUseScenePath: 1
   renderSettingsHackAOIntensity: 0
   renderSettingsHackAOSamples: 16
   renderSettingsHackAORadius: 1
@@ -3298,14 +3392,104 @@ MonoBehaviour:
   renderSettingsRTPVSceneView: 0
   renderSettingsRTPVWidth: 640
   renderSettingsRTPVHeight: 360
-  lastBakeTime: 5
+  lastBakeTime: 7
   enlightenWarningShown: 0
   enlightenWarningShown2: 0
-  lightUIDs: 
-  lights: []
+  lightUIDs: 37d1c2cac874f14585e714b2
+  lights:
+  - tform:
+      e00: 0.5543908
+      e01: 0.5202749
+      e02: -0.64958835
+      e03: -32.082
+      e10: -0.20379297
+      e11: -0.67188907
+      e12: -0.71206313
+      e13: 8.986
+      e20: -0.8069197
+      e21: 0.5271428
+      e22: -0.26646078
+      e23: 28.611
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+    intensity: 6.94
+    range: 10
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 1
+    projMode: 4
+    cookie: {fileID: 0}
+    angle: 109.30731
+  - tform:
+      e00: 0.72585595
+      e01: 0.42602038
+      e02: -0.54003686
+      e03: -171.64299
+      e10: -0.11945669
+      e11: -0.6951077
+      e12: -0.7089116
+      e13: 8.084
+      e20: -0.67739445
+      e21: 0.57907873
+      e22: -0.45365715
+      e23: 28.577
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+    intensity: 4
+    range: 10
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 1
+    projMode: 4
+    cookie: {fileID: 0}
+    angle: 62.777695
+  - tform:
+      e00: 0.9343246
+      e01: 0.00000003725291
+      e02: -0.35642397
+      e03: -0.0000011920929
+      e10: -0.24156898
+      e11: -0.7352857
+      e12: -0.6332456
+      e13: 3.0000002
+      e20: -0.2620734
+      e21: 0.6777577
+      e22: -0.6869954
+      e23: -0.000002861023
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 0.99077487, g: 1, b: 0.64705884, a: 1}
+    intensity: 1.2
+    range: 0
+    radius: 0.01
+    samples: 16
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
   implicitGroups:
-  - {fileID: 434615124}
-  - {fileID: 1519105980}
+  - {fileID: 603707286}
+  - {fileID: 1847772974}
   implicitGroupedObjects:
   - {fileID: 763553676}
   - {fileID: 381634680}
@@ -3333,8 +3517,8 @@ MonoBehaviour:
   modifiedAssetPathList: []
   modifiedAssets: []
   maps:
-  - {fileID: 2800000, guid: 886340c4a6a593e4cb8c6a2aca987197, type: 3}
-  - {fileID: 2800000, guid: f4e9fefbd005bd74db801856fa78daff, type: 3}
+  - {fileID: 2800000, guid: 641f7661238f18e4eb86a2c5e8949b56, type: 3}
+  - {fileID: 2800000, guid: cfd8bd1624f44fa448cddefaa451ab3d, type: 3}
   masks: []
   dirMaps: []
   rnmMaps0: []
@@ -3358,20 +3542,20 @@ MonoBehaviour:
   - {fileID: 763553669}
   bakedIDs: 0000000000000000000000000000000000000000000000000100000001000000010000000100000001000000010000000100000000000000
   bakedScaleOffset:
-  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
-  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
-  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
-  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
-  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
-  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
-  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
-  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
-  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
-  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
-  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
-  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
-  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
-  - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+  - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
+  - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
+  - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
+  - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
+  - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
+  - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
+  - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
+  - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
+  - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
+  - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
+  - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
+  - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
+  - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
+  - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
   bakedVertexOffset: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
   bakedVertexColorMesh:
   - {fileID: 0}
@@ -3404,8 +3588,8 @@ MonoBehaviour:
   sectors:
   - name: $G
     maps:
-    - {fileID: 2800000, guid: 886340c4a6a593e4cb8c6a2aca987197, type: 3}
-    - {fileID: 2800000, guid: f4e9fefbd005bd74db801856fa78daff, type: 3}
+    - {fileID: 2800000, guid: 641f7661238f18e4eb86a2c5e8949b56, type: 3}
+    - {fileID: 2800000, guid: cfd8bd1624f44fa448cddefaa451ab3d, type: 3}
     masks: []
     dirMaps: []
     rnmMaps0: []
@@ -3431,20 +3615,20 @@ MonoBehaviour:
     bakedIDs: 0000000000000000000000000000000000000000000000000100000001000000010000000100000001000000010000000100000000000000
     bakedIDsTerrain: 
     bakedScaleOffset:
-    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
-    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
-    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
-    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
-    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
-    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
-    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
-    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
-    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
-    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
-    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
-    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
-    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
-    - {x: 0.68997705, y: 0.6275691, z: 0.18608771, w: 0.18621546}
+    - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
+    - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
+    - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
+    - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
+    - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
+    - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
+    - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
+    - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
+    - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
+    - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
+    - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
+    - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
+    - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
+    - {x: 0.89697015, y: 0.8158398, z: 0.091914035, w: 0.092080094}
     bakedScaleOffsetTerrain: []
     bakedVertexColorMesh:
     - {fileID: 0}

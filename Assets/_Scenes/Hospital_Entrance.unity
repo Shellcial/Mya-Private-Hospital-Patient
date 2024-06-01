@@ -635,7 +635,7 @@ MonoBehaviour:
   renderSettingsGIBackFaceWeight: 0
   renderSettingsTileSize: 512
   renderSettingsPriority: 2.4046154
-  renderSettingsTexelsPerUnit: 20
+  renderSettingsTexelsPerUnit: 40
   renderSettingsForceRefresh: 1
   renderSettingsForceRebuildGeometry: 1
   renderSettingsPerformRendering: 1
@@ -662,7 +662,7 @@ MonoBehaviour:
   renderSettingsHackEmissiveBoost: 1
   renderSettingsHackIndirectBoost: 1
   renderSettingsTempPath: 
-  renderSettingsOutPath: BakeryLightmaps
+  renderSettingsOutPath: _Scenes/Hospital_Entrance
   renderSettingsUseScenePath: 0
   renderSettingsHackAOIntensity: 0
   renderSettingsHackAOSamples: 16
@@ -705,7 +705,7 @@ MonoBehaviour:
   renderSettingsRTPVSceneView: 0
   renderSettingsRTPVWidth: 640
   renderSettingsRTPVHeight: 360
-  lastBakeTime: 30
+  lastBakeTime: 32
   enlightenWarningShown: 0
   enlightenWarningShown2: 0
   lightUIDs: 9632bc2a7e77cc95ad97aa122343507aeec8c50e67f3af3a
@@ -891,206 +891,206 @@ MonoBehaviour:
     cookie: {fileID: 0}
     angle: 30
   implicitGroups:
-  - {fileID: 1573537656}
-  - {fileID: 1573537656}
-  - {fileID: 1573537656}
-  - {fileID: 1573537656}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1573537656}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1573537656}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1568004047}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1573537656}
-  - {fileID: 622198364}
-  - {fileID: 1290738616}
-  - {fileID: 1775022882}
-  - {fileID: 1290738616}
-  - {fileID: 1568004047}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1573537656}
-  - {fileID: 1775022882}
-  - {fileID: 1290738616}
-  - {fileID: 1775022882}
-  - {fileID: 1573537656}
-  - {fileID: 1465674273}
-  - {fileID: 1775022882}
-  - {fileID: 1290738616}
-  - {fileID: 1775022882}
-  - {fileID: 1573537656}
-  - {fileID: 1775022882}
-  - {fileID: 1573537656}
-  - {fileID: 1573537656}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1488192916}
-  - {fileID: 1775022882}
-  - {fileID: 1775022882}
-  - {fileID: 1573537656}
-  - {fileID: 1573537656}
-  - {fileID: 1573537656}
-  - {fileID: 1775022882}
-  - {fileID: 1573537656}
-  - {fileID: 1573537656}
-  - {fileID: 1573537656}
-  - {fileID: 1573537656}
-  - {fileID: 1775022882}
-  - {fileID: 1573537656}
+  - {fileID: 1439332698}
+  - {fileID: 1439332698}
+  - {fileID: 1439332698}
+  - {fileID: 1439332698}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 1439332698}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 1439332698}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 1048626127}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 1439332698}
+  - {fileID: 869027533}
+  - {fileID: 1205259463}
+  - {fileID: 604711400}
+  - {fileID: 1205259463}
+  - {fileID: 1048626127}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 1439332698}
+  - {fileID: 604711400}
+  - {fileID: 1205259463}
+  - {fileID: 604711400}
+  - {fileID: 1439332698}
+  - {fileID: 926266523}
+  - {fileID: 604711400}
+  - {fileID: 1205259463}
+  - {fileID: 604711400}
+  - {fileID: 1439332698}
+  - {fileID: 604711400}
+  - {fileID: 1439332698}
+  - {fileID: 1439332698}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 735367841}
+  - {fileID: 604711400}
+  - {fileID: 604711400}
+  - {fileID: 1439332698}
+  - {fileID: 1439332698}
+  - {fileID: 1439332698}
+  - {fileID: 604711400}
+  - {fileID: 1439332698}
+  - {fileID: 1439332698}
+  - {fileID: 1439332698}
+  - {fileID: 1439332698}
+  - {fileID: 604711400}
+  - {fileID: 1439332698}
   implicitGroupedObjects:
   - {fileID: 196829655}
   - {fileID: 430957798}
@@ -1465,13 +1465,13 @@ MonoBehaviour:
     padding: cb000000390000003f00000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000037000000000100000001000000010000000100000001000051000000180000000001000000010000000100000001000000010000000100000001000000010000000100007500000075000000de000000530000006300000000010000000100000001000000010000000100000001000000010000000100004d0000000001000000010000a200000000010000000100000001000000010000000100000001000000010000fa000000aa000000a2000000000100000001000000010000000100000001000000010000000100003e0000000001000000010000000100003e00000000010000000100000001000000010000
     unwrapper: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   maps:
-  - {fileID: 2800000, guid: 533a9a9879d6a704195e51d9e3119c63, type: 3}
-  - {fileID: 2800000, guid: 3bc815e205a9c484a8fb634fb6a2df44, type: 3}
-  - {fileID: 2800000, guid: db9718b44cf58744ea55bcc428a34457, type: 3}
-  - {fileID: 2800000, guid: c955c3aaca9b68b459ebc158e0bafe7b, type: 3}
-  - {fileID: 2800000, guid: fc50137965fc7534b825352e1eb5850a, type: 3}
-  - {fileID: 2800000, guid: 6c5f179fb5119c34196f6465e948477e, type: 3}
-  - {fileID: 2800000, guid: 6bc9729b4a6903546a56a80bc375ec63, type: 3}
+  - {fileID: 2800000, guid: 335181ef600ea614e879ab5b5a01fd1e, type: 3}
+  - {fileID: 2800000, guid: 800815226d56e994cb6fd10bfc6b2235, type: 3}
+  - {fileID: 2800000, guid: aa512b218085bb54cb1153283d6fcdc3, type: 3}
+  - {fileID: 2800000, guid: 82b39c92f3443924ab7113f03dcf6efb, type: 3}
+  - {fileID: 2800000, guid: f6b331b66420f164e9b9b74a4e4ad1b5, type: 3}
+  - {fileID: 2800000, guid: ba4478deedfda814bb3e23927b858b03, type: 3}
+  - {fileID: 2800000, guid: 45db47ab022dba24fb703bb58e417b4e, type: 3}
   masks: []
   dirMaps: []
   rnmMaps0: []
@@ -2103,14 +2103,7 @@ MonoBehaviour:
   compressedVolumes: 0
   sectors:
   - name: $G
-    maps:
-    - {fileID: 2800000, guid: 533a9a9879d6a704195e51d9e3119c63, type: 3}
-    - {fileID: 2800000, guid: 3bc815e205a9c484a8fb634fb6a2df44, type: 3}
-    - {fileID: 2800000, guid: db9718b44cf58744ea55bcc428a34457, type: 3}
-    - {fileID: 2800000, guid: c955c3aaca9b68b459ebc158e0bafe7b, type: 3}
-    - {fileID: 2800000, guid: fc50137965fc7534b825352e1eb5850a, type: 3}
-    - {fileID: 2800000, guid: 6c5f179fb5119c34196f6465e948477e, type: 3}
-    - {fileID: 2800000, guid: 6bc9729b4a6903546a56a80bc375ec63, type: 3}
+    maps: []
     masks: []
     dirMaps: []
     rnmMaps0: []
@@ -5587,21 +5580,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 573551278}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &610783963
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1332255935}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8936622394817868014, guid: c2c146ee5b3339d46a4ad1422293741b, type: 3}
---- !u!114 &622198364
+--- !u!114 &604711400
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5611,14 +5590,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
-  m_Name: Hospital_Entrance_LM0
+  m_Name: Hospital_Entrance_LMA3
   m_EditorClassIdentifier: 
   resolution: 1024
   bitmask: 1
-  id: 0
-  sortingID: 0
+  id: 3
+  sortingID: 3
   isImplicit: 1
-  area: 24229.578
+  area: 0
   totalVertexCount: 0
   vertexCounter: 0
   sceneLodLevel: -1
@@ -5642,6 +5621,20 @@ MonoBehaviour:
   fixPos3D: 0
   voxelSize: {x: 1, y: 1, z: 1}
   passedFilter: 0
+--- !u!64 &610783963
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332255935}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8936622394817868014, guid: c2c146ee5b3339d46a4ad1422293741b, type: 3}
 --- !u!64 &630693630
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5656,6 +5649,47 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3329902420748629119, guid: c2c146ee5b3339d46a4ad1422293741b, type: 3}
+--- !u!114 &735367841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
+  m_Name: Hospital_Entrance_LMA1
+  m_EditorClassIdentifier: 
+  resolution: 1024
+  bitmask: 1
+  id: 1
+  sortingID: 1
+  isImplicit: 1
+  area: 0
+  totalVertexCount: 0
+  vertexCounter: 0
+  sceneLodLevel: -1
+  sceneName: 
+  containsTerrains: 0
+  probes: 0
+  mode: 1
+  renderMode: 1000
+  renderDirMode: 1000
+  atlasPacker: 1000
+  computeSSS: 0
+  sssSamples: 16
+  sssDensity: 10
+  sssColor: {r: 1, g: 1, b: 1, a: 1}
+  sssScale: 1
+  fakeShadowBias: 0
+  transparentSelfShadow: 0
+  flipNormal: 0
+  parentName: 
+  overridePath: 
+  fixPos3D: 0
+  voxelSize: {x: 1, y: 1, z: 1}
+  passedFilter: 0
 --- !u!1 &787329283 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5497119832154319385, guid: 6281e913af25c8e4aa977ef39c17f0e3,
@@ -5704,6 +5738,88 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4224634350726116895, guid: c2c146ee5b3339d46a4ad1422293741b, type: 3}
+--- !u!114 &869027533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
+  m_Name: Hospital_Entrance_LM0
+  m_EditorClassIdentifier: 
+  resolution: 1024
+  bitmask: 1
+  id: 0
+  sortingID: 0
+  isImplicit: 1
+  area: 24229.578
+  totalVertexCount: 0
+  vertexCounter: 0
+  sceneLodLevel: -1
+  sceneName: 
+  containsTerrains: 0
+  probes: 0
+  mode: 1
+  renderMode: 1000
+  renderDirMode: 1000
+  atlasPacker: 1000
+  computeSSS: 0
+  sssSamples: 16
+  sssDensity: 10
+  sssColor: {r: 1, g: 1, b: 1, a: 1}
+  sssScale: 1
+  fakeShadowBias: 0
+  transparentSelfShadow: 0
+  flipNormal: 0
+  parentName: 
+  overridePath: 
+  fixPos3D: 0
+  voxelSize: {x: 1, y: 1, z: 1}
+  passedFilter: 0
+--- !u!114 &926266523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
+  m_Name: Hospital_Entrance_LMA2
+  m_EditorClassIdentifier: 
+  resolution: 1024
+  bitmask: 1
+  id: 2
+  sortingID: 2
+  isImplicit: 1
+  area: 0
+  totalVertexCount: 0
+  vertexCounter: 0
+  sceneLodLevel: -1
+  sceneName: 
+  containsTerrains: 0
+  probes: 0
+  mode: 1
+  renderMode: 1000
+  renderDirMode: 1000
+  atlasPacker: 1000
+  computeSSS: 0
+  sssSamples: 16
+  sssDensity: 10
+  sssColor: {r: 1, g: 1, b: 1, a: 1}
+  sssScale: 1
+  fakeShadowBias: 0
+  transparentSelfShadow: 0
+  flipNormal: 0
+  parentName: 
+  overridePath: 
+  fixPos3D: 0
+  voxelSize: {x: 1, y: 1, z: 1}
+  passedFilter: 0
 --- !u!64 &937900293
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5948,6 +6064,47 @@ MonoBehaviour:
   falloffMinRadius: 0.01
   shadowmaskGroupID: 0
   directionMode: 0
+--- !u!114 &1048626127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
+  m_Name: Hospital_Entrance_LMA6
+  m_EditorClassIdentifier: 
+  resolution: 512
+  bitmask: 1
+  id: 6
+  sortingID: 6
+  isImplicit: 1
+  area: 0
+  totalVertexCount: 0
+  vertexCounter: 0
+  sceneLodLevel: -1
+  sceneName: 
+  containsTerrains: 0
+  probes: 0
+  mode: 1
+  renderMode: 1000
+  renderDirMode: 1000
+  atlasPacker: 1000
+  computeSSS: 0
+  sssSamples: 16
+  sssDensity: 10
+  sssColor: {r: 1, g: 1, b: 1, a: 1}
+  sssScale: 1
+  fakeShadowBias: 0
+  transparentSelfShadow: 0
+  flipNormal: 0
+  parentName: 
+  overridePath: 
+  fixPos3D: 0
+  voxelSize: {x: 1, y: 1, z: 1}
+  passedFilter: 0
 --- !u!1 &1064322936
 GameObject:
   m_ObjectHideFlags: 0
@@ -6080,6 +6237,47 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 6751312744116891174, guid: c2c146ee5b3339d46a4ad1422293741b, type: 3}
+--- !u!114 &1205259463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
+  m_Name: Hospital_Entrance_LMA5
+  m_EditorClassIdentifier: 
+  resolution: 512
+  bitmask: 1
+  id: 5
+  sortingID: 5
+  isImplicit: 1
+  area: 0
+  totalVertexCount: 0
+  vertexCounter: 0
+  sceneLodLevel: -1
+  sceneName: 
+  containsTerrains: 0
+  probes: 0
+  mode: 1
+  renderMode: 1000
+  renderDirMode: 1000
+  atlasPacker: 1000
+  computeSSS: 0
+  sssSamples: 16
+  sssDensity: 10
+  sssColor: {r: 1, g: 1, b: 1, a: 1}
+  sssScale: 1
+  fakeShadowBias: 0
+  transparentSelfShadow: 0
+  flipNormal: 0
+  parentName: 
+  overridePath: 
+  fixPos3D: 0
+  voxelSize: {x: 1, y: 1, z: 1}
+  passedFilter: 0
 --- !u!23 &1233341768 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -5665393600418160828, guid: c2c146ee5b3339d46a4ad1422293741b,
@@ -6286,47 +6484,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 5327525804850045040, guid: 6281e913af25c8e4aa977ef39c17f0e3, type: 3}
---- !u!114 &1290738616
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
-  m_Name: Hospital_Entrance_LMA5
-  m_EditorClassIdentifier: 
-  resolution: 512
-  bitmask: 1
-  id: 5
-  sortingID: 5
-  isImplicit: 1
-  area: 0
-  totalVertexCount: 0
-  vertexCounter: 0
-  sceneLodLevel: -1
-  sceneName: 
-  containsTerrains: 0
-  probes: 0
-  mode: 1
-  renderMode: 1000
-  renderDirMode: 1000
-  atlasPacker: 1000
-  computeSSS: 0
-  sssSamples: 16
-  sssDensity: 10
-  sssColor: {r: 1, g: 1, b: 1, a: 1}
-  sssScale: 1
-  fakeShadowBias: 0
-  transparentSelfShadow: 0
-  flipNormal: 0
-  parentName: 
-  overridePath: 
-  fixPos3D: 0
-  voxelSize: {x: 1, y: 1, z: 1}
-  passedFilter: 0
 --- !u!64 &1304698787
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7336,7 +7493,7 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
---- !u!114 &1465674273
+--- !u!114 &1439332698
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7346,12 +7503,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
-  m_Name: Hospital_Entrance_LMA2
+  m_Name: Hospital_Entrance_LMA4
   m_EditorClassIdentifier: 
   resolution: 1024
   bitmask: 1
-  id: 2
-  sortingID: 2
+  id: 4
+  sortingID: 4
   isImplicit: 1
   area: 0
   totalVertexCount: 0
@@ -7391,47 +7548,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2477511411847689622, guid: c2c146ee5b3339d46a4ad1422293741b, type: 3}
---- !u!114 &1488192916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
-  m_Name: Hospital_Entrance_LMA1
-  m_EditorClassIdentifier: 
-  resolution: 1024
-  bitmask: 1
-  id: 1
-  sortingID: 1
-  isImplicit: 1
-  area: 0
-  totalVertexCount: 0
-  vertexCounter: 0
-  sceneLodLevel: -1
-  sceneName: 
-  containsTerrains: 0
-  probes: 0
-  mode: 1
-  renderMode: 1000
-  renderDirMode: 1000
-  atlasPacker: 1000
-  computeSSS: 0
-  sssSamples: 16
-  sssDensity: 10
-  sssColor: {r: 1, g: 1, b: 1, a: 1}
-  sssScale: 1
-  fakeShadowBias: 0
-  transparentSelfShadow: 0
-  flipNormal: 0
-  parentName: 
-  overridePath: 
-  fixPos3D: 0
-  voxelSize: {x: 1, y: 1, z: 1}
-  passedFilter: 0
 --- !u!1 &1503413705
 GameObject:
   m_ObjectHideFlags: 0
@@ -7625,88 +7741,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2855900504545129469, guid: c2c146ee5b3339d46a4ad1422293741b, type: 3}
---- !u!114 &1568004047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
-  m_Name: Hospital_Entrance_LMA6
-  m_EditorClassIdentifier: 
-  resolution: 512
-  bitmask: 1
-  id: 6
-  sortingID: 6
-  isImplicit: 1
-  area: 0
-  totalVertexCount: 0
-  vertexCounter: 0
-  sceneLodLevel: -1
-  sceneName: 
-  containsTerrains: 0
-  probes: 0
-  mode: 1
-  renderMode: 1000
-  renderDirMode: 1000
-  atlasPacker: 1000
-  computeSSS: 0
-  sssSamples: 16
-  sssDensity: 10
-  sssColor: {r: 1, g: 1, b: 1, a: 1}
-  sssScale: 1
-  fakeShadowBias: 0
-  transparentSelfShadow: 0
-  flipNormal: 0
-  parentName: 
-  overridePath: 
-  fixPos3D: 0
-  voxelSize: {x: 1, y: 1, z: 1}
-  passedFilter: 0
---- !u!114 &1573537656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
-  m_Name: Hospital_Entrance_LMA4
-  m_EditorClassIdentifier: 
-  resolution: 1024
-  bitmask: 1
-  id: 4
-  sortingID: 4
-  isImplicit: 1
-  area: 0
-  totalVertexCount: 0
-  vertexCounter: 0
-  sceneLodLevel: -1
-  sceneName: 
-  containsTerrains: 0
-  probes: 0
-  mode: 1
-  renderMode: 1000
-  renderDirMode: 1000
-  atlasPacker: 1000
-  computeSSS: 0
-  sssSamples: 16
-  sssDensity: 10
-  sssColor: {r: 1, g: 1, b: 1, a: 1}
-  sssScale: 1
-  fakeShadowBias: 0
-  transparentSelfShadow: 0
-  flipNormal: 0
-  parentName: 
-  overridePath: 
-  fixPos3D: 0
-  voxelSize: {x: 1, y: 1, z: 1}
-  passedFilter: 0
 --- !u!1 &1580242385 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8631466545212136559, guid: 6281e913af25c8e4aa977ef39c17f0e3,
@@ -8359,47 +8393,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1775022882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
-  m_Name: Hospital_Entrance_LMA3
-  m_EditorClassIdentifier: 
-  resolution: 1024
-  bitmask: 1
-  id: 3
-  sortingID: 3
-  isImplicit: 1
-  area: 0
-  totalVertexCount: 0
-  vertexCounter: 0
-  sceneLodLevel: -1
-  sceneName: 
-  containsTerrains: 0
-  probes: 0
-  mode: 1
-  renderMode: 1000
-  renderDirMode: 1000
-  atlasPacker: 1000
-  computeSSS: 0
-  sssSamples: 16
-  sssDensity: 10
-  sssColor: {r: 1, g: 1, b: 1, a: 1}
-  sssScale: 1
-  fakeShadowBias: 0
-  transparentSelfShadow: 0
-  flipNormal: 0
-  parentName: 
-  overridePath: 
-  fixPos3D: 0
-  voxelSize: {x: 1, y: 1, z: 1}
-  passedFilter: 0
 --- !u!1 &1806016784
 GameObject:
   m_ObjectHideFlags: 0
@@ -8572,10 +8565,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9da4685f15961fb4bb64eb7c464c475c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isAndroidPlatform: 0
-  isHoldingMeals: 0
-  isHoldingCup: 0
-  isHoldingCupPlate: 0
   cameraEvent: {fileID: 0}
 --- !u!4 &1987158183
 Transform:

@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: 8b54468e4567a3846bea1f4c26b7136d
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: corridor_wood_plate
+    second: {fileID: 2100000, guid: 810095a89b1fda84cbdd39f6d7fb3d86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: teahouse_staffroom_female_sign
+    second: {fileID: 2100000, guid: cf70cf02ff55eae48802aa79994c875d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: teahouse_staffroom_male_sign
+    second: {fileID: 2100000, guid: f7599a919b7bce44e83d35c49682c7c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: teahouse_staffroom_toilet_door
+    second: {fileID: 2100000, guid: 687a83a6077eda045b155ef086e9d53c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: teahouse_staffroom_toilet_door_handle
+    second: {fileID: 2100000, guid: eac66210dff85d54387f870be19325f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: toiletdoor_screw
+    second: {fileID: 2100000, guid: bc5d742f633aeea47b9831c7b96e57e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: window_glass
+    second: {fileID: 2100000, guid: b88a3c72bdafded499ef707df3853390, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood_pillars
+    second: {fileID: 2100000, guid: e1abf1422cd442347aee286d292f6a54, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties:
+    - '#BAKERY{"meshName":["Cube","Cube.002","Cube.004","Cube.005","Cube.009","Cube.010","Cube.016","Cube.018","Cube.030","Cube.032","Cube.034","Cube.035","Cube.037","Cube.096","Cube.099","Cube.100","Cube.102","Cube.103","Cube.104","Cube.105","Cube.109","Cube.110","Cube.108","Cube.111","Cube.112","Cube.113","Cube.114","Cube.116","Cube.117","Cube.118","Cube.119","Cube.120","Cube.121","Cube.122","Cube.123","Cube.124","Cube.125","Cube.126","Cube.127","Cube.128","Cube.129","Cube.130","Cube.131","Cube.132","Cube.133","Cube.134","Cube.135","Cube.136","Cube.137","Cube.138","Cube.139","Cube.141","Cube.142","Cube.143","Cube.144","Cube.145","Cube.146","Cube.147","Cube.148","Cube.149","Cube.150","Cube.151","Cube.152","Cube.153","Cube.154","Cube.155","Plane","Plane.001","Plane.003","Plane.010","Plane.011","Plane.013","Plane.020","screw1","screw1.001","screw1.002","screw1.003","screw1.004","screw1.005","screw1.006","screw1.007","wood_plates","wood_plates.001","wood_plates.002","wood_plates.003","wood_plates.004","wood_plates.005","wood_plates.006","wood_plates.007","wood_plates.008","wood_plates.009","wood_plates.010","wood_plates.023","wood_plates.024"],"padding":[27,248,99,7,256,256,35,42,256,35,256,256,49,50,256,256,159,159,93,39,102,105,130,32,113,256,256,113,117,102,32,117,113,117,113,117,194,195,93,122,102,53,93,50,102,102,102,102,167,93,116,119,82,75,93,93,93,72,170,255,248,255,256,256,94,72,8,9,8,20,11,118,118,256,256,256,256,256,256,256,256,57,57,57,57,79,57,88,81,122,122,140,146,127],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

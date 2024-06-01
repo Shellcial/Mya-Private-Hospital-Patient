@@ -22,4 +22,9 @@ MonoBehaviour:
   - Assets/_Model/Hosipital/Hospital_Entrance/panda_reference.fbx
   - Assets/_Model/teahouse/restaurant_entrance/Outside_Teahouse/Dog_House.fbx
   - Assets/_Model/teahouse/staffroom/Staffroom_corridor.fbx
-  modifiedAssetPaddingHash: d6a958ff14f33a0680c5d890dbe53a8433f4f357bebe8f083651edc5bce4819e6364a911
+  - Assets/_Model/teahouse/staffroom/corridor/corridor_static_walls.fbx
+  - Assets/_Model/teahouse/staffroom/corridor/paintings/luna_portrait.fbx
+  - Assets/_Model/teahouse/staffroom/corridor/paintings/rumii_portrait.fbx
+  - Assets/_Model/teahouse/staffroom/corridor/paintings/mya_portrait.fbx
+  - Assets/_Model/teahouse/staffroom/corridor/paintings/rabbi_portrait.fbx
+  modifiedAssetPaddingHash: d6a958ff14f33a0680c5d890dbe53a8433f4f357bebe8f083651edc545176bf46364a911abbe451661487069614870696148706961487069
