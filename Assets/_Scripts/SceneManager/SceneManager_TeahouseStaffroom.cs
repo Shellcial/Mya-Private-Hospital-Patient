@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 
 public class SceneManager_TeahouseStaffroom : MonoBehaviour, ISceneManager
 {
-    private RawImage blackBackground;
     public Vector3 playerStartPosition{
         get{
             return new Vector3(-0.239f,0.142f,-0.19f);
@@ -48,10 +47,6 @@ public class SceneManager_TeahouseStaffroom : MonoBehaviour, ISceneManager
     private Transform cameraPlayer;
 
     void Awake(){
-        
-        blackBackground = GameObject.Find("BlackForeground").GetComponent<RawImage>();
-        blackBackground.enabled = true;
-
         player = GameObject.Find("Player");
 
         player.transform.localPosition = playerStartPosition;
@@ -67,27 +62,8 @@ public class SceneManager_TeahouseStaffroom : MonoBehaviour, ISceneManager
 
     public async UniTask Start()
     {
-        StartCoroutine(FadeBackground(true, 0.5f, 2));
-        await GeneralUIManager.Instance.FadeOutBlack();
-    }
-
-    public IEnumerator FadeBackground(bool isFadeIn, float waitTime, float fadeTime){
-        yield return new WaitForSeconds(waitTime);
-
-        if (isFadeIn){
-            blackBackground.DOFade(0, fadeTime);
-            if (waitTime-0.5f > 0){
-                yield return new WaitForSeconds(waitTime);
-                GameManager.instance.ResumeGame();
-            }
-            else{
-                GameManager.instance.ResumeGame();
-            }
-        }
-        else{
-            GameManager.instance.PauseGame();
-            blackBackground.DOFade(1, fadeTime);
-        }
-        
+        GeneralUIManager.Instance.FadeOutBlack(2f);
+        await UniTask.Delay(1000);
+        GameManager.instance.ResumeGame();
     }
 }

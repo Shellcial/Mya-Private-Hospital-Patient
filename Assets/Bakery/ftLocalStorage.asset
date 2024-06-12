@@ -27,4 +27,7 @@ MonoBehaviour:
   - Assets/_Model/teahouse/staffroom/corridor/paintings/rumii_portrait.fbx
   - Assets/_Model/teahouse/staffroom/corridor/paintings/mya_portrait.fbx
   - Assets/_Model/teahouse/staffroom/corridor/paintings/rabbi_portrait.fbx
-  modifiedAssetPaddingHash: d6a958ff14f33a0680c5d890dbe53a8433f4f357bebe8f083651edc545176bf46364a911abbe451661487069614870696148706961487069
+  - Assets/_Model/teahouse/staffroom/inside/tatami.fbx
+  - Assets/_Model/teahouse/staffroom/inside/locker.fbx
+  - Assets/_Model/teahouse/staffroom/inside/aquarium_pond_turtle.fbx
+  modifiedAssetPaddingHash: d6a958ff14f33a0680c5d890dbe53a8433f4f357bebe8f083651edc545176bf46364a911abbe45166148706961487069614870696148706968dafaab9a031666c6c33218

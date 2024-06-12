@@ -30,7 +30,8 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
+    extraUserProperties:
+    - '#BAKERY{"meshName":["Cube.023","Cylinder.002","Cylinder.010","Cylinder.080","Cylinder.081","Cylinder.082","Cylinder.083","Cylinder.084","Cylinder.085","Cylinder.086","Cylinder.087","Plane.005","Plane.012","Plane.015","Plane.016"],"padding":[63,256,256,256,256,256,256,256,256,256,256,21,21,21,21],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:
@@ -47,7 +48,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1

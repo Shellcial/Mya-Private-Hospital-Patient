@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class SceneManager_Entrance : MonoBehaviour, ISceneManager
 {
-    private RawImage blackBackground;
     public Vector3 playerStartPosition{
         get{
             return new Vector3(13.5f,0.776f,-6.203f);
@@ -46,9 +45,6 @@ public class SceneManager_Entrance : MonoBehaviour, ISceneManager
     private Transform cameraPlayer;
 
     void Awake(){
-        blackBackground = GameObject.Find("BlackForeground").GetComponent<RawImage>();
-        blackBackground.enabled = true;
-
         player = GameObject.Find("Player");
 
         player.transform.localPosition = playerStartPosition;
@@ -62,26 +58,6 @@ public class SceneManager_Entrance : MonoBehaviour, ISceneManager
 
     void Start()
     {
-        StartCoroutine(FadeBackground(true, 0.5f, 2));
-    }
 
-    public IEnumerator FadeBackground(bool isFadeIn, float waitTime, float fadeTime){
-        yield return new WaitForSeconds(waitTime);
-
-        if (isFadeIn){
-            blackBackground.DOFade(0, fadeTime);
-            if (waitTime-0.5f > 0){
-                yield return new WaitForSeconds(waitTime);
-                GameManager.instance.ResumeGame();
-            }
-            else{
-                GameManager.instance.ResumeGame();
-            }
-        }
-        else{
-            GameManager.instance.PauseGame();
-            blackBackground.DOFade(1, fadeTime);
-        }
-        
     }
 }

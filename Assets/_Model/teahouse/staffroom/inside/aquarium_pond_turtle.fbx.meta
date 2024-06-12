@@ -3,7 +3,27 @@ guid: 57b74594f1f25df46a0027c357a9aec4
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grass1
+    second: {fileID: 2100000, guid: 51cc9d5d8e55a24478ca914bbbf66791, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plant1
+    second: {fileID: 2100000, guid: 7d1e3875a5d78a04392b68c254e273de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tuetle_tank_water
+    second: {fileID: 2100000, guid: 5803accf50297dd4fa8244dea4475608, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: weed1
+    second: {fileID: 2100000, guid: 0d01f7cbfbfa76b438c62b024a5fda38, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -30,7 +50,8 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
+    extraUserProperties:
+    - '#BAKERY{"meshName":["coast_rocks_05_LOD3","Cube.011","Cube.013","Cube.014","Cube.015","Cylinder.075","GLASS","kamien_low","particle","Plane.018","Plane.027","Plane.028","Plane.032","Plane.034","Plane.035","Plane.036","WATER.001","Cylinder.079","Eye.L.","Eye.R.","tortoise.002","Cube.012"],"padding":[256,164,256,256,256,256,106,256,256,256,256,256,256,256,256,256,209,256,256,256,256,256],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:
@@ -47,7 +68,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1

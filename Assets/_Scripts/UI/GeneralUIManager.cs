@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 using Cysharp.Threading.Tasks;
+
+// class to control fade in/out black/white overlay
 public class GeneralUIManager : Singleton<GeneralUIManager>
 {
     [SerializeField] private CanvasGroup canvasGroup;
@@ -19,39 +21,28 @@ public class GeneralUIManager : Singleton<GeneralUIManager>
         whiteCanvas.alpha = 1;
     }
 
-    public async UniTask FadeInBlack(float _fadeInDuration = FADEINDURATION, float _waitTime=0f, bool _isAutoLock = true)
+    public async UniTask FadeInBlack(float _fadeInDuration = FADEINDURATION, float _waitTime=0f, bool _isBlockRaycast = true)
     {
-        if (_isAutoLock)
-        {
-            canvasGroup.blocksRaycasts = true;
-        }
+        canvasGroup.blocksRaycasts = _isBlockRaycast;
         await UniTask.WaitForSeconds(_waitTime);
         await blackCanvas.DOFade(1, _fadeInDuration).SetEase(Ease.InOutSine).AsyncWaitForCompletion(); 
     }
 
-    public async UniTask FadeOutBlack(float _fadeOutDuration = FADEOUTDURATION, float _waitTime=0f, bool _isAutoLock = true){
+    public async UniTask FadeOutBlack(float _fadeOutDuration = FADEOUTDURATION, float _waitTime=0f, bool _isBlockRaycast = false){
         await UniTask.WaitForSeconds(_waitTime);
         await blackCanvas.DOFade(0, _fadeOutDuration).SetEase(Ease.InOutSine).AsyncWaitForCompletion();
-        
-        if (_isAutoLock){
-            canvasGroup.blocksRaycasts = false;
-        }
+        canvasGroup.blocksRaycasts = _isBlockRaycast;
     }
 
-    public async UniTask FadeInWhite(float _fadeInDuration = FADEINDURATION, float _waitTime=0f, bool _isAutoLock = true){
-        if (_isAutoLock){
-            canvasGroup.blocksRaycasts = true;
-        }
+    public async UniTask FadeInWhite(float _fadeInDuration = FADEINDURATION, float _waitTime=0f, bool _isBlockRaycast = true){
+        canvasGroup.blocksRaycasts = _isBlockRaycast;
         await UniTask.WaitForSeconds(_waitTime);
         await whiteCanvas.DOFade(1, _fadeInDuration).SetEase(Ease.InOutSine).AsyncWaitForCompletion();
     }
 
-    public async UniTask FadeOutWhite(float _fadeOutDuration = FADEOUTDURATION, float _waitTime=0f, bool _isAutoLock = true){
+    public async UniTask FadeOutWhite(float _fadeOutDuration = FADEOUTDURATION, float _waitTime=0f, bool _isBlockRaycast = false){
         await UniTask.WaitForSeconds(_waitTime);
         await whiteCanvas.DOFade(0, _fadeOutDuration).SetEase(Ease.InOutSine).AsyncWaitForCompletion();
-        
-        if (_isAutoLock){
-            canvasGroup.blocksRaycasts = false;
-        }
+        canvasGroup.blocksRaycasts = _isBlockRaycast;
     }
 }

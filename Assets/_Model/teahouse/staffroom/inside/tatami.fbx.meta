@@ -3,7 +3,12 @@ guid: 6d5ccc76fbd4fd442a784be998a12738
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TatamiOmote1
+    second: {fileID: 2100000, guid: af668b59bbee9af4bbf20c15c19b8b3a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -30,7 +35,8 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
+    extraUserProperties:
+    - '#BAKERY{"meshName":["Tatami","Tatami.001","Tatami.002","Tatami.003","Tatami.004","Tatami.005","Tatami.006","Tatami.007","Tatami.008","Tatami.009"],"padding":[35,35,35,35,35,35,35,35,35,35],"unwrapper":[0,0,0,0,0,0,0,0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:
@@ -47,7 +53,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1

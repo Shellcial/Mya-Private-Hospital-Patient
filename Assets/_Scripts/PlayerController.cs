@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
     public float smoothSpeed = 0.1f;
 
     //control rotation
-    private float mouseRotationSensitivity = 15f;
+    private float mouseRotationSensitivity = 10f;
     private float horizontalRotation = 0f;
     private float verticalRotation = 0f;
     private Transform cameraPlayer;
@@ -34,14 +34,26 @@ public class PlayerController : MonoBehaviour
 
     // raycast
     private RaycastHit hit;
-    public float distance = 0.5f;
+    public float distance = 0.25f;
     private GameObject previousHoverTarget;
     private int interactableLayer;
     private int highlightedLayer;
     private bool isTargetContainsChild;
 
+    public static PlayerController Instance;
+
     private void Awake()
     {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(this.gameObject);
+            return;
+        }
+
         player = this.gameObject;
 
         cameraPlayer = player.transform.Find("Character_Camera");
@@ -72,7 +84,20 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-        //player movement
+        UpdatePosition();
+        
+        // cast ray to interact with object
+
+        if (GameManager.instance.GetPointerControlStatus() || !GameManager.instance.GetGameStatus())
+        {
+            //don't cast ray when pointer is being directly controlled
+            return;
+        }
+        RayCastOnInteracbleObject();
+    }
+
+    void UpdatePosition(){
+        //update player movement
         Vector2 inputVector2 = playerInputActions.Player.Movement.ReadValue<Vector2>();
         smoothedInputVector2 = Vector2.SmoothDamp(smoothedInputVector2, inputVector2, ref smoothInputVelocity, smoothSpeed);
         Vector3 movement = new Vector3(smoothedInputVector2.x, 0, smoothedInputVector2.y);
@@ -80,12 +105,12 @@ public class PlayerController : MonoBehaviour
 
         controller.Move(movement * Time.deltaTime * moveSpeed);
 
-        //player horizontal rotation
+        //update player horizontal rotation
         Vector2 mouseDelta = playerInputActions.Player.Look.ReadValue<Vector2>() * mouseRotationSensitivity * Time.deltaTime;
         horizontalRotation = mouseDelta.x;
         player.transform.Rotate(Vector3.up * horizontalRotation);
 
-        //camera vertical rotation
+        //update camera vertical rotation
         verticalRotation -= mouseDelta.y;
         verticalRotation = Mathf.Clamp(verticalRotation, -90f, 90f);
         cameraPlayer.localRotation = Quaternion.Euler(verticalRotation, 0f, 0f);
@@ -100,15 +125,6 @@ public class PlayerController : MonoBehaviour
         {
             velocity.y = 0;
         }
-
-        // cast ray to interact with object
-
-        if (GameManager.instance.GetPointerControlStatus() || !GameManager.instance.GetGameStatus())
-        {
-            //don't cast ray when pointer is being directly controlled
-            return;
-        }
-        RayCastOnInteracbleObject();
     }
 
     void SpeedUp(InputAction.CallbackContext context)
@@ -206,7 +222,10 @@ public class PlayerController : MonoBehaviour
                 UnHighlightObject();
             }
         }
-
+        else if (previousHoverTarget != null){
+            // unhighlight previous object if current raycast is null
+            UnHighlightObject();
+        }
         
     }
     
@@ -251,25 +270,27 @@ public class PlayerController : MonoBehaviour
         previousHoverTarget = hitGameObject;
     }
 
-    private void UnHighlightObject()
-    {
-        //Debug.Log("highlight disable");
-        previousHoverTarget.layer = interactableLayer;
-        if (isTargetContainsChild)
-        {
-            foreach (Transform child in previousHoverTarget.transform)
+    public void UnHighlightObject()
+    {   
+        if (previousHoverTarget != null){
+            //Debug.Log("highlight disable");
+            previousHoverTarget.layer = interactableLayer;
+            if (isTargetContainsChild)
             {
-                child.gameObject.layer = interactableLayer;
+                foreach (Transform child in previousHoverTarget.transform)
+                {
+                    child.gameObject.layer = interactableLayer;
+                }
             }
+            previousHoverTarget = null;
         }
-        previousHoverTarget = null;
     }
 
 
     // click on raycast object
-    public void EnableDefaultLeftClick(bool isEnable)
+    public void EnableDefaultLeftClick(bool _isEnable)
     {
-        if (isEnable)
+        if (_isEnable)
         {
             playerInputActions.Player.Click.performed += CastRayOnClick;
         }
@@ -289,10 +310,13 @@ public class PlayerController : MonoBehaviour
             //pointer.transform.position = hit.point;
             // click
             // DetermineClickEvent(previousHoverTarget.tag);
-            Debug.Log(previousHoverTarget);
+            // Debug.Log(previousHoverTarget);
             if (previousHoverTarget.TryGetComponent(out IInteractive _interactive)){
                 _interactive.Interact();
                 Debug.Log("cast success");
+            }
+            else{
+                Debug.LogError("no IInteractive class on object");
             }
         }
         else

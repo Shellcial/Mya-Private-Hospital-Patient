@@ -3,7 +3,27 @@ guid: 4b04c19150b4b69478c45629e4a73c97
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Palmier
+    second: {fileID: 2100000, guid: 76b18f1a19f2aab448867afea372da68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cushion
+    second: {fileID: 2100000, guid: 37f4499d4b560054b8aa81beceab43ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: palmier_pack
+    second: {fileID: 2100000, guid: 4720cbda9e52ca942a0e4578dbff3f86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: table
+    second: {fileID: 2100000, guid: 7da8eec101544d448a4679c1133a83c6, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

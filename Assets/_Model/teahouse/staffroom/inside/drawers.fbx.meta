@@ -3,7 +3,17 @@ guid: af56b16dacad3f841bc5381898a83847
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: staffroom_drawer_body
+    second: {fileID: 2100000, guid: c93e6828950a39944b821e4bd677610c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: staffroom_drawer_frame
+    second: {fileID: 2100000, guid: 0b297ecd9c1ceb445bfa0bac275bf353, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
