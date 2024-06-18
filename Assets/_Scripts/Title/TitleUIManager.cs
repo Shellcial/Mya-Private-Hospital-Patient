@@ -11,7 +11,7 @@ public class TitleUIManager : MonoBehaviour
 {
     [Header("FirstButton")]
     [SerializeField] GameObject startButton;
-    async void Awake(){
+    void Awake(){
         GeneralUIManager.Instance.SetBlack();       
     }
 

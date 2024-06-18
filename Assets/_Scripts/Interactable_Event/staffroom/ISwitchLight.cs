@@ -14,7 +14,7 @@ public class ISwitchLight : MonoBehaviour, IInteractive
     private List<GameObject> _switches;
     private bool _isOnDisplay = true;
     private void Start(){
-        _changeLight = GameManager.instance.GetComponent<ChangeLight>();
+        _changeLight = GameManager.Instance.GetComponent<ChangeLight>();
         EnableInteract();
     }
 

@@ -32,5 +32,4 @@ public class AbstractInputActionsController : MonoBehaviour
             Debug.LogError("no player input found");
         }
     }
-
 }

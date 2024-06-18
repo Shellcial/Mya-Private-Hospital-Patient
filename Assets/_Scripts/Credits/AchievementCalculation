@@ -1,0 +1,25 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class AchievementCalculation : MonoBehaviour
+{
+    private List<int> _achievements = new List<int>(){
+        // teahouse kameneko card
+        10,
+        // unlock teahouse password
+        20,
+        // unlock illustration, 8 in teahouse staffroom, 1 in cleaner room, 1 in patient room, 1 in gummy ending
+        10,
+        // watch the whole poo room promotion video
+        10,
+        // cleaner kameneko card
+        10,
+        // mya ending
+        50,
+        // gummy ending
+        100,
+    };
+
+     
+}

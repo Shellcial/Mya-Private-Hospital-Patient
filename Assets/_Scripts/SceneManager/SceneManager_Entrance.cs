@@ -53,7 +53,7 @@ public class SceneManager_Entrance : MonoBehaviour, ISceneManager
         cameraPlayer = player.transform.Find("Character_Camera");
         cameraPlayer.localPosition = playerCameraStartPosition;
         cameraPlayer.localRotation = Quaternion.Euler(playerCameraStartRotation);
-        GameManager.instance.PauseGame();
+        GameManager.Instance.PauseGame();
     }
 
     void Start()

@@ -43,7 +43,7 @@ public class CutOutScene : MonoBehaviour
         cutOutParent.SetActive(true);
         yield return new WaitForSeconds(0.5f);
         CutInAnimation();
-        GameManager.instance.ResumeGame();
+        GameManager.Instance.ResumeGame();
     }
 
     public void CutInAnimation()

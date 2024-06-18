@@ -57,13 +57,14 @@ public class SceneManager_TeahouseStaffroom : MonoBehaviour, ISceneManager
         cameraPlayer.localRotation = Quaternion.Euler(playerCameraStartRotation);
 
         GeneralUIManager.Instance.SetBlack();
-        GameManager.instance.PauseGame();
+        GameManager.Instance.PauseGame();
+        GameManager.Instance.LockCursor(true);
     }
 
     public async UniTask Start()
     {
-        GeneralUIManager.Instance.FadeOutBlack(2f);
+        GeneralUIManager.Instance.FadeOutBlack(2f).Forget();
         await UniTask.Delay(1000);
-        GameManager.instance.ResumeGame();
+        GameManager.Instance.ResumeGame();
     }
 }

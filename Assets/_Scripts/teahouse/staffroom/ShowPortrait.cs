@@ -22,6 +22,16 @@ public class ShowPortrait : MonoBehaviour
     Tween outTween;
     [SerializeField]
     private IPuzzleButton _puzzleButton;
+
+    private enum PortraitString{
+        portrait_mya,
+        portrait_rumii,
+        portrait_rabbi,
+        portrait_luna
+    }
+    [SerializeField]
+    private PortraitString _portraitString;
+    
     private void Start(){
         _portraitMaterial = GetComponent<Renderer>().material;
     }
@@ -77,7 +87,8 @@ public class ShowPortrait : MonoBehaviour
         if (outTween != null){
             outTween.Kill();
         }
-        inTween = _portraitMaterial.DOFloat(0.85f, "_fade_value", 2f).SetEase(Ease.Linear);
+        inTween = _portraitMaterial.DOFloat(0.85f, "_fade_value", showTime).SetEase(Ease.Linear);
+        GameManager.Instance.gameDataManager.UnlockIllustration(_portraitString.ToString());
     }
 
     void HidePortrait(){
@@ -85,6 +96,6 @@ public class ShowPortrait : MonoBehaviour
         if (inTween != null){
             inTween.Kill();
         }
-        outTween = _portraitMaterial.DOFloat(0f, "_fade_value", 2f).SetEase(Ease.Linear);
+        outTween = _portraitMaterial.DOFloat(0f, "_fade_value", showTime).SetEase(Ease.Linear);
     }
 }

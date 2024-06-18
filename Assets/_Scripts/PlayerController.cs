@@ -79,7 +79,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!GameManager.instance.GetPlayerStatus())
+        if (!GameManager.Instance.GetPlayerStatus())
         {
             return;
         }
@@ -88,7 +88,7 @@ public class PlayerController : MonoBehaviour
         
         // cast ray to interact with object
 
-        if (GameManager.instance.GetPointerControlStatus() || !GameManager.instance.GetGameStatus())
+        if (GameManager.Instance.GetPointerControlStatus() || !GameManager.Instance.GetGameStatus())
         {
             //don't cast ray when pointer is being directly controlled
             return;
@@ -306,11 +306,6 @@ public class PlayerController : MonoBehaviour
         //objects must be interactable so that previousHoverTarget is not null
         if (previousHoverTarget != null)
         {
-            //pointer.SetActive(true);
-            //pointer.transform.position = hit.point;
-            // click
-            // DetermineClickEvent(previousHoverTarget.tag);
-            // Debug.Log(previousHoverTarget);
             if (previousHoverTarget.TryGetComponent(out IInteractive _interactive)){
                 _interactive.Interact();
                 Debug.Log("cast success");

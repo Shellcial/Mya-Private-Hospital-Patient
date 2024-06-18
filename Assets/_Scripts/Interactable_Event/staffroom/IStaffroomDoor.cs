@@ -4,7 +4,6 @@ using UnityEngine;
 using DG.Tweening;
 public class IStaffroomDoor : MonoBehaviour, IInteractive
 {
-    private float closedValue = 0f;
     private float openValue = 90f;
     private bool isOpen = false;
     private float duration = 3f;

@@ -12,36 +12,24 @@ public class GameManager : Singleton<GameManager>
 
     //let other script to reference this camera (since player can only trigger one event at the same time)
     public GameObject cameraEvent;
-
-    public static GameManager instance;
-    private void Awake()
-    {
-        if (instance == null)
-        {
-            instance = this;
-        }
-        else
-        {
-            Destroy(this.gameObject);
-            return;
-        }
-
-        LockCursor(true);
+    public GameDataManager gameDataManager;
+    override protected void Awake(){
+        if( !Instance )
+		{
+			Instance = GetComponent<GameManager>();
+            gameDataManager = GetComponent<GameDataManager>();
+			DontDestroyOnLoad( gameObject );
+		}
+		else if( Instance != this )
+		{
+			Destroy( gameObject );
+			return;
+		}
     }
 
     void Start()
     {
         Application.targetFrameRate = 60;
-        string savePath = Application.persistentDataPath + "/Save";
-        if (System.IO.Directory.Exists(savePath))
-        {
-            Debug.Log("file exist: " + savePath);
-        }
-        else
-        {
-            System.IO.Directory.CreateDirectory(Application.persistentDataPath + "/Save");
-            Debug.Log("file does not exist and is created: " + savePath);
-        }
     }
 
     public void LockCursor(bool isLocked)

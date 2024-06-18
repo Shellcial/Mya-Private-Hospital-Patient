@@ -748,6 +748,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   showTime: 2
   _puzzleButton: {fileID: 1139208629}
+  _portraitString: 0
 --- !u!65 &38240533
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7231,31 +7232,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 291895202}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d03030948e246b4599efad640415d8b, type: 3}
+  m_Script: {fileID: 11500000, guid: c1bc29d32cb4ddc498da25a12a931e27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  insideLights:
-  - {fileID: 859065868}
-  - {fileID: 2120685952}
-  - {fileID: 752668271}
-  - {fileID: 42604623}
-  corridorLights:
-  - {fileID: 1186774689}
-  - {fileID: 891462568}
-  - {fileID: 1562958434}
-  - {fileID: 1575387697}
-  _rotateLightFrame:
-  - {fileID: 1502587973}
-  - {fileID: 1111648323}
-  - {fileID: 635808517}
-  - {fileID: 379058561}
-  _corridorLight: {fileID: 314076197}
-  _insideLight: {fileID: 1362251330}
-  foodMaterial:
-  - {fileID: 38240530}
-  - {fileID: 1113994252}
-  - {fileID: 435718091}
-  - {fileID: 1821569070}
 --- !u!1 &291994112
 GameObject:
   m_ObjectHideFlags: 0
@@ -9775,7 +9754,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cca1f61a0951004688908dc8c1101aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _changeLight: {fileID: 291895205}
+  _changeLight: {fileID: 0}
   _switches:
   - {fileID: 1100405966350903667}
   - {fileID: 3623635364362493324}
@@ -9981,6 +9960,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   showTime: 2
   _puzzleButton: {fileID: 1139208629}
+  _portraitString: 2
 --- !u!65 &435718094
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11318,6 +11298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 665932926}
   - component: {fileID: 665932927}
+  - component: {fileID: 665932928}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -11352,6 +11333,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddbd650228f700d459feebcdacdec0f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &665932928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665932925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d03030948e246b4599efad640415d8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  insideLights:
+  - {fileID: 859065868}
+  - {fileID: 2120685952}
+  - {fileID: 752668271}
+  - {fileID: 42604623}
+  corridorLights:
+  - {fileID: 1186774689}
+  - {fileID: 891462568}
+  - {fileID: 1562958434}
+  - {fileID: 1575387697}
+  _rotateLightFrame:
+  - {fileID: 1502587973}
+  - {fileID: 1111648323}
+  - {fileID: 635808517}
+  - {fileID: 379058561}
+  _corridorLight: {fileID: 314076197}
+  _insideLight: {fileID: 1362251330}
+  foodMaterial:
+  - {fileID: 38240530}
+  - {fileID: 1113994252}
+  - {fileID: 435718091}
+  - {fileID: 1821569070}
 --- !u!1 &670636580 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 661051275352117929, guid: 4a0454cee6806684d97ef062fb3d8508,
@@ -20163,6 +20178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   showTime: 2
   _puzzleButton: {fileID: 1139208629}
+  _portraitString: 1
 --- !u!65 &1113994255
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20399,7 +20415,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPressable: 1
-  _changeLight: {fileID: 291895205}
+  _changeLight: {fileID: 0}
   _puzzleWheels:
   - {fileID: 1932425801}
   - {fileID: 1932425802}
@@ -45605,6 +45621,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   showTime: 2
   _puzzleButton: {fileID: 1139208629}
+  _portraitString: 3
 --- !u!1 &1857477486 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6818392701278165414, guid: 5b9bd27dc96433445b4bcfcc80a13dd7,
@@ -46637,7 +46654,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 4876c8a0a1b349e4688072031b7cf09f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.4261222
+      value: 0.5123
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4876c8a0a1b349e4688072031b7cf09f,
         type: 3}
@@ -46691,6 +46708,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4876c8a0a1b349e4688072031b7cf09f,
         type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4876c8a0a1b349e4688072031b7cf09f,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -46716,6 +46738,31 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -7087473724099325196, guid: 4876c8a0a1b349e4688072031b7cf09f, type: 3}
+--- !u!114 &2120046312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542670349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f18cb85282191b4a95bd3ae45d11b0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2120046313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542670349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7738fbfa0ed9564eaebc330d52100f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactableStatus: {fileID: 11400000, guid: 95868d798534ace41822fc67b7e0ef8d, type: 2}
 --- !u!1 &2120685948
 GameObject:
   m_ObjectHideFlags: 0
