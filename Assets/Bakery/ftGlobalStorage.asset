@@ -30,7 +30,7 @@ MonoBehaviour:
   - Assets/_Model/teahouse/staffroom/inside/tatami.fbx
   - Assets/_Model/teahouse/staffroom/inside/locker.fbx
   - Assets/_Model/teahouse/staffroom/inside/aquarium_pond_turtle.fbx
-  modifiedAssetPaddingHash: d6a958ff14f33a0680c5d890dbe53a8433f4f357bebe8f083651edc545176bf46364a911abbe45166148706961487069614870696148706968dafaab9a031666c6c33218
+  modifiedAssetPaddingHash: d6a958ff14f33a0680c5d890dbe53a8433f4f357bebe8f083651edc545176bf46364a911abbe451600cb054400cb054400cb054400cb054468dafaab9a031666c6c33218
   modifiedMeshList: []
   modifiedMeshPaddingList: 
   modifiedAssets:
@@ -766,28 +766,28 @@ MonoBehaviour:
     - paper_frame.004
     - frame_connector.003
     - picture_Mya.003
-    padding: 6d000000b10000000001000043000000
+    padding: 73000000b10000000001000043000000
     unwrapper: 00000000000000000000000000000000
   - meshName:
     - picture.001
     - paper_frame.002
     - frame_connector.001
     - picture_Mya.001
-    padding: 6d000000b10000000001000043000000
+    padding: 73000000b10000000001000043000000
     unwrapper: 00000000000000000000000000000000
   - meshName:
     - picture
     - paper_frame.001
     - frame_connector
     - picture_Mya
-    padding: 6d000000b10000000001000043000000
+    padding: 73000000b10000000001000043000000
     unwrapper: 00000000000000000000000000000000
   - meshName:
     - picture.002
     - paper_frame.003
     - frame_connector.002
     - picture_Mya.002
-    padding: 6d000000b10000000001000043000000
+    padding: 73000000b10000000001000043000000
     unwrapper: 00000000000000000000000000000000
   - meshName:
     - Tatami
@@ -1234,5 +1234,5 @@ MonoBehaviour:
   renderSettingsRTPVSceneView: 0
   renderSettingsRTPVWidth: 640
   renderSettingsRTPVHeight: 360
-  modifiedMeshPaddingArray: 00010000a4000000000100000001000000010000000100006a000000000100000001000000010000000100000001000000010000000100000001000000010000d10000000001000000010000000100000001000000010000
-  modifiedMeshUnwrapperArray: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  modifiedMeshPaddingArray: 73000000b10000000001000043000000
+  modifiedMeshUnwrapperArray: 00000000000000000000000000000000

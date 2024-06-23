@@ -41,7 +41,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["picture","paper_frame.001","frame_connector","picture_Mya"],"padding":[109,177,256,67],"unwrapper":[0,0,0,0]}'
+    - '#BAKERY{"meshName":["picture","paper_frame.001","frame_connector","picture_Mya"],"padding":[115,177,256,67],"unwrapper":[0,0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:
