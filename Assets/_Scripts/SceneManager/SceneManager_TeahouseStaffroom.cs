@@ -1,10 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using DG.Tweening;
-using UnityEngine.UI;
 using Cysharp.Threading.Tasks;
-using System.Threading.Tasks;
 
 public class SceneManager_TeahouseStaffroom : MonoBehaviour, ISceneManager
 {

@@ -16,7 +16,7 @@ public class ShowPortrait : MonoBehaviour
     private float playerTransformY;
     private bool isPortraitShow = false;
     [SerializeField]
-    private float showTime = 2f;
+    private float showTime = 3f;
     private Material _portraitMaterial;
     Tween inTween;
     Tween outTween;
