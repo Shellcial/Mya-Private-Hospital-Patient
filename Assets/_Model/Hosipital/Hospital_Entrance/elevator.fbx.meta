@@ -9,6 +9,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Metal.001
     second: {fileID: 2100000, guid: b61691a892473d64e91b4c73f3a23149, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: elevator_signal
+    second: {fileID: 2100000, guid: 464103ae0bc966542aef4a97381a4826, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
