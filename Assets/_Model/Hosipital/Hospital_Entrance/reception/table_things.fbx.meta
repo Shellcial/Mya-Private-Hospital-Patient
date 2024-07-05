@@ -3,7 +3,12 @@ guid: 23fb3f3a1292dce42930cd461b752137
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: computer_monitor_screen
+    second: {fileID: 2100000, guid: 9928e3ed6042eb342a91cbf96a329bc5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -30,7 +35,9 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
+    extraUserProperties:
+    - '#BAKERY{"meshName":["Cube.045","pen.002","pen.001","pen","LODEX3D_VOL1_BOOKS_L3DV1B001_","GOMA","Cilindro","10105_Computer
+      Keyboard_v1_L3","Kastel_kompasso (high back) headreset","Monitor 27'' Curved","movable_drawer","Object_313.001","Paper_clip_body_frame.002","Cube.046","Cylinder.003","Plane.002","Plane.003","Plane.015","Plane.021","Plane.022","Base","Top","Wheel"],"padding":[256,256,256,256,166,256,256,256,199,256,234,256,256,256,256,256,48,163,256,256,256,256,256],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:
@@ -47,7 +54,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1

@@ -31,4 +31,6 @@ MonoBehaviour:
   - Assets/_Model/teahouse/staffroom/inside/locker.fbx
   - Assets/_Model/teahouse/staffroom/inside/aquarium_pond_turtle.fbx
   - Assets/_Model/Hosipital/Hospital_Entrance/structure_outline/walls.fbx
-  modifiedAssetPaddingHash: d6a958ff14f33a0680c5d890dbe53a8433f4f3573274bf6e3651edc545176bf46364a911abbe451600cb054400cb054400cb054400cb054468dafaab9a031666c6c3321832b09118
+  - Assets/_Model/Hosipital/Hospital_Entrance/reception/side_things.fbx
+  - Assets/_Model/Hosipital/Hospital_Entrance/reception/table_things.fbx
+  modifiedAssetPaddingHash: d6a958ff14f33a0680c5d890dbe53a8433f4f3573274bf6e3651edc545176bf46364a911abbe451600cb054400cb054400cb054400cb054468dafaab9a031666c6c3321832b09118869c7e307acb4dbb

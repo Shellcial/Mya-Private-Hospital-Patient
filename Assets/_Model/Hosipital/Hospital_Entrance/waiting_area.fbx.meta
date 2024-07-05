@@ -9,6 +9,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: TV_screen
     second: {fileID: 2100000, guid: cb586cad42650a348ab758a824f4ba7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chair_stand
+    second: {fileID: 2100000, guid: 0729990be42b4564e90da48352eca455, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

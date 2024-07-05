@@ -27524,3 +27524,1011 @@ Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entran
 Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA3_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA3_final.hdr" 1024
 Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LM0_final.hdr" 1024
 Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA6_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA6_final.hdr" 1024
+2024-7-5
+Rendering UV GBuffer for Hospital_Entrance_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA5 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA6 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA7 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA8 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA9 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA10 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA11 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA12 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA13 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA14 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA7.lz4" 2 0 7 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA10.lz4" 2 0 10 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA6.lz4" 2 0 6 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA5.lz4" 2 0 5 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA9.lz4" 2 0 9 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA8.lz4" 2 0 8 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA11.lz4" 2 0 11 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA13.lz4" 2 0 13 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA14.lz4" 2 0 14 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA12.lz4" 2 0 12 0
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_7" 4 0 7 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_7" 4 0 7 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_7" 4 0 7 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_7" 4 0 7 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_7" 4 0 7 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_7_0_3" 4 0 7 batchpointlight_7_0_3.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_7_4_5" 4 0 7 batchpointlight_7_4_5.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_7_6_16" 4 0 7 batchpointlight_7_6_16.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_7_17_20" 4 0 7 batchpointlight_7_17_20.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA7" 4 0 7 comp_7.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_10" 4 0 10 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_10" 4 0 10 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_10" 4 0 10 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_10" 4 0 10 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_10" 4 0 10 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_10_0_3" 4 0 10 batchpointlight_10_0_3.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_10_4_5" 4 0 10 batchpointlight_10_4_5.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_10_6_16" 4 0 10 batchpointlight_10_6_16.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_10_17_20" 4 0 10 batchpointlight_10_17_20.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA10" 4 0 10 comp_10.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_6" 4 0 6 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_6" 4 0 6 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_6" 4 0 6 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_6" 4 0 6 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_6" 4 0 6 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_6_0_3" 4 0 6 batchpointlight_6_0_3.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_6_4_5" 4 0 6 batchpointlight_6_4_5.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_6_6_16" 4 0 6 batchpointlight_6_6_16.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_6_17_20" 4 0 6 batchpointlight_6_17_20.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA6" 4 0 6 comp_6.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_5" 4 0 5 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_5" 4 0 5 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_5" 4 0 5 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_5" 4 0 5 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_5" 4 0 5 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_5_0_3" 4 0 5 batchpointlight_5_0_3.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_5_4_5" 4 0 5 batchpointlight_5_4_5.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_5_6_16" 4 0 5 batchpointlight_5_6_16.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_5_17_20" 4 0 5 batchpointlight_5_17_20.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA5" 4 0 5 comp_5.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_9" 4 0 9 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_9" 4 0 9 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_9" 4 0 9 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_9" 4 0 9 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_9" 4 0 9 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_9_0_3" 4 0 9 batchpointlight_9_0_3.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_9_4_5" 4 0 9 batchpointlight_9_4_5.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_9_6_16" 4 0 9 batchpointlight_9_6_16.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_9_17_20" 4 0 9 batchpointlight_9_17_20.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA9" 4 0 9 comp_9.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_8" 4 0 8 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_8" 4 0 8 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_8" 4 0 8 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_8" 4 0 8 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_8" 4 0 8 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_8_0_3" 4 0 8 batchpointlight_8_0_3.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_8_4_5" 4 0 8 batchpointlight_8_4_5.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_8_6_18" 4 0 8 batchpointlight_8_6_18.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_8_19_20" 4 0 8 batchpointlight_8_19_20.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA8" 4 0 8 comp_8.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_11" 4 0 11 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_11" 4 0 11 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_11" 4 0 11 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_11" 4 0 11 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_11" 4 0 11 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_11_0_3" 4 0 11 batchpointlight_11_0_3.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_11_4_5" 4 0 11 batchpointlight_11_4_5.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_11_6_16" 4 0 11 batchpointlight_11_6_16.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_11_17_20" 4 0 11 batchpointlight_11_17_20.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA11" 4 0 11 comp_11.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_0" 4 0 0 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_0" 4 0 0 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_0" 4 0 0 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_0" 4 0 0 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_0_3" 4 0 0 batchpointlight_0_0_3.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_4_6" 4 0 0 batchpointlight_0_4_6.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_7_16" 4 0 0 batchpointlight_0_7_16.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_17_20" 4 0 0 batchpointlight_0_17_20.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_4" 4 0 4 lights1.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_0_3" 4 0 4 batchpointlight_4_0_3.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_4_20" 4 0 4 batchpointlight_4_4_20.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_2" 4 0 2 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_2" 4 0 2 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_2" 4 0 2 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_2" 4 0 2 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_0_3" 4 0 2 batchpointlight_2_0_3.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_4_5" 4 0 2 batchpointlight_2_4_5.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_6_20" 4 0 2 batchpointlight_2_6_20.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_0_16" 4 0 3 batchpointlight_3_0_16.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_17_20" 4 0 3 batchpointlight_3_17_20.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_1" 4 0 1 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_1" 4 0 1 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_1" 4 0 1 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_1" 4 0 1 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_1" 4 0 1 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_0_3" 4 0 1 batchpointlight_1_0_3.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_4_5" 4 0 1 batchpointlight_1_4_5.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_6_20" 4 0 1 batchpointlight_1_6_20.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_13" 4 0 13 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_13" 4 0 13 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_13" 4 0 13 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_13" 4 0 13 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_13" 4 0 13 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_13_0_3" 4 0 13 batchpointlight_13_0_3.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_13_4_5" 4 0 13 batchpointlight_13_4_5.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_13_6_16" 4 0 13 batchpointlight_13_6_16.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_13_17_20" 4 0 13 batchpointlight_13_17_20.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA13" 4 0 13 comp_13.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA14" 4 0 14 comp_14.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_12" 4 0 12 lights1.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_12_0_3" 4 0 12 batchpointlight_12_0_3.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_12_4_5" 4 0 12 batchpointlight_12_4_5.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_12_6_19" 4 0 12 batchpointlight_12_6_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_12_20_20" 4 0 12 batchpointlight_12_20_20.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA12" 4 0 12 comp_12.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA7_diffuse" 4 16 7 "gi_Hospital_Entrance_LMA70.bin" "Hospital_Entrance_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA10_diffuse" 4 16 10 "gi_Hospital_Entrance_LMA100.bin" "Hospital_Entrance_LMA10_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA6_diffuse" 4 16 6 "gi_Hospital_Entrance_LMA60.bin" "Hospital_Entrance_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA5_diffuse" 4 16 5 "gi_Hospital_Entrance_LMA50.bin" "Hospital_Entrance_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA9_diffuse" 4 16 9 "gi_Hospital_Entrance_LMA90.bin" "Hospital_Entrance_LMA9_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA8_diffuse" 4 16 8 "gi_Hospital_Entrance_LMA80.bin" "Hospital_Entrance_LMA8_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA11_diffuse" 4 16 11 "gi_Hospital_Entrance_LMA110.bin" "Hospital_Entrance_LMA11_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_diffuse" 4 16 0 "gi_Hospital_Entrance_LM00.bin" "Hospital_Entrance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA4_diffuse" 4 16 4 "gi_Hospital_Entrance_LMA40.bin" "Hospital_Entrance_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_diffuse" 4 16 2 "gi_Hospital_Entrance_LMA20.bin" "Hospital_Entrance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA3_diffuse" 4 16 3 "gi_Hospital_Entrance_LMA30.bin" "Hospital_Entrance_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_diffuse" 4 16 1 "gi_Hospital_Entrance_LMA10.bin" "Hospital_Entrance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA13_diffuse" 4 16 13 "gi_Hospital_Entrance_LMA130.bin" "Hospital_Entrance_LMA13_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA14_diffuse" 4 16 14 "gi_Hospital_Entrance_LMA140.bin" "Hospital_Entrance_LMA14_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA12_diffuse" 4 16 12 "gi_Hospital_Entrance_LMA120.bin" "Hospital_Entrance_LMA12_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA7_final" 4 16 7 "gi_Hospital_Entrance_LMA71.bin" "Hospital_Entrance_LMA7_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA10_final" 4 16 10 "gi_Hospital_Entrance_LMA101.bin" "Hospital_Entrance_LMA10_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA6_final" 4 16 6 "gi_Hospital_Entrance_LMA61.bin" "Hospital_Entrance_LMA6_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA5_final" 4 16 5 "gi_Hospital_Entrance_LMA51.bin" "Hospital_Entrance_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA9_final" 4 16 9 "gi_Hospital_Entrance_LMA91.bin" "Hospital_Entrance_LMA9_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA8_final" 4 16 8 "gi_Hospital_Entrance_LMA81.bin" "Hospital_Entrance_LMA8_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA11_final" 4 16 11 "gi_Hospital_Entrance_LMA111.bin" "Hospital_Entrance_LMA11_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final" 4 16 0 "gi_Hospital_Entrance_LM01.bin" "Hospital_Entrance_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA4_final" 4 16 4 "gi_Hospital_Entrance_LMA41.bin" "Hospital_Entrance_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final" 4 16 2 "gi_Hospital_Entrance_LMA21.bin" "Hospital_Entrance_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA3_final" 4 16 3 "gi_Hospital_Entrance_LMA31.bin" "Hospital_Entrance_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final" 4 16 1 "gi_Hospital_Entrance_LMA11.bin" "Hospital_Entrance_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA13_final" 4 16 13 "gi_Hospital_Entrance_LMA131.bin" "Hospital_Entrance_LMA13_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA14_final" 4 16 14 "gi_Hospital_Entrance_LMA141.bin" "Hospital_Entrance_LMA14_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA12_final" 4 16 12 "gi_Hospital_Entrance_LMA121.bin" "Hospital_Entrance_LMA12_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA7_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA7_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "7" "Hospital_Entrance_LMA7_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA10_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA10_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "10" "Hospital_Entrance_LMA10_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA6_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA6_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "6" "Hospital_Entrance_LMA6_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA5_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA5_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "5" "Hospital_Entrance_LMA5_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA9_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA9_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "9" "Hospital_Entrance_LMA9_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA8_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA8_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "8" "Hospital_Entrance_LMA8_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA11_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA11_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "11" "Hospital_Entrance_LMA11_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "0" "Hospital_Entrance_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA4_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA4_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "4" "Hospital_Entrance_LMA4_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "2" "Hospital_Entrance_LMA2_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA3_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA3_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "3" "Hospital_Entrance_LMA3_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "1" "Hospital_Entrance_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA13_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA13_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "13" "Hospital_Entrance_LMA13_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA14_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA14_final_HDR.lz4" 16 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "14" "Hospital_Entrance_LMA14_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA12_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA12_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "12" "Hospital_Entrance_LMA12_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA7_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA7_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA10_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA10_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA6_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA6_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA5_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA5_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA9_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA9_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA8_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA8_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA11_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA11_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA4_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA4_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA3_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA13_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA13_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA14_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA14_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA12_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA12_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Hospital_Entrance_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA2.lz4" 2 0 2 0
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_0" 4 0 0 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_0" 4 0 0 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_0" 4 0 0 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_0" 4 0 0 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_0" 4 0 0 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_0_3" 4 0 0 batchpointlight_0_0_3.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_4_7" 4 0 0 batchpointlight_0_4_7.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_8_18" 4 0 0 batchpointlight_0_8_18.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_19_24" 4 0 0 batchpointlight_0_19_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_1" 4 0 1 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_1" 4 0 1 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_1" 4 0 1 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_1" 4 0 1 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_1" 4 0 1 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_0_3" 4 0 1 batchpointlight_1_0_3.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_4_7" 4 0 1 batchpointlight_1_4_7.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_8_18" 4 0 1 batchpointlight_1_8_18.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_19_24" 4 0 1 batchpointlight_1_19_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_diffuse" 4 16 0 "gi_Hospital_Entrance_LM00.bin" "Hospital_Entrance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_diffuse" 4 16 1 "gi_Hospital_Entrance_LMA10.bin" "Hospital_Entrance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_diffuse" 4 16 2 "gi_Hospital_Entrance_LMA20.bin" "Hospital_Entrance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final" 4 16 0 "gi_Hospital_Entrance_LM01.bin" "Hospital_Entrance_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final" 4 16 1 "gi_Hospital_Entrance_LMA11.bin" "Hospital_Entrance_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final" 4 16 2 "gi_Hospital_Entrance_LMA21.bin" "Hospital_Entrance_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "0" "Hospital_Entrance_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "1" "Hospital_Entrance_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" 16 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "2" "Hospital_Entrance_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Hospital_Entrance_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA2.lz4" 2 0 2 0
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_0" 4 0 0 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_0" 4 0 0 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_0" 4 0 0 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_0" 4 0 0 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_0" 4 0 0 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_0_3" 4 0 0 batchpointlight_0_0_3.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_4_7" 4 0 0 batchpointlight_0_4_7.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_8_19" 4 0 0 batchpointlight_0_8_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_20_24" 4 0 0 batchpointlight_0_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_1" 4 0 1 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_1" 4 0 1 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_1" 4 0 1 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_1" 4 0 1 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_1" 4 0 1 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_0_3" 4 0 1 batchpointlight_1_0_3.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_4_7" 4 0 1 batchpointlight_1_4_7.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_8_19" 4 0 1 batchpointlight_1_8_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_20_24" 4 0 1 batchpointlight_1_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_diffuse" 4 16 0 "gi_Hospital_Entrance_LM00.bin" "Hospital_Entrance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_diffuse" 4 16 1 "gi_Hospital_Entrance_LMA10.bin" "Hospital_Entrance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_diffuse" 4 16 2 "gi_Hospital_Entrance_LMA20.bin" "Hospital_Entrance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final" 4 16 0 "gi_Hospital_Entrance_LM01.bin" "Hospital_Entrance_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final" 4 16 1 "gi_Hospital_Entrance_LMA11.bin" "Hospital_Entrance_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final" 4 16 2 "gi_Hospital_Entrance_LMA21.bin" "Hospital_Entrance_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "0" "Hospital_Entrance_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "1" "Hospital_Entrance_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" 16 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "2" "Hospital_Entrance_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Hospital_Entrance_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA2.lz4" 2 0 2 0
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_0" 4 0 0 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_0" 4 0 0 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_0" 4 0 0 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_0" 4 0 0 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_0" 4 0 0 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_1_8" 4 0 0 batchpointlight_0_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_9_11" 4 0 0 batchpointlight_0_9_11.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_12_14" 4 0 0 batchpointlight_0_12_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_15_20" 4 0 0 batchpointlight_0_15_20.bin
+Running ftraceRTX sun "C:\Users\turtl\AppData\Local\Temp\frender" "light_984609639_0" 4 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_1" 4 0 1 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_1" 4 0 1 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_1" 4 0 1 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_1" 4 0 1 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_1" 4 0 1 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_1_8" 4 0 1 batchpointlight_1_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_9_11" 4 0 1 batchpointlight_1_9_11.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_12_14" 4 0 1 batchpointlight_1_12_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_15_20" 4 0 1 batchpointlight_1_15_20.bin
+Running ftraceRTX sun "C:\Users\turtl\AppData\Local\Temp\frender" "light_984609639_1" 4 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX sun "C:\Users\turtl\AppData\Local\Temp\frender" "light_984609639_2" 4 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_diffuse" 4 16 0 "gi_Hospital_Entrance_LM00.bin" "Hospital_Entrance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_diffuse" 4 16 1 "gi_Hospital_Entrance_LMA10.bin" "Hospital_Entrance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_diffuse" 4 16 2 "gi_Hospital_Entrance_LMA20.bin" "Hospital_Entrance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final" 20 16 0 "gi_Hospital_Entrance_LM01.bin" "Hospital_Entrance_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final" 20 16 1 "gi_Hospital_Entrance_LMA11.bin" "Hospital_Entrance_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final" 20 16 2 "gi_Hospital_Entrance_LMA21.bin" "Hospital_Entrance_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "0" "Hospital_Entrance_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "1" "Hospital_Entrance_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" 16 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "2" "Hospital_Entrance_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Hospital_Entrance_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA2.lz4" 2 0 2 0
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_0" 4 0 0 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_0" 4 0 0 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_0" 4 0 0 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_0" 4 0 0 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_0" 4 0 0 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_1_8" 4 0 0 batchpointlight_0_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_9_11" 4 0 0 batchpointlight_0_9_11.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_12_14" 4 0 0 batchpointlight_0_12_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_15_20" 4 0 0 batchpointlight_0_15_20.bin
+Running ftraceRTX sun "C:\Users\turtl\AppData\Local\Temp\frender" "light_984609639_0" 4 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_1" 4 0 1 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_1" 4 0 1 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_1" 4 0 1 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_1" 4 0 1 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_1" 4 0 1 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_1_8" 4 0 1 batchpointlight_1_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_9_11" 4 0 1 batchpointlight_1_9_11.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_12_14" 4 0 1 batchpointlight_1_12_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_15_20" 4 0 1 batchpointlight_1_15_20.bin
+Running ftraceRTX sun "C:\Users\turtl\AppData\Local\Temp\frender" "light_984609639_1" 4 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX sun "C:\Users\turtl\AppData\Local\Temp\frender" "light_984609639_2" 4 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_diffuse" 4 16 0 "gi_Hospital_Entrance_LM00.bin" "Hospital_Entrance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_diffuse" 4 16 1 "gi_Hospital_Entrance_LMA10.bin" "Hospital_Entrance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_diffuse" 4 16 2 "gi_Hospital_Entrance_LMA20.bin" "Hospital_Entrance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final" 20 16 0 "gi_Hospital_Entrance_LM01.bin" "Hospital_Entrance_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final" 20 16 1 "gi_Hospital_Entrance_LMA11.bin" "Hospital_Entrance_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final" 20 16 2 "gi_Hospital_Entrance_LMA21.bin" "Hospital_Entrance_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "0" "Hospital_Entrance_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "1" "Hospital_Entrance_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" 16 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "2" "Hospital_Entrance_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Hospital_Entrance_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA2.lz4" 2 0 2 0
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_0" 4 0 0 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_0" 4 0 0 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_0" 4 0 0 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_0" 4 0 0 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_0" 4 0 0 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_1_8" 4 0 0 batchpointlight_0_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_9_11" 4 0 0 batchpointlight_0_9_11.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_12_14" 4 0 0 batchpointlight_0_12_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_15_20" 4 0 0 batchpointlight_0_15_20.bin
+Running ftraceRTX sun "C:\Users\turtl\AppData\Local\Temp\frender" "light_984609639_0" 4 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_1" 4 0 1 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_1" 4 0 1 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_1" 4 0 1 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_1" 4 0 1 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_1" 4 0 1 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_1_8" 4 0 1 batchpointlight_1_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_9_11" 4 0 1 batchpointlight_1_9_11.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_12_14" 4 0 1 batchpointlight_1_12_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_15_20" 4 0 1 batchpointlight_1_15_20.bin
+Running ftraceRTX sun "C:\Users\turtl\AppData\Local\Temp\frender" "light_984609639_1" 4 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX sun "C:\Users\turtl\AppData\Local\Temp\frender" "light_984609639_2" 4 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_diffuse" 4 16 0 "gi_Hospital_Entrance_LM00.bin" "Hospital_Entrance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_diffuse" 4 16 1 "gi_Hospital_Entrance_LMA10.bin" "Hospital_Entrance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_diffuse" 4 16 2 "gi_Hospital_Entrance_LMA20.bin" "Hospital_Entrance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final" 20 16 0 "gi_Hospital_Entrance_LM01.bin" "Hospital_Entrance_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final" 20 16 1 "gi_Hospital_Entrance_LMA11.bin" "Hospital_Entrance_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final" 20 16 2 "gi_Hospital_Entrance_LMA21.bin" "Hospital_Entrance_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "0" "Hospital_Entrance_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "1" "Hospital_Entrance_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" 16 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "2" "Hospital_Entrance_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA2_final.hdr" 1024
+2024-7-6
+Rendering UV GBuffer for Hospital_Entrance_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA2.lz4" 2 0 2 0
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_0" 4 0 0 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_0" 4 0 0 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_0" 4 0 0 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_0" 4 0 0 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_0" 4 0 0 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_1_5" 4 0 0 batchpointlight_0_1_5.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_6_7" 4 0 0 batchpointlight_0_6_7.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_8_10" 4 0 0 batchpointlight_0_8_10.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_11_16" 4 0 0 batchpointlight_0_11_16.bin
+Running ftraceRTX sun "C:\Users\turtl\AppData\Local\Temp\frender" "light_984609639_0" 4 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_1" 4 0 1 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_1" 4 0 1 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_1" 4 0 1 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_1" 4 0 1 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_1" 4 0 1 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_1_5" 4 0 1 batchpointlight_1_1_5.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_6_7" 4 0 1 batchpointlight_1_6_7.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_8_10" 4 0 1 batchpointlight_1_8_10.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_11_16" 4 0 1 batchpointlight_1_11_16.bin
+Running ftraceRTX sun "C:\Users\turtl\AppData\Local\Temp\frender" "light_984609639_1" 4 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX sun "C:\Users\turtl\AppData\Local\Temp\frender" "light_984609639_2" 4 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_diffuse" 4 16 0 "gi_Hospital_Entrance_LM00.bin" "Hospital_Entrance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_diffuse" 4 16 1 "gi_Hospital_Entrance_LMA10.bin" "Hospital_Entrance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_diffuse" 4 16 2 "gi_Hospital_Entrance_LMA20.bin" "Hospital_Entrance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final" 20 16 0 "gi_Hospital_Entrance_LM01.bin" "Hospital_Entrance_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final" 20 16 1 "gi_Hospital_Entrance_LMA11.bin" "Hospital_Entrance_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final" 20 16 2 "gi_Hospital_Entrance_LMA21.bin" "Hospital_Entrance_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "0" "Hospital_Entrance_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "1" "Hospital_Entrance_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" 16 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "2" "Hospital_Entrance_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Hospital_Entrance_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA2.lz4" 2 0 2 0
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_0" 4 0 0 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_0" 4 0 0 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_0" 4 0 0 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_0" 4 0 0 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_0" 4 0 0 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_1_5" 4 0 0 batchpointlight_0_1_5.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_6_7" 4 0 0 batchpointlight_0_6_7.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_8_10" 4 0 0 batchpointlight_0_8_10.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_11_16" 4 0 0 batchpointlight_0_11_16.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_1" 4 0 1 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_1" 4 0 1 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_1" 4 0 1 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_1" 4 0 1 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_1" 4 0 1 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_1_5" 4 0 1 batchpointlight_1_1_5.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_6_7" 4 0 1 batchpointlight_1_6_7.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_8_10" 4 0 1 batchpointlight_1_8_10.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_11_16" 4 0 1 batchpointlight_1_11_16.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_diffuse" 4 16 0 "gi_Hospital_Entrance_LM00.bin" "Hospital_Entrance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_diffuse" 4 16 1 "gi_Hospital_Entrance_LMA10.bin" "Hospital_Entrance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_diffuse" 4 16 2 "gi_Hospital_Entrance_LMA20.bin" "Hospital_Entrance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final" 20 16 0 "gi_Hospital_Entrance_LM01.bin" "Hospital_Entrance_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final" 20 16 1 "gi_Hospital_Entrance_LMA11.bin" "Hospital_Entrance_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final" 20 16 2 "gi_Hospital_Entrance_LMA21.bin" "Hospital_Entrance_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "0" "Hospital_Entrance_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "1" "Hospital_Entrance_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" 16 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "2" "Hospital_Entrance_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Hospital_Entrance_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA2.lz4" 2 0 2 0
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_0" 4 0 0 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_0" 4 0 0 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_0" 4 0 0 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_0" 4 0 0 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_0" 4 0 0 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_1_8" 4 0 0 batchpointlight_0_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_9_13" 4 0 0 batchpointlight_0_9_13.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_14_15" 4 0 0 batchpointlight_0_14_15.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_16_19" 4 0 0 batchpointlight_0_16_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_20_24" 4 0 0 batchpointlight_0_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_1" 4 0 1 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_1" 4 0 1 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_1" 4 0 1 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_1" 4 0 1 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_1" 4 0 1 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_1_8" 4 0 1 batchpointlight_1_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_9_13" 4 0 1 batchpointlight_1_9_13.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_14_15" 4 0 1 batchpointlight_1_14_15.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_16_19" 4 0 1 batchpointlight_1_16_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_20_24" 4 0 1 batchpointlight_1_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_diffuse" 4 16 0 "gi_Hospital_Entrance_LM00.bin" "Hospital_Entrance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_diffuse" 4 16 1 "gi_Hospital_Entrance_LMA10.bin" "Hospital_Entrance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_diffuse" 4 16 2 "gi_Hospital_Entrance_LMA20.bin" "Hospital_Entrance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final" 20 16 0 "gi_Hospital_Entrance_LM01.bin" "Hospital_Entrance_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final" 20 16 1 "gi_Hospital_Entrance_LMA11.bin" "Hospital_Entrance_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final" 20 16 2 "gi_Hospital_Entrance_LMA21.bin" "Hospital_Entrance_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "0" "Hospital_Entrance_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "1" "Hospital_Entrance_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" 16 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "2" "Hospital_Entrance_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Hospital_Entrance_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA2.lz4" 2 0 2 0
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_0" 4 0 0 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_0" 4 0 0 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_0" 4 0 0 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_0" 4 0 0 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_0" 4 0 0 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_1_8" 4 0 0 batchpointlight_0_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_9_13" 4 0 0 batchpointlight_0_9_13.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_14_15" 4 0 0 batchpointlight_0_14_15.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_16_19" 4 0 0 batchpointlight_0_16_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_20_24" 4 0 0 batchpointlight_0_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_1" 4 0 1 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_1" 4 0 1 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_1" 4 0 1 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_1" 4 0 1 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_1" 4 0 1 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_1_8" 4 0 1 batchpointlight_1_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_9_13" 4 0 1 batchpointlight_1_9_13.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_14_15" 4 0 1 batchpointlight_1_14_15.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_16_19" 4 0 1 batchpointlight_1_16_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_20_24" 4 0 1 batchpointlight_1_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_diffuse" 4 16 0 "gi_Hospital_Entrance_LM00.bin" "Hospital_Entrance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_diffuse" 4 16 1 "gi_Hospital_Entrance_LMA10.bin" "Hospital_Entrance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_diffuse" 4 16 2 "gi_Hospital_Entrance_LMA20.bin" "Hospital_Entrance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final" 20 16 0 "gi_Hospital_Entrance_LM01.bin" "Hospital_Entrance_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final" 20 16 1 "gi_Hospital_Entrance_LMA11.bin" "Hospital_Entrance_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final" 20 16 2 "gi_Hospital_Entrance_LMA21.bin" "Hospital_Entrance_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "0" "Hospital_Entrance_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "1" "Hospital_Entrance_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" 16 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "2" "Hospital_Entrance_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Hospital_Entrance_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA2.lz4" 2 0 2 0
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_0" 4 0 0 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_0" 4 0 0 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_0" 4 0 0 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_0" 4 0 0 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_0" 4 0 0 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_1_8" 4 0 0 batchpointlight_0_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_9_13" 4 0 0 batchpointlight_0_9_13.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_14_15" 4 0 0 batchpointlight_0_14_15.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_16_19" 4 0 0 batchpointlight_0_16_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_20_24" 4 0 0 batchpointlight_0_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_1" 4 0 1 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_1" 4 0 1 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_1" 4 0 1 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_1" 4 0 1 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_1" 4 0 1 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_1_8" 4 0 1 batchpointlight_1_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_9_13" 4 0 1 batchpointlight_1_9_13.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_14_15" 4 0 1 batchpointlight_1_14_15.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_16_19" 4 0 1 batchpointlight_1_16_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_20_24" 4 0 1 batchpointlight_1_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_diffuse" 4 16 0 "gi_Hospital_Entrance_LM00.bin" "Hospital_Entrance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_diffuse" 4 16 1 "gi_Hospital_Entrance_LMA10.bin" "Hospital_Entrance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_diffuse" 4 16 2 "gi_Hospital_Entrance_LMA20.bin" "Hospital_Entrance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final" 20 16 0 "gi_Hospital_Entrance_LM01.bin" "Hospital_Entrance_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final" 20 16 1 "gi_Hospital_Entrance_LMA11.bin" "Hospital_Entrance_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final" 20 16 2 "gi_Hospital_Entrance_LMA21.bin" "Hospital_Entrance_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "0" "Hospital_Entrance_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "1" "Hospital_Entrance_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" 16 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "2" "Hospital_Entrance_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA2_final.hdr" 1024
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
