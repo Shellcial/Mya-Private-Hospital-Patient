@@ -1,7 +1,8 @@
 using UnityEngine;
 using Cysharp.Threading.Tasks;
+using UnityEngine.SceneManagement;
 
-public class SceneManager_TeahouseStaffroom : MonoBehaviour, ISceneManager
+public class SceneManager_TeahouseStaffroom : Singleton<SceneManager_TeahouseStaffroom>, ISceneManager
 {
     public Vector3 playerStartPosition{
         get{
@@ -37,11 +38,26 @@ public class SceneManager_TeahouseStaffroom : MonoBehaviour, ISceneManager
             return new Vector3(0,0,0);
         }
     }
-    
+
     private GameObject player;
     private Transform cameraPlayer;
+    override protected void Awake(){
+        InitializeScene();
 
-    void Awake(){
+        GeneralUIManager.Instance.SetBlack();
+        GameManager.Instance.PauseGame();
+        GameManager.Instance.LockCursor(true);
+    }  
+
+    public async UniTask Start()
+    {
+        GeneralUIManager.Instance.FadeOutBlack(2f).Forget();
+        await UniTask.Delay(1000);
+        GameManager.Instance.ResumeGame();
+    }
+
+    public void InitializeScene()
+    {
         player = GameObject.Find("Player");
 
         player.transform.localPosition = playerStartPosition;
@@ -50,16 +66,10 @@ public class SceneManager_TeahouseStaffroom : MonoBehaviour, ISceneManager
         cameraPlayer = player.transform.Find("Character_Camera");
         cameraPlayer.localPosition = playerCameraStartPosition;
         cameraPlayer.localRotation = Quaternion.Euler(playerCameraStartRotation);
-
-        GeneralUIManager.Instance.SetBlack();
-        GameManager.Instance.PauseGame();
-        GameManager.Instance.LockCursor(true);
     }
 
-    public async UniTask Start()
+    public void SwitchScene()
     {
-        GeneralUIManager.Instance.FadeOutBlack(2f).Forget();
-        await UniTask.Delay(1000);
-        GameManager.Instance.ResumeGame();
+        SceneManager.LoadScene("Hospital_Entrance");
     }
 }

@@ -4,14 +4,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // this class handles the events of audio source
-public class AudioManager : MonoBehaviour
+public class AudioManager : Singleton<AudioManager>
 {
     public Sound[] sounds;
 
     public static AudioManager instance;
     //public AudioSource[] audioSlot;
     
-    private void Awake()
+    override protected void Awake()
     {
         if (instance == null)
         {
@@ -22,8 +22,6 @@ public class AudioManager : MonoBehaviour
             Destroy(this.gameObject);
             return;
         }
-
-        DontDestroyOnLoad(this.gameObject);
 
         foreach (Sound s in sounds)
         {

@@ -28532,3 +28532,1186 @@ Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entran
 Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA2_final.hdr" 1024
 Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Hospital_Entrance_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA2.lz4" 2 0 2 0
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_0" 4 0 0 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_0" 4 0 0 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_0" 4 0 0 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_0" 4 0 0 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_0" 4 0 0 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_1_8" 4 0 0 batchpointlight_0_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_9_13" 4 0 0 batchpointlight_0_9_13.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_14_15" 4 0 0 batchpointlight_0_14_15.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_16_19" 4 0 0 batchpointlight_0_16_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_20_24" 4 0 0 batchpointlight_0_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_1" 4 0 1 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_1" 4 0 1 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_1" 4 0 1 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_1" 4 0 1 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_1" 4 0 1 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_1_8" 4 0 1 batchpointlight_1_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_9_13" 4 0 1 batchpointlight_1_9_13.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_14_15" 4 0 1 batchpointlight_1_14_15.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_16_19" 4 0 1 batchpointlight_1_16_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_20_24" 4 0 1 batchpointlight_1_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_diffuse" 4 16 0 "gi_Hospital_Entrance_LM00.bin" "Hospital_Entrance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_diffuse" 4 16 1 "gi_Hospital_Entrance_LMA10.bin" "Hospital_Entrance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_diffuse" 4 16 2 "gi_Hospital_Entrance_LMA20.bin" "Hospital_Entrance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final" 20 16 0 "gi_Hospital_Entrance_LM01.bin" "Hospital_Entrance_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final" 20 16 1 "gi_Hospital_Entrance_LMA11.bin" "Hospital_Entrance_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final" 20 16 2 "gi_Hospital_Entrance_LMA21.bin" "Hospital_Entrance_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "0" "Hospital_Entrance_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "1" "Hospital_Entrance_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" 16 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "2" "Hospital_Entrance_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Hospital_Entrance_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA2.lz4" 2 0 2 0
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_0" 4 0 0 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_0" 4 0 0 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_0" 4 0 0 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_0" 4 0 0 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_0" 4 0 0 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_1_8" 4 0 0 batchpointlight_0_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_9_13" 4 0 0 batchpointlight_0_9_13.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_14_15" 4 0 0 batchpointlight_0_14_15.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_16_19" 4 0 0 batchpointlight_0_16_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_20_24" 4 0 0 batchpointlight_0_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_1" 4 0 1 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_1" 4 0 1 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_1" 4 0 1 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_1" 4 0 1 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_1" 4 0 1 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_1_8" 4 0 1 batchpointlight_1_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_9_13" 4 0 1 batchpointlight_1_9_13.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_14_15" 4 0 1 batchpointlight_1_14_15.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_16_19" 4 0 1 batchpointlight_1_16_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_20_24" 4 0 1 batchpointlight_1_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_diffuse" 4 16 0 "gi_Hospital_Entrance_LM00.bin" "Hospital_Entrance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_diffuse" 4 16 1 "gi_Hospital_Entrance_LMA10.bin" "Hospital_Entrance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_diffuse" 4 16 2 "gi_Hospital_Entrance_LMA20.bin" "Hospital_Entrance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final" 20 16 0 "gi_Hospital_Entrance_LM01.bin" "Hospital_Entrance_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final" 20 16 1 "gi_Hospital_Entrance_LMA11.bin" "Hospital_Entrance_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final" 20 16 2 "gi_Hospital_Entrance_LMA21.bin" "Hospital_Entrance_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "0" "Hospital_Entrance_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "1" "Hospital_Entrance_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" 16 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "2" "Hospital_Entrance_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Hospital_Entrance_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA2.lz4" 2 0 2 0
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_0" 4 0 0 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_0" 4 0 0 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_0" 4 0 0 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_0" 4 0 0 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_0" 4 0 0 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_1_8" 4 0 0 batchpointlight_0_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_9_13" 4 0 0 batchpointlight_0_9_13.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_14_15" 4 0 0 batchpointlight_0_14_15.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_16_19" 4 0 0 batchpointlight_0_16_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_20_24" 4 0 0 batchpointlight_0_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_1" 4 0 1 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_1" 4 0 1 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_1" 4 0 1 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_1" 4 0 1 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_1" 4 0 1 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_1_8" 4 0 1 batchpointlight_1_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_9_13" 4 0 1 batchpointlight_1_9_13.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_14_15" 4 0 1 batchpointlight_1_14_15.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_16_19" 4 0 1 batchpointlight_1_16_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_20_24" 4 0 1 batchpointlight_1_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_diffuse" 4 16 0 "gi_Hospital_Entrance_LM00.bin" "Hospital_Entrance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_diffuse" 4 16 1 "gi_Hospital_Entrance_LMA10.bin" "Hospital_Entrance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_diffuse" 4 16 2 "gi_Hospital_Entrance_LMA20.bin" "Hospital_Entrance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final" 20 16 0 "gi_Hospital_Entrance_LM01.bin" "Hospital_Entrance_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final" 20 16 1 "gi_Hospital_Entrance_LMA11.bin" "Hospital_Entrance_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final" 20 16 2 "gi_Hospital_Entrance_LMA21.bin" "Hospital_Entrance_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "0" "Hospital_Entrance_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "1" "Hospital_Entrance_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" 16 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "2" "Hospital_Entrance_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Hospital_Entrance_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA2.lz4" 2 0 2 0
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_0" 4 0 0 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_0" 4 0 0 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_0" 4 0 0 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_0" 4 0 0 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_0" 4 0 0 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_1_8" 4 0 0 batchpointlight_0_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_9_13" 4 0 0 batchpointlight_0_9_13.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_14_15" 4 0 0 batchpointlight_0_14_15.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_16_19" 4 0 0 batchpointlight_0_16_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_20_24" 4 0 0 batchpointlight_0_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_1" 4 0 1 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_1" 4 0 1 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_1" 4 0 1 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_1" 4 0 1 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_1" 4 0 1 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_1_8" 4 0 1 batchpointlight_1_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_9_13" 4 0 1 batchpointlight_1_9_13.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_14_15" 4 0 1 batchpointlight_1_14_15.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_16_19" 4 0 1 batchpointlight_1_16_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_20_24" 4 0 1 batchpointlight_1_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_diffuse" 4 16 0 "gi_Hospital_Entrance_LM00.bin" "Hospital_Entrance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_diffuse" 4 16 1 "gi_Hospital_Entrance_LMA10.bin" "Hospital_Entrance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_diffuse" 4 16 2 "gi_Hospital_Entrance_LMA20.bin" "Hospital_Entrance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final" 20 16 0 "gi_Hospital_Entrance_LM01.bin" "Hospital_Entrance_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final" 20 16 1 "gi_Hospital_Entrance_LMA11.bin" "Hospital_Entrance_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final" 20 16 2 "gi_Hospital_Entrance_LMA21.bin" "Hospital_Entrance_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "0" "Hospital_Entrance_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "1" "Hospital_Entrance_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" 16 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "2" "Hospital_Entrance_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA2_final.hdr" 1024
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Hospital_Entrance_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA2.lz4" 2 0 2 0
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_0" 4 0 0 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_0" 4 0 0 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_0" 4 0 0 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_0" 4 0 0 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_0" 4 0 0 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_1_8" 4 0 0 batchpointlight_0_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_9_13" 4 0 0 batchpointlight_0_9_13.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_14_15" 4 0 0 batchpointlight_0_14_15.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_16_19" 4 0 0 batchpointlight_0_16_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_20_24" 4 0 0 batchpointlight_0_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_1" 4 0 1 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_1" 4 0 1 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_1" 4 0 1 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_1" 4 0 1 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_1" 4 0 1 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_1_8" 4 0 1 batchpointlight_1_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_9_13" 4 0 1 batchpointlight_1_9_13.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_14_15" 4 0 1 batchpointlight_1_14_15.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_16_19" 4 0 1 batchpointlight_1_16_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_20_24" 4 0 1 batchpointlight_1_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_diffuse" 4 16 0 "gi_Hospital_Entrance_LM00.bin" "Hospital_Entrance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_diffuse" 4 16 1 "gi_Hospital_Entrance_LMA10.bin" "Hospital_Entrance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_diffuse" 4 16 2 "gi_Hospital_Entrance_LMA20.bin" "Hospital_Entrance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final" 20 16 0 "gi_Hospital_Entrance_LM01.bin" "Hospital_Entrance_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final" 20 16 1 "gi_Hospital_Entrance_LMA11.bin" "Hospital_Entrance_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final" 20 16 2 "gi_Hospital_Entrance_LMA21.bin" "Hospital_Entrance_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "0" "Hospital_Entrance_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "1" "Hospital_Entrance_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" 16 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "2" "Hospital_Entrance_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA2_final.hdr" 1024
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Hospital_Entrance_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA2.lz4" 2 0 2 0
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_0" 4 0 0 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_0" 4 0 0 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_0" 4 0 0 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_0" 4 0 0 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_0" 4 0 0 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_1_8" 4 0 0 batchpointlight_0_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_9_9" 4 0 0 batchpointlight_0_9_9.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_10_12" 4 0 0 batchpointlight_0_10_12.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_13_14" 4 0 0 batchpointlight_0_13_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_15_19" 4 0 0 batchpointlight_0_15_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_20_24" 4 0 0 batchpointlight_0_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_1" 4 0 1 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_1" 4 0 1 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_1" 4 0 1 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_1" 4 0 1 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_1" 4 0 1 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_1_8" 4 0 1 batchpointlight_1_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_9_9" 4 0 1 batchpointlight_1_9_9.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_10_12" 4 0 1 batchpointlight_1_10_12.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_13_14" 4 0 1 batchpointlight_1_13_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_15_19" 4 0 1 batchpointlight_1_15_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_20_24" 4 0 1 batchpointlight_1_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_diffuse" 4 16 0 "gi_Hospital_Entrance_LM00.bin" "Hospital_Entrance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_diffuse" 4 16 1 "gi_Hospital_Entrance_LMA10.bin" "Hospital_Entrance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_diffuse" 4 16 2 "gi_Hospital_Entrance_LMA20.bin" "Hospital_Entrance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final" 20 16 0 "gi_Hospital_Entrance_LM01.bin" "Hospital_Entrance_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final" 20 16 1 "gi_Hospital_Entrance_LMA11.bin" "Hospital_Entrance_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final" 20 16 2 "gi_Hospital_Entrance_LMA21.bin" "Hospital_Entrance_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "0" "Hospital_Entrance_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "1" "Hospital_Entrance_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" 16 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "2" "Hospital_Entrance_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA2_final.hdr" 1024
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Hospital_Entrance_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA2.lz4" 2 0 2 0
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_0" 4 0 0 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_0" 4 0 0 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_0" 4 0 0 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_0" 4 0 0 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_0" 4 0 0 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_1_8" 4 0 0 batchpointlight_0_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_9_9" 4 0 0 batchpointlight_0_9_9.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_10_12" 4 0 0 batchpointlight_0_10_12.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_13_14" 4 0 0 batchpointlight_0_13_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_15_19" 4 0 0 batchpointlight_0_15_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_20_24" 4 0 0 batchpointlight_0_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_1" 4 0 1 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_1" 4 0 1 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_1" 4 0 1 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_1" 4 0 1 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_1" 4 0 1 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_1_8" 4 0 1 batchpointlight_1_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_9_9" 4 0 1 batchpointlight_1_9_9.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_10_12" 4 0 1 batchpointlight_1_10_12.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_13_14" 4 0 1 batchpointlight_1_13_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_15_19" 4 0 1 batchpointlight_1_15_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_20_24" 4 0 1 batchpointlight_1_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_diffuse" 4 16 0 "gi_Hospital_Entrance_LM00.bin" "Hospital_Entrance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_diffuse" 4 16 1 "gi_Hospital_Entrance_LMA10.bin" "Hospital_Entrance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_diffuse" 4 16 2 "gi_Hospital_Entrance_LMA20.bin" "Hospital_Entrance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final" 20 16 0 "gi_Hospital_Entrance_LM01.bin" "Hospital_Entrance_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final" 20 16 1 "gi_Hospital_Entrance_LMA11.bin" "Hospital_Entrance_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final" 20 16 2 "gi_Hospital_Entrance_LMA21.bin" "Hospital_Entrance_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "0" "Hospital_Entrance_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "1" "Hospital_Entrance_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" 16 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "2" "Hospital_Entrance_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA2_final.hdr" 1024
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Hospital_Entrance_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA2.lz4" 2 0 2 0
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_0" 4 0 0 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_0" 4 0 0 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_0" 4 0 0 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_0" 4 0 0 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_0" 4 0 0 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_1_8" 4 0 0 batchpointlight_0_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_9_9" 4 0 0 batchpointlight_0_9_9.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_10_12" 4 0 0 batchpointlight_0_10_12.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_13_14" 4 0 0 batchpointlight_0_13_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_15_19" 4 0 0 batchpointlight_0_15_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_20_24" 4 0 0 batchpointlight_0_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_1" 4 0 1 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_1" 4 0 1 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_1" 4 0 1 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_1" 4 0 1 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_1" 4 0 1 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_1_8" 4 0 1 batchpointlight_1_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_9_9" 4 0 1 batchpointlight_1_9_9.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_10_12" 4 0 1 batchpointlight_1_10_12.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_13_14" 4 0 1 batchpointlight_1_13_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_15_19" 4 0 1 batchpointlight_1_15_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_20_24" 4 0 1 batchpointlight_1_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_diffuse" 4 16 0 "gi_Hospital_Entrance_LM00.bin" "Hospital_Entrance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_diffuse" 4 16 1 "gi_Hospital_Entrance_LMA10.bin" "Hospital_Entrance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_diffuse" 4 16 2 "gi_Hospital_Entrance_LMA20.bin" "Hospital_Entrance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final" 20 16 0 "gi_Hospital_Entrance_LM01.bin" "Hospital_Entrance_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final" 20 16 1 "gi_Hospital_Entrance_LMA11.bin" "Hospital_Entrance_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final" 20 16 2 "gi_Hospital_Entrance_LMA21.bin" "Hospital_Entrance_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "0" "Hospital_Entrance_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "1" "Hospital_Entrance_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" 16 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "2" "Hospital_Entrance_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA2_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Hospital_Entrance_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA2.lz4" 2 0 2 0
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_0" 4 0 0 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_0" 4 0 0 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_0" 4 0 0 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_0" 4 0 0 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_0" 4 0 0 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_1_8" 4 0 0 batchpointlight_0_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_9_9" 4 0 0 batchpointlight_0_9_9.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_10_12" 4 0 0 batchpointlight_0_10_12.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_13_14" 4 0 0 batchpointlight_0_13_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_15_19" 4 0 0 batchpointlight_0_15_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_20_24" 4 0 0 batchpointlight_0_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_1" 4 0 1 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_1" 4 0 1 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_1" 4 0 1 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_1" 4 0 1 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_1" 4 0 1 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_1_8" 4 0 1 batchpointlight_1_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_9_9" 4 0 1 batchpointlight_1_9_9.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_10_12" 4 0 1 batchpointlight_1_10_12.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_13_14" 4 0 1 batchpointlight_1_13_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_15_19" 4 0 1 batchpointlight_1_15_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_20_24" 4 0 1 batchpointlight_1_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_diffuse" 4 16 0 "gi_Hospital_Entrance_LM00.bin" "Hospital_Entrance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_diffuse" 4 16 1 "gi_Hospital_Entrance_LMA10.bin" "Hospital_Entrance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_diffuse" 4 16 2 "gi_Hospital_Entrance_LMA20.bin" "Hospital_Entrance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final" 20 16 0 "gi_Hospital_Entrance_LM01.bin" "Hospital_Entrance_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final" 20 16 1 "gi_Hospital_Entrance_LMA11.bin" "Hospital_Entrance_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final" 20 16 2 "gi_Hospital_Entrance_LMA21.bin" "Hospital_Entrance_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "0" "Hospital_Entrance_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "1" "Hospital_Entrance_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" 16 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "2" "Hospital_Entrance_LMA2_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA2_final.hdr" 1024
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Done
+Rendering UV GBuffer for Hospital_Entrance_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA5 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA6 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA5.lz4" 2 0 5 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA6.lz4" 2 0 6 0
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_5" 4 0 5 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_5" 4 0 5 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_5" 4 0 5 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_5" 4 0 5 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_5" 4 0 5 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_5_0_0" 4 0 5 batchpointlight_5_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_5_1_8" 4 0 5 batchpointlight_5_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_5_9_9" 4 0 5 batchpointlight_5_9_9.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_5_10_12" 4 0 5 batchpointlight_5_10_12.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_5_13_14" 4 0 5 batchpointlight_5_13_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_5_15_20" 4 0 5 batchpointlight_5_15_20.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_5_21_24" 4 0 5 batchpointlight_5_21_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA5" 4 0 5 comp_5.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_1" 4 0 1 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_1" 4 0 1 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_1" 4 0 1 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_1" 4 0 1 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_1" 4 0 1 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_1_8" 4 0 1 batchpointlight_1_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_9_9" 4 0 1 batchpointlight_1_9_9.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_10_12" 4 0 1 batchpointlight_1_10_12.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_13_14" 4 0 1 batchpointlight_1_13_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_15_19" 4 0 1 batchpointlight_1_15_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_20_24" 4 0 1 batchpointlight_1_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_4" 4 0 4 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_4" 4 0 4 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_4" 4 0 4 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_4" 4 0 4 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_4" 4 0 4 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_0_0" 4 0 4 batchpointlight_4_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_1_8" 4 0 4 batchpointlight_4_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_9_9" 4 0 4 batchpointlight_4_9_9.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_10_12" 4 0 4 batchpointlight_4_10_12.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_13_14" 4 0 4 batchpointlight_4_13_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_15_19" 4 0 4 batchpointlight_4_15_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_20_24" 4 0 4 batchpointlight_4_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_2" 4 0 2 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_2" 4 0 2 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_2" 4 0 2 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_2" 4 0 2 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_2" 4 0 2 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_0_0" 4 0 2 batchpointlight_2_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_1_8" 4 0 2 batchpointlight_2_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_9_9" 4 0 2 batchpointlight_2_9_9.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_10_12" 4 0 2 batchpointlight_2_10_12.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_13_14" 4 0 2 batchpointlight_2_13_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_15_19" 4 0 2 batchpointlight_2_15_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_20_24" 4 0 2 batchpointlight_2_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_3" 4 0 3 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_3" 4 0 3 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_3" 4 0 3 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_3" 4 0 3 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_3" 4 0 3 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_0_0" 4 0 3 batchpointlight_3_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_1_8" 4 0 3 batchpointlight_3_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_9_9" 4 0 3 batchpointlight_3_9_9.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_10_12" 4 0 3 batchpointlight_3_10_12.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_13_14" 4 0 3 batchpointlight_3_13_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_15_19" 4 0 3 batchpointlight_3_15_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_20_24" 4 0 3 batchpointlight_3_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_0" 4 0 0 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_0" 4 0 0 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_0" 4 0 0 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_0" 4 0 0 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_1_8" 4 0 0 batchpointlight_0_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_9_9" 4 0 0 batchpointlight_0_9_9.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_10_12" 4 0 0 batchpointlight_0_10_12.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_13_19" 4 0 0 batchpointlight_0_13_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_20_24" 4 0 0 batchpointlight_0_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_6" 4 0 6 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_6_0_19" 4 0 6 batchpointlight_6_0_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_6_20_24" 4 0 6 batchpointlight_6_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA6" 4 0 6 comp_6.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA5_diffuse" 4 16 5 "gi_Hospital_Entrance_LMA50.bin" "Hospital_Entrance_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_diffuse" 4 16 1 "gi_Hospital_Entrance_LMA10.bin" "Hospital_Entrance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA4_diffuse" 4 16 4 "gi_Hospital_Entrance_LMA40.bin" "Hospital_Entrance_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_diffuse" 4 16 2 "gi_Hospital_Entrance_LMA20.bin" "Hospital_Entrance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA3_diffuse" 4 16 3 "gi_Hospital_Entrance_LMA30.bin" "Hospital_Entrance_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_diffuse" 4 16 0 "gi_Hospital_Entrance_LM00.bin" "Hospital_Entrance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA6_diffuse" 4 16 6 "gi_Hospital_Entrance_LMA60.bin" "Hospital_Entrance_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA5_final" 20 16 5 "gi_Hospital_Entrance_LMA51.bin" "Hospital_Entrance_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final" 20 16 1 "gi_Hospital_Entrance_LMA11.bin" "Hospital_Entrance_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA4_final" 20 16 4 "gi_Hospital_Entrance_LMA41.bin" "Hospital_Entrance_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final" 20 16 2 "gi_Hospital_Entrance_LMA21.bin" "Hospital_Entrance_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA3_final" 20 16 3 "gi_Hospital_Entrance_LMA31.bin" "Hospital_Entrance_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final" 20 16 0 "gi_Hospital_Entrance_LM01.bin" "Hospital_Entrance_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA6_final" 20 16 6 "gi_Hospital_Entrance_LMA61.bin" "Hospital_Entrance_LMA6_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA5_final_HDR.lz4" 4 0 5 comp_indirect5.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA4_final_HDR.lz4" 4 0 4 comp_indirect4.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA3_final_HDR.lz4" 4 0 3 comp_indirect3.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA6_final_HDR.lz4" 4 0 6 comp_indirect6.bin
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA5_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA5_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "5" "Hospital_Entrance_LMA5_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "1" "Hospital_Entrance_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA4_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA4_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "4" "Hospital_Entrance_LMA4_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "2" "Hospital_Entrance_LMA2_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA3_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA3_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "3" "Hospital_Entrance_LMA3_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "0" "Hospital_Entrance_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA6_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA6_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "6" "Hospital_Entrance_LMA6_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA5_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA5_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA4_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA4_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA3_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA6_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA6_final.hdr" 1024
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+2024-7-6
+Rendering UV GBuffer for Hospital_Entrance_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA5 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Hospital_Entrance_LMA6 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA5.lz4" 2 0 5 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Hospital_Entrance_LMA6.lz4" 2 0 6 0
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_5" 4 0 5 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_5" 4 0 5 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_5" 4 0 5 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_5" 4 0 5 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_5" 4 0 5 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_5_0_0" 4 0 5 batchpointlight_5_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_5_1_8" 4 0 5 batchpointlight_5_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_5_9_9" 4 0 5 batchpointlight_5_9_9.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_5_10_12" 4 0 5 batchpointlight_5_10_12.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_5_13_14" 4 0 5 batchpointlight_5_13_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_5_15_20" 4 0 5 batchpointlight_5_15_20.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_5_21_24" 4 0 5 batchpointlight_5_21_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA5" 4 0 5 comp_5.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_1" 4 0 1 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_1" 4 0 1 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_1" 4 0 1 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_1" 4 0 1 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_1" 4 0 1 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_1_8" 4 0 1 batchpointlight_1_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_9_9" 4 0 1 batchpointlight_1_9_9.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_10_12" 4 0 1 batchpointlight_1_10_12.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_13_14" 4 0 1 batchpointlight_1_13_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_15_19" 4 0 1 batchpointlight_1_15_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_20_24" 4 0 1 batchpointlight_1_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_4" 4 0 4 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_4" 4 0 4 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_4" 4 0 4 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_4" 4 0 4 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_4" 4 0 4 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_0_0" 4 0 4 batchpointlight_4_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_1_8" 4 0 4 batchpointlight_4_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_9_9" 4 0 4 batchpointlight_4_9_9.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_10_12" 4 0 4 batchpointlight_4_10_12.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_13_14" 4 0 4 batchpointlight_4_13_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_15_19" 4 0 4 batchpointlight_4_15_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_20_24" 4 0 4 batchpointlight_4_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_2" 4 0 2 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_2" 4 0 2 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_2" 4 0 2 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_2" 4 0 2 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_2" 4 0 2 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_0_0" 4 0 2 batchpointlight_2_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_1_8" 4 0 2 batchpointlight_2_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_9_9" 4 0 2 batchpointlight_2_9_9.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_10_12" 4 0 2 batchpointlight_2_10_12.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_13_14" 4 0 2 batchpointlight_2_13_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_15_19" 4 0 2 batchpointlight_2_15_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_20_24" 4 0 2 batchpointlight_2_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_3" 4 0 3 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1489969632_3" 4 0 3 lights1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_3" 4 0 3 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_3" 4 0 3 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_3" 4 0 3 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_0_0" 4 0 3 batchpointlight_3_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_1_8" 4 0 3 batchpointlight_3_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_9_9" 4 0 3 batchpointlight_3_9_9.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_10_12" 4 0 3 batchpointlight_3_10_12.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_13_14" 4 0 3 batchpointlight_3_13_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_15_19" 4 0 3 batchpointlight_3_15_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_20_24" 4 0 3 batchpointlight_3_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_0" 4 0 0 lights0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-1405829884_0" 4 0 0 lights2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1845039768_0" 4 0 0 lights3.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_2111099788_0" 4 0 0 lights4.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_1_8" 4 0 0 batchpointlight_0_1_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_9_9" 4 0 0 batchpointlight_0_9_9.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_10_12" 4 0 0 batchpointlight_0_10_12.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_13_19" 4 0 0 batchpointlight_0_13_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_20_24" 4 0 0 batchpointlight_0_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_1055967868_6" 4 0 6 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_6_0_19" 4 0 6 batchpointlight_6_0_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_6_20_24" 4 0 6 batchpointlight_6_20_24.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA6" 4 0 6 comp_6.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA5_diffuse" 4 16 5 "gi_Hospital_Entrance_LMA50.bin" "Hospital_Entrance_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_diffuse" 4 16 1 "gi_Hospital_Entrance_LMA10.bin" "Hospital_Entrance_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA4_diffuse" 4 16 4 "gi_Hospital_Entrance_LMA40.bin" "Hospital_Entrance_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_diffuse" 4 16 2 "gi_Hospital_Entrance_LMA20.bin" "Hospital_Entrance_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA3_diffuse" 4 16 3 "gi_Hospital_Entrance_LMA30.bin" "Hospital_Entrance_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_diffuse" 4 16 0 "gi_Hospital_Entrance_LM00.bin" "Hospital_Entrance_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA6_diffuse" 4 16 6 "gi_Hospital_Entrance_LMA60.bin" "Hospital_Entrance_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA5_final" 20 16 5 "gi_Hospital_Entrance_LMA51.bin" "Hospital_Entrance_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final" 20 16 1 "gi_Hospital_Entrance_LMA11.bin" "Hospital_Entrance_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA4_final" 20 16 4 "gi_Hospital_Entrance_LMA41.bin" "Hospital_Entrance_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final" 20 16 2 "gi_Hospital_Entrance_LMA21.bin" "Hospital_Entrance_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA3_final" 20 16 3 "gi_Hospital_Entrance_LMA31.bin" "Hospital_Entrance_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final" 20 16 0 "gi_Hospital_Entrance_LM01.bin" "Hospital_Entrance_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA6_final" 20 16 6 "gi_Hospital_Entrance_LMA61.bin" "Hospital_Entrance_LMA6_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA5_final_HDR.lz4" 4 0 5 comp_indirect5.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA4_final_HDR.lz4" 4 0 4 comp_indirect4.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA3_final_HDR.lz4" 4 0 3 comp_indirect3.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Hospital_Entrance_LMA6_final_HDR.lz4" 4 0 6 comp_indirect6.bin
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA5_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA5_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "5" "Hospital_Entrance_LMA5_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "1" "Hospital_Entrance_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA4_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA4_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "4" "Hospital_Entrance_LMA4_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "2" "Hospital_Entrance_LMA2_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA3_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA3_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "3" "Hospital_Entrance_LMA3_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "0" "Hospital_Entrance_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA6_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA6_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "6" "Hospital_Entrance_LMA6_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA5_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA5_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA1_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA4_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA4_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA2_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA3_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LM0_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Hospital_Entrance_LMA6_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Hospital_Entrance/Hospital_Entrance_LMA6_final.hdr" 1024
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll

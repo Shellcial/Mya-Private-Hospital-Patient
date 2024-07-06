@@ -224,9 +224,6 @@ public class PlayerEvent : MonoBehaviour
             case "Door":
                 // previousHoverTarget.GetComponent<DoorEvent>().TriggerDoorEvent();
                 break;
-            case "HingedDoor":
-                previousHoverTarget.GetComponent<HingedDoor>().TriggerHingedDoorEvent(this.gameObject.transform.localPosition.x);
-                break;
             default:
                 Debug.LogWarning("no tag name found");
                 break;

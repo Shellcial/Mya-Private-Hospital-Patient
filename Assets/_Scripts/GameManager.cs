@@ -9,14 +9,11 @@ public class GameManager : Singleton<GameManager>
     private bool isPlayerMovable;
     private bool isPointerDirectControlAllowed;
     private bool isGameStarted;
-
-    //let other script to reference this camera (since player can only trigger one event at the same time)
-    public GameObject cameraEvent;
     public GameDataManager gameDataManager;
     override protected void Awake(){
         if( !Instance )
 		{
-			Instance = GetComponent<GameManager>();
+			Instance = this;
             gameDataManager = GetComponent<GameDataManager>();
 			DontDestroyOnLoad( gameObject );
 		}
@@ -30,6 +27,14 @@ public class GameManager : Singleton<GameManager>
     void Start()
     {
         Application.targetFrameRate = 60;
+    }
+
+    void Update(){
+        // for debug only
+        if (Input.GetKeyUp(KeyCode.S)){
+            gameDataManager.gameData.isGetReceptionKey = true;
+            gameDataManager.SaveGame();
+        }
     }
 
     public void LockCursor(bool isLocked)
@@ -53,7 +58,6 @@ public class GameManager : Singleton<GameManager>
         {
             isPointerDirectControlAllowed = false;
         }
-        //cursorDisplay.transform.localPosition = Mouse.current.position.ReadValue();
     }
 
     public bool GetGameStatus()

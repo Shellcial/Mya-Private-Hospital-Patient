@@ -35,6 +35,8 @@ public class PlayerController : MonoBehaviour
     // raycast
     private RaycastHit hit;
     public float distance = 0.25f;
+    [SerializeField]
+    private LayerMask _ignorePlayerLayer;
     private GameObject previousHoverTarget;
     private int interactableLayer;
     private int highlightedLayer;
@@ -142,7 +144,7 @@ public class PlayerController : MonoBehaviour
         //Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
         Ray ray = cameraPlayer.GetComponent<Camera>().ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
         // get first raycast object and check its type
-        if (Physics.Raycast(ray, out hit, distance)){
+        if (Physics.Raycast(ray, out hit, distance, ~_ignorePlayerLayer)){
             if (hit.collider.gameObject.layer == 10 || hit.collider.gameObject.layer == 11)
             {
                 //hit interactable or highlighted layer object
@@ -231,7 +233,7 @@ public class PlayerController : MonoBehaviour
     
     private void HighlightObject(GameObject hitGameObject, InteractableObject targetStatus)
     {
-        //Debug.Log("highlight enable");
+        //GLogger.Log("highlight enable");
 
         hitGameObject.layer = highlightedLayer;
         isTargetContainsChild = false;
@@ -273,7 +275,6 @@ public class PlayerController : MonoBehaviour
     public void UnHighlightObject()
     {   
         if (previousHoverTarget != null){
-            //Debug.Log("highlight disable");
             previousHoverTarget.layer = interactableLayer;
             if (isTargetContainsChild)
             {
@@ -302,21 +303,20 @@ public class PlayerController : MonoBehaviour
 
     private void CastRayOnClick(InputAction.CallbackContext context)
     {
-        Debug.Log("try to ray cast");
         //objects must be interactable so that previousHoverTarget is not null
         if (previousHoverTarget != null)
         {
             if (previousHoverTarget.TryGetComponent(out IInteractive _interactive)){
                 _interactive.Interact();
-                Debug.Log("cast success");
+                GLogger.Log("cast success");
             }
             else{
-                Debug.LogError("no IInteractive class on object");
+                GLogger.LogError("no IInteractive class on object");
             }
         }
         else
         {
-            Debug.Log("cast failed");
+            GLogger.LogWarning("cast failed");
         }
     }
 }

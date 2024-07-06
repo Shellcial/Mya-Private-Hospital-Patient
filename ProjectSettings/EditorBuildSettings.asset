@@ -17,6 +17,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Teahouse_Staffroom.unity
     guid: db4e7a0e41dfeb14b889a54cc90e4763
+  - enabled: 1
+    path: Assets/_Scenes/Hospital_Entrance.unity
+    guid: b248f10813a3c8a44b51039ccc9a5998
+  - enabled: 1
+    path: Assets/_Scenes/Poo_Room.unity
+    guid: f16ed03829196fb4db61515c74dda37b
+  - enabled: 1
+    path: Assets/_Scenes/Gummy_Road.unity
+    guid: c902adcbc52dbb9409da6e9948d3ba97
+  - enabled: 1
+    path: Assets/_Scenes/Ending_Credits.unity
+    guid: 90c213fcc0199ca4ba5c772a4ae67ae4
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: eb76f4ddd0473ad4bad23376356c10b1,
       type: 2}

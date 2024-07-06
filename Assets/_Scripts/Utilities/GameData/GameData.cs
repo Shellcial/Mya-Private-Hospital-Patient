@@ -35,4 +35,6 @@ public class GameData
     public GameData(){
 
     }
+
+    public bool isGetReceptionKey = false;
 }

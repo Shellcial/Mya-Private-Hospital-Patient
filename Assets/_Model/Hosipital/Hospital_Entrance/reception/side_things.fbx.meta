@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: big_book_cover
+    second: {fileID: 2100000, guid: 6608d90f395a2fb4fae1d301c9c63f7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: metal_drawer
     second: {fileID: 2100000, guid: b3bbde87a3e04bc478566821d6a7d265, type: 2}
   materials:
@@ -39,7 +44,7 @@ ModelImporter:
     - '#BAKERY{"meshName":["wenjianaigui.001","transparent_cabinet","Plane.061","Plane.060","Plane.059","Plane.058","Plane.057","Plane.056","Plane.055","Plane.054","Plane.053","Plane.052","Plane.051","Plane.050","Plane.049","Plane.048","Plane.047","Plane.046","Plane.045","Plane.044","Plane.043","Plane.042","Plane.041","Plane.040","Plane.039","Plane.038","Plane.037","Plane.036","Plane.035","Plane.034","Plane.033","Plane.032","Plane.031","Plane.030","Plane.029","Plane.028","Plane.024","Paper_clip_body_frame.003","Paper_clip_body_frame.001","Printer_Trays","Printer_TopHinge","Printer_Top","Printer_Feet","Printer_Details
       2","Printer Drawer 3.5","Printer Drawer 3","Printer Drawer 2.5","Printer Drawer
       2","Printer Drawer 1.5","Printer Drawer 1","Printer Detail","Printer Body","Plane.005","grh.006","grh.005","grh.004","grh.003","grh.002","grh.001","Drawer
-      with casters.001","Drawer with casters","Cube.073","Cube.074","Cube.017","Cube.027","Cube.015","board_case.003"],"padding":[136,127,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,255,256,256,256,256,256,256,109,256,256,256,256,256,256,256,153,153,256,256,256,256,256,256],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
+      with casters.001","Drawer with casters","Cube.073","Cube.074","Cube.017","Cube.027","Cube.015","board_case.003"],"padding":[68,63,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,209,256,256,256,256,127,236,189,256,189,256,256,54,256,256,256,256,256,256,256,76,76,256,162,256,162,256,256],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:

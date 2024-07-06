@@ -35,14 +35,12 @@ public class StartMachineGunPartII : MonoBehaviour
 
     public void GoBlack(){
         GeneralUIManager.Instance.FadeInBlack(0).Forget();
-
-        // play other audios before going to next scene
         StartCoroutine(GoToNextScene());
     }
 
     IEnumerator GoToNextScene(){
+        // play other audios before going to next scene
         yield return new WaitForSeconds(3f);
-        Debug.Log("go to next scene");
-        // SceneManager.LoadScene(4);
+        SceneManager_HospitalEntrance.Instance.SwitchScene();
     }
 }

@@ -26,11 +26,11 @@ public class GameDataManager : MonoBehaviour
         if (!Directory.Exists(savePath))
         {
             Directory.CreateDirectory(Application.persistentDataPath + "/" + folderName);
-            Debug.Log("file does not exist and is created: " + savePath);
+            GLogger.Log("file does not exist and is created: " + savePath);
             
         }
         else{
-            Debug.Log("file exist: " + savePath);
+            GLogger.Log("file exist: " + savePath);
         }
     }
 
@@ -60,19 +60,19 @@ public class GameDataManager : MonoBehaviour
         else
         {
             // File does not exist
-            Debug.LogWarning("Save file not found in: " + saveFilePath);
+            GLogger.LogWarning("Save file not found in: " + saveFilePath);
             return new GameData();
         }
     }
 
     public void UnlockCard(string _cardName){
-        Debug.Log(_cardName);
+        GLogger.Log(_cardName);
         gameData.cardStats[_cardName] = true;
         SaveGame();
     }
     
     public void UnlockIllustration(string _illustrationName){
-        Debug.Log(_illustrationName);
+        GLogger.Log(_illustrationName);
         gameData.illustrationStats[_illustrationName] = true;
         SaveGame();
     }

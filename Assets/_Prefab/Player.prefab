@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4165013289583695506}
   - component: {fileID: 4165013289583695507}
   - component: {fileID: 4165013289583695508}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Character_Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129,7 +129,7 @@ GameObject:
   - component: {fileID: 4165013289672477610}
   - component: {fileID: 4165013289672477609}
   - component: {fileID: 4165013289672477608}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -165,6 +165,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94d534214f81b042bdbd806432dd246, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 2
+  startMoveSpeed: 2
+  fastMoveSpeed: 3
+  smoothSpeed: 0.1
   distance: 2
 --- !u!143 &4165013289672477608
 CharacterController:
@@ -195,7 +199,7 @@ GameObject:
   - component: {fileID: 4165013290313940575}
   - component: {fileID: 4165013290313940560}
   - component: {fileID: 4165013290313940561}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: character_avatar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
