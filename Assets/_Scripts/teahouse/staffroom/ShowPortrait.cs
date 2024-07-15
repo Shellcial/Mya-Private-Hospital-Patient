@@ -21,7 +21,7 @@ public class ShowPortrait : MonoBehaviour
     Tween inTween;
     Tween outTween;
     [SerializeField]
-    private IPuzzleButton _puzzleButton;
+    private S_PuzzleButton _puzzleButton;
 
     private enum PortraitString{
         portrait_mya,

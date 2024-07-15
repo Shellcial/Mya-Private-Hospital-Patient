@@ -58,6 +58,16 @@ public class SceneManager_TeahouseStaffroom : Singleton<SceneManager_TeahouseSta
 
     public void InitializeScene()
     {
+        if( !Instance )
+		{
+			Instance = this;
+		}
+		else if( Instance != this )
+		{
+			Destroy( gameObject );
+			return;
+		}
+
         player = GameObject.Find("Player");
 
         player.transform.localPosition = playerStartPosition;
@@ -68,8 +78,9 @@ public class SceneManager_TeahouseStaffroom : Singleton<SceneManager_TeahouseSta
         cameraPlayer.localRotation = Quaternion.Euler(playerCameraStartRotation);
     }
 
-    public void SwitchScene()
+    public async void SwitchScene()
     {
+        await GeneralUIManager.Instance.FadeInBlack(2f);
         SceneManager.LoadScene("Hospital_Entrance");
     }
 }

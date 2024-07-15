@@ -7,7 +7,7 @@ public class AbstractInputActionsController : MonoBehaviour
     public bool AutoStartInputs;
     public virtual void InitiateInputActions(){
         playerInput = GetComponent<PlayerInput>();
-        Debug.Log(playerInput);
+        GLogger.Log(playerInput);
         if (AutoStartInputs){
             EnablePlayerInput();
         }
@@ -21,7 +21,7 @@ public class AbstractInputActionsController : MonoBehaviour
             playerInput.ActivateInput();
         }
         catch {
-            Debug.LogError("no player input found");
+            GLogger.LogError("no player input found");
         }
     }
     public virtual void DisablePlayerInput(){
@@ -29,7 +29,7 @@ public class AbstractInputActionsController : MonoBehaviour
             playerInput.DeactivateInput();
         }
         catch {
-            Debug.LogError("no player input found");
+            GLogger.LogError("no player input found");
         }
     }
 }

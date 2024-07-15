@@ -1,20 +1,24 @@
+using System.Collections;
+using System.Runtime.CompilerServices;
+using System.Security.Cryptography.X509Certificates;
 using Cysharp.Threading.Tasks;
+using Cysharp.Threading.Tasks.Triggers;
 using UnityEngine;
+using UnityEngine.Playables;
 using UnityEngine.SceneManagement;
+using UnityEngine.Video;
 
 public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManager
 {
     public Vector3 playerStartPosition{
         get{
-            // return new Vector3(15.281f,0.776f,-17.43f);
-            // return new Vector3(-18.662f,0.776f,3.91f);
-            return new Vector3(-2.19f,0.776f,3.91f);
+            return new Vector3(-0.239f,0.529f,-0.19f);
         }
     }
 
     public Vector3 playerStartRotation{
         get{
-            return new Vector3(0,270,0);
+            return new Vector3(0,0,0);
         }
     }
 
@@ -44,7 +48,18 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
     private GameObject player;
     private Transform cameraPlayer;
 
-    public CarbinetPassword carbinetPassword;
+    [SerializeField]
+    private RuntimeAnimatorController _referenceAnimator;
+    Animator _addedAnimator;
+
+    [SerializeField]
+    private VideoPlayer _videoPlayer;
+    [SerializeField]
+    private VideoClip _videoClipEnded;
+    [SerializeField]
+    private GameObject videoScreen;
+    [SerializeField]
+    private PlayableDirector _doorDirector;
 
     override protected void Awake(){
 		if( !Instance )
@@ -68,11 +83,12 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
 
     public async UniTask Start()
     {
-        GeneralUIManager.Instance.FadeOutBlack(2f).Forget();
-        await UniTask.Delay(1000);
+        await UniTask.Delay(3000);
+        GeneralUIManager.Instance.FadeOutBlack(6f).Forget();
         GameManager.Instance.ResumeGame();
+        
     }
-    
+
     public void InitializeScene(){
         player = GameObject.Find("Player");
 
@@ -82,19 +98,49 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
         cameraPlayer = player.transform.Find("Character_Camera");
         cameraPlayer.localPosition = playerCameraStartPosition;
         cameraPlayer.localRotation = Quaternion.Euler(playerCameraStartRotation);
-        carbinetPassword = GetComponent<CarbinetPassword>();
+
+        if (player.GetComponent<Animator>() != null){
+            Destroy(player.GetComponent<Animator>());
+        }
+        _addedAnimator = player.AddComponent<Animator>();
+        _addedAnimator.runtimeAnimatorController = _referenceAnimator;
+
+        _videoPlayer.loopPointReached += NaturalEndVideo;
+        StartCoroutine(PlayVideo());
     }
 
-    public void GoToGummyEnding(){
-        SceneManager.LoadScene("Gummy_Road");
+    
+    private void NaturalEndVideo(VideoPlayer _vp){
+        // play panda converted video, stop input
+        _videoPlayer.clip = _videoClipEnded;
+        _videoPlayer.Play();
+        GameManager.Instance.gameDataManager.gameData.isPooRoomVideoForcelyStopped = false;
+        StartCoroutine(OpenDoor());
     }
 
-    public void GoToCredits(){
-        SceneManager.LoadScene("Ending_Credits");
+    private IEnumerator OpenDoor(){
+        GetComponent<ControllerPassword>().StopPassword();
+        yield return new WaitForSeconds(2f);
+        _doorDirector.Play();
+    }
+
+    public void ForceEndVideo(){
+        GameManager.Instance.gameDataManager.gameData.isPooRoomVideoForcelyStopped = true;
+        // stop video, off light, play machine down sound
+        _videoPlayer.Stop();
+        StartCoroutine(OpenDoor());
     }
 
     public void SwitchScene()
     {
-        SceneManager.LoadScene("Hospital_Entrance");
+        SceneManager.LoadScene("Hospital_Leave");
+    }
+
+    IEnumerator PlayVideo(){
+        yield return new WaitForSeconds(21);
+        player.GetComponent<CharacterController>().enabled = true;
+        yield return new WaitForSeconds(3f);
+        _videoPlayer.Play();
+        _addedAnimator.enabled = false;
     }
 }

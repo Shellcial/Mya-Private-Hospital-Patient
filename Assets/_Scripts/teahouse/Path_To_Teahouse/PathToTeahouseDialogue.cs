@@ -12,12 +12,13 @@ public class PathToTeahouseDialogue : AbstractInputActionsController
 
     async void Start(){
         await GeneralUIManager.Instance.FadeOutBlack(2f);
-        Debug.Log(playerInput);
+        GLogger.Log(playerInput);
         playerInput.actions["Click"].performed += LeftClick;
     }
 
     public async void LeftClick(InputAction.CallbackContext context){
+        // GLogger.Log("left clicked");
         await GeneralUIManager.Instance.FadeInBlack();
-        SceneManager.LoadScene(2);
+        SceneManager_Path_To_Teahouse.Instance.SwitchScene();
     }
 }

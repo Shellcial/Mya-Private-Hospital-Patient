@@ -19,6 +19,6 @@ public class OutsideTeahouseDialogue : AbstractInputActionsController
 
     public async void LeftClick(InputAction.CallbackContext context){
         await GeneralUIManager.Instance.FadeInBlack();
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene("Teahouse_Staffroom");
     }
 }

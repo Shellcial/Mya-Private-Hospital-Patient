@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using DG.Tweening;
 
 //this class control the player movement and object click event
 
@@ -15,9 +16,14 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 2f;
     public float startMoveSpeed = 2f;
     public float fastMoveSpeed = 3f;
-    private Vector2 smoothedInputVector2;
-    private Vector2 smoothInputVelocity; //no need to use this value in this case
+    private Vector2 _smoothedInputVector2;
+    private Vector2 _smoothInputVelocity; //no need to use this value in this case
     public float smoothSpeed = 0.1f;
+
+    private float _cameraZoomSpeed = 0.5f;
+    private float _zoomInValue = 20;
+    private float _zoomOutValue = 50;
+    private Tween zoomTween;
 
     //control rotation
     private float mouseRotationSensitivity = 10f;
@@ -36,13 +42,14 @@ public class PlayerController : MonoBehaviour
     private RaycastHit hit;
     public float distance = 0.25f;
     [SerializeField]
-    private LayerMask _ignorePlayerLayer;
+    private LayerMask _ignore_RayCast;
     private GameObject previousHoverTarget;
     private int interactableLayer;
     private int highlightedLayer;
     private bool isTargetContainsChild;
 
     public static PlayerController Instance;
+    private Camera _characterCamera;
 
     private void Awake()
     {
@@ -59,6 +66,7 @@ public class PlayerController : MonoBehaviour
         player = this.gameObject;
 
         cameraPlayer = player.transform.Find("Character_Camera");
+        _characterCamera = cameraPlayer.GetComponent<Camera>();
 
         controller = GetComponent<CharacterController>();
 
@@ -71,6 +79,8 @@ public class PlayerController : MonoBehaviour
 
         playerInputActions.Player.Accelerate.performed += SpeedUp;
         playerInputActions.Player.Accelerate.canceled += SlowDown;
+        playerInputActions.Player.RightClick.performed += ZoomCamera;
+        playerInputActions.Player.RightClick.canceled += ZoomCamera;
 
         // raycast
         interactableLayer = LayerMask.NameToLayer("Interactable");
@@ -101,8 +111,8 @@ public class PlayerController : MonoBehaviour
     void UpdatePosition(){
         //update player movement
         Vector2 inputVector2 = playerInputActions.Player.Movement.ReadValue<Vector2>();
-        smoothedInputVector2 = Vector2.SmoothDamp(smoothedInputVector2, inputVector2, ref smoothInputVelocity, smoothSpeed);
-        Vector3 movement = new Vector3(smoothedInputVector2.x, 0, smoothedInputVector2.y);
+        _smoothedInputVector2 = Vector2.SmoothDamp(_smoothedInputVector2, inputVector2, ref _smoothInputVelocity, smoothSpeed);
+        Vector3 movement = new Vector3(_smoothedInputVector2.x, 0, _smoothedInputVector2.y);
         movement = transform.TransformDirection(movement);
 
         controller.Move(movement * Time.deltaTime * moveSpeed);
@@ -142,9 +152,10 @@ public class PlayerController : MonoBehaviour
     private void RayCastOnInteracbleObject()
     {
         //Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
-        Ray ray = cameraPlayer.GetComponent<Camera>().ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
+        Ray ray = _characterCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
         // get first raycast object and check its type
-        if (Physics.Raycast(ray, out hit, distance, ~_ignorePlayerLayer)){
+        if (Physics.Raycast(ray, out hit, distance, ~_ignore_RayCast)){
+
             if (hit.collider.gameObject.layer == 10 || hit.collider.gameObject.layer == 11)
             {
                 //hit interactable or highlighted layer object
@@ -228,13 +239,10 @@ public class PlayerController : MonoBehaviour
             // unhighlight previous object if current raycast is null
             UnHighlightObject();
         }
-        
     }
     
     private void HighlightObject(GameObject hitGameObject, InteractableObject targetStatus)
     {
-        //GLogger.Log("highlight enable");
-
         hitGameObject.layer = highlightedLayer;
         isTargetContainsChild = false;
         if (targetStatus.interactableStatus.isChildHighlight)
@@ -304,10 +312,11 @@ public class PlayerController : MonoBehaviour
     private void CastRayOnClick(InputAction.CallbackContext context)
     {
         //objects must be interactable so that previousHoverTarget is not null
+        GLogger.Log("previousHoverTarget: " + previousHoverTarget);
         if (previousHoverTarget != null)
         {
-            if (previousHoverTarget.TryGetComponent(out IInteractive _interactive)){
-                _interactive.Interact();
+            if (previousHoverTarget.TryGetComponent(out InteractableObject _interactable)){
+                _interactable.Interact();
                 GLogger.Log("cast success");
             }
             else{
@@ -317,6 +326,17 @@ public class PlayerController : MonoBehaviour
         else
         {
             GLogger.LogWarning("cast failed");
+        }
+    }
+
+    private void ZoomCamera(InputAction.CallbackContext context){
+        if (context.performed){
+            zoomTween.Kill();
+            zoomTween = _characterCamera.DOFieldOfView(_zoomInValue, _cameraZoomSpeed).SetEase(Ease.InOutSine);
+        }
+        else if (context.canceled){
+            zoomTween.Kill();
+            zoomTween = _characterCamera.DOFieldOfView(_zoomOutValue, _cameraZoomSpeed).SetEase(Ease.InOutSine);
         }
     }
 }

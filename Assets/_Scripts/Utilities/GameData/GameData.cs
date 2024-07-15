@@ -31,10 +31,8 @@ public class GameData
         {"teahouse_staffroom_card", false},
         {"cleaner_room_card", false},
     };
-    
-    public GameData(){
 
-    }
-
+    public bool isPooRoomVideoForcelyStopped = false;
     public bool isGetReceptionKey = false;
+
 }
