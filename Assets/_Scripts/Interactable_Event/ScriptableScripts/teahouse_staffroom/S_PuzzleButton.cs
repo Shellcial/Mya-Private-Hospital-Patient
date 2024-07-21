@@ -16,7 +16,7 @@ public class S_PuzzleButton : InteractableObject
     [SerializeField]
     private ChangeLight _changeLight;
     [SerializeField]
-    private List<IPuzzleWheel> _puzzleWheels = new List<IPuzzleWheel>();
+    private List<S_PuzzleWheel> _puzzleWheels = new List<S_PuzzleWheel>();
 
     private void Start(){
         _startPos = this.transform.localPosition;

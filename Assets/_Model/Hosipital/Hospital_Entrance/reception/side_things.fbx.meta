@@ -41,10 +41,13 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["wenjianaigui.001","transparent_cabinet","Plane.061","Plane.060","Plane.059","Plane.058","Plane.057","Plane.056","Plane.055","Plane.054","Plane.053","Plane.052","Plane.051","Plane.050","Plane.049","Plane.048","Plane.047","Plane.046","Plane.045","Plane.044","Plane.043","Plane.042","Plane.041","Plane.040","Plane.039","Plane.038","Plane.037","Plane.036","Plane.035","Plane.034","Plane.033","Plane.032","Plane.031","Plane.030","Plane.029","Plane.028","Plane.024","Paper_clip_body_frame.003","Paper_clip_body_frame.001","Printer_Trays","Printer_TopHinge","Printer_Top","Printer_Feet","Printer_Details
-      2","Printer Drawer 3.5","Printer Drawer 3","Printer Drawer 2.5","Printer Drawer
-      2","Printer Drawer 1.5","Printer Drawer 1","Printer Detail","Printer Body","Plane.005","grh.006","grh.005","grh.004","grh.003","grh.002","grh.001","Drawer
-      with casters.001","Drawer with casters","Cube.073","Cube.074","Cube.017","Cube.027","Cube.015","board_case.003"],"padding":[68,63,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,209,256,256,256,256,127,236,189,256,189,256,256,54,256,256,256,256,256,256,256,76,76,256,162,256,162,256,256],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
+    - '#BAKERY{"meshName":["Plane.053","Plane.040","Plane.044","grh.005","Printer
+      Drawer 3","Plane.046","board_case.003","Plane.056","Cube.073","Plane.042","Printer
+      Drawer 1.5","Printer_Top","Printer Drawer 1","Printer Drawer 2","Plane.030","Plane.050","Plane.039","grh.004","Plane.043","Plane.036","Plane.049","Plane.035","grh.003","Cube.027","Plane.051","Plane.048","Plane.041","Plane.057","Plane.028","Drawer
+      with casters","Plane.047","Plane.061","Printer Body","Plane.038","grh.002","Plane.054","Plane.005","Plane.024","Plane.059","Plane.034","Plane.032","Plane.037","Printer
+      Drawer 3.5","transparent_cabinet","Plane.058","Printer Drawer 2.5","wenjianaigui.001","Cube.017","Printer_Trays","grh.001","Plane.031","Cube.074","grh.006","Plane.033","Drawer
+      with casters.001","Cube.015","Printer Detail","Plane.052","Plane.045","Printer_Details
+      2","Printer_Feet","Plane.060","Plane.055","Plane.029","Printer_TopHinge"],"padding":[256,256,256,256,236,256,256,256,256,256,189,256,256,256,256,256,256,256,256,256,256,256,256,162,256,256,256,256,256,76,256,256,54,256,256,256,256,256,256,256,256,256,127,63,256,189,68,256,209,256,256,162,256,256,76,256,256,256,256,256,256,256,256,256,256],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:

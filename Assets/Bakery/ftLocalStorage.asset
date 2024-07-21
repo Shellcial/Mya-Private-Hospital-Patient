@@ -13,24 +13,11 @@ MonoBehaviour:
   m_Name: ftLocalStorage
   m_EditorClassIdentifier: 
   modifiedAssetPathList:
-  - Assets/Bakery/examples/content/sponza/sponza.FBX
-  - Assets/_Worlds/JapanZenInterior/Models/Door Large.fbx
-  - Assets/_Worlds/JapanZenInterior/Models/Door Small.fbx
-  - Assets/_Worlds/JapanZenInterior/Models/Japan Zen Interior Optimized.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/reception_area.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/structure_outline.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/panda_reference.fbx
-  - Assets/_Model/teahouse/restaurant_entrance/Outside_Teahouse/Dog_House.fbx
-  - Assets/_Model/teahouse/staffroom/Staffroom_corridor.fbx
-  - Assets/_Model/teahouse/staffroom/corridor/corridor_static_walls.fbx
-  - Assets/_Model/teahouse/staffroom/corridor/paintings/luna_portrait.fbx
-  - Assets/_Model/teahouse/staffroom/corridor/paintings/rumii_portrait.fbx
-  - Assets/_Model/teahouse/staffroom/corridor/paintings/mya_portrait.fbx
-  - Assets/_Model/teahouse/staffroom/corridor/paintings/rabbi_portrait.fbx
-  - Assets/_Model/teahouse/staffroom/inside/tatami.fbx
-  - Assets/_Model/teahouse/staffroom/inside/locker.fbx
-  - Assets/_Model/teahouse/staffroom/inside/aquarium_pond_turtle.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/structure_outline/walls.fbx
+  - Assets/_Model/Hosipital/Cleaner_Room/changing_room.fbx
+  - Assets/_Model/Hosipital/Cleaner_Room/beds.fbx
+  - Assets/_Model/Hosipital/Cleaner_Room/basic_structure.fbx
+  - Assets/_Model/Hosipital/Cleaner_Room/candles.fbx
   - Assets/_Model/Hosipital/Hospital_Entrance/reception/side_things.fbx
   - Assets/_Model/Hosipital/Hospital_Entrance/reception/table_things.fbx
-  modifiedAssetPaddingHash: d6a958ff14f33a0680c5d890dbe53a8433f4f3573274bf6e3651edc545176bf46364a911abbe451600cb054400cb054400cb054400cb054468dafaab9a031666c6c3321832b09118cc46b10dff215c9a
+  - Assets/_Model/Hosipital/Cleaner_Room/ceiling_lights.fbx
+  modifiedAssetPaddingHash: 13d2c729663f657020c876a3ec274e973c59f06d57c45bdefe945da2

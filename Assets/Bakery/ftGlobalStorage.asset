@@ -13,951 +13,208 @@ MonoBehaviour:
   m_Name: ftGlobalStorage
   m_EditorClassIdentifier: 
   modifiedAssetPathList:
-  - Assets/Bakery/examples/content/sponza/sponza.FBX
-  - Assets/_Worlds/JapanZenInterior/Models/Door Large.fbx
-  - Assets/_Worlds/JapanZenInterior/Models/Door Small.fbx
-  - Assets/_Worlds/JapanZenInterior/Models/Japan Zen Interior Optimized.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/reception_area.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/structure_outline.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/panda_reference.fbx
-  - Assets/_Model/teahouse/restaurant_entrance/Outside_Teahouse/Dog_House.fbx
-  - Assets/_Model/teahouse/staffroom/Staffroom_corridor.fbx
-  - Assets/_Model/teahouse/staffroom/corridor/corridor_static_walls.fbx
-  - Assets/_Model/teahouse/staffroom/corridor/paintings/luna_portrait.fbx
-  - Assets/_Model/teahouse/staffroom/corridor/paintings/rumii_portrait.fbx
-  - Assets/_Model/teahouse/staffroom/corridor/paintings/mya_portrait.fbx
-  - Assets/_Model/teahouse/staffroom/corridor/paintings/rabbi_portrait.fbx
-  - Assets/_Model/teahouse/staffroom/inside/tatami.fbx
-  - Assets/_Model/teahouse/staffroom/inside/locker.fbx
-  - Assets/_Model/teahouse/staffroom/inside/aquarium_pond_turtle.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/structure_outline/walls.fbx
+  - Assets/_Model/Hosipital/Cleaner_Room/changing_room.fbx
+  - Assets/_Model/Hosipital/Cleaner_Room/beds.fbx
+  - Assets/_Model/Hosipital/Cleaner_Room/basic_structure.fbx
+  - Assets/_Model/Hosipital/Cleaner_Room/candles.fbx
   - Assets/_Model/Hosipital/Hospital_Entrance/reception/side_things.fbx
   - Assets/_Model/Hosipital/Hospital_Entrance/reception/table_things.fbx
-  modifiedAssetPaddingHash: d6a958ff14f33a0680c5d890dbe53a8433f4f3573274bf6e3651edc545176bf46364a911abbe451600cb054400cb054400cb054400cb054468dafaab9a031666c6c3321832b09118cc46b10dff215c9a
+  - Assets/_Model/Hosipital/Cleaner_Room/ceiling_lights.fbx
+  modifiedAssetPaddingHash: 13d2c729663f657020c876a3ec274e973c59f06d57c45bdefe945da2
   modifiedMeshList: []
   modifiedMeshPaddingList: 
   modifiedAssets:
   - meshName:
-    - sponza_00
-    - sponza_01
-    - sponza_03
-    - sponza_05
-    - sponza_06
-    - sponza_07
-    - sponza_08
-    - sponza_09
-    - sponza_10
-    - sponza_11
-    - sponza_12
-    - sponza_13
-    - sponza_14
-    - sponza_15
-    - sponza_16
-    - sponza_17
-    - sponza_18
-    - sponza_19
-    - sponza_20
-    - sponza_21
-    - sponza_22
-    - sponza_23
-    - sponza_24
-    - sponza_25
-    - sponza_26
-    - sponza_27
-    - sponza_28
-    - sponza_29
-    - sponza_30
-    - sponza_31
-    - sponza_32
-    - sponza_33
-    - sponza_34
-    - sponza_35
-    - sponza_36
-    - sponza_37
-    - sponza_38
-    - sponza_39
-    - sponza_40
-    - sponza_41
-    - sponza_42
-    - sponza_43
-    - sponza_44
-    - sponza_45
-    - sponza_46
-    - sponza_47
-    - sponza_48
-    - sponza_49
-    - sponza_50
-    - sponza_51
-    - sponza_52
-    - sponza_53
-    - sponza_54
-    - sponza_55
-    - sponza_56
-    - sponza_57
-    - sponza_58
-    - sponza_59
-    - sponza_60
-    - sponza_61
-    - sponza_62
-    - sponza_63
-    - sponza_64
-    - sponza_65
-    - sponza_67
-    - sponza_68
-    - sponza_69
-    - sponza_70
-    - sponza_71
-    - sponza_72
-    - sponza_73
-    - sponza_74
-    - sponza_75
-    - sponza_76
-    - sponza_77
-    - sponza_78
-    - sponza_79
-    - sponza_80
-    - sponza_81
-    - sponza_82
-    - sponza_83
-    - sponza_84
-    - sponza_85
-    - sponza_86
-    - sponza_87
-    - sponza_88
-    - sponza_89
-    - sponza_90
-    - sponza_91
-    - sponza_92
-    - sponza_93
-    - sponza_94
-    - sponza_95
-    - sponza_96
-    - sponza_97
-    - sponza_98
-    - sponza_99
-    - sponza_100
-    - sponza_101
-    - sponza_102
-    - sponza_103
-    - sponza_104
-    - sponza_105
-    - sponza_106
-    - sponza_107
-    - sponza_108
-    - sponza_109
-    - sponza_110
-    - sponza_111
-    - sponza_112
-    - sponza_113
-    - sponza_114
-    - sponza_115
-    - sponza_116
-    - sponza_117
-    - sponza_118
-    - sponza_119
-    - sponza_120
-    - sponza_121
-    - sponza_122
-    - sponza_123
-    - sponza_124
-    - sponza_125
-    - sponza_126
-    - sponza_127
-    - sponza_128
-    - sponza_129
-    - sponza_130
-    - sponza_131
-    - sponza_132
-    - sponza_133
-    - sponza_134
-    - sponza_135
-    - sponza_136
-    - sponza_137
-    - sponza_138
-    - sponza_139
-    - sponza_140
-    - sponza_141
-    - sponza_142
-    - sponza_143
-    - sponza_144
-    - sponza_145
-    - sponza_146
-    - sponza_147
-    - sponza_148
-    - sponza_149
-    - sponza_150
-    - sponza_151
-    - sponza_152
-    - sponza_153
-    - sponza_154
-    - sponza_155
-    - sponza_156
-    - sponza_157
-    - sponza_158
-    - sponza_159
-    - sponza_160
-    - sponza_161
-    - sponza_162
-    - sponza_163
-    - sponza_164
-    - sponza_165
-    - sponza_166
-    - sponza_167
-    - sponza_168
-    - sponza_169
-    - sponza_170
-    - sponza_171
-    - sponza_172
-    - sponza_173
-    - sponza_174
-    - sponza_175
-    - sponza_176
-    - sponza_177
-    - sponza_178
-    - sponza_179
-    - sponza_180
-    - sponza_181
-    - sponza_182
-    - sponza_183
-    - sponza_184
-    - sponza_185
-    - sponza_186
-    - sponza_187
-    - sponza_188
-    - sponza_189
-    - sponza_190
-    - sponza_191
-    - sponza_192
-    - sponza_193
-    - sponza_194
-    - sponza_195
-    - sponza_196
-    - sponza_197
-    - sponza_198
-    - sponza_199
-    - sponza_200
-    - sponza_201
-    - sponza_202
-    - sponza_203
-    - sponza_204
-    - sponza_205
-    - sponza_206
-    - sponza_207
-    - sponza_208
-    - sponza_209
-    - sponza_210
-    - sponza_211
-    - sponza_212
-    - sponza_213
-    - sponza_214
-    - sponza_215
-    - sponza_216
-    - sponza_217
-    - sponza_218
-    - sponza_219
-    - sponza_220
-    - sponza_221
-    - sponza_222
-    - sponza_223
-    - sponza_224
-    - sponza_225
-    - sponza_226
-    - sponza_227
-    - sponza_228
-    - sponza_229
-    - sponza_230
-    - sponza_231
-    - sponza_232
-    - sponza_233
-    - sponza_234
-    - sponza_235
-    - sponza_236
-    - sponza_237
-    - sponza_238
-    - sponza_239
-    - sponza_240
-    - sponza_241
-    - sponza_242
-    - sponza_243
-    - sponza_244
-    - sponza_245
-    - sponza_246
-    - sponza_247
-    - sponza_248
-    - sponza_249
-    - sponza_250
-    - sponza_251
-    - sponza_252
-    - sponza_253
-    - sponza_254
-    - sponza_255
-    - sponza_256
-    - sponza_257
-    - sponza_259
-    - sponza_260
-    - sponza_261
-    - sponza_262
-    - sponza_263
-    - sponza_264
-    - sponza_265
-    - sponza_266
-    - sponza_267
-    - sponza_268
-    - sponza_269
-    - sponza_270
-    - sponza_271
-    - sponza_272
-    - sponza_273
-    - sponza_274
-    - sponza_275
-    - sponza_276
-    - sponza_277
-    - sponza_278
-    - sponza_279
-    - sponza_280
-    - sponza_281
-    - sponza_282
-    - sponza_283
-    - sponza_284
-    - sponza_285
-    - sponza_286
-    - sponza_287
-    - sponza_288
-    - sponza_289
-    - sponza_290
-    - sponza_291
-    - sponza_292
-    - sponza_293
-    - sponza_294
-    - sponza_295
-    - sponza_296
-    - sponza_297
-    - sponza_298
-    - sponza_299
-    - sponza_300
-    - sponza_301
-    - sponza_302
-    - sponza_303
-    - sponza_304
-    - sponza_305
-    - sponza_306
-    - sponza_307
-    - sponza_308
-    - sponza_309
-    - sponza_310
-    - sponza_311
-    - sponza_312
-    - sponza_313
-    - sponza_314
-    - sponza_315
-    - sponza_316
-    - sponza_317
-    - sponza_318
-    - sponza_319
-    - sponza_320
-    - sponza_321
-    - sponza_322
-    - sponza_323
-    - sponza_324
-    - sponza_325
-    - sponza_326
-    - sponza_327
-    - sponza_328
-    - sponza_329
-    - sponza_330
-    - sponza_331
-    - sponza_332
-    - sponza_333
-    - sponza_334
-    - sponza_335
-    - sponza_336
-    - sponza_337
-    - sponza_338
-    - sponza_339
-    - sponza_340
-    - sponza_341
-    - sponza_342
-    - sponza_343
-    - sponza_344
-    - sponza_345
-    - sponza_346
-    - sponza_347
-    - sponza_348
-    - sponza_349
-    - sponza_350
-    - sponza_351
-    - sponza_352
-    - sponza_353
-    - sponza_354
-    - sponza_355
-    - sponza_356
-    - sponza_357
-    - sponza_358
-    - sponza_359
-    - sponza_360
-    - sponza_361
-    - sponza_362
-    - sponza_363
-    - sponza_364
-    - sponza_365
-    - sponza_366
-    - sponza_367
-    - sponza_368
-    - sponza_369
-    - sponza_370
-    - sponza_371
-    - sponza_372
-    - sponza_373
-    - sponza_374
-    - sponza_375
-    - sponza_376
-    - sponza_377
-    - sponza_378
-    - sponza_381
-    padding: 2e000000460000002a000000110000000e0000000c0000000400000033000000330000003300000033000000330000003300000033000000330000000a00000007000000060000002b0000002b00000011000000140000001400000014000000140000002a0000001d000000320000003200000032000000320000002a000000080000000d0000000500000087000000fa00000087000000fa00000087000000fa00000087000000fa00000087000000fb00000087000000fb00000087000000fb00000087000000fb00000087000000fb00000051000000510000005100000051000000510000005100000051000000510000005100000051000000510000000c00000006000000060000002700000028000000390000002b000000150000002700000000010000ba0000009b0000009b000000b70000009d000000b7000000b7000000b70000009b000000b70000009d000000b7000000b7000000b70000009b0000009b0000009b00000083000000ba00000000010000ba0000009b0000009b000000b70000009d000000b7000000b7000000b70000009b000000b70000009d000000b7000000b7000000b70000009b0000009b0000009b00000083000000000100002700000006000000270000002700000027000000270000002d0000001000000010000000230000006a000000000100006a000000000100006a000000000100006a000000000100001e0000002c000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000230000006a000000000100006a000000000100006a000000000100006a000000000100001e0000002c000000630000004300000000010000000100004300000000010000430000000001000043000000430000009400000094000000430000009400000043000000940000004300000024000000270000004600000030000000360000002d000000360000001d0000001d0000001d0000001d0000001d0000001d0000001d0000001d00000000010000ad0000000001000000010000ad0000000001000000010000ad0000000001000000010000ad0000000001000000010000ad0000000001000000010000ad0000000001000000010000ad0000000001000000010000ad0000000001000000010000ad0000000001000000010000ad000000000100001b0000001b0000001b0000001b0000001b0000001b0000001b0000001b0000001b0000001b000000000100000001000000010000000100008c00000000010000000100000001000000010000000100000001000000010000000100008c00000000010000000100000001000000010000000100000001000000010000000100008c00000000010000000100000001000000010000000100000001000000010000000100008c000000000100000001000000010000000100004600000046000000460000004900000049000000490000004900000024000000240000002400000024000000220000001800000004000000
-    unwrapper: 
-  - meshName:
-    - Slide door.014
-    padding: 0a000000
-    unwrapper: 00000000
-  - meshName:
-    - Slide door.001
-    padding: 0e000000
-    unwrapper: 00000000
-  - meshName:
-    - Table
-    - Outer Wall
-    - Ceiling.000
-    - Lamp.000
-    - Floor
-    - Inner support
-    - Folding screen
-    - Ceiling.001
-    - Inner wall
-    - Outer support
-    padding: 0a00000004000000060000002800000003000000090000000e000000040000000700000004000000
-    unwrapper: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
-  - meshName:
-    - White Paper cup
-    - wenjianaigui.001
-    - transparent_cabinet
-    - trunk.001
-    - soil_rock_small.001
-    - soil_rock_big.001
-    - soil.001
-    - sakura_stamen.073
-    - sakura_stamen.071
-    - sakura_stamen.061
-    - sakura_stamen.057
-    - sakura_stamen.056
-    - sakura_stamen.048
-    - sakura_stamen.045
-    - sakura_stamen.044
-    - sakura_stamen.042
-    - sakura_stamen.029
-    - sakura_stamen.026
-    - sakura_stamen.005
-    - sakura_stamen.004
-    - sakura_petal.019
-    - sakura_petal.018
-    - sakura_petal.017
-    - sakura_petal.016
-    - sakura_petal.015
-    - sakura_petal.014
-    - sakura_petal.013
-    - sakura_petal.012
-    - sakura_petal.009
-    - sakura_petal.008
-    - sakura_petal.007
-    - sakura_petal.003
-    - sakura_petal.002
-    - sakura_leaf_archive0.002
-    - leaf.010
-    - leaf.009
-    - leaf.005
-    - leaf.004
-    - leaf.003
-    - leaf.002
-    - Cylinder.050
-    - Cylinder.049
-    - Cylinder.048
-    - Cylinder.047
-    - Cylinder.046
-    - Cylinder.045
-    - Cylinder.044
-    - Cylinder.043
-    - Cylinder.042
-    - Cylinder.041
-    - Cylinder.040
-    - Cylinder.039
-    - Cylinder.038
-    - Cylinder.037
-    - Cylinder.036
-    - Cylinder.035
-    - Cylinder.034
-    - Cylinder.033
-    - Cylinder.032
-    - Cylinder.031
-    - Cylinder.030
-    - Cylinder.029
-    - Cylinder.028
-    - Cylinder.027
-    - Cylinder.026
-    - Cylinder.025
-    - Cylinder.024
-    - Cylinder.023
-    - Cylinder.022
-    - Cylinder.021
-    - Cylinder.020
-    - Cylinder.019
-    - Cylinder.018
-    - Circle.001
-    - sakura_pot.001
-    - reception_glass
-    - Plane.007
-    - door_window
-    - reception_door
-    - Plane.022
-    - Plane.021
-    - Plane.015
-    - Plane.003
-    - Plane.002
-    - Cylinder.003
-    - Cube.046
-    - Cube.045
-    - pen.001
-    - Paper_clip_body_frame.003
-    - Paper_clip_body_frame.002
-    - Paper_clip_body_frame.001
-    - Object_313.001
-    - movable_drawer.001
-    - movable_drawer
-    - Monitor 27' Curved
-    - LODEX3D_VOL1_BOOKS_L3DV1B001_
-    - Kastel_kompasso (high back) headreset
-    - GOMA
-    - Plane.011
-    - Plane.010
-    - Plane.009
-    - Plane.008
-    - Plane.006
-    - Plane.004
-    - Drawer with casters.001
-    - Drawer with casters
-    - Cylinder
-    - Cube.039
-    - Cube.074
-    - Cube.017
-    - Plane.020
-    - Cube.071
-    - Plane.019
-    - Cube.070
-    - Plane.018
-    - Cube.069
+    - locker1
+    - WetFloorSign_01
+    - locker_open
+    - locker_open_door
     - Cube.057
-    - Cube.054
-    - Cube.040
-    - Plane.017
-    - Cube.028
-    - Plane.012
-    - Cube.025
-    - Plane.014
-    - Cube.022
-    - Cube.015
-    - Cube.011
-    - Cube.005
-    - Plane.016
-    - Cube.002
-    - Cube.001
-    - Cilindro
-    - ceiling_glass.004
-    - board_case
-    - 10105_Computer Keyboard_v1_L3
-    padding: cb000000390000003f00000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000037000000000100000001000000010000000100000001000051000000180000000001000000010000000100000001000000010000000100000001000000010000000100007500000075000000de000000530000006300000000010000000100000001000000010000000100000001000000010000000100004d0000000001000000010000a200000000010000000100000001000000010000000100000001000000010000fa000000aa000000a2000000000100000001000000010000000100000001000000010000000100003e0000000001000000010000000100003e00000000010000000100000001000000010000
-    unwrapper: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    - locker2
+    - locker3
+    - all_purpose_cleaner
+    - Bucket_Body
+    - Bucket_Handle
+    - Circle.003
+    - Cover_b
+    - garden_gloves_01.001
+    - garden_gloves_01.002
+    - garden_gloves_01.009
+    - garden_gloves_01.010
+    - Circle.002
+    - Plane.001
+    - locker1_door
+    - multi_cleaner_5_litre_cap
+    - SM_Mop_1.002
+    - Towels
+    - tove2
+    - tovel1
+    - tovel3
+    - Towels.001
+    - tove2.001
+    - tovel1.001
+    - tovel3.001
+    - Towels.002
+    - tove2.002
+    - tovel1.002
+    - tovel3.002
+    - Towels.003
+    - tove2.003
+    - tovel1.003
+    - tovel3.003
+    - Cube.044
+    - Cube.045
+    - Plane.002
+    - Plane.004
+    padding: 1c000000a70000003600000060000000000100002100000012000000ed000000b600000000010000000100000001000000010000000100000001000000010000000100000001000060000000c30000009400000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100008f000000e5000000e5000000
+    unwrapper: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   - meshName:
-    - Plane
-    - entrance_big_pillar.005
-    - entrance_big_pillar.004
-    - entrance_big_pillar.003
-    - entrance_big_pillar.002
-    - entrance_big_pillar.001
-    - entrance_big_pillar
-    - Cube.064
-    - Cube.063
+    - Cube.059
     - Cube.058
-    - Cube.038
-    - Cube.034
-    - Cube.026
-    - Cube.012
-    - Cube.010
-    - Cube.009
-    - Cube.008
-    - Cube.007
-    - Cube.006
-    - Cube.003
-    - Cube
-    - ceilling_air_duct.004
-    - ceilling_air_duct.003
-    - ceilling_air_duct.002
-    - ceilling_air_duct.001
-    - ceilling_air_duct
-    - ceilling.001
-    - ceiling_glass.003
-    - ceiling_glass.002
-    - ceiling_glass.001
-    - ceiling_glass
-    - Cube.097
-    - Cube.096
-    - Cube.083
-    - Cube.005
-    - Cube.013
-    - Cube.041
-    - Cube.042
-    - Cube.060
     - Cube.061
-    - Cube.067
-    - Cube.095
-    - Cube.098
+    - Cube.060
+    - Cube.054
+    - Cube.050
+    - Cube.041
+    - Cube.036
+    - Cube.035
+    - Cube.051
+    - Cube.052
+    - Cube.244
+    - Cube.062
+    padding: 29000000220000002900000029000000290000002200000025000000250000006b00000029000000250000002500000025000000
+    unwrapper: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - meshName:
+    - Cube.056
+    - Cube.011
+    - Cube.001
+    - Cube.123
+    - ceiling_glass.001
+    - ceiling_glass.008
+    - ceilling_air_duct.001
+    - ceilling_air_duct.002
+    - Cube.006
+    - Cube.042
+    - Cylinder
+    - Cylinder.002
+    - Cylinder.003
     - Cylinder.004
-    padding: 010000000a0000000a0000000a0000000a0000000a0000000a0000001d0000000a0000000d000000090000008500000007000000010000000a0000000c0000000f000000090000000200000003000000360000001a0000001a0000001a0000001a0000001a0000000100000045000000500000002c0000002c0000001c0000001d0000001c0000002b0000002d00000085000000850000000d00000034000000540000002d00000014000000a8000000
+    - Cylinder.005
+    - Cylinder.007
+    - Cylinder.163
+    - Cylinder.164
+    - Cylinder.165
+    - Cylinder.166
+    - panda.005
+    - panda.007
+    - panda.029
+    - panda.030
+    - panda.031
+    - panda.032
+    - Cube.005
+    - Cube.130
+    - ceiling
+    - ceiling_glass.015
+    - ceilling_air_duct.003
+    - Cylinder.149
+    - Cylinder.150
+    - Cylinder.155
+    - Cylinder.158
+    - ground
+    - Cube.046
+    - Cube.037
+    - Cube.128
+    - Cube.038
+    - Cube
+    - Cube.007
+    - Cube.004
+    - Cube.040
+    padding: 100000001f0000001c0000000b000000000100000001000035000000350000001800000056000000aa000000ca0000000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000070000001b000000100000007c00000035000000e200000000010000250000000900000011000000190000001a000000070000002300000008000000190000000a00000000010000
     unwrapper: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   - meshName:
-    - panda.008
-    - panda.011
-    - panda.004
-    - panda.002
-    - panda.006
-    - panda.013
-    - panda.005
-    - panda.001
-    - panda.014
-    - panda.012
-    - panda.003
-    - panda
-    - panda.010
-    - panda.007
-    - panda.009
-    padding: 460000004600000046000000460000004600000046000000460000004600000046000000460000004600000046000000460000004600000046000000
-    unwrapper: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    - Candle.001
+    - Candle.002
+    - Candle.003
+    - Candle.017
+    - pray_notes
+    padding: 0001000000010000000100000001000000010000
+    unwrapper: 0000000000000000000000000000000000000000
   - meshName:
-    - walls
-    - screws2
-    - screws
-    - pillars
-    padding: 23000000000100000001000066000000
-    unwrapper: 00000000000000000000000000000000
-  - meshName:
-    - Cube.018
-    - screw1
-    - Cube.002
-    - lightbulb.002
-    - Plane.003
-    - ceiling_light_glass.003
-    - lightbulb.001
-    - Plane.001
-    - ceiling_light_glass.002
-    - Cube.005
-    - Plane.014
-    - screw1.004
-    - Cube.032
-    - Cube.035
-    - Cube.020
-    - Plane.011
-    - ceiling_light_glass
-    - Cube.004
-    - Cube.024
-    - Plane.013
-    - Plane.010
-    - Cube.034
-    - Cube.019
-    - Cube.009
-    - Cube.010
-    - Plane
-    - Cube.030
-    - Cube.001
-    - Cube
-    - Cube.140
-    padding: ad000000000100008f0000000001000023000000000100000001000025000000000100001e00000000010000000100008f00000000010000000100002c0000000001000000010000000100000001000052000000000100000001000000010000000100002100000000010000000100006c00000000010000
-    unwrapper: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-  - meshName:
-    - Cube
-    - Cube.002
-    - Cube.004
-    - Cube.005
-    - Cube.009
-    - Cube.010
-    - Cube.016
-    - Cube.018
-    - Cube.030
-    - Cube.032
-    - Cube.034
-    - Cube.035
-    - Cube.037
-    - Cube.096
-    - Cube.099
-    - Cube.100
-    - Cube.102
-    - Cube.103
-    - Cube.104
-    - Cube.105
-    - Cube.109
-    - Cube.110
-    - Cube.108
-    - Cube.111
-    - Cube.112
-    - Cube.113
-    - Cube.114
-    - Cube.116
-    - Cube.117
-    - Cube.118
-    - Cube.119
-    - Cube.120
-    - Cube.121
-    - Cube.122
-    - Cube.123
-    - Cube.124
-    - Cube.125
-    - Cube.126
-    - Cube.127
-    - Cube.128
-    - Cube.129
-    - Cube.130
-    - Cube.131
-    - Cube.132
-    - Cube.133
-    - Cube.134
-    - Cube.135
-    - Cube.136
-    - Cube.137
-    - Cube.138
-    - Cube.139
-    - Cube.141
-    - Cube.142
-    - Cube.143
-    - Cube.144
-    - Cube.145
-    - Cube.146
-    - Cube.147
-    - Cube.148
-    - Cube.149
-    - Cube.150
-    - Cube.151
-    - Cube.152
-    - Cube.153
-    - Cube.154
-    - Cube.155
-    - Plane
-    - Plane.001
-    - Plane.003
-    - Plane.010
-    - Plane.011
-    - Plane.013
-    - Plane.020
-    - screw1
-    - screw1.001
-    - screw1.002
-    - screw1.003
-    - screw1.004
-    - screw1.005
-    - screw1.006
-    - screw1.007
-    - wood_plates
-    - wood_plates.001
-    - wood_plates.002
-    - wood_plates.003
-    - wood_plates.004
-    - wood_plates.005
-    - wood_plates.006
-    - wood_plates.007
-    - wood_plates.008
-    - wood_plates.009
-    - wood_plates.010
-    - wood_plates.023
-    - wood_plates.024
-    padding: 1b000000f800000063000000070000000001000000010000230000002a00000000010000230000000001000000010000310000003200000000010000000100009f0000009f0000005d0000002700000066000000690000008200000020000000710000000001000000010000710000007500000066000000200000007500000071000000750000007100000075000000c2000000c30000005d0000007a00000066000000350000005d0000003200000066000000660000006600000066000000a70000005d0000007400000077000000520000004b0000005d0000005d0000005d00000048000000aa000000ff000000f8000000ff00000000010000000100005e00000048000000080000000900000008000000140000000b00000076000000760000000001000000010000000100000001000000010000000100000001000000010000390000003900000039000000390000004f0000003900000058000000510000007a0000007a0000008c000000920000007f000000
-    unwrapper: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-  - meshName:
-    - picture.003
-    - paper_frame.004
-    - frame_connector.003
-    - picture_Mya.003
-    padding: 73000000b10000000001000043000000
-    unwrapper: 00000000000000000000000000000000
-  - meshName:
-    - picture.001
-    - paper_frame.002
-    - frame_connector.001
-    - picture_Mya.001
-    padding: 73000000b10000000001000043000000
-    unwrapper: 00000000000000000000000000000000
-  - meshName:
-    - picture
-    - paper_frame.001
-    - frame_connector
-    - picture_Mya
-    padding: 73000000b10000000001000043000000
-    unwrapper: 00000000000000000000000000000000
-  - meshName:
-    - picture.002
-    - paper_frame.003
-    - frame_connector.002
-    - picture_Mya.002
-    padding: 73000000b10000000001000043000000
-    unwrapper: 00000000000000000000000000000000
-  - meshName:
-    - Tatami
-    - Tatami.001
-    - Tatami.002
-    - Tatami.003
-    - Tatami.004
-    - Tatami.005
-    - Tatami.006
-    - Tatami.007
-    - Tatami.008
-    - Tatami.009
-    padding: 23000000230000002300000023000000230000002300000023000000230000002300000023000000
-    unwrapper: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
-  - meshName:
-    - Cube.023
-    - Cylinder.002
-    - Cylinder.010
-    - Cylinder.080
-    - Cylinder.081
-    - Cylinder.082
-    - Cylinder.083
-    - Cylinder.084
-    - Cylinder.085
-    - Cylinder.086
-    - Cylinder.087
-    - Plane.005
-    - Plane.012
-    - Plane.015
-    - Plane.016
-    padding: 3f0000000001000000010000000100000001000000010000000100000001000000010000000100000001000015000000150000001500000015000000
-    unwrapper: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-  - meshName:
-    - coast_rocks_05_LOD3
-    - Cube.011
-    - Cube.013
-    - Cube.014
-    - Cube.015
-    - Cylinder.075
-    - GLASS
-    - kamien_low
-    - particle
-    - Plane.018
-    - Plane.027
-    - Plane.028
-    - Plane.032
-    - Plane.034
-    - Plane.035
-    - Plane.036
-    - WATER.001
-    - Cylinder.079
-    - Eye.L.
-    - Eye.R.
-    - tortoise.002
-    - Cube.012
-    padding: 00010000a4000000000100000001000000010000000100006a000000000100000001000000010000000100000001000000010000000100000001000000010000d10000000001000000010000000100000001000000010000
-    unwrapper: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-  - meshName:
-    - ceilling.001
-    - Cube.003
-    - Cube.006
-    - Cube.007
-    - Cube.008
-    - Cube.009
-    - Cube.010
-    - Cube.012
-    - Cube.026
-    - entrance_big_pillar
-    - entrance_big_pillar.001
-    - entrance_big_pillar.002
-    - entrance_big_pillar.003
-    - entrance_big_pillar.004
-    - entrance_big_pillar.005
-    - Plane
-    padding: 030000000600000005000000130000001e0000001800000014000000030000000f00000014000000140000001400000014000000140000001400000004000000
-    unwrapper: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-  - meshName:
-    - wenjianaigui.001
-    - transparent_cabinet
-    - Plane.061
-    - Plane.060
-    - Plane.059
-    - Plane.058
-    - Plane.057
-    - Plane.056
-    - Plane.055
-    - Plane.054
     - Plane.053
-    - Plane.052
-    - Plane.051
-    - Plane.050
-    - Plane.049
-    - Plane.048
-    - Plane.047
-    - Plane.046
-    - Plane.045
-    - Plane.044
-    - Plane.043
-    - Plane.042
-    - Plane.041
     - Plane.040
-    - Plane.039
-    - Plane.038
-    - Plane.037
-    - Plane.036
-    - Plane.035
-    - Plane.034
-    - Plane.033
-    - Plane.032
-    - Plane.031
-    - Plane.030
-    - Plane.029
-    - Plane.028
-    - Plane.024
-    - Paper_clip_body_frame.003
-    - Paper_clip_body_frame.001
-    - Printer_Trays
-    - Printer_TopHinge
-    - Printer_Top
-    - Printer_Feet
-    - Printer_Details 2
-    - Printer Drawer 3.5
-    - Printer Drawer 3
-    - Printer Drawer 2.5
-    - Printer Drawer 2
-    - Printer Drawer 1.5
-    - Printer Drawer 1
-    - Printer Detail
-    - Printer Body
-    - Plane.005
-    - grh.006
+    - Plane.044
     - grh.005
-    - grh.004
-    - grh.003
-    - grh.002
-    - grh.001
-    - Drawer with casters.001
-    - Drawer with casters
-    - Cube.073
-    - Cube.074
-    - Cube.017
-    - Cube.027
-    - Cube.015
+    - Printer Drawer 3
+    - Plane.046
     - board_case.003
-    padding: 440000003f00000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000d1000000000100000001000000010000000100007f000000ec000000bd00000000010000bd000000000100000001000036000000000100000001000000010000000100000001000000010000000100004c0000004c00000000010000a200000000010000a20000000001000000010000
-    unwrapper: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    - Plane.056
+    - Cube.073
+    - Plane.042
+    - Printer Drawer 1.5
+    - Printer_Top
+    - Printer Drawer 1
+    - Printer Drawer 2
+    - Plane.030
+    - Plane.050
+    - Plane.039
+    - grh.004
+    - Plane.043
+    - Plane.036
+    - Plane.049
+    - Plane.035
+    - grh.003
+    - Cube.027
+    - Plane.051
+    - Plane.048
+    - Plane.041
+    - Plane.057
+    - Plane.028
+    - Drawer with casters
+    - Plane.047
+    - Plane.061
+    - Printer Body
+    - Plane.038
+    - grh.002
+    - Plane.054
+    - Plane.005
+    - Plane.024
+    - Plane.059
+    - Plane.034
+    - Plane.032
+    - Plane.037
+    - Printer Drawer 3.5
+    - transparent_cabinet
+    - Plane.058
+    - Printer Drawer 2.5
+    - wenjianaigui.001
+    - Cube.017
+    - Printer_Trays
+    - grh.001
+    - Plane.031
+    - Cube.074
+    - grh.006
+    - Plane.033
+    - Drawer with casters.001
+    - Cube.015
+    - Printer Detail
+    - Plane.052
+    - Plane.045
+    - Printer_Details 2
+    - Printer_Feet
+    - Plane.060
+    - Plane.055
+    - Plane.029
+    - Printer_TopHinge
+    padding: 00010000000100000001000000010000ec0000000001000000010000000100000001000000010000bd000000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000a200000000010000000100000001000000010000000100004c0000000001000000010000360000000001000000010000000100000001000000010000000100000001000000010000000100007f0000003f00000000010000bd0000004400000000010000d10000000001000000010000a200000000010000000100004c00000000010000000100000001000000010000000100000001000000010000000100000001000000010000
+    unwrapper: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   - meshName:
-    - Cube.045
-    - pen.002
-    - pen.001
-    - pen
-    - LODEX3D_VOL1_BOOKS_L3DV1B001_
-    - GOMA
     - Cilindro
+    - Cube.045
+    - pen.001
+    - LODEX3D_VOL1_BOOKS_L3DV1B001_
+    - pen
+    - pen.002
+    - GOMA
     - 10105_Computer Keyboard_v1_L3
     - Kastel_kompasso (high back) headreset
     - Monitor 27' Curved
@@ -974,362 +231,60 @@ MonoBehaviour:
     - Base
     - Top
     - Wheel
-    padding: 000100000001000000010000000100005300000000010000000100000001000063000000de00000075000000000100000001000000010000000100000001000018000000510000000001000000010000000100000001000000010000
+    padding: 000100000001000000010000530000000001000000010000000100000001000063000000de00000075000000000100000001000000010000000100000001000018000000510000000001000000010000000100000001000000010000
     unwrapper: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - meshName:
+    - ceiling_glass.011
+    - Cylinder.131
+    - Cylinder.132
+    - Cylinder.133
+    - Cylinder.134
+    - Cylinder.135
+    - Cylinder.136
+    - Cylinder.137
+    - Cylinder.138
+    - Cylinder.139
+    - Cylinder.140
+    - Cylinder.141
+    - Cylinder.142
+    - Cylinder.143
+    - Cylinder.144
+    - Cylinder.145
+    - Cylinder.146
+    - Cylinder.147
+    - panda.006
+    - panda.020
+    padding: 0001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000
+    unwrapper: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   assetList:
-  - Assets/Bakery/examples/content/sponza/bush.FBX
-  - Assets/Bakery/examples/content/floor_lamp.FBX
-  - Assets/00Kamishiro/AKSwitch/_Resources/Models/Switch.fbx
-  - Assets/Thry/BeerPong/3dmodels/table.dae
-  - Assets/Thry/BeerPong/3dmodels/arrow.dae
-  - Assets/Thry/BeerPong/3dmodels/arrow.blend
-  - Assets/Thry/BeerPong/3dmodels/glass.blend
-  - Assets/Thry/BeerPong/3dmodels/table.blend
-  - Assets/VRCMarker/Mesh/marker.fbx
-  - Assets/_pi_/_LTCGI/Propaganda/ltcgi_sign.fbx
-  - Assets/ArchiTechAnon/ProTV/Models/ProTVLogo3D/ProTVLogo3D.fbx
-  - Assets/ArchiTechAnon/ProTV/Models/CurvedTV/Tv Set.fbx
-  - Assets/ArchiTechAnon/ProTV/Models/ProTV Logo.fbx
-  - Assets/ArchiTechAnon/ProTV/Plugins/Skybox/Models/VideoSphere.fbx
-  - Assets/ArchiTechAnon/ProTV/Models/ProTVBox/ProTVBox.fbx
-  - "Assets/\u68DA\u30BB\u30C3\u30C8/Materials/FBX/\u68DA 4.fbx"
-  - "Assets/\u68DA\u30BB\u30C3\u30C8/Materials/FBX/\u58C1\u639B\u3051\u68DA 4.fbx"
-  - "Assets/\u68DA\u30BB\u30C3\u30C8/Materials/FBX/\u68DA 3.fbx"
-  - "Assets/\u68DA\u30BB\u30C3\u30C8/Materials/FBX/\u58C1\u639B\u3051\u68DA 1.fbx"
-  - "Assets/\u68DA\u30BB\u30C3\u30C8/Materials/FBX/\u58C1\u639B\u3051\u68DA 3.fbx"
-  - "Assets/\u68DA\u30BB\u30C3\u30C8/Materials/FBX/\u58C1\u639B\u3051\u68DA 8.fbx"
-  - "Assets/\u68DA\u30BB\u30C3\u30C8/Materials/FBX/\u58C1\u639B\u3051\u68DA 5.fbx"
-  - "Assets/\u68DA\u30BB\u30C3\u30C8/Materials/FBX/\u58C1\u639B\u3051\u68DA 7.fbx"
-  - "Assets/\u68DA\u30BB\u30C3\u30C8/Materials/FBX/\u58C1\u639B\u3051\u68DA 6.fbx"
-  - "Assets/\u68DA\u30BB\u30C3\u30C8/Materials/FBX/\u58C1\u639B\u3051\u68DA 2.fbx"
-  - "Assets/\u68DA\u30BB\u30C3\u30C8/Materials/FBX/\u68DA 1.fbx"
-  - "Assets/\u68DA\u30BB\u30C3\u30C8/Materials/FBX/\u68DA 2.fbx"
-  - Assets/Rollthered/Tablet/tablet drawing.fbx
-  - Assets/Rollthered/Canvas/Canvas.fbx
-  - Assets/Rollthered/Canvas/paintt.fbx
-  - Assets/[Ofuton]/WallFan/FBX/wallfan.fbx
-  - Assets/SGB Free Furniture Pack/fbx/single_sofa_grey.fbx
-  - Assets/SGB Free Furniture Pack/fbx/rugs_and_pillows_circle_rug.fbx
-  - Assets/SGB Free Furniture Pack/fbx/light_floor_lamp.fbx
-  - Assets/SGB Free Furniture Pack/fbx/light_ceiling_light.fbx
-  - Assets/SGB Free Furniture Pack/fbx/rugs_and_pillows_square_rug.fbx
-  - Assets/SGB Free Furniture Pack/fbx/dresser.fbx
-  - Assets/SGB Free Furniture Pack/fbx/bedroom_desk.fbx
-  - Assets/SGB Free Furniture Pack/fbx/light_ceiling_fan.fbx
-  - Assets/SGB Free Furniture Pack/fbx/room_end_coffee_tables_coffeetable.fbx
-  - Assets/SGB Free Furniture Pack/fbx/Shelf_props_small_bowl.fbx
-  - Assets/SGB Free Furniture Pack/fbx/Shelf_props_small_vases.fbx
-  - Assets/SGB Free Furniture Pack/fbx/full_bed.fbx
-  - Assets/SGB Free Furniture Pack/fbx/square_arm_sofa.fbx
-  - Assets/SGB Free Furniture Pack/fbx/floor_cactus_plant.fbx
-  - Assets/SGB Free Furniture Pack/fbx/console.fbx
-  - Assets/SGB Free Furniture Pack/fbx/light_exterior_light.fbx
-  - Assets/SGB Free Furniture Pack/fbx/Shelf_props_3books.fbx
-  - Assets/SGB Free Furniture Pack/fbx/light_square_chandelier.fbx
-  - Assets/SGB Free Furniture Pack/fbx/rugs_and_pillows_large_square_rug.fbx
-  - Assets/SGB Free Furniture Pack/fbx/room_end_trable.fbx
-  - Assets/SGB Free Furniture Pack/fbx/dining_room_table.fbx
-  - Assets/SGB Free Furniture Pack/fbx/Shelf_props_cactus.fbx
-  - Assets/SGB Free Furniture Pack/fbx/rugs_and_pillows_pillow_tan.fbx
-  - Assets/SGB Free Furniture Pack/fbx/bean_bag_with_blanket.fbx
-  - Assets/SGB Free Furniture Pack/fbx/light_chandelier.fbx
-  - Assets/SGB Free Furniture Pack/fbx/bean_bag_tan.fbx
-  - Assets/SGB Free Furniture Pack/fbx/light_outdoor_side_lamp.fbx
-  - Assets/SGB Free Furniture Pack/fbx/rugs_and_pillows_pillow_red.fbx
-  - Assets/SGB Free Furniture Pack/fbx/bedroom_dresser.fbx
-  - Assets/SGB Free Furniture Pack/fbx/light_table_lamp.fbx
-  - Assets/SGB Free Furniture Pack/fbx/light_sidetable_lamp.fbx
-  - Assets/SGB Free Furniture Pack/fbx/dining_room_chair.fbx
-  - Assets/SGB Free Furniture Pack/fbx/room_end_coffee_tables_TVStand.fbx
-  - Assets/SGB Free Furniture Pack/fbx/Shelf_props_2books.fbx
-  - Assets/SGB Free Furniture Pack/fbx/Shelf_props_small_cactus.fbx
-  - Assets/SGB Free Furniture Pack/fbx/bedroom_nightstand.fbx
-  - Assets/Furniture Pack/Fbx/Plants_Pots_14.fbx
-  - Assets/Furniture Pack/Fbx/Tables_Other_Tables_2.fbx
-  - Assets/Furniture Pack/Fbx/Lights_Table_Lamps_6.fbx
-  - Assets/Furniture Pack/Fbx/Plants_Pots_8.fbx
-  - Assets/Furniture Pack/Fbx/Tables_Side_Tables_10.fbx
-  - Assets/Furniture Pack/Fbx/Lights_Floor_Lamps_6.fbx
-  - Assets/Furniture Pack/Fbx/Lights_Floor_Lamps_5.fbx
-  - Assets/Furniture Pack/Fbx/Couches_L_Couches_Light_Red.fbx
-  - Assets/Furniture Pack/Fbx/Tables_Side_Tables_4.fbx
-  - Assets/Furniture Pack/Fbx/Tables_Kitchen_Tables_1.fbx
-  - Assets/Furniture Pack/Fbx/Bean_Bags_2.fbx
-  - Assets/Furniture Pack/Fbx/Chairs_Bar_Chairs_2.fbx
-  - Assets/Furniture Pack/Fbx/Couches_Love_Seat_White.fbx
-  - Assets/Furniture Pack/Fbx/Tables_Side_Tables_11.fbx
-  - Assets/Furniture Pack/Fbx/Chairs_Short_Chairs_2.fbx
-  - Assets/Furniture Pack/Fbx/Bean_Bags_1.fbx
-  - Assets/Furniture Pack/Fbx/Lights_Table_Lamps_4.fbx
-  - Assets/Furniture Pack/Fbx/Lights_Floor_Lamps_1.fbx
-  - Assets/Furniture Pack/Fbx/Tables_Other_Tables_1.fbx
-  - Assets/Furniture Pack/Fbx/Plants_Pots_2.fbx
-  - Assets/Furniture Pack/Fbx/Couches_Misc_3.fbx
-  - Assets/Furniture Pack/Fbx/Couches_Love_Seat_Green.fbx
-  - Assets/Furniture Pack/Fbx/Bathroom_And_Misc_6.fbx
-  - Assets/Furniture Pack/Fbx/Lights_Chandelier_1.fbx
-  - Assets/Furniture Pack/Fbx/Lights_Floor_Lamps_3.fbx
-  - Assets/Furniture Pack/Fbx/Plants_Pots_13.fbx
-  - Assets/Furniture Pack/Fbx/Lights_Table_Lamps_2.fbx
-  - Assets/Furniture Pack/Fbx/Lights_Table_Lamps_3.fbx
-  - Assets/Furniture Pack/Fbx/Bathroom_And_Misc_2.fbx
-  - Assets/Furniture Pack/Fbx/Couches_Theatre_Chair_Leather.fbx
-  - Assets/Furniture Pack/Fbx/Tables_Restaurant_Tables_2.fbx
-  - Assets/Furniture Pack/Fbx/Lights_Table_Lamps_8.fbx
-  - Assets/Furniture Pack/Fbx/Tables_Side_Tables_3.fbx
-  - Assets/Furniture Pack/Fbx/Lights_Floor_Lamps_4.fbx
-  - Assets/Furniture Pack/Fbx/Chairs_Short_Chairs_1.fbx
-  - Assets/Furniture Pack/Fbx/Lights_Table_Lamps_7.fbx
-  - Assets/Furniture Pack/Fbx/Tables_Side_Tables_5.fbx
-  - Assets/Furniture Pack/Fbx/Bathroom_And_Misc_3.fbx
-  - Assets/Furniture Pack/Fbx/Plants_Pots_12.fbx
-  - Assets/Furniture Pack/Fbx/Tables_Other_Tables_4.fbx
-  - Assets/Furniture Pack/Fbx/Couches_Curved_Couch_Red.fbx
-  - Assets/Furniture Pack/Fbx/Couches_Single_Sofa_White.fbx
-  - Assets/Furniture Pack/Fbx/Tables_Side_Tables_7.fbx
-  - Assets/Furniture Pack/Fbx/Plants_Pots_5.fbx
-  - Assets/Furniture Pack/Fbx/Tables_Other_Tables_5.fbx
-  - Assets/Furniture Pack/Fbx/Lights_Chandelier_3.fbx
-  - Assets/Furniture Pack/Fbx/Bathroom_And_Misc_5.fbx
-  - Assets/Furniture Pack/Fbx/Tables_Other_Tables_3.fbx
-  - Assets/Furniture Pack/Fbx/Couches_Couch_Green.fbx
-  - Assets/Furniture Pack/Fbx/Plants_Pots_1.fbx
-  - Assets/Furniture Pack/Fbx/Plants_Pots_6.fbx
-  - Assets/Furniture Pack/Fbx/Chairs_Bar_Chairs_5.fbx
-  - Assets/Furniture Pack/Fbx/Couches_Single_Sofa_Light_Light_Grey.fbx
-  - Assets/Furniture Pack/Fbx/Couches_Single_Sofa_Light_Comfy_Grey.fbx
-  - Assets/Furniture Pack/Fbx/Lights_Floor_Lamps_2.fbx
-  - Assets/Furniture Pack/Fbx/Couches_Love_Seat_Grey.fbx
-  - Assets/Furniture Pack/Fbx/Rocks_1.fbx
-  - Assets/Furniture Pack/Fbx/Tables_Side_Tables_1.fbx
-  - Assets/Furniture Pack/Fbx/Chairs_Bar_Chairs_4.fbx
-  - Assets/Furniture Pack/Fbx/Tables_Kitchen_Tables_2.fbx
-  - Assets/Furniture Pack/Fbx/Pillows_1.fbx
-  - Assets/Furniture Pack/Fbx/Bathroom_And_Misc_4.fbx
-  - Assets/Furniture Pack/Fbx/Rocks_2.fbx
-  - Assets/Furniture Pack/Fbx/Couches_Theatre_Chair_Fabric.fbx
-  - Assets/Furniture Pack/Fbx/Pillows_3.fbx
-  - Assets/Furniture Pack/Fbx/Pillows_2.fbx
-  - Assets/Furniture Pack/Fbx/Couches_Single_Sofa_Light_Grey_With_Pillow.fbx
-  - Assets/Furniture Pack/Fbx/Couches_Single_Sofa_Light_Dark_Grey_With_Pillow.fbx
-  - Assets/Furniture Pack/Fbx/Lights_Table_Lamps_5.fbx
-  - Assets/Furniture Pack/Fbx/Lights_Table_Lamps_1.fbx
-  - Assets/Furniture Pack/Fbx/Tables_Restaurant_Tables_1.fbx
-  - Assets/Furniture Pack/Fbx/Bathroom_And_Misc_1.fbx
-  - Assets/Furniture Pack/Fbx/Couches_Misc_2.fbx
-  - Assets/Furniture Pack/Fbx/Chairs_Bar_Chairs_1.fbx
-  - Assets/Furniture Pack/Fbx/Plants_Pots_10.fbx
-  - Assets/Furniture Pack/Fbx/Plants_Pots_4.fbx
-  - Assets/Furniture Pack/Fbx/Tables_Side_Tables_2.fbx
-  - Assets/Furniture Pack/Fbx/Tables_Kitchen_Tables_3.fbx
-  - Assets/Furniture Pack/Fbx/Tables_Side_Tables_6.fbx
-  - Assets/Furniture Pack/Fbx/Lights_Overhead_1.fbx
-  - Assets/Furniture Pack/Fbx/Chairs_Short_Chairs_3.fbx
-  - Assets/Furniture Pack/Fbx/Couches_U_Couch.fbx
-  - Assets/Furniture Pack/Fbx/Plants_Pots_7.fbx
-  - Assets/Furniture Pack/Fbx/Beds_Red_Bed.fbx
-  - Assets/Furniture Pack/Fbx/Lights_Overhead_2.fbx
-  - Assets/Furniture Pack/Fbx/Couches_Misc_1.fbx
-  - Assets/Furniture Pack/Fbx/Chairs_Short_Chairs_4.fbx
-  - Assets/Furniture Pack/Fbx/Lights_Chandelier_2.fbx
-  - Assets/Furniture Pack/Fbx/Pillows_4.fbx
-  - Assets/Furniture Pack/Fbx/Couches_L_Couches_Dark_Grey.fbx
-  - Assets/Furniture Pack/Fbx/Plants_Pots_11.fbx
-  - Assets/Furniture Pack/Fbx/Beds_Grey_Bed.fbx
-  - Assets/Furniture Pack/Fbx/Chairs_Bar_Chairs_3.fbx
-  - Assets/Furniture Pack/Fbx/Plants_Pots_9.fbx
-  - Assets/Furniture Pack/Fbx/Couches_Couch_Dark_Blue.fbx
-  - Assets/Furniture Pack/Fbx/Tables_Side_Tables_8.fbx
-  - Assets/Furniture Pack/Fbx/Lights_Table_Lamps_9.fbx
-  - Assets/Furniture Pack/Fbx/Tables_Side_Tables_9.fbx
-  - Assets/Furniture Pack/Fbx/Plants_Pots_3.fbx
-  - Assets/Furniture Pack/Fbx/Tables_Restaurant_Tables_3.fbx
-  - Assets/inpo/sofa/sofa.fbx
-  - Assets/SGB Free Furniture Pack/fbx/Shelf_props_small_vases_02.fbx
-  - Assets/SGB Free Furniture Pack/fbx/Shelf_props_small_vases_01.fbx
-  - Assets/SGB Free Furniture Pack/Shelf_props_small_vases_02.fbx
-  - Packages/online.kamishiro.udon.kmbook/Models/BookModel.fbx
-  - Assets/RED_SIM/Water/Examples/Models/SuzanneMirror.fbx
-  - Assets/RED_SIM/Water/Examples/Models/ObjectsMirror.fbx
-  - Assets/RED_SIM/Water/Examples/EnvironmentGradient/TerrainExample.fbx
-  - Assets/RED_SIM/Water/Examples/Models/smallwater.fbx
-  - Assets/RED_SIM/Water/Examples/Models/smallmountain.fbx
-  - Assets/LeanTween/Examples/Models/ExampleCar.fbx
-  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand_Tail.fbx
-  - Assets/LeanTween/Examples/Models/BasicExamplesText.fbx
-  - Assets/LeanTween/Examples/Models/2dText.fbx
-  - Assets/Bakery/examples/content/logolight.FBX
-  - Assets/_Model/staffroom/locker_curtain.fbx
-  - Assets/_Model/New_restaurant_area/goods.fbx
-  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal9.fbx
-  - Assets/_Model/New_restaurant_area/bar_area.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/panda_reference.fbx
-  - Assets/_Model/New_restaurant_area/counter.fbx
-  - Assets/LeanTween/Examples/Models/CurvePathsText.fbx
-  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal7.fbx
-  - Assets/_Model/Title/Title_Shot.fbx
-  - Assets/LeanTween/Examples/Models/EndlessDrivingText.fbx
-  - Assets/_Model/New_restaurant_area/flower.fbx
-  - Assets/_Model/characters/Mya_Fans_Panda.fbx
-  - Assets/_Model/staffroom/hospital_outside.fbx
-  - Assets/LeanTween/Examples/Models/DirectionalArrow.fbx
-  - Assets/LeanTween/Examples/Models/CameraShakeText.fbx
-  - Assets/_Model/restaurant_entrance/Outside_Teahouse/Outside_Teahouse_Logo.fbx
-  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal1.fbx
-  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal_Still.fbx
-  - Assets/LeanTween/Examples/Models/ExampleFirTree.fbx
-  - Assets/_Model/New_restaurant_area/closeup.fbx
-  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal4.fbx
-  - Assets/_Model/New_restaurant_area/Interior_Area.fbx
-  - Assets/LeanTween/Examples/Models/AdvancedExamplesText.fbx
-  - Assets/_Model/staffroom/bed_curtain.fbx
-  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal5.fbx
-  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal2.fbx
-  - Assets/LeanTween/Examples/Models/SimpleAvatar.fbx
-  - Assets/DynamicBone/Demo/tail.FBX
-  - Assets/_Model/staffroom/staffroom.fbx
-  - Assets/_Model/New_restaurant_area/bar_area_kitchen.fbx
-  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal6.fbx
-  - Assets/LeanTween/Examples/Models/SimpleAvatarPieces.fbx
-  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand.fbx
-  - Assets/_Model/restaurant_entrance/menu.fbx
-  - Assets/DynamicBone/Demo/c1.fbx
-  - Assets/_Model/New_restaurant_area/restaurant_pictures.fbx
-  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand_Small_Petals.fbx
-  - Assets/_Model/staffroom/corridor_pipes.fbx
-  - Assets/_Model/restaurant_entrance/Outside_Teahouse/Outside_Teahouse.fbx
-  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal3.fbx
-  - Assets/_Model/New_restaurant_area/clock.fbx
-  - Assets/LeanTween/Examples/Models/LeanTweenHD-Icon.fbx
-  - Assets/_Model/New_restaurant_area/restaurant_seats.fbx
-  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal10.fbx
-  - Assets/_Model/New_restaurant_area/kitchen.fbx
-  - Packages/com.unity.render-pipelines.core/Editor/Resources/DebugProbe.fbx
-  - Assets/_Model/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal8.fbx
-  - Assets/_Model/restaurant_entrance/Road_Sign_New.fbx
-  - Assets/LeanTween/Examples/Models/LeanTween-Icon.fbx
-  - Assets/_Model/restaurant_entrance/windows.fbx
-  - Assets/LeanTween/Examples/Models/Grid.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/structure_outline.fbx
-  - Assets/_Model/teahouse/restaurant_entrance/Outside_Teahouse/Outside_Teahouse_Logo.fbx
-  - Assets/_Model/teahouse/New_restaurant_area/Interior_Area.fbx
-  - Assets/_Model/teahouse/restaurant_entrance/Outside_Teahouse/Outside_Teahouse.fbx
-  - Assets/_Model/teahouse/New_restaurant_area/goods.fbx
-  - Assets/_Model/teahouse/restaurant_entrance/windows.fbx
-  - Assets/_Model/teahouse/New_restaurant_area/counter.fbx
-  - Assets/_Model/teahouse/New_restaurant_area/flower.fbx
-  - Assets/_Model/teahouse/New_restaurant_area/bar_area_kitchen.fbx
-  - Assets/_Model/teahouse/restaurant_entrance/menu.fbx
-  - Assets/_Model/teahouse/New_restaurant_area/clock.fbx
-  - Assets/_Model/teahouse/New_restaurant_area/restaurant_seats.fbx
-  - Assets/_Model/teahouse/New_restaurant_area/restaurant_pictures.fbx
-  - Assets/_Model/teahouse/New_restaurant_area/bar_area.fbx
-  - Assets/_Model/Title/title_shot_patient_table.fbx
-  - Assets/_Model/teahouse/restaurant_entrance/Road_Sign_New.fbx
-  - Assets/_Model/teahouse/restaurant_entrance/Outside_Teahouse/wood_plate.fbx
-  - Assets/_Model/teahouse/staffroom/sakura_tree.fbx
-  - Assets/_Model/teahouse/staffroom/staff_door.fbx
-  - Assets/_Materials/teahouse/staffroom/corridor/exit_door.fbx
-  - Assets/_Model/teahouse/staffroom/exit_door.fbx
-  - Assets/_Model/teahouse/staffroom/toilet_door.fbx
-  - Assets/_Model/teahouse/staffroom/decoration.fbx
-  - Assets/_Model/teahouse/staffroom/paintings/rabbi_portrait.fbx
-  - Assets/_Model/teahouse/staffroom/paintings/luna_portrait.fbx
-  - Assets/_Model/teahouse/staffroom/paintings/rumii_portrait.fbx
-  - Assets/_Model/teahouse/staffroom/paintings/mya_portrait.fbx
-  - Assets/_Model/teahouse/staffroom/corridor/corridor.fbx
-  - Assets/_Model/teahouse/staffroom/corridor/corridor_structure.fbx
-  - Assets/_Model/teahouse/staffroom/corridor/corridor_static_walls.fbx
-  - Assets/_Model/teahouse/staffroom/ceiling_bulb.fbx
-  - Assets/_Model/teahouse/staffroom/corridor/toilet_door.fbx
-  - Assets/_Model/teahouse/staffroom/corridor/paintings/rabbi_portrait.fbx
-  - Assets/_Model/teahouse/staffroom/corridor/paintings/mya_portrait.fbx
-  - Assets/_Model/teahouse/staffroom/corridor/paintings/rumii_portrait.fbx
-  - Assets/_Model/teahouse/staffroom/corridor/paintings/luna_portrait.fbx
-  - Assets/_Model/teahouse/staffroom/inside/aromatherapy.fbx
-  - Assets/_Model/teahouse/staffroom/inside/Rumii_Magic_Wand/rumii_magic_wand_others.fbx
-  - Assets/Hovl Studio/Magic effects pack/Models/Cylinder.fbx
-  - Assets/Hovl Studio/Magic effects pack/Models/Slash.fbx
-  - Assets/_Model/teahouse/staffroom/inside/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal1.fbx
-  - Assets/_Model/teahouse/staffroom/inside/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal2.fbx
-  - Assets/_Model/teahouse/staffroom/inside/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal3.fbx
-  - Assets/_Model/teahouse/staffroom/inside/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal4.fbx
-  - Assets/_Model/teahouse/staffroom/inside/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal5.fbx
-  - Assets/_Model/teahouse/staffroom/inside/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal6.fbx
-  - Assets/_Model/teahouse/staffroom/inside/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal7.fbx
-  - Assets/_Model/teahouse/staffroom/inside/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal8.fbx
-  - Assets/_Model/teahouse/staffroom/inside/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal9.fbx
-  - Assets/_Model/teahouse/staffroom/inside/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal10.fbx
-  - Assets/_Model/teahouse/staffroom/inside/Rumii_Magic_Wand/Rumii_Magic_Wand_Petal_Still.fbx
-  - Assets/_Model/teahouse/staffroom/inside/bedroom.fbx
-  - Assets/_Model/teahouse/staffroom/inside/locker.fbx
-  - Assets/_Model/teahouse/staffroom/inside/aquarium_pond_turtle.fbx
-  - Assets/_Model/teahouse/staffroom/inside/kameneko_leaflet.fbx
-  - Assets/_Model/teahouse/staffroom/inside/table.fbx
-  - Assets/_Model/teahouse/staffroom/inside/tatami.fbx
-  - Assets/_Model/teahouse/staffroom/inside/rubbish_bin.fbx
-  - Assets/_Model/teahouse/staffroom/inside/drawers.fbx
-  - Assets/_Model/teahouse/staffroom/inside/puzzle_box.fbx
-  - Assets/_Model/teahouse/staffroom/inside/staffroom_static_walls.fbx
-  - Assets/_Model/teahouse/staffroom/inside/locker_curtain.fbx
-  - Assets/_Model/teahouse/staffroom/inside/bed_curtain.fbx
-  - Assets/_Model/teahouse/staffroom/inside/light_switches.fbx
-  - Assets/_Model/teahouse/staffroom/outside/sakura_tree.fbx
-  - Assets/_Model/teahouse/staffroom/inside/test_bark.fbx
-  - Assets/_Model/teahouse/staffroom/inside/test_bark2.fbx
-  - Assets/_Model/teahouse/staffroom/inside/Rumii_Magic_Wand/Rumii_Magic_Wand.fbx
-  - Assets/_Model/teahouse/staffroom/corridor/staff_door.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/structure_outline/walls.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/structure_outline/entrance_door.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/structure_outline/hallway_ceiling_light_hole.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/structure_outline/security_door.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/structure_outline/animated_ceiling_block.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/structure_outline/animate_ceiling_block.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/storeroom/beacon_light.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/storeroom/clutter.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/elevator.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/storeroom/other.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/storeroom/elevator.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/storeroom/stack_boxes.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/machine_gun.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/machine_gun_part_II.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/machine_gun_part_I.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/machine_gun_part_III.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/panda_head_scan.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/machine_gun_part_II_2.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/machine_gun_part_II_1.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/machine_gun_part_III_lower.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/machine_gun_part_III_upper.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/machine_poo.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/structure_outline/BG_stairs.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/road_to_gummy_forest.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/structure_outline/entrance_posters.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/waiting_area.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/entrance_posters.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/structure_outline/floor_signage.fbx
+  - Assets/_Model/Hosipital/Cleaner_Room/poster.fbx
+  - Assets/_Model/Hosipital/Cleaner_Room/single_beds.fbx
+  - Assets/_Model/Hosipital/Cleaner_Room/refuse_room.fbx
+  - Assets/_Model/Hosipital/Cleaner_Room/refuse_door.fbx
+  - Assets/_Model/Hosipital/Cleaner_Room/bloody_drawer.fbx
+  - Assets/_Model/Hosipital/Cleaner_Room/ceiling_lights.fbx
+  - Assets/_Model/Hosipital/Cleaner_Room/simple_drawers.fbx
   - Assets/_Model/Hosipital/Hospital_Entrance/big_screen.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/reception/table_things.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/reception/reception_door.fbx
   - Assets/_Model/Hosipital/Hospital_Entrance/reception/front_things.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/reception/bookshelf_carbinet.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/reception/side_things.fbx
+  - Assets/_Model/Hosipital/Hospital_Entrance/storeroom/other.fbx
+  - Assets/_Model/Hosipital/Hospital_Entrance/storeroom/stack_boxes.fbx
+  - Assets/_Model/Hosipital/Hospital_Entrance/storeroom/beacon_light.fbx
   - Assets/_Model/Hosipital/Hospital_Entrance/reception/sakura_pot.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/machine_gun_animation/machine_gun_part_I.fbx
-  - Assets/_Model/teahouse/staffroom/corridor/decoration.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/machine_gun_animation/machine_gun_part_II_2.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/machine_gun_animation/machine_poo.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/machine_gun_animation/animate_ceiling_block.fbx
-  - Assets/_Model/Hosipital/Hospital_Entrance/machine_gun_animation/machine_gun_part_II_1.fbx
-  - Assets/_Model/teahouse/staffroom/corridor/exit_door.fbx
-  - Assets/_Model/Hosipital/Poo_Room/metal_door.fbx
-  - Assets/_Model/Hosipital/Poo_Room/ceiling_speaker_lights.fbx
-  - Assets/_Model/Hosipital/Poo_Room/animated_speaker.fbx
-  - Assets/_Model/Hosipital/Poo_Room/controller.fbx
-  - Assets/_Model/Hosipital/Poo_Room/structure.fbx
-  - Assets/_Model/Hosipital/Poo_Room/monitors.fbx
-  - Assets/_Model/Hosipital/Poo_Room/outside_corridor.fbx
-  - Assets/_Model/Hosipital/Cleaner_Room/basic_structure.fbx
-  uvOverlapAssetList: 000000000000000000000000010100000101000001010000010100000101000000000000010100000101000001010000010100000000000001010000010100000101000001010000010100000101000000000000010100000101000001010000010100000101000001010000010100000000000001010000010100000101000000000000000000000000000000000000010100000000000001010000000000000000000000000000010100000101000001010000010100000101000001010000010100000000000001010000000000000101000000000000010100000101000000000000000000000000000001010000000000000101000000000000010100000101000000000000010100000101000000000000010100000101000000000000010100000101000001010000010100000101000000000000010100000101000001010000000000000000000001010000010100000000000001010000000000000101000000000000010100000101000001010000010100000101000000000000010100000101000001010000010100000101000001010000010100000101000000000000010100000000000001010000000000000101000001010000000000000101000001010000010100000101000001010000010100000000000000000000010100000101000001010000000000000000000000000000000000000101000001010000000000000101000000000000010100000101000001010000010100000101000001010000000000000000000001010000010100000101000001010000010100000101000001010000000000000101000001010000010100000101000000000000000000000101000000000000010100000101000001010000000000000101000001010000010100000101000000000000010100000000000001010000000000000000000000000000000000000101000001010000000000000101000001010000ffffffff00000000000000000000000000000000000000000101000000000000010100000101000001010000000000000000000001010000ffffffff0101000001010000010100000101000000000000000000000000000000000000ffffffff01010000000000000101000000000000000000000000000000000000000000000000000001010000010100000000000000000000010100000101000000000000010100000000000001010000010100000000000000000000000000000101000000000000010100000000000000000000000000000000000001010000000000000101000000000000010100000101000001010000010100000101000001010000010100000101000000000000010100000101000001010000010100000000000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000101000001010000010100000101000001010000010100000101000001010000010100000101000000000000000000000101000001010000000000000000000001010000010100000101000001010000010100000101000000000000000000000101000001010000010100000101000001010000010100000101000001010000010100000101000000000000000000000101000000000000000000000000000001010000010100000101000001010000010100000000000001010000010100000101000001010000010100000101000001010000010100000101000000000000000000000000000001010000010100000101000001010000010100000101000001010000010100000101000001010000
+  - Assets/_Model/Hosipital/Hospital_Entrance/structure_outline/walls.fbx
+  - Assets/_Model/Hosipital/Hospital_Entrance/structure_outline/BG_stairs.fbx
+  - Assets/_Model/Hosipital/Hospital_Entrance/entrance_posters.fbx
+  - Assets/_Model/Hosipital/Hospital_Entrance/reception/reception_door.fbx
+  - Assets/_Model/Hosipital/Hospital_Entrance/structure_outline/hallway_ceiling_light_hole.fbx
+  - Assets/_Model/Hosipital/Hospital_Entrance/structure_outline/entrance_door.fbx
+  - Assets/_Model/Hosipital/Hospital_Entrance/waiting_area.fbx
+  - Assets/_Model/Hosipital/Hospital_Entrance/elevator.fbx
+  - Assets/_Model/Hosipital/Hospital_Entrance/structure_outline/security_door.fbx
+  - Assets/_Model/Hosipital/Hospital_Entrance/road_to_gummy_forest.fbx
+  - Assets/_Model/Hosipital/Hospital_Entrance/structure_outline/floor_signage.fbx
+  - Assets/Bakery/examples/content/logolight.FBX
+  - Assets/Bakery/examples/content/floor_lamp.FBX
+  - Assets/Bakery/examples/content/sponza/bush.FBX
+  uvOverlapAssetList: 010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000000000000000000000000000000000000
   xatlasWarningShown: 0
   foundCompatibleSetup: 1
   gpuName: NVIDIA GeForce RTX 3070
@@ -1415,5 +370,5 @@ MonoBehaviour:
   renderSettingsRTPVSceneView: 0
   renderSettingsRTPVWidth: 640
   renderSettingsRTPVHeight: 360
-  modifiedMeshPaddingArray: 23000000230000002300000023000000230000002300000023000000230000002300000023000000
-  modifiedMeshUnwrapperArray: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  modifiedMeshPaddingArray: 0001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000
+  modifiedMeshUnwrapperArray: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000

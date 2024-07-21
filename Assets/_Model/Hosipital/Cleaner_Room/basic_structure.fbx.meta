@@ -3,7 +3,22 @@ guid: c6c8f74737e9ad749b33a8afaaaf8925
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bed_handle_metal
+    second: {fileID: 2100000, guid: 8fce3ff6ae11b0241a897da9322a8f2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: block_stand
+    second: {fileID: 2100000, guid: abeb3a33d203c164c98ad680518e88f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light_bulb_glass
+    second: {fileID: 2100000, guid: 8db6a6b5708a72c4b927be1e953f4040, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -30,7 +45,8 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
+    extraUserProperties:
+    - '#BAKERY{"meshName":["Cube.056","Cube.011","Cube.001","Cube.123","ceiling_glass.001","ceiling_glass.008","ceilling_air_duct.001","ceilling_air_duct.002","Cube.006","Cube.042","Cylinder","Cylinder.002","Cylinder.003","Cylinder.004","Cylinder.005","Cylinder.007","Cylinder.163","Cylinder.164","Cylinder.165","Cylinder.166","panda.005","panda.007","panda.029","panda.030","panda.031","panda.032","Cube.005","Cube.130","ceiling","ceiling_glass.015","ceilling_air_duct.003","Cylinder.149","Cylinder.150","Cylinder.155","Cylinder.158","ground","Cube.046","Cube.037","Cube.128","Cube.038","Cube","Cube.007","Cube.004","Cube.040"],"padding":[16,31,28,11,256,256,53,53,24,86,170,202,256,256,256,256,256,256,256,256,256,256,256,256,256,256,7,27,16,124,53,226,256,37,9,17,25,26,7,35,8,25,10,256],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:
@@ -47,7 +63,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1

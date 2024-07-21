@@ -5,7 +5,7 @@ using DG;
 using DG.Tweening;
 using UnityEngine.UIElements;
 
-public class IPuzzleWheel : InteractableObject
+public class S_PuzzleWheel : InteractableObject
 {
     private bool _isPlayable = true;
     private bool _isPlayingAnimation = false;

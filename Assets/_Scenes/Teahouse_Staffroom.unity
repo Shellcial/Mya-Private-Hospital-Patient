@@ -6530,18 +6530,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 239412811}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &239412815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 239412814}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7738fbfa0ed9564eaebc330d52100f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &239412816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7247,6 +7235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameData:
+    isPooRoomVideoForcelyStopped: 0
     isGetReceptionKey: 0
 --- !u!1 &291994112
 GameObject:
@@ -9904,7 +9893,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 412583746}
-  - component: {fileID: 412583747}
   - component: {fileID: 412583748}
   - component: {fileID: 412583749}
   m_Layer: 10
@@ -9931,18 +9919,6 @@ Transform:
   m_Father: {fileID: 543450652736040453}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &412583747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 412583745}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7738fbfa0ed9564eaebc330d52100f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &412583748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20481,10 +20457,10 @@ MonoBehaviour:
   isPressable: 1
   _changeLight: {fileID: 665932928}
   _puzzleWheels:
-  - {fileID: 1932425801}
-  - {fileID: 1932425802}
-  - {fileID: 1932425803}
-  - {fileID: 1932425804}
+  - {fileID: 1932425798}
+  - {fileID: 1932425811}
+  - {fileID: 1932425797}
+  - {fileID: 1932425808}
 --- !u!64 &1139208634
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -45834,49 +45810,31 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1932425789}
+  m_GameObject: {fileID: 1932425790}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7738fbfa0ed9564eaebc330d52100f0, type: 3}
+  m_Script: {fileID: 11500000, guid: 92bb9c2146d637147b63c42ab97da341, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  interactableStatus: {fileID: 11400000, guid: 603961c73e9097e4ca724deefaa9130b, type: 2}
+  _puzzleButton: {fileID: 1139208629}
+  chosenIndex: 0
 --- !u!114 &1932425798
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1932425790}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7738fbfa0ed9564eaebc330d52100f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1932425799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1932425791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7738fbfa0ed9564eaebc330d52100f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1932425800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1932425792}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7738fbfa0ed9564eaebc330d52100f0, type: 3}
+  m_Script: {fileID: 11500000, guid: 92bb9c2146d637147b63c42ab97da341, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1932425801
+  interactableStatus: {fileID: 11400000, guid: 603961c73e9097e4ca724deefaa9130b, type: 2}
+  _puzzleButton: {fileID: 1139208629}
+  chosenIndex: 0
+--- !u!114 &1932425808
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -45888,19 +45846,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92bb9c2146d637147b63c42ab97da341, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1932425802
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1932425790}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92bb9c2146d637147b63c42ab97da341, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1932425803
+  interactableStatus: {fileID: 11400000, guid: 603961c73e9097e4ca724deefaa9130b, type: 2}
+  _puzzleButton: {fileID: 1139208629}
+  chosenIndex: 0
+--- !u!114 &1932425811
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -45912,18 +45861,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92bb9c2146d637147b63c42ab97da341, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1932425804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1932425792}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92bb9c2146d637147b63c42ab97da341, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  interactableStatus: {fileID: 11400000, guid: 603961c73e9097e4ca724deefaa9130b, type: 2}
+  _puzzleButton: {fileID: 1139208629}
+  chosenIndex: 0
 --- !u!1001 &1954162808
 PrefabInstance:
   m_ObjectHideFlags: 0

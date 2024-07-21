@@ -85,8 +85,7 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
     {
         await UniTask.Delay(3000);
         GeneralUIManager.Instance.FadeOutBlack(6f).Forget();
-        GameManager.Instance.ResumeGame();
-        
+    
     }
 
     public void InitializeScene(){
@@ -139,7 +138,8 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
     IEnumerator PlayVideo(){
         yield return new WaitForSeconds(21);
         player.GetComponent<CharacterController>().enabled = true;
-        yield return new WaitForSeconds(3f);
+        GameManager.Instance.ResumeGame();
+        yield return new WaitForSeconds(5f);
         _videoPlayer.Play();
         _addedAnimator.enabled = false;
     }
