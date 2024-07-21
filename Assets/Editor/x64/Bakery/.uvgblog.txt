@@ -36105,3 +36105,679 @@ Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Ag
 Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA4_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Cleaner_Room_Again/Cleaner_Room_Again_LMA4_final.hdr" 1024
 Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 512x512: 3
+Done
+Rendering UV GBuffer for Cleaner_Room_Again_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Cleaner_Room_Again_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Cleaner_Room_Again_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Cleaner_Room_Again_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Cleaner_Room_Again_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Cleaner_Room_Again_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Cleaner_Room_Again_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Cleaner_Room_Again_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Cleaner_Room_Again_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Cleaner_Room_Again_LMA4.lz4" 2 0 4 0
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-60689044_0" 4 0 0 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_1_1" 4 0 0 batchpointlight_0_1_1.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_2_16" 4 0 0 batchpointlight_0_2_16.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_17_20" 4 0 0 batchpointlight_0_17_20.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_21_21" 4 0 0 batchpointlight_0_21_21.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_22_27" 4 0 0 batchpointlight_0_22_27.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-60689044_2" 4 0 2 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_0_0" 4 0 2 batchpointlight_2_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_1_1" 4 0 2 batchpointlight_2_1_1.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_2_16" 4 0 2 batchpointlight_2_2_16.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_17_20" 4 0 2 batchpointlight_2_17_20.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_21_21" 4 0 2 batchpointlight_2_21_21.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_22_27" 4 0 2 batchpointlight_2_22_27.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-60689044_1" 4 0 1 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_1_1" 4 0 1 batchpointlight_1_1_1.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_2_16" 4 0 1 batchpointlight_1_2_16.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_17_20" 4 0 1 batchpointlight_1_17_20.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_21_21" 4 0 1 batchpointlight_1_21_21.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_22_27" 4 0 1 batchpointlight_1_22_27.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-60689044_3" 4 0 3 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_0_0" 4 0 3 batchpointlight_3_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_1_1" 4 0 3 batchpointlight_3_1_1.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_2_16" 4 0 3 batchpointlight_3_2_16.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_17_20" 4 0 3 batchpointlight_3_17_20.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_21_21" 4 0 3 batchpointlight_3_21_21.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_22_27" 4 0 3 batchpointlight_3_22_27.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_0_9" 4 0 4 batchpointlight_4_0_9.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_10_16" 4 0 4 batchpointlight_4_10_16.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_17_21" 4 0 4 batchpointlight_4_17_21.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_22_27" 4 0 4 batchpointlight_4_22_27.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LM0_diffuse" 4 16 0 "gi_Cleaner_Room_Again_LM00.bin" "Cleaner_Room_Again_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA2_diffuse" 4 16 2 "gi_Cleaner_Room_Again_LMA20.bin" "Cleaner_Room_Again_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA1_diffuse" 4 16 1 "gi_Cleaner_Room_Again_LMA10.bin" "Cleaner_Room_Again_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA3_diffuse" 4 16 3 "gi_Cleaner_Room_Again_LMA30.bin" "Cleaner_Room_Again_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA4_diffuse" 4 16 4 "gi_Cleaner_Room_Again_LMA40.bin" "Cleaner_Room_Again_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LM0_diffuse" 4 16 0 "gi_Cleaner_Room_Again_LM01.bin" "Cleaner_Room_Again_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA2_diffuse" 4 16 2 "gi_Cleaner_Room_Again_LMA21.bin" "Cleaner_Room_Again_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA1_diffuse" 4 16 1 "gi_Cleaner_Room_Again_LMA11.bin" "Cleaner_Room_Again_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA3_diffuse" 4 16 3 "gi_Cleaner_Room_Again_LMA31.bin" "Cleaner_Room_Again_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA4_diffuse" 4 16 4 "gi_Cleaner_Room_Again_LMA41.bin" "Cleaner_Room_Again_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LM0_diffuse" 4 16 0 "gi_Cleaner_Room_Again_LM02.bin" "Cleaner_Room_Again_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA2_diffuse" 4 16 2 "gi_Cleaner_Room_Again_LMA22.bin" "Cleaner_Room_Again_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA1_diffuse" 4 16 1 "gi_Cleaner_Room_Again_LMA12.bin" "Cleaner_Room_Again_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA3_diffuse" 4 16 3 "gi_Cleaner_Room_Again_LMA32.bin" "Cleaner_Room_Again_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA4_diffuse" 4 16 4 "gi_Cleaner_Room_Again_LMA42.bin" "Cleaner_Room_Again_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LM0_diffuse" 4 16 0 "gi_Cleaner_Room_Again_LM03.bin" "Cleaner_Room_Again_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA2_diffuse" 4 16 2 "gi_Cleaner_Room_Again_LMA23.bin" "Cleaner_Room_Again_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA1_diffuse" 4 16 1 "gi_Cleaner_Room_Again_LMA13.bin" "Cleaner_Room_Again_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA3_diffuse" 4 16 3 "gi_Cleaner_Room_Again_LMA33.bin" "Cleaner_Room_Again_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA4_diffuse" 4 16 4 "gi_Cleaner_Room_Again_LMA43.bin" "Cleaner_Room_Again_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LM0_final" 20 16 0 "gi_Cleaner_Room_Again_LM04.bin" "Cleaner_Room_Again_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA2_final" 20 16 2 "gi_Cleaner_Room_Again_LMA24.bin" "Cleaner_Room_Again_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA1_final" 20 16 1 "gi_Cleaner_Room_Again_LMA14.bin" "Cleaner_Room_Again_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA3_final" 20 16 3 "gi_Cleaner_Room_Again_LMA34.bin" "Cleaner_Room_Again_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA4_final" 20 16 4 "gi_Cleaner_Room_Again_LMA44.bin" "Cleaner_Room_Again_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA3_final_HDR.lz4" 4 0 3 comp_indirect3.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA4_final_HDR.lz4" 4 0 4 comp_indirect4.bin
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LM0_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "0" "Cleaner_Room_Again_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA2_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA2_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "2" "Cleaner_Room_Again_LMA2_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA1_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "1" "Cleaner_Room_Again_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA3_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA3_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "3" "Cleaner_Room_Again_LMA3_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA4_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA4_final_HDR.lz4" 128 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "4" "Cleaner_Room_Again_LMA4_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LM0_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Cleaner_Room_Again/Cleaner_Room_Again_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA2_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Cleaner_Room_Again/Cleaner_Room_Again_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA1_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Cleaner_Room_Again/Cleaner_Room_Again_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA3_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Cleaner_Room_Again/Cleaner_Room_Again_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA4_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Cleaner_Room_Again/Cleaner_Room_Again_LMA4_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 512x512: 3
+Done
+Rendering UV GBuffer for Cleaner_Room_Again_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Cleaner_Room_Again_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Cleaner_Room_Again_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Cleaner_Room_Again_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Cleaner_Room_Again_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Cleaner_Room_Again_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Cleaner_Room_Again_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Cleaner_Room_Again_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Cleaner_Room_Again_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Cleaner_Room_Again_LMA4.lz4" 2 0 4 0
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-60689044_0" 4 0 0 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_0_0" 4 0 0 batchpointlight_0_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_1_15" 4 0 0 batchpointlight_0_1_15.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_16_19" 4 0 0 batchpointlight_0_16_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_20_20" 4 0 0 batchpointlight_0_20_20.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_21_21" 4 0 0 batchpointlight_0_21_21.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_22_27" 4 0 0 batchpointlight_0_22_27.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-60689044_2" 4 0 2 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_0_0" 4 0 2 batchpointlight_2_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_1_15" 4 0 2 batchpointlight_2_1_15.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_16_19" 4 0 2 batchpointlight_2_16_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_20_20" 4 0 2 batchpointlight_2_20_20.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_21_21" 4 0 2 batchpointlight_2_21_21.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_22_27" 4 0 2 batchpointlight_2_22_27.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-60689044_1" 4 0 1 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_0_0" 4 0 1 batchpointlight_1_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_1_15" 4 0 1 batchpointlight_1_1_15.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_16_19" 4 0 1 batchpointlight_1_16_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_20_20" 4 0 1 batchpointlight_1_20_20.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_21_21" 4 0 1 batchpointlight_1_21_21.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_22_27" 4 0 1 batchpointlight_1_22_27.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-60689044_3" 4 0 3 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_0_0" 4 0 3 batchpointlight_3_0_0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_1_15" 4 0 3 batchpointlight_3_1_15.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_16_19" 4 0 3 batchpointlight_3_16_19.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_20_20" 4 0 3 batchpointlight_3_20_20.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_21_21" 4 0 3 batchpointlight_3_21_21.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_22_27" 4 0 3 batchpointlight_3_22_27.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_0_8" 4 0 4 batchpointlight_4_0_8.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_9_15" 4 0 4 batchpointlight_4_9_15.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_16_21" 4 0 4 batchpointlight_4_16_21.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_22_27" 4 0 4 batchpointlight_4_22_27.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LM0_diffuse" 4 16 0 "gi_Cleaner_Room_Again_LM00.bin" "Cleaner_Room_Again_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA2_diffuse" 4 16 2 "gi_Cleaner_Room_Again_LMA20.bin" "Cleaner_Room_Again_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA1_diffuse" 4 16 1 "gi_Cleaner_Room_Again_LMA10.bin" "Cleaner_Room_Again_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA3_diffuse" 4 16 3 "gi_Cleaner_Room_Again_LMA30.bin" "Cleaner_Room_Again_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA4_diffuse" 4 16 4 "gi_Cleaner_Room_Again_LMA40.bin" "Cleaner_Room_Again_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LM0_diffuse" 4 16 0 "gi_Cleaner_Room_Again_LM01.bin" "Cleaner_Room_Again_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA2_diffuse" 4 16 2 "gi_Cleaner_Room_Again_LMA21.bin" "Cleaner_Room_Again_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA1_diffuse" 4 16 1 "gi_Cleaner_Room_Again_LMA11.bin" "Cleaner_Room_Again_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA3_diffuse" 4 16 3 "gi_Cleaner_Room_Again_LMA31.bin" "Cleaner_Room_Again_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA4_diffuse" 4 16 4 "gi_Cleaner_Room_Again_LMA41.bin" "Cleaner_Room_Again_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LM0_diffuse" 4 16 0 "gi_Cleaner_Room_Again_LM02.bin" "Cleaner_Room_Again_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA2_diffuse" 4 16 2 "gi_Cleaner_Room_Again_LMA22.bin" "Cleaner_Room_Again_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA1_diffuse" 4 16 1 "gi_Cleaner_Room_Again_LMA12.bin" "Cleaner_Room_Again_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA3_diffuse" 4 16 3 "gi_Cleaner_Room_Again_LMA32.bin" "Cleaner_Room_Again_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA4_diffuse" 4 16 4 "gi_Cleaner_Room_Again_LMA42.bin" "Cleaner_Room_Again_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LM0_diffuse" 4 16 0 "gi_Cleaner_Room_Again_LM03.bin" "Cleaner_Room_Again_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA2_diffuse" 4 16 2 "gi_Cleaner_Room_Again_LMA23.bin" "Cleaner_Room_Again_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA1_diffuse" 4 16 1 "gi_Cleaner_Room_Again_LMA13.bin" "Cleaner_Room_Again_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA3_diffuse" 4 16 3 "gi_Cleaner_Room_Again_LMA33.bin" "Cleaner_Room_Again_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA4_diffuse" 4 16 4 "gi_Cleaner_Room_Again_LMA43.bin" "Cleaner_Room_Again_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LM0_final" 20 16 0 "gi_Cleaner_Room_Again_LM04.bin" "Cleaner_Room_Again_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA2_final" 20 16 2 "gi_Cleaner_Room_Again_LMA24.bin" "Cleaner_Room_Again_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA1_final" 20 16 1 "gi_Cleaner_Room_Again_LMA14.bin" "Cleaner_Room_Again_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA3_final" 20 16 3 "gi_Cleaner_Room_Again_LMA34.bin" "Cleaner_Room_Again_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA4_final" 20 16 4 "gi_Cleaner_Room_Again_LMA44.bin" "Cleaner_Room_Again_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA3_final_HDR.lz4" 4 0 3 comp_indirect3.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA4_final_HDR.lz4" 4 0 4 comp_indirect4.bin
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LM0_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "0" "Cleaner_Room_Again_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA2_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA2_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "2" "Cleaner_Room_Again_LMA2_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA1_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "1" "Cleaner_Room_Again_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA3_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA3_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "3" "Cleaner_Room_Again_LMA3_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA4_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA4_final_HDR.lz4" 128 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "4" "Cleaner_Room_Again_LMA4_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LM0_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Cleaner_Room_Again/Cleaner_Room_Again_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA2_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Cleaner_Room_Again/Cleaner_Room_Again_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA1_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Cleaner_Room_Again/Cleaner_Room_Again_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA3_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Cleaner_Room_Again/Cleaner_Room_Again_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA4_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Cleaner_Room_Again/Cleaner_Room_Again_LMA4_final.hdr" 1024
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 512x512: 3
+Done
+Rendering UV GBuffer for Cleaner_Room_Again_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Cleaner_Room_Again_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Cleaner_Room_Again_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Cleaner_Room_Again_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Cleaner_Room_Again_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Cleaner_Room_Again_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Cleaner_Room_Again_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Cleaner_Room_Again_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Cleaner_Room_Again_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Cleaner_Room_Again_LMA4.lz4" 2 0 4 0
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-60689044_0" 4 0 0 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_0_14" 4 0 0 batchpointlight_0_0_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_15_18" 4 0 0 batchpointlight_0_15_18.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_19_20" 4 0 0 batchpointlight_0_19_20.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_21_21" 4 0 0 batchpointlight_0_21_21.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_22_22" 4 0 0 batchpointlight_0_22_22.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_23_28" 4 0 0 batchpointlight_0_23_28.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-60689044_2" 4 0 2 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_0_14" 4 0 2 batchpointlight_2_0_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_15_18" 4 0 2 batchpointlight_2_15_18.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_19_20" 4 0 2 batchpointlight_2_19_20.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_21_21" 4 0 2 batchpointlight_2_21_21.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_22_22" 4 0 2 batchpointlight_2_22_22.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_23_28" 4 0 2 batchpointlight_2_23_28.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-60689044_1" 4 0 1 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_0_14" 4 0 1 batchpointlight_1_0_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_15_18" 4 0 1 batchpointlight_1_15_18.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_19_20" 4 0 1 batchpointlight_1_19_20.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_21_21" 4 0 1 batchpointlight_1_21_21.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_22_22" 4 0 1 batchpointlight_1_22_22.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_23_28" 4 0 1 batchpointlight_1_23_28.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-60689044_3" 4 0 3 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_0_14" 4 0 3 batchpointlight_3_0_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_15_18" 4 0 3 batchpointlight_3_15_18.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_19_20" 4 0 3 batchpointlight_3_19_20.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_21_21" 4 0 3 batchpointlight_3_21_21.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_22_22" 4 0 3 batchpointlight_3_22_22.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_23_28" 4 0 3 batchpointlight_3_23_28.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_0_14" 4 0 4 batchpointlight_4_0_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_15_22" 4 0 4 batchpointlight_4_15_22.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_23_28" 4 0 4 batchpointlight_4_23_28.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LM0_diffuse" 4 16 0 "gi_Cleaner_Room_Again_LM00.bin" "Cleaner_Room_Again_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA2_diffuse" 4 16 2 "gi_Cleaner_Room_Again_LMA20.bin" "Cleaner_Room_Again_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA1_diffuse" 4 16 1 "gi_Cleaner_Room_Again_LMA10.bin" "Cleaner_Room_Again_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA3_diffuse" 4 16 3 "gi_Cleaner_Room_Again_LMA30.bin" "Cleaner_Room_Again_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA4_diffuse" 4 16 4 "gi_Cleaner_Room_Again_LMA40.bin" "Cleaner_Room_Again_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LM0_diffuse" 4 16 0 "gi_Cleaner_Room_Again_LM01.bin" "Cleaner_Room_Again_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA2_diffuse" 4 16 2 "gi_Cleaner_Room_Again_LMA21.bin" "Cleaner_Room_Again_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA1_diffuse" 4 16 1 "gi_Cleaner_Room_Again_LMA11.bin" "Cleaner_Room_Again_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA3_diffuse" 4 16 3 "gi_Cleaner_Room_Again_LMA31.bin" "Cleaner_Room_Again_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA4_diffuse" 4 16 4 "gi_Cleaner_Room_Again_LMA41.bin" "Cleaner_Room_Again_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LM0_diffuse" 4 16 0 "gi_Cleaner_Room_Again_LM02.bin" "Cleaner_Room_Again_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA2_diffuse" 4 16 2 "gi_Cleaner_Room_Again_LMA22.bin" "Cleaner_Room_Again_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA1_diffuse" 4 16 1 "gi_Cleaner_Room_Again_LMA12.bin" "Cleaner_Room_Again_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA3_diffuse" 4 16 3 "gi_Cleaner_Room_Again_LMA32.bin" "Cleaner_Room_Again_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA4_diffuse" 4 16 4 "gi_Cleaner_Room_Again_LMA42.bin" "Cleaner_Room_Again_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LM0_diffuse" 4 16 0 "gi_Cleaner_Room_Again_LM03.bin" "Cleaner_Room_Again_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA2_diffuse" 4 16 2 "gi_Cleaner_Room_Again_LMA23.bin" "Cleaner_Room_Again_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA1_diffuse" 4 16 1 "gi_Cleaner_Room_Again_LMA13.bin" "Cleaner_Room_Again_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA3_diffuse" 4 16 3 "gi_Cleaner_Room_Again_LMA33.bin" "Cleaner_Room_Again_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA4_diffuse" 4 16 4 "gi_Cleaner_Room_Again_LMA43.bin" "Cleaner_Room_Again_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LM0_final" 20 16 0 "gi_Cleaner_Room_Again_LM04.bin" "Cleaner_Room_Again_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA2_final" 20 16 2 "gi_Cleaner_Room_Again_LMA24.bin" "Cleaner_Room_Again_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA1_final" 20 16 1 "gi_Cleaner_Room_Again_LMA14.bin" "Cleaner_Room_Again_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA3_final" 20 16 3 "gi_Cleaner_Room_Again_LMA34.bin" "Cleaner_Room_Again_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA4_final" 20 16 4 "gi_Cleaner_Room_Again_LMA44.bin" "Cleaner_Room_Again_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA3_final_HDR.lz4" 4 0 3 comp_indirect3.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_Again_LMA4_final_HDR.lz4" 4 0 4 comp_indirect4.bin
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LM0_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "0" "Cleaner_Room_Again_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA2_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA2_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "2" "Cleaner_Room_Again_LMA2_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA1_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "1" "Cleaner_Room_Again_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA3_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA3_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "3" "Cleaner_Room_Again_LMA3_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA4_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA4_final_HDR.lz4" 128 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "4" "Cleaner_Room_Again_LMA4_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LM0_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Cleaner_Room_Again/Cleaner_Room_Again_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA2_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Cleaner_Room_Again/Cleaner_Room_Again_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA1_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Cleaner_Room_Again/Cleaner_Room_Again_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA3_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Cleaner_Room_Again/Cleaner_Room_Again_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_Again_LMA4_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Cleaner_Room_Again/Cleaner_Room_Again_LMA4_final.hdr" 1024
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 512x512: 3
+Done
+Rendering UV GBuffer for Cleaner_Room_LM0 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Cleaner_Room_LMA1 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Cleaner_Room_LMA2 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Cleaner_Room_LMA3 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Cleaner_Room_LMA4 51
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Cleaner_Room_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Cleaner_Room_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Cleaner_Room_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Cleaner_Room_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\turtl\AppData\Local\Temp\frender" "uvpos_Cleaner_Room_LMA4.lz4" 2 0 4 0
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-60689044_0" 4 0 0 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_0_14" 4 0 0 batchpointlight_0_0_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_15_18" 4 0 0 batchpointlight_0_15_18.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_19_20" 4 0 0 batchpointlight_0_19_20.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_21_21" 4 0 0 batchpointlight_0_21_21.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_22_22" 4 0 0 batchpointlight_0_22_22.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_0_23_28" 4 0 0 batchpointlight_0_23_28.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-60689044_2" 4 0 2 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_0_14" 4 0 2 batchpointlight_2_0_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_15_18" 4 0 2 batchpointlight_2_15_18.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_19_20" 4 0 2 batchpointlight_2_19_20.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_21_21" 4 0 2 batchpointlight_2_21_21.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_22_22" 4 0 2 batchpointlight_2_22_22.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_2_23_28" 4 0 2 batchpointlight_2_23_28.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-60689044_1" 4 0 1 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_0_14" 4 0 1 batchpointlight_1_0_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_15_18" 4 0 1 batchpointlight_1_15_18.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_19_20" 4 0 1 batchpointlight_1_19_20.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_21_21" 4 0 1 batchpointlight_1_21_21.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_22_22" 4 0 1 batchpointlight_1_22_22.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_1_23_28" 4 0 1 batchpointlight_1_23_28.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX arealight "C:\Users\turtl\AppData\Local\Temp\frender" "light_-60689044_3" 4 0 3 lights0.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_0_14" 4 0 3 batchpointlight_3_0_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_15_18" 4 0 3 batchpointlight_3_15_18.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_19_20" 4 0 3 batchpointlight_3_19_20.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_21_21" 4 0 3 batchpointlight_3_21_21.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_22_22" 4 0 3 batchpointlight_3_22_22.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_3_23_28" 4 0 3 batchpointlight_3_23_28.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_0_14" 4 0 4 batchpointlight_4_0_14.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_15_22" 4 0 4 batchpointlight_4_15_22.bin
+Running ftraceRTX batchpointlight "C:\Users\turtl\AppData\Local\Temp\frender" "PointBatch_4_23_28" 4 0 4 batchpointlight_4_23_28.bin
+Running ftraceRTX addmul "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LM0_diffuse" 4 16 0 "gi_Cleaner_Room_LM00.bin" "Cleaner_Room_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA2_diffuse" 4 16 2 "gi_Cleaner_Room_LMA20.bin" "Cleaner_Room_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA1_diffuse" 4 16 1 "gi_Cleaner_Room_LMA10.bin" "Cleaner_Room_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA3_diffuse" 4 16 3 "gi_Cleaner_Room_LMA30.bin" "Cleaner_Room_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA4_diffuse" 4 16 4 "gi_Cleaner_Room_LMA40.bin" "Cleaner_Room_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LM0_diffuse" 4 16 0 "gi_Cleaner_Room_LM01.bin" "Cleaner_Room_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA2_diffuse" 4 16 2 "gi_Cleaner_Room_LMA21.bin" "Cleaner_Room_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA1_diffuse" 4 16 1 "gi_Cleaner_Room_LMA11.bin" "Cleaner_Room_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA3_diffuse" 4 16 3 "gi_Cleaner_Room_LMA31.bin" "Cleaner_Room_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA4_diffuse" 4 16 4 "gi_Cleaner_Room_LMA41.bin" "Cleaner_Room_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LM0_diffuse" 4 16 0 "gi_Cleaner_Room_LM02.bin" "Cleaner_Room_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA2_diffuse" 4 16 2 "gi_Cleaner_Room_LMA22.bin" "Cleaner_Room_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA1_diffuse" 4 16 1 "gi_Cleaner_Room_LMA12.bin" "Cleaner_Room_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA3_diffuse" 4 16 3 "gi_Cleaner_Room_LMA32.bin" "Cleaner_Room_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA4_diffuse" 4 16 4 "gi_Cleaner_Room_LMA42.bin" "Cleaner_Room_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LM0_diffuse" 4 16 0 "gi_Cleaner_Room_LM03.bin" "Cleaner_Room_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA2_diffuse" 4 16 2 "gi_Cleaner_Room_LMA23.bin" "Cleaner_Room_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA1_diffuse" 4 16 1 "gi_Cleaner_Room_LMA13.bin" "Cleaner_Room_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA3_diffuse" 4 16 3 "gi_Cleaner_Room_LMA33.bin" "Cleaner_Room_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA4_diffuse" 4 16 4 "gi_Cleaner_Room_LMA43.bin" "Cleaner_Room_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LM0_final" 20 16 0 "gi_Cleaner_Room_LM04.bin" "Cleaner_Room_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA2_final" 20 16 2 "gi_Cleaner_Room_LMA24.bin" "Cleaner_Room_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA1_final" 20 16 1 "gi_Cleaner_Room_LMA14.bin" "Cleaner_Room_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA3_final" 20 16 3 "gi_Cleaner_Room_LMA34.bin" "Cleaner_Room_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA4_final" 20 16 4 "gi_Cleaner_Room_LMA44.bin" "Cleaner_Room_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA3_final_HDR.lz4" 4 0 3 comp_indirect3.bin
+Running ftraceRTX add "C:\Users\turtl\AppData\Local\Temp\frender" "Cleaner_Room_LMA4_final_HDR.lz4" 4 0 4 comp_indirect4.bin
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_LM0_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_LM0_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "0" "Cleaner_Room_LM0_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_LMA2_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_LMA2_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "2" "Cleaner_Room_LMA2_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_LMA1_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "1" "Cleaner_Room_LMA1_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_LMA3_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_LMA3_final_HDR.lz4" 512 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "3" "Cleaner_Room_LMA3_final_HDR.lz4"
+Running denoiserOIDN c "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_LMA4_final_HDR.lz4" "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_LMA4_final_HDR.lz4" 128 0
+Running seamfixer "C:\Users\turtl\AppData\Local\Temp\frender" "4" "Cleaner_Room_LMA4_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_LM0_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Cleaner_Room_Again/Cleaner_Room_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_LMA2_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Cleaner_Room_Again/Cleaner_Room_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_LMA1_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Cleaner_Room_Again/Cleaner_Room_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_LMA3_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Cleaner_Room_Again/Cleaner_Room_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\turtl\AppData\Local\Temp\frender/Cleaner_Room_LMA4_final_HDR.lz4" "E:/Folder/ACGNI/Shellcial/Game_Project/HKVTOPIA/HKVTOPIA_Unity_Project/Yumeka_Kissaten/Assets/_Scenes/Cleaner_Room_Again/Cleaner_Room_LMA4_final.hdr" 1024
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Folder\ACGNI\Shellcial\Game_Project\HKVTOPIA\HKVTOPIA_Unity_Project\Yumeka_Kissaten\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
