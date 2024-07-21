@@ -1,7 +1,7 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 using DG.Tweening;
 
 //this class control the player movement and object click event
@@ -36,7 +36,8 @@ public class PlayerController_Test : MonoBehaviour
     private Vector3 velocity;
 
     //display cursor
-    private GameObject cursorDisplay;
+    private Image cursorDisplay;
+    private Image cursorDisplayFocus;
 
     // raycast
     private RaycastHit hit;
@@ -72,8 +73,12 @@ public class PlayerController_Test : MonoBehaviour
 
         controller = GetComponent<CharacterController>();
 
-        cursorDisplay = GameObject.Find("Display_Cursor");
+        cursorDisplay = GameObject.Find("Display_Cursor").GetComponent<Image>();
         cursorDisplay.transform.localPosition = Camera.main.ViewportToScreenPoint(new Vector3(0f, 0f, 0f)); // alpha is 40
+        cursorDisplayFocus = cursorDisplay.transform.GetComponentInChildren<Image>();
+        cursorDisplay.color = new Color(1f,1f,1f,1f);
+        cursorDisplayFocus.color = new Color(1f,1f,1f,0f);
+
         playerInputActions = new PlayerInputActions();
         playerInputActions.Player.Enable();
 

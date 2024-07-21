@@ -1,7 +1,7 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 using DG.Tweening;
 
 //this class control the player movement and object click event
@@ -36,7 +36,8 @@ public class PlayerController : MonoBehaviour
     private Vector3 velocity;
 
     //display cursor
-    private GameObject cursorDisplay;
+    private Image cursorDisplay;
+    private Image cursorDisplayFocus;
 
     // raycast
     private RaycastHit hit;
@@ -70,8 +71,10 @@ public class PlayerController : MonoBehaviour
 
         controller = GetComponent<CharacterController>();
 
-        cursorDisplay = GameObject.Find("Display_Cursor");
-        cursorDisplay.transform.localPosition = Camera.main.ViewportToScreenPoint(new Vector3(0f, 0f, 0f)); // alpha is 40
+        cursorDisplay = GameObject.Find("Display_Cursor").GetComponent<Image>();
+        cursorDisplay.transform.localPosition = Camera.main.ViewportToScreenPoint(new Vector3(0f, 0f, 0f));
+        cursorDisplayFocus = cursorDisplay.transform.GetChild(0).GetComponentInChildren<Image>();
+
         playerInputActions = new PlayerInputActions();
         playerInputActions.Player.Enable();
 
@@ -243,6 +246,8 @@ public class PlayerController : MonoBehaviour
     
     private void HighlightObject(GameObject hitGameObject, InteractableObject targetStatus)
     {
+        DisplayCursorFocus();
+
         hitGameObject.layer = highlightedLayer;
         isTargetContainsChild = false;
         if (targetStatus.interactableStatus.isChildHighlight)
@@ -282,6 +287,8 @@ public class PlayerController : MonoBehaviour
 
     public void UnHighlightObject()
     {   
+        DisplayCursor();
+        
         if (previousHoverTarget != null){
             previousHoverTarget.layer = interactableLayer;
             if (isTargetContainsChild)
@@ -339,4 +346,23 @@ public class PlayerController : MonoBehaviour
             zoomTween = _characterCamera.DOFieldOfView(_zoomOutValue, _cameraZoomSpeed).SetEase(Ease.InOutSine);
         }
     }
+
+    public void DisplayCursor(){
+        cursorDisplay.enabled = true;
+        cursorDisplayFocus.enabled = false;
+    }
+
+    public void DisplayCursorFocus(){
+        cursorDisplay.enabled = false;
+        cursorDisplayFocus.enabled = true;
+    }
+
+    public void FadeInCursor(){
+
+    }
+
+    public void FadeOutCursor(){
+
+    }
+
 }
