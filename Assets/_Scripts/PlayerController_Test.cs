@@ -26,7 +26,7 @@ public class PlayerController_Test : MonoBehaviour
     private Tween zoomTween;
 
     //control rotation
-    private float mouseRotationSensitivity = 10f;
+    private float mouseRotationSensitivity = 5f;
     private float horizontalRotation = 0f;
     private float verticalRotation = 0f;
     private Transform cameraPlayer;
@@ -50,6 +50,8 @@ public class PlayerController_Test : MonoBehaviour
 
     public static PlayerController_Test Instance;
     private Camera _characterCamera;
+    [SerializeField]
+    private Vector3 _startRotation;
 
     private void Awake()
     {
@@ -90,6 +92,8 @@ public class PlayerController_Test : MonoBehaviour
 
         GameManager.Instance.LockCursor(true);
         GameManager.Instance.ResumeGame();
+
+        transform.localEulerAngles = _startRotation;
     }
 
     private void FixedUpdate()
