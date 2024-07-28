@@ -20,4 +20,8 @@ MonoBehaviour:
   - Assets/_Model/Hosipital/Hospital_Entrance/reception/side_things.fbx
   - Assets/_Model/Hosipital/Hospital_Entrance/reception/table_things.fbx
   - Assets/_Model/Hosipital/Cleaner_Room/ceiling_lights.fbx
-  modifiedAssetPaddingHash: 13d2c729663f657020c876a3ec274e973c59f06d57c45bdefe945da2
+  - Assets/_Model/Hosipital/Corridor_Connector/normal_posters.fbx
+  - Assets/_Model/Hosipital/Corridor_Connector/corridor_connection.fbx
+  - Assets/_Model/Hosipital/Corridor_Connector/corridor_connector_elevator.fbx
+  - Assets/_Model/Hosipital/Corridor_Connector/poster_corridor.fbx
+  modifiedAssetPaddingHash: 13d2c729663f657020c876a3ec274e973c59f06d57c45bdefe945da25d2c189f66f82d30c294a1a25ffb9976

@@ -10,6 +10,10 @@ public class S_ControllerButton : InteractableObject
     [SerializeField]
     private ControllerPassword _controllerPassword;
 
+    void Start(){
+        DisableInteract();
+    }
+    
     public void SetButtonIndex(int _index){
         buttonIndex = _index;
     }

@@ -56,10 +56,12 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
     private VideoPlayer _videoPlayer;
     [SerializeField]
     private VideoClip _videoClipEnded;
-    [SerializeField]
-    private GameObject videoScreen;
+
     [SerializeField]
     private PlayableDirector _doorDirector;
+    private Light _videoLight;
+    [SerializeField]
+    private ControllerPassword _controllerPassword;
 
     override protected void Awake(){
 		if( !Instance )
@@ -118,7 +120,6 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
     }
 
     private IEnumerator OpenDoor(){
-        GetComponent<ControllerPassword>().StopPassword();
         yield return new WaitForSeconds(2f);
         _doorDirector.Play();
     }
@@ -127,6 +128,7 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
         GameManager.Instance.gameDataManager.gameData.isPooRoomVideoForcelyStopped = true;
         // stop video, off light, play machine down sound
         _videoPlayer.Stop();
+        TurnOffLight();
         StartCoroutine(OpenDoor());
     }
 
@@ -139,8 +141,18 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
         yield return new WaitForSeconds(21);
         player.GetComponent<CharacterController>().enabled = true;
         GameManager.Instance.ResumeGame();
+        _addedAnimator.enabled = false;
         yield return new WaitForSeconds(5f);
         _videoPlayer.Play();
-        _addedAnimator.enabled = false;
+        TurnOnLight();
+        _controllerPassword.EnablePassword();
+    }
+
+    public void TurnOnLight(){
+        _videoLight.enabled = true;
+    }
+
+    public void TurnOffLight(){
+        _videoLight.enabled = false;
     }
 }

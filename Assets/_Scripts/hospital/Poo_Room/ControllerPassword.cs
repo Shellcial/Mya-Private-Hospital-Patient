@@ -65,15 +65,19 @@ public class ControllerPassword : MonoBehaviour
     void CorrectPassword(){
         _receivedPassword.Clear();
         _isAbleToEnter = false;
-
+        StopPassword();
         SceneManager_PooRoom.Instance.ForceEndVideo();
+    }
+
+    public void EnablePassword(){
+        _allButtonsController[0].EnableInteract();
     }
 
     // call from scene manager either video natural ended or forcely ended
     public void StopPassword(){
-        foreach (S_ControllerButton _IButton in _allButtonsController){
-            _IButton.DisableInteract();
-        }
+        // foreach (S_ControllerButton _SButton in _allButtonsController){
+            _allButtonsController[0].DisableInteract();
+        // }
     }
 
     void ResetButtonIndex(){

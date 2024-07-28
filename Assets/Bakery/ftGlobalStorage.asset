@@ -20,7 +20,11 @@ MonoBehaviour:
   - Assets/_Model/Hosipital/Hospital_Entrance/reception/side_things.fbx
   - Assets/_Model/Hosipital/Hospital_Entrance/reception/table_things.fbx
   - Assets/_Model/Hosipital/Cleaner_Room/ceiling_lights.fbx
-  modifiedAssetPaddingHash: 13d2c729663f657020c876a3ec274e973c59f06d57c45bdefe945da2
+  - Assets/_Model/Hosipital/Corridor_Connector/normal_posters.fbx
+  - Assets/_Model/Hosipital/Corridor_Connector/corridor_connection.fbx
+  - Assets/_Model/Hosipital/Corridor_Connector/corridor_connector_elevator.fbx
+  - Assets/_Model/Hosipital/Corridor_Connector/poster_corridor.fbx
+  modifiedAssetPaddingHash: 13d2c729663f657020c876a3ec274e973c59f06d57c45bdefe945da25d2c189f66f82d30c294a1a25ffb9976
   modifiedMeshList: []
   modifiedMeshPaddingList: 
   modifiedAssets:
@@ -256,6 +260,76 @@ MonoBehaviour:
     - panda.020
     padding: 0001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000
     unwrapper: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - meshName:
+    - Cube.006
+    - Cube.036
+    - Cube.038
+    - Cube.043
+    - Cube.044
+    - Cube.045
+    - Cube.046
+    - Cube.047
+    - Cube.070
+    - Cube.071
+    - Cube.072
+    padding: 12000000120000002a0000002a0000002a0000002a0000002a0000002a0000002a0000002a0000002a000000
+    unwrapper: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - meshName:
+    - ceiling.006
+    - ceiling_glass.006
+    - Cylinder.023
+    - Cylinder.025
+    - ceiling.001
+    - ceiling_glass.001
+    - Cylinder.014
+    - ground.004
+    - Cylinder.001
+    - Cylinder.006
+    - floor_signage.001
+    - ground.001
+    - ground.010
+    - ground.011
+    - lift_area_notice
+    - Text.002
+    - Cylinder.002
+    - ground.009
+    - ground.014
+    - Cylinder.012
+    - ceiling.010
+    padding: 11000000a20000000d000000000100000f000000a2000000d70000000f000000e10000001d000000f10000001100000017000000170000000001000000010000090000000c000000080000000900000008000000
+    unwrapper: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - meshName:
+    - elevator|Cube.023_L_Hospital_Entrance.blend|Dupli|8
+    - elevator|Cube.024_L_Hospital_Entrance.blend|Dupli|9
+    - elevator|Cube.031_L_Hospital_Entrance.blend|Dupli|
+    - elevator|Cube.035_L_Hospital_Entrance.blend|Dupli|10
+    - elevator|Cube.047_L_Hospital_Entrance.blend|Dupli|5
+    - elevator|Cube.048_L_Hospital_Entrance.blend|Dupli|2
+    - elevator|Cube.049_L_Hospital_Entrance.blend|Dupli|4
+    - elevator|Cube.050_L_Hospital_Entrance.blend|Dupli|1
+    - elevator|Cube.051_L_Hospital_Entrance.blend|Dupli|6
+    - elevator|Cube.052_L_Hospital_Entrance.blend|Dupli|7
+    - elevator|Cube.053_L_Hospital_Entrance.blend|Dupli|3
+    - elevator|Cube.078_L_Hospital_Entrance.blend|Dupli|11
+    - elevator|Cube.079_L_Hospital_Entrance.blend|Dupli|12
+    - elevator|Cube.080_L_Hospital_Entrance.blend|Dupli|13
+    - elevator|Cube.081_L_Hospital_Entrance.blend|Dupli|14
+    - elevator|Cube.082_L_Hospital_Entrance.blend|Dupli|15
+    - elevator|panda_footprint_curve.001_L_Hospital_Entrance.blend|Dupli|16
+    - elevator|panda_footprint_curve.002_L_Hospital_Entrance.blend|Dupli|17
+    padding: 0001000000010000000100002d000000250000002d000000000100000001000000010000000100000001000000010000000100002500000000010000000100000001000000010000
+    unwrapper: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - meshName:
+    - ceiling.002
+    - ceiling.019
+    - ceiling_glass.002
+    - ceiling_glass.008
+    - ground.012
+    - ground.015
+    - Cylinder.028
+    - Cylinder.021
+    padding: 0f0000000f000000a2000000a20000000e0000000e0000000700000008000000
+    unwrapper: 0000000000000000000000000000000000000000000000000000000000000000
   assetList:
   - Assets/_Model/Hosipital/Cleaner_Room/poster.fbx
   - Assets/_Model/Hosipital/Cleaner_Room/single_beds.fbx
@@ -284,7 +358,25 @@ MonoBehaviour:
   - Assets/Bakery/examples/content/logolight.FBX
   - Assets/Bakery/examples/content/floor_lamp.FBX
   - Assets/Bakery/examples/content/sponza/bush.FBX
-  uvOverlapAssetList: 010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000000000000000000000000000000000000
+  - Assets/_Model/Hosipital/Poo_Room/ceiling_speaker_lights.fbx
+  - Assets/_Model/Hosipital/Corridor_Connector/begin_posters.fbx
+  - Assets/_Model/Hosipital/Corridor_Connector/corridor_connection.fbx
+  - Assets/_Model/Hosipital/Corridor_Connector/poster_corridor.fbx
+  - Assets/_Model/Hosipital/Corridor_Connector/corridor_connector_elevator.fbx
+  - Assets/_Model/Hosipital/Corridor_Connector/cut_corridor.fbx
+  - Assets/_Model/Hosipital/Corridor_Connector/normal_posters.fbx
+  - Assets/_Model/Hosipital/Electric_Cure_Room/basic_corridor.fbx
+  - Assets/_Model/Hosipital/Electric_Cure_Room/animated_paper.fbx
+  - Assets/_Model/Hosipital/Electric_Cure_Room/electric_cure_room.fbx
+  - Assets/_Model/Hosipital/Electric_Cure_Room/Lights.fbx
+  - Assets/_Model/Hosipital/Electric_Cure_Room/animated_corridor.fbx
+  - Assets/_Model/Hosipital/Electric_Cure_Room/animated_camera.fbx
+  - Assets/_Model/Hosipital/Electric_Cure_Room/chasing_panda.fbx
+  - Assets/_Model/Hosipital/Electric_Cure_Room/mya_panda_punch.fbx
+  - Assets/_Model/Hosipital/Electric_Cure_Room/dragging_panda.fbx
+  - Assets/_Model/Hosipital/Electric_Cure_Room/mya_panda_punch_2.fbx
+  - Assets/_Model/Hosipital/Electric_Cure_Room/animated_door.fbx
+  uvOverlapAssetList: 010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000000000000000000000000000000000000010100000101000001010000010100000101000001010000010100000101000000000000010100000000000001010000000000000101000000000000000000000000000000000000
   xatlasWarningShown: 0
   foundCompatibleSetup: 1
   gpuName: NVIDIA GeForce RTX 3070
@@ -370,5 +462,5 @@ MonoBehaviour:
   renderSettingsRTPVSceneView: 0
   renderSettingsRTPVWidth: 640
   renderSettingsRTPVHeight: 360
-  modifiedMeshPaddingArray: 0001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000
-  modifiedMeshUnwrapperArray: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  modifiedMeshPaddingArray: 0f0000000f000000a2000000a20000000e0000000e0000000700000008000000
+  modifiedMeshUnwrapperArray: 0000000000000000000000000000000000000000000000000000000000000000

@@ -1,0 +1,117 @@
+fileFormatVersion: 2
+guid: 4dba9ba3550335540a0d94f425cbe967
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal.001
+    second: {fileID: 2100000, guid: b61691a892473d64e91b4c73f3a23149, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: elevator_signal
+    second: {fileID: 2100000, guid: 464103ae0bc966542aef4a97381a4826, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties:
+    - '#BAKERY{"meshName":["elevator|Cube.023_L_Hospital_Entrance.blend|Dupli|8","elevator|Cube.024_L_Hospital_Entrance.blend|Dupli|9","elevator|Cube.031_L_Hospital_Entrance.blend|Dupli|","elevator|Cube.035_L_Hospital_Entrance.blend|Dupli|10","elevator|Cube.047_L_Hospital_Entrance.blend|Dupli|5","elevator|Cube.048_L_Hospital_Entrance.blend|Dupli|2","elevator|Cube.049_L_Hospital_Entrance.blend|Dupli|4","elevator|Cube.050_L_Hospital_Entrance.blend|Dupli|1","elevator|Cube.051_L_Hospital_Entrance.blend|Dupli|6","elevator|Cube.052_L_Hospital_Entrance.blend|Dupli|7","elevator|Cube.053_L_Hospital_Entrance.blend|Dupli|3","elevator|Cube.078_L_Hospital_Entrance.blend|Dupli|11","elevator|Cube.079_L_Hospital_Entrance.blend|Dupli|12","elevator|Cube.080_L_Hospital_Entrance.blend|Dupli|13","elevator|Cube.081_L_Hospital_Entrance.blend|Dupli|14","elevator|Cube.082_L_Hospital_Entrance.blend|Dupli|15","elevator|panda_footprint_curve.001_L_Hospital_Entrance.blend|Dupli|16","elevator|panda_footprint_curve.002_L_Hospital_Entrance.blend|Dupli|17"],"padding":[256,256,256,45,37,45,256,256,256,256,256,256,256,37,256,256,256,256],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

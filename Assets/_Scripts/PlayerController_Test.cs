@@ -103,6 +103,11 @@ public class PlayerController_Test : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (!GameManager.Instance.GetPlayerStatus())
+        {
+            return;
+        }
+        
         UpdatePosition();
         
         // cast ray to interact with object
