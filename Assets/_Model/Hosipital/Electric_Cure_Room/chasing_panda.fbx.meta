@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: knife_body
+    second: {fileID: 2100000, guid: a5cddf5b8603bcf46a59c12199be3a45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: mya_fan_crazy_panda_body
     second: {fileID: 2100000, guid: 8f2a6e2b35a06e740b803d34c5813218, type: 2}
   materials:

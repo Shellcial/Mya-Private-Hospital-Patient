@@ -17,7 +17,7 @@ public class CutAnimationManager : MonoBehaviour
     private Vector3 targetCameraPosition = new Vector3(-72.85683f, 1.173511f, 70.89915f);
     private Vector3 targetCameraAngles = new Vector3(-1.531833f, -0.2514263f, 3.361013f);
     private float targetFieldOfView = 22.8f;
-    private float _inAnimationTime = 3f;
+    private float _inAnimationTime = 5f;
     private float _outAnimationTime = 3f;
     [SerializeField]
     private Transform _animatedCameraTransform;
@@ -49,15 +49,16 @@ public class CutAnimationManager : MonoBehaviour
 
     void MoveCamera(){
         startCameraPosition = _playerCamera.transform.position;
-        startCameraRotation = _playerCamera.transform.localEulerAngles;
+        startCameraRotation = _playerCamera.transform.eulerAngles;
         _playerCamera.transform.DOMove(targetCameraPosition, _inAnimationTime).SetEase(Ease.InOutSine).OnComplete(()=>{
-            StartAnimation();
+            StartCoroutine(StartAnimation());
         });
         _playerCamera.transform.DORotate(targetCameraAngles, _inAnimationTime).SetEase(Ease.InOutSine);
         _playerCamera.DOFieldOfView(targetFieldOfView, _inAnimationTime).SetEase(Ease.InOutSine);
     }
 
-    void StartAnimation(){
+    IEnumerator StartAnimation(){
+        yield return new WaitForSeconds(3f);
         _isPlaying = true;
         foreach (Animator animator in _animatorList){
             animator.speed = 1f;
@@ -67,10 +68,9 @@ public class CutAnimationManager : MonoBehaviour
     public void ReturnPosition(){
         _isPlaying = false;
         _playerCamera.transform.DOMove(startCameraPosition, _outAnimationTime).SetEase(Ease.InOutSine).OnComplete(()=>{
-            StartAnimation();
+            GameManager.Instance.ResumeGame();
         });
         _playerCamera.transform.DORotate(startCameraRotation, _outAnimationTime).SetEase(Ease.InOutSine);
-        GameManager.Instance.ResumeGame();
         _playerCamera.DOFieldOfView(startFieldOfView, _outAnimationTime).SetEase(Ease.InOutSine);
         // startCameraPosition
     }
