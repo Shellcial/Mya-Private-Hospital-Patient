@@ -14,7 +14,7 @@ public class CutAnimationManager : MonoBehaviour
     private Vector3 startCameraPosition;
     private Vector3 startCameraRotation;
     private float startFieldOfView = 50f;
-    private Vector3 targetCameraPosition = new Vector3(-72.85683f, 1.173511f, 70.89915f);
+    private Vector3 targetCameraPosition = new Vector3(-72.85683f, 1.173511f, 94.30684f);
     private Vector3 targetCameraAngles = new Vector3(-1.531833f, -0.2514263f, 3.361013f);
     private float targetFieldOfView = 22.8f;
     private float _inAnimationTime = 5f;

@@ -111,7 +111,6 @@ public class PlayerController_Test : MonoBehaviour
         UpdatePosition();
         
         // cast ray to interact with object
-
         if (GameManager.Instance.GetPointerControlStatus() || !GameManager.Instance.GetGameStatus())
         {
             //don't cast ray when pointer is being directly controlled
@@ -167,7 +166,6 @@ public class PlayerController_Test : MonoBehaviour
         Ray ray = _characterCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
         // get first raycast object and check its type
         if (Physics.Raycast(ray, out hit, distance, ~_ignore_RayCast)){
-
             if (hit.collider.gameObject.layer == 10 || hit.collider.gameObject.layer == 11)
             {
                 //hit interactable or highlighted layer object

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 3.202841e-39, g: 2.0287e-41, b: 3.202819e-39, a: 1}
+  m_IndirectSpecularColor: {r: 0.00820564, g: 0.0074588307, b: 0.008637892, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -77913,33 +77913,6 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 4165013289672477609, guid: 60065850f2df18345b7e7765c08d1ad5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 60065850f2df18345b7e7765c08d1ad5, type: 3}
---- !u!1 &1687157143 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4165013289672477611, guid: 60065850f2df18345b7e7765c08d1ad5,
-    type: 3}
-  m_PrefabInstance: {fileID: 1687157142}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1687157144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1687157143}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4909e192acc60f4ead3d9e646146e7b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 2
-  startMoveSpeed: 2
-  fastMoveSpeed: 3
-  smoothSpeed: 0.1
-  distance: 2
-  _ignore_RayCast:
-    serializedVersion: 2
-    m_Bits: 0
-  _startRotation: {x: 0, y: 90, z: 0}
 --- !u!65 &1687711379
 BoxCollider:
   m_ObjectHideFlags: 0

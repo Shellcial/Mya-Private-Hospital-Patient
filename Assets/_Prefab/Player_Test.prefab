@@ -169,10 +169,10 @@ MonoBehaviour:
   startMoveSpeed: 2
   fastMoveSpeed: 3
   smoothSpeed: 0.1
-  distance: 0.25
+  distance: 2
   _ignore_RayCast:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 65536
   _startRotation: {x: 0, y: 0, z: 0}
 --- !u!143 &4165013289672477608
 CharacterController:
