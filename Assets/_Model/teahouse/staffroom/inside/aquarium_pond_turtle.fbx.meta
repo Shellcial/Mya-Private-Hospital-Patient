@@ -51,7 +51,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["coast_rocks_05_LOD3","Cube.011","Cube.013","Cube.014","Cube.015","Cylinder.075","GLASS","kamien_low","particle","Plane.018","Plane.027","Plane.028","Plane.032","Plane.034","Plane.035","Plane.036","WATER.001","Cylinder.079","Eye.L.","Eye.R.","tortoise.002","Cube.012"],"padding":[256,164,256,256,256,256,106,256,256,256,256,256,256,256,256,256,209,256,256,256,256,256],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
+    - '#BAKERY{"meshName":["coast_rocks_05_LOD3","Cube.011","Cube.013","Cube.014","Cube.015","Cylinder.075","GLASS","kamien_low","particle","Plane.018","Plane.027","Plane.028","Plane.032","Plane.034","Plane.035","Plane.036","WATER.001","Eye.L.","Eye.R.","tortoise.002","Cube.012"],"padding":[256,164,256,256,256,256,106,256,256,256,256,256,256,256,256,256,209,256,256,256,256],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:

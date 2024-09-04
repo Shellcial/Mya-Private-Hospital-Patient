@@ -3,7 +3,12 @@ guid: a627ab1cddb055c4c80f2875a903fa3b
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: machine_gun_pure_black
+    second: {fileID: 2100000, guid: 0f5048e7f940fb2408319b6df9c5ce81, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

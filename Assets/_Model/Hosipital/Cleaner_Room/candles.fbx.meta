@@ -46,7 +46,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["Candle.001","Candle.002","Candle.003","Candle.017","pray_notes"],"padding":[256,256,256,256,256],"unwrapper":[0,0,0,0,0]}'
+    - '#BAKERY{"meshName":["Candle.001","Candle.002","Candle.003","Candle.017","pray_notes"],"padding":[256,256,256,256,204],"unwrapper":[0,0,0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:

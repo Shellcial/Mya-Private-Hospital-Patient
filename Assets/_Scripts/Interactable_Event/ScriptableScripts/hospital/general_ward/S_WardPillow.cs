@@ -13,9 +13,9 @@ public class S_WardPillow : InteractableObject
 
     public override void Interact()
     {
-        GLogger.Log("meow?");
         if (!isTrigger){
             isTrigger = true;
+            GameManager.Instance.gameDataManager.UnlockIllustration("general_ward_little_cat_poster");
             this.transform.DOLocalMoveX(_endX, _animationTime).SetEase(Ease.InOutSine);
             DisableInteract();
         }

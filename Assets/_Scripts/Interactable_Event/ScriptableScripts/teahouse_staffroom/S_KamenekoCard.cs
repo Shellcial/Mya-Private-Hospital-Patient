@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Tayx.Graphy.Audio;
 using UnityEngine;
 
 public class S_KamenekoCard : InteractableObject
@@ -8,6 +9,8 @@ public class S_KamenekoCard : InteractableObject
     private enum CardIndex{
         teahouse_staffroom_card,
         cleaner_room_card,
+        general_ward_card,
+        hospital_entrance_card,
     };
     [SerializeField]
     private CardIndex _cardIndex;
@@ -20,6 +23,7 @@ public class S_KamenekoCard : InteractableObject
     
     public override void Interact()
     {
+        FlatAudioManager.instance.Play("kameneko_card", false);
         GameManager.Instance.gameDataManager.UnlockCard(_cardIndex.ToString());
         this.gameObject.SetActive(false);
     }

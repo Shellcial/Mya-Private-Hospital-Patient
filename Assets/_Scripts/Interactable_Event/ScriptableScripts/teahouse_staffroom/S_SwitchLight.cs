@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq.Expressions;
+using Tayx.Graphy.Audio;
 using UnityEngine;
 
 public class S_SwitchLight : InteractableObject
@@ -14,13 +15,14 @@ public class S_SwitchLight : InteractableObject
     private List<GameObject> _switches;
     private bool _isOnDisplay = true;
     private void Start(){
-        _changeLight = GameManager.Instance.GetComponent<ChangeLight>();
+        _changeLight = SceneManager_TeahouseStaffroom.Instance.GetComponent<ChangeLight>();
         EnableInteract();
     }
 
     public override void Interact()
     {
         if (_isTriggerable){
+            FlatAudioManager.instance.Play("light_button", false);
             _changeLight.SwitchLight();
             _switches[0].SetActive(_isOnDisplay);
             _isOnDisplay = !_isOnDisplay;

@@ -39,7 +39,7 @@ public class FlatAudioManager : Singleton<FlatAudioManager>
         Sound s = Array.Find(sounds, sound => sound.name == name);
         if (s == null)
         {
-            Debug.LogWarning("Sound: " + name + " not found");
+            GLogger.LogWarning("Sound: " + name + " not found");
             return;
         }
         float originalVol = s.source.volume;
@@ -62,7 +62,7 @@ public class FlatAudioManager : Singleton<FlatAudioManager>
         Sound s = Array.Find(sounds, sound => sound.name == name);
         if (s == null)
         {
-            Debug.LogWarning("Sound: " + name + " not found");
+            GLogger.LogWarning("Sound: " + name + " not found");
             return;
         }
         if (isOneShot)
@@ -79,7 +79,7 @@ public class FlatAudioManager : Singleton<FlatAudioManager>
         Sound s = Array.Find(sounds, sound => sound.name == name);
         if (s == null)
         {
-            Debug.LogWarning("Sound: " + name + " not found");
+            GLogger.LogWarning("Sound: " + name + " not found");
             return;
         }
         s.source.PlayDelayed(delay);
@@ -101,7 +101,7 @@ public class FlatAudioManager : Singleton<FlatAudioManager>
         Sound s = Array.Find(sounds, sound => sound.name == name);
         if (s == null)
         {
-            Debug.LogWarning("Sound: " + name + " not found");
+            GLogger.LogWarning("Sound: " + name + " not found");
             return;
         }
         s.source.Stop();
@@ -112,7 +112,7 @@ public class FlatAudioManager : Singleton<FlatAudioManager>
         Sound s = Array.Find(sounds, sound => sound.name == name);
         if (s == null)
         {
-            Debug.LogWarning("Sound: " + name + " not found");
+            GLogger.LogWarning("Sound: " + name + " not found");
             return;
         }
         s.source.time = time;
@@ -123,7 +123,7 @@ public class FlatAudioManager : Singleton<FlatAudioManager>
         Sound s = Array.Find(sounds, sound => sound.name == name);
         if (s == null)
         {
-            Debug.LogWarning("Sound: " + name + " not found");
+            GLogger.LogWarning("Sound: " + name + " not found");
             return null;
         }
         else
@@ -137,7 +137,7 @@ public class FlatAudioManager : Singleton<FlatAudioManager>
         Sound s = Array.Find(sounds, sound => sound.name == name);
         if (s == null)
         {
-            Debug.LogWarning("Sound: " + name + " not found");
+            GLogger.LogWarning("Sound: " + name + " not found");
         }
         else
         {

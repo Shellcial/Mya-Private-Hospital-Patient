@@ -18,6 +18,7 @@ public class ChangeNormalPosterLight : MonoBehaviour
         if (!_isTriggered){
             _isTriggered = true;
             _normalPosterLights.speed = 1;
+            GameManager.Instance.gameDataManager.UnlockIllustration("corridor_posters");
         }
     }
 }

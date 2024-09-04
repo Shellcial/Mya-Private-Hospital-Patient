@@ -36,7 +36,7 @@ public class CutAnimationManager : MonoBehaviour
 
     void UpdateCameraPosition(){
         _playerCamera.transform.position = _animatedCameraTransform.transform.position;
-        _playerCamera.transform.localEulerAngles = _animatedCameraTransform.transform.localEulerAngles;
+        _playerCamera.transform.eulerAngles = _animatedCameraTransform.transform.eulerAngles;
     }
 
     void OnTriggerEnter(Collider other){

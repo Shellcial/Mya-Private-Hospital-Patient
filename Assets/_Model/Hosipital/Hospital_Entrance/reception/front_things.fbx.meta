@@ -9,6 +9,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Reception_Text
     second: {fileID: 2100000, guid: bd0d218eaf8320a469f9c961edeb65ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: reception_information_stand
+    second: {fileID: 2100000, guid: b6b4abc53f8af824bb4df60fe3267983, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

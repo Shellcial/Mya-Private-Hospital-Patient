@@ -9,6 +9,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: bed_curtain
     second: {fileID: 2100000, guid: 7bf9bef00dd0ec24086298f6a2cce964, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bed_curtain_alpha
+    second: {fileID: 2100000, guid: 98850cf77c468b84bbf42ba34e1b2f52, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

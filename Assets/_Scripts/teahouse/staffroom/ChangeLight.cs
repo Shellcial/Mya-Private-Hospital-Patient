@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Tayx.Graphy.Audio;
 using UnityEngine;
 
 public class ChangeLight : MonoBehaviour
@@ -25,6 +26,7 @@ public class ChangeLight : MonoBehaviour
     private float _coldIntensity = 2f;
     private float _originalIntensity = 7f;
     private Vector4 _emissionColor = new Vector4(0.7490196f, 0.6078432f, 0.4941176f);
+    private bool isColdLightOn = false;
     
     private void Start(){
         insideLights.ForEach(light => {
@@ -43,10 +45,13 @@ public class ChangeLight : MonoBehaviour
     }
 
     public void ShowCorrectLight(){
+        isColdLightOn = true;
+
         insideLights.ForEach(light => {
             light.intensity = 0.1f;
             light.color = new Color(0.8245283f, 0.8652258f, 1, 1);
             light.colorTemperature = _coldLight;
+            light.enabled = true;
             _insideLight.sharedMaterial.SetVector("_EmissionColor", _emissionColor * _coldIntensity);
         });
 
@@ -67,6 +72,8 @@ public class ChangeLight : MonoBehaviour
     }
 
     public void  SwitchLight(){
+        if (isColdLightOn) return;
+
         _isInsideLightOn = !_isInsideLightOn;
 
         insideLights.ForEach(light => {

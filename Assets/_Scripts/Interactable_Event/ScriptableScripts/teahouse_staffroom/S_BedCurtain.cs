@@ -15,6 +15,7 @@ public class S_BedCurtain : InteractableObject
 
     public override void Interact(){
         if (!isOpen){
+            FlatAudioManager.instance.Play("bed_curtain", false);
             isOpen = true;
             animator.speed = 1f;
             DisableInteract();

@@ -1,1 +1,40 @@
-{}
+{
+    "name": "MainMenu_InputActions",
+    "maps": [
+        {
+            "name": "Menu",
+            "id": "2741a459-27f3-473f-81d8-9dc2138e6f6d",
+            "actions": [
+                {
+                    "name": "ESC",
+                    "type": "Button",
+                    "id": "7d61775a-1f93-4bc8-9076-ce4a49475f24",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6b4fbec0-02cb-41b1-86e6-c6779354aa51",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "PC",
+                    "action": "ESC",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "PC",
+            "bindingGroup": "PC",
+            "devices": []
+        }
+    ]
+}

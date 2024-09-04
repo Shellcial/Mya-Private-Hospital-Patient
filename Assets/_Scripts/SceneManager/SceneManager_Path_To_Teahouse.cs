@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneManager_Path_To_Teahouse : Singleton<SceneManager_Path_To_Teahouse>
 {
-	protected virtual void Awake()
+	protected override void Awake()
 	{
 		if( !Instance )
 		{

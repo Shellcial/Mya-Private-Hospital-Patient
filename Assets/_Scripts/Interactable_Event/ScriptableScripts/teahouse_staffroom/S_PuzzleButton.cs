@@ -30,12 +30,15 @@ public class S_PuzzleButton : InteractableObject
         // play animation
         if (!_isPlayingAnimation){
             _isPlayingAnimation = true;
+            FlatAudioManager.instance.Play("roll_button_press", false);
             transform.DOLocalMove(_endPos, _duration).SetEase(Ease.InOutSine).OnComplete(() => {
                 transform.DOLocalMove(_startPos, _duration).SetEase(Ease.InOutSine).OnComplete(() => {
                     _isPlayingAnimation = false;
                 });
             });
         }
+
+        isCorrect = true;
 
         // check password
         for (int i = 0; i < _puzzleWheels.Count; i++){
@@ -48,6 +51,9 @@ public class S_PuzzleButton : InteractableObject
         if (isCorrect){
             isPressable = false;
             // turn on light and change light, trigger animation and sound
+            FlatAudioManager.instance.Play("light_metal_off", false);
+            FlatAudioManager.instance.Play("ambience_metal", false);
+            GameManager.Instance.gameDataManager.UnlockOther("teahouse_password");
             _changeLight.ShowCorrectLight();
             DisableInteract();
         }

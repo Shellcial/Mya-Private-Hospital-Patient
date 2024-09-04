@@ -1,7 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Rendering;
+using UnityEngine.Audio;
 
 public class GameManager : Singleton<GameManager>
 {
@@ -10,6 +8,8 @@ public class GameManager : Singleton<GameManager>
     private bool isPointerDirectControlAllowed;
     private bool isGameStarted;
     public GameDataManager gameDataManager;
+    private AudioMixer _masterMixer;
+
     override protected void Awake(){
         if( !Instance )
 		{
@@ -22,19 +22,26 @@ public class GameManager : Singleton<GameManager>
 			Destroy( gameObject );
 			return;
 		}
+
+        GLogger.SetLogLevel(GLogger.LogLevel.Info);
+        _masterMixer = Resources.Load<AudioMixer>("Master");
+        // GameManager.Instance.gameDataManager.gameData.isGetReceptionKey = false;
+        // GameManager.Instance.gameDataManager.gameData.isGetReceptionKey = true;
+        // GameManager.Instance.gameDataManager.SaveGame();
     }
 
     void Start()
     {
+
         Application.targetFrameRate = 60;
     }
 
     void Update(){
         // for debug only
-        if (Input.GetKeyUp(KeyCode.S)){
-            gameDataManager.gameData.isGetReceptionKey = true;
-            gameDataManager.SaveGame();
-        }
+        // if (Input.GetKeyUp(KeyCode.S)){
+        //     gameDataManager.gameData.isGetReceptionKey = true;
+        //     gameDataManager.SaveGame();
+        // }
     }
 
     public void LockCursor(bool isLocked)
@@ -83,6 +90,9 @@ public class GameManager : Singleton<GameManager>
 
     public void FreezePlayer()
     {
+        PlayerController.Instance.HideCursor();
+        PlayerController.Instance.ZoomOut();
+        MenuController.Instance.CheckMenu();
         isPlayerMovable = false;
     }
 
@@ -95,5 +105,13 @@ public class GameManager : Singleton<GameManager>
     public bool GetPointerControlStatus()
     {
         return isPointerDirectControlAllowed;
+    }
+
+    public void FadeInAudioMixer(float duration){
+        StartCoroutine(FadeMixerGroup.StartFade(_masterMixer, "MasterVolume", duration, 1f));
+    }
+
+    public void FadeOutAudioMixer(float duration){
+        StartCoroutine(FadeMixerGroup.StartFade(_masterMixer, "MasterVolume", duration, 0f));
     }
 }

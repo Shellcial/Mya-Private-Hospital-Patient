@@ -6,8 +6,10 @@ public class SceneManager_HospitalEntrance : Singleton<SceneManager_HospitalEntr
 {
     public Vector3 playerStartPosition{
         get{
+            // correct start
             return new Vector3(15.281f,0.776f,-17.43f);
             // return new Vector3(-18.662f,0.776f,3.91f);
+            // test start in middle
             // return new Vector3(-2.19f,0.776f,3.91f);
         }
     }
@@ -68,7 +70,10 @@ public class SceneManager_HospitalEntrance : Singleton<SceneManager_HospitalEntr
 
     public async UniTask Start()
     {
+        GameManager.Instance.FadeInAudioMixer(0f);
         GeneralUIManager.Instance.FadeOutBlack(2f).Forget();
+        FlatAudioManager.instance.SetAndFade("ambience_horror", 2f, 0f, 0.1f);
+        PlayerController.Instance.ShowCursor();
         await UniTask.Delay(1000);
         GameManager.Instance.ResumeGame();
     }
@@ -82,7 +87,9 @@ public class SceneManager_HospitalEntrance : Singleton<SceneManager_HospitalEntr
         cameraPlayer = player.transform.Find("Character_Camera");
         cameraPlayer.localPosition = playerCameraStartPosition;
         cameraPlayer.localRotation = Quaternion.Euler(playerCameraStartRotation);
-        carbinetPassword = GetComponent<CarbinetPassword>();
+
+        GameManager.Instance.gameDataManager.UnlockScene("Hospital_Entrance");
+        GameManager.Instance.gameDataManager.UnlockIllustration("hospital_entrance_mya");
     }
 
     public void GoToGummyEnding(){

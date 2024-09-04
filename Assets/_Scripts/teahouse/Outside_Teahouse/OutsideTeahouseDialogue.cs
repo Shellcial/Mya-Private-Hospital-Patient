@@ -13,7 +13,7 @@ public class OutsideTeahouseDialogue : AbstractInputActionsController
 
     async void Start(){
         await GeneralUIManager.Instance.FadeOutBlack(2f);
-        Debug.Log(playerInput);
+        GLogger.Log(playerInput);
         playerInput.actions["Click"].performed += LeftClick;
     }
 

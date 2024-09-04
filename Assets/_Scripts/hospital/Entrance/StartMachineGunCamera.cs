@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using DG.Tweening;
+using Tayx.Graphy.Audio;
 using UnityEngine;
 
 public class StartMachineGunCamera : MonoBehaviour
@@ -33,12 +34,12 @@ public class StartMachineGunCamera : MonoBehaviour
         }
     }
 
-
     IEnumerator StartMachineGunAniamtion(){
         // rotate to front
         _playerCamera.transform.DORotate(new Vector3(0,-90,0), 2f).SetEase(Ease.InOutSine);
         _playerCamera.transform.DOMove(_targetPos, 3f).SetEase(Ease.InOutSine);
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(4f);
+        FlatAudioManager.instance.Play("gear_move_low", false);
         yield return new WaitForSeconds(1f);
         _playerCamera.transform.DORotate(_targetRot, 1f).SetEase(Ease.InOutSine);
         yield return new WaitForSeconds(2f);

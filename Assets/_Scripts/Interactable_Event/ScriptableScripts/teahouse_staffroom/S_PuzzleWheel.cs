@@ -9,8 +9,6 @@ public class S_PuzzleWheel : InteractableObject
 {
     private bool _isPlayable = true;
     private bool _isPlayingAnimation = false;
-    [SerializeField]
-    private S_PuzzleButton _puzzleButton;
     public int chosenIndex = 0;
     private float _duration = 0.5f;    
 
@@ -34,6 +32,8 @@ public class S_PuzzleWheel : InteractableObject
         }
 
         Vector3 targetValue = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y, transform.eulerAngles.z - 90f);
+        int randomAudio = Random.Range(1, 5);
+        FlatAudioManager.instance.Play("wood_wipe_"+randomAudio, false);
         transform.DORotate(targetValue, _duration, RotateMode.Fast).SetEase(Ease.InOutSine).OnComplete(()=>{
             _isPlayingAnimation = false;
         });

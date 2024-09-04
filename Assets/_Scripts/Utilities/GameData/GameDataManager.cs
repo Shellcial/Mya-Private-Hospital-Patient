@@ -1,7 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-using Unity.VisualScripting;
 using UnityEngine;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
@@ -22,58 +18,89 @@ public class GameDataManager : MonoBehaviour
     //create folder for once only if there is none in the path
     private void CreateFolder()
     {
-        string savePath = Application.persistentDataPath + "/" + folderName;
-        if (!Directory.Exists(savePath))
-        {
-            Directory.CreateDirectory(Application.persistentDataPath + "/" + folderName);
-            GLogger.Log("file does not exist and is created: " + savePath);
-            
+        try {
+            string savePath = Application.persistentDataPath + "/" + folderName;
+            if (!Directory.Exists(savePath))
+            {
+                Directory.CreateDirectory(Application.persistentDataPath + "/" + folderName);
+                GLogger.Log("file does not exist and is created: " + savePath);
+                
+            }
+            else{
+                GLogger.Log("file exist: " + savePath);
+            }
         }
-        else{
-            GLogger.Log("file exist: " + savePath);
+        catch {
+            GLogger.Log("cannot create save folder, user temp save data only");
         }
+
     }
 
     // save when gameData has updated
     public void SaveGame()
     {
-        saveFilePath = Application.persistentDataPath + "/" + folderName + "/save" + ".data";
-        FileStream dataStream = new FileStream(saveFilePath, FileMode.Create);
-        BinaryFormatter converter = new BinaryFormatter();
-        converter.Serialize(dataStream, gameData);
-        dataStream.Close();
+        try {
+            saveFilePath = Application.persistentDataPath + "/" + folderName + "/save" + ".data";
+            FileStream dataStream = new FileStream(saveFilePath, FileMode.Create);
+            BinaryFormatter converter = new BinaryFormatter();
+            converter.Serialize(dataStream, gameData);
+            dataStream.Close();
+        }
+        catch {
+            GLogger.LogError("cannot save game, can only use temp save data in this game");
+        }
+        
     }
 
     //load on start
     public GameData LoadGame()
     {
-        saveFilePath = Application.persistentDataPath + "/" + folderName + "/save" + ".data";
-        if (File.Exists(saveFilePath))
-        {
-            FileStream dataStream = new FileStream(saveFilePath, FileMode.Open);
+        try {
+            saveFilePath = Application.persistentDataPath + "/" + folderName + "/save" + ".data";
+            if (File.Exists(saveFilePath))
+            {
+                FileStream dataStream = new FileStream(saveFilePath, FileMode.Open);
 
-            BinaryFormatter converter = new BinaryFormatter();
-            GameData saveData = converter.Deserialize(dataStream) as GameData;
-            dataStream.Close();
-            return saveData;
+                BinaryFormatter converter = new BinaryFormatter();
+                GameData saveData = converter.Deserialize(dataStream) as GameData;
+                dataStream.Close();
+                return saveData;
+            }
+            else
+            {
+                // File does not exist
+                GLogger.LogWarning("Save file not found in: " + saveFilePath + " - use new data instead");
+                return new GameData();
+            }
         }
-        else
-        {
-            // File does not exist
-            GLogger.LogWarning("Save file not found in: " + saveFilePath);
+        catch{
+            GLogger.LogError("cannot load game, can only use new data in each load new game");
             return new GameData();
         }
+
     }
 
     public void UnlockCard(string _cardName){
-        GLogger.Log(_cardName);
+        GLogger.Log("set card: " + _cardName);
         gameData.cardStats[_cardName] = true;
         SaveGame();
     }
     
     public void UnlockIllustration(string _illustrationName){
-        GLogger.Log(_illustrationName);
-        gameData.illustrationStats[_illustrationName] = true;
+        GLogger.Log("set illustration: " + _illustrationName);
+        gameData.IllustrationStats[_illustrationName] = true;
+        SaveGame();
+    }
+
+    public void UnlockScene(string _sceneName){
+        GLogger.Log("set unlock scene: " + _sceneName);
+        gameData.IllustrationStats[_sceneName] = true;
+        SaveGame();
+    }
+
+    public void UnlockOther(string _otherName){
+        GLogger.Log("unlock other: " + _otherName);
+        gameData.otherStats[_otherName] = true;
         SaveGame();
     }
 }

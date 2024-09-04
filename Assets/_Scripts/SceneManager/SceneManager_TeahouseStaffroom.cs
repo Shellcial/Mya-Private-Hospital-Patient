@@ -1,6 +1,8 @@
 using UnityEngine;
 using Cysharp.Threading.Tasks;
 using UnityEngine.SceneManagement;
+using Tayx.Graphy.Audio;
+using UnityEngine.Audio;
 
 public class SceneManager_TeahouseStaffroom : Singleton<SceneManager_TeahouseStaffroom>, ISceneManager
 {
@@ -41,6 +43,7 @@ public class SceneManager_TeahouseStaffroom : Singleton<SceneManager_TeahouseSta
 
     private GameObject player;
     private Transform cameraPlayer;
+
     override protected void Awake(){
         InitializeScene();
 
@@ -51,7 +54,10 @@ public class SceneManager_TeahouseStaffroom : Singleton<SceneManager_TeahouseSta
 
     public async UniTask Start()
     {
+        GameManager.Instance.FadeInAudioMixer(0f);
+        FlatAudioManager.instance.SetAndFade("ambience_wind", 2f, 0f, 0.05f);
         GeneralUIManager.Instance.FadeOutBlack(2f).Forget();
+        PlayerController.Instance.ShowCursor();
         await UniTask.Delay(1000);
         GameManager.Instance.ResumeGame();
     }
@@ -76,10 +82,15 @@ public class SceneManager_TeahouseStaffroom : Singleton<SceneManager_TeahouseSta
         cameraPlayer = player.transform.Find("Character_Camera");
         cameraPlayer.localPosition = playerCameraStartPosition;
         cameraPlayer.localRotation = Quaternion.Euler(playerCameraStartRotation);
+
+        GameManager.Instance.gameDataManager.UnlockIllustration("food");
+        GameManager.Instance.gameDataManager.UnlockScene("Teahouse");
     }
 
     public async void SwitchScene()
     {
+        FlatAudioManager.instance.Play("exit_door", false);
+        GameManager.Instance.FadeOutAudioMixer(2f);
         await GeneralUIManager.Instance.FadeInBlack(2f);
         SceneManager.LoadScene("Hospital_Entrance");
     }

@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
     private Tween zoomTween;
 
     //control rotation
-    private float mouseRotationSensitivity = 10f;
+    private float mouseRotationSensitivity = 5f;
     private float horizontalRotation = 0f;
     private float verticalRotation = 0f;
     private Transform cameraPlayer;
@@ -74,6 +74,7 @@ public class PlayerController : MonoBehaviour
         cursorDisplay = GameObject.Find("Display_Cursor").GetComponent<Image>();
         cursorDisplay.transform.localPosition = Camera.main.ViewportToScreenPoint(new Vector3(0f, 0f, 0f));
         cursorDisplayFocus = cursorDisplay.transform.GetChild(0).GetComponentInChildren<Image>();
+        DisplayCursor();
 
         playerInputActions = new PlayerInputActions();
         playerInputActions.Player.Enable();
@@ -159,7 +160,7 @@ public class PlayerController : MonoBehaviour
         // get first raycast object and check its type
         if (Physics.Raycast(ray, out hit, distance, ~_ignore_RayCast)){
 
-            if (hit.collider.gameObject.layer == 10 || hit.collider.gameObject.layer == 11)
+            if (hit.collider.gameObject.layer == 10)
             {
                 //hit interactable or highlighted layer object
                 InteractableObject targetStatus;
@@ -178,7 +179,6 @@ public class PlayerController : MonoBehaviour
                     hitGameObject = hit.collider.gameObject;
                 }
                 
-
                 if (previousHoverTarget != hitGameObject)
                 {
                     //new object is hit
@@ -248,40 +248,40 @@ public class PlayerController : MonoBehaviour
     {
         DisplayCursorFocus();
 
-        hitGameObject.layer = highlightedLayer;
-        isTargetContainsChild = false;
-        if (targetStatus.interactableStatus.isChildHighlight)
-        {
-            isTargetContainsChild = true;
-            //get a list of excludedChild if any
-            List<string> excludedChild = new List<string>();
-            if (!targetStatus.interactableStatus.isAllChild)
-            {
-                foreach (string child in targetStatus.interactableStatus.excludedChild)
-                {
-                    excludedChild.Add(child);
-                }          
-            }
+        // hitGameObject.layer = highlightedLayer;
+        // isTargetContainsChild = false;
+        // if (targetStatus.interactableStatus.isChildHighlight)
+        // {
+        //     isTargetContainsChild = true;
+        //     //get a list of excludedChild if any
+        //     List<string> excludedChild = new List<string>();
+        //     if (!targetStatus.interactableStatus.isAllChild)
+        //     {
+        //         foreach (string child in targetStatus.interactableStatus.excludedChild)
+        //         {
+        //             excludedChild.Add(child);
+        //         }          
+        //     }
 
-            //loop through the child object and compare with exclude list if any
-            if (excludedChild.Count > 0)
-            {
-                foreach (Transform child in hitGameObject.transform)
-                {
-                    if (!excludedChild.Exists(x => x.Contains(child.name)))
-                    {
-                        child.gameObject.layer = highlightedLayer;
-                    }
-                }
-            }
-            else
-            {
-                foreach (Transform child in hitGameObject.transform)
-                {
-                    child.gameObject.layer = highlightedLayer;
-                }
-            }
-        }
+        //     //loop through the child object and compare with exclude list if any
+        //     if (excludedChild.Count > 0)
+        //     {
+        //         foreach (Transform child in hitGameObject.transform)
+        //         {
+        //             if (!excludedChild.Exists(x => x.Contains(child.name)))
+        //             {
+        //                 child.gameObject.layer = highlightedLayer;
+        //             }
+        //         }
+        //     }
+        //     else
+        //     {
+        //         foreach (Transform child in hitGameObject.transform)
+        //         {
+        //             child.gameObject.layer = highlightedLayer;
+        //         }
+        //     }
+        // }
         previousHoverTarget = hitGameObject;
     }
 
@@ -289,17 +289,17 @@ public class PlayerController : MonoBehaviour
     {   
         DisplayCursor();
         
-        if (previousHoverTarget != null){
-            previousHoverTarget.layer = interactableLayer;
-            if (isTargetContainsChild)
-            {
-                foreach (Transform child in previousHoverTarget.transform)
-                {
-                    child.gameObject.layer = interactableLayer;
-                }
-            }
-            previousHoverTarget = null;
-        }
+        // if (previousHoverTarget != null){
+        //     previousHoverTarget.layer = interactableLayer;
+        //     if (isTargetContainsChild)
+        //     {
+        //         foreach (Transform child in previousHoverTarget.transform)
+        //         {
+        //             child.gameObject.layer = interactableLayer;
+        //         }
+        //     }
+        // }
+        previousHoverTarget = null;
     }
 
 
@@ -319,12 +319,12 @@ public class PlayerController : MonoBehaviour
     private void CastRayOnClick(InputAction.CallbackContext context)
     {
         //objects must be interactable so that previousHoverTarget is not null
-        GLogger.Log("previousHoverTarget: " + previousHoverTarget);
+        // GLogger.Log("previousHoverTarget: " + previousHoverTarget);
         if (previousHoverTarget != null)
         {
             if (previousHoverTarget.TryGetComponent(out InteractableObject _interactable)){
                 _interactable.Interact();
-                GLogger.Log("cast success");
+                // GLogger.Log("cast success");
             }
             else{
                 GLogger.LogError("no IInteractive class on object");
@@ -332,19 +332,29 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            GLogger.LogWarning("cast failed");
+            GLogger.Log("cast failed");
         }
     }
 
     private void ZoomCamera(InputAction.CallbackContext context){
-        if (context.performed){
-            zoomTween.Kill();
-            zoomTween = _characterCamera.DOFieldOfView(_zoomInValue, _cameraZoomSpeed).SetEase(Ease.InOutSine);
+        if (GameManager.Instance.GetPlayerStatus()){
+            if (context.performed){
+                ZoomIn();
+            }
+            else if (context.canceled){
+                ZoomOut();
+            }
         }
-        else if (context.canceled){
-            zoomTween.Kill();
-            zoomTween = _characterCamera.DOFieldOfView(_zoomOutValue, _cameraZoomSpeed).SetEase(Ease.InOutSine);
-        }
+    }
+
+    public void ZoomIn(){
+        zoomTween.Kill();
+        zoomTween = _characterCamera.DOFieldOfView(_zoomInValue, _cameraZoomSpeed).SetEase(Ease.InOutSine);
+    }
+
+    public void ZoomOut(){
+        zoomTween.Kill();
+        zoomTween = _characterCamera.DOFieldOfView(_zoomOutValue, _cameraZoomSpeed).SetEase(Ease.InOutSine);
     }
 
     public void DisplayCursor(){
@@ -357,12 +367,10 @@ public class PlayerController : MonoBehaviour
         cursorDisplayFocus.enabled = true;
     }
 
-    public void FadeInCursor(){
-
+    public void HideCursor(float duration=0.5f){
+        cursorDisplay.transform.parent.GetComponent<CanvasGroup>().DOFade(0, duration);
     }
-
-    public void FadeOutCursor(){
-
+    public void ShowCursor(float duration=0.5f){
+        cursorDisplay.transform.parent.GetComponent<CanvasGroup>().DOFade(1, duration);
     }
-
 }

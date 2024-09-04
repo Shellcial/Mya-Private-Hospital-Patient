@@ -8,8 +8,6 @@ public class ControllerPassword : MonoBehaviour
     
     private List<float> _receivedPassword = new List<float>(){};
     
-    public bool _isAbleToEnter = true;
-
     [SerializeField]
     private List<GameObject> _allButtons = new List<GameObject>();
     private List<S_ControllerButton> _allButtonsController = new List<S_ControllerButton>();
@@ -33,9 +31,7 @@ public class ControllerPassword : MonoBehaviour
         }
 
         _startOrder = Random.Range(1, 10);
-        GLogger.Log(_startOrder);
         _receivedPassword.Clear();
-        _isAbleToEnter = true;
         ResetButtonIndex();
     }
 
@@ -47,14 +43,17 @@ public class ControllerPassword : MonoBehaviour
         if (_receivedPassword.Count == _password.Count){
             CheckPassword();
         }
+        else{
+            FlatAudioManager.instance.Play("press_password", false);
+        }
     }
 
     void CheckPassword(){
         for (int i = 0; i < _password.Count; i++){
             if (_password[i] != _receivedPassword[i]){
                 _receivedPassword.Clear();
-                _isAbleToEnter = true;
                 ResetButtonIndex();
+                FlatAudioManager.instance.Play("wrong_password", false);
                 return;
             }            
         }
@@ -64,7 +63,6 @@ public class ControllerPassword : MonoBehaviour
 
     void CorrectPassword(){
         _receivedPassword.Clear();
-        _isAbleToEnter = false;
         StopPassword();
         SceneManager_PooRoom.Instance.ForceEndVideo();
     }
@@ -75,9 +73,7 @@ public class ControllerPassword : MonoBehaviour
 
     // call from scene manager either video natural ended or forcely ended
     public void StopPassword(){
-        // foreach (S_ControllerButton _SButton in _allButtonsController){
-            _allButtonsController[0].DisableInteract();
-        // }
+        _allButtonsController[0].DisableInteract();
     }
 
     void ResetButtonIndex(){

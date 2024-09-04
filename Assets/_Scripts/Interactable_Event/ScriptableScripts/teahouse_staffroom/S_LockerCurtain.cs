@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Tayx.Graphy.Audio;
 using UnityEngine;
 
 public class S_LockerCurtain : InteractableObject
@@ -16,6 +17,7 @@ public class S_LockerCurtain : InteractableObject
 
     public override void Interact(){
         if (!isOpen){
+            FlatAudioManager.instance.Play("locker_curtain", false);
             isOpen = true;
             DisableInteract();
             animator.speed = 1f;
