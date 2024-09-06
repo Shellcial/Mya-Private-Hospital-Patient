@@ -37,7 +37,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties:
     - '#BAKERY{"meshName":["Cilindro","Cube.045","pen.001","LODEX3D_VOL1_BOOKS_L3DV1B001_","pen","pen.002","GOMA","10105_Computer
-      Keyboard_v1_L3","Kastel_kompasso (high back) headreset","Monitor 27'' Curved","movable_drawer","Object_313.001","Paper_clip_body_frame.002","Cube.046","Cylinder.003","Plane.002","Plane.003","Plane.015","Plane.021","Plane.022","Base","Top","Wheel"],"padding":[256,256,256,41,256,256,256,182,49,111,58,250,256,256,256,256,12,40,256,256,256,256,256],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
+      Keyboard_v1_L3","Kastel_kompasso (high back) headreset","Monitor 27'' Curved","movable_drawer","Object_313.001","Paper_clip_body_frame.002","Cube.046","Cylinder.003","Plane.002","Plane.003","Plane.015","Plane.021","Plane.022","Base","Top","Wheel"],"padding":[256,256,256,83,256,256,256,256,99,222,117,256,256,256,256,256,24,81,256,256,256,256,256],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:

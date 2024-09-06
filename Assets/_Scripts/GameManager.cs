@@ -38,10 +38,9 @@ public class GameManager : Singleton<GameManager>
 
     void Update(){
         // for debug only
-        // if (Input.GetKeyUp(KeyCode.S)){
-        //     gameDataManager.gameData.isGetReceptionKey = true;
-        //     gameDataManager.SaveGame();
-        // }
+        if (Input.GetKeyUp(KeyCode.L)){
+            gameDataManager.LogWholeSaving();
+        }
     }
 
     public void LockCursor(bool isLocked)

@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
+using System.Collections.Generic;
 
 // this class exists among the whole game for saving and loading data
 public class GameDataManager : MonoBehaviour
@@ -49,7 +50,6 @@ public class GameDataManager : MonoBehaviour
         catch {
             GLogger.LogError("cannot save game, can only use temp save data in this game");
         }
-        
     }
 
     //load on start
@@ -102,5 +102,28 @@ public class GameDataManager : MonoBehaviour
         GLogger.Log("unlock other: " + _otherName);
         gameData.otherStats[_otherName] = true;
         SaveGame();
+    }
+
+    public void LogWholeSaving(){
+        string outputString = "";
+        outputString += "isGetReceptionKey: " + gameData.isGetReceptionKey;
+        outputString += " ---illustration--- ";
+        foreach(KeyValuePair<string, bool> entry in gameData.IllustrationStats){
+            outputString +=  entry.Key + ": " + entry.Value + " - ";
+        }
+        outputString += " ---other--- ";
+        foreach(KeyValuePair<string, bool> entry in gameData.otherStats){
+            outputString +=  entry.Key + ": " + entry.Value + " - ";
+        }
+        outputString += " ---card--- ";
+        foreach(KeyValuePair<string, bool> entry in gameData.cardStats){
+            outputString +=  entry.Key + ": " + entry.Value + " - ";
+        }
+        outputString += " ---sceneCheckPoints--- ";
+        foreach(KeyValuePair<string, bool> entry in gameData.sceneCheckPoints){
+            outputString +=  entry.Key + ": " + entry.Value + " - ";
+        }
+        outputString += " ------ ";
+        GLogger.Log("LogSaveFile: " + outputString);
     }
 }
