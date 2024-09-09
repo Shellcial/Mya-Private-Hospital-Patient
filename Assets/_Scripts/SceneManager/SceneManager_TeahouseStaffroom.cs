@@ -77,6 +77,7 @@ public class SceneManager_TeahouseStaffroom : Singleton<SceneManager_TeahouseSta
         player = GameObject.Find("Player");
 
         player.transform.localPosition = playerStartPosition;
+        PlayerController.Instance.respawnPosition = playerStartPosition;
         player.transform.localRotation = Quaternion.Euler(playerStartRotation);
 
         cameraPlayer = player.transform.Find("Character_Camera");

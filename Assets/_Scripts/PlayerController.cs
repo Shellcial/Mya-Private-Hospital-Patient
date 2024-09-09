@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour
 
     public static PlayerController Instance;
     private Camera _characterCamera;
-
+    public Vector3 respawnPosition = new Vector3(0, 0.8f, 0);
     private void Awake()
     {
         if (Instance == null)
@@ -110,6 +110,14 @@ public class PlayerController : MonoBehaviour
             return;
         }
         RayCastOnInteracbleObject();
+        CheckOutOfBound();
+    }
+
+    void CheckOutOfBound(){
+        if (transform.position.y < -10f){
+            GLogger.LogWarning("player spawn back to this scene start position");
+            transform.position = respawnPosition;
+        }
     }
 
     void UpdatePosition(){

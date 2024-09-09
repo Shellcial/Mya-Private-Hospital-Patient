@@ -108,6 +108,7 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
 
     async UniTask Start()
     {
+        PlayerController.Instance.respawnPosition = playerStartPosition;
         _pandaSDFAnimator.speed = 0;
         GameManager.Instance.FadeInAudioMixer(0f);
         PlayerController.Instance.HideCursor(0f);

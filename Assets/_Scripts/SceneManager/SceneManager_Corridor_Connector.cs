@@ -76,6 +76,7 @@ public class SceneManager_Corridor_Connector : Singleton<SceneManager_Corridor_C
     
     public void InitializeScene()
     {
+        PlayerController.Instance.respawnPosition = playerStartPosition;
         GameManager.Instance.gameDataManager.UnlockScene("Hospital_corridor");
     }
 

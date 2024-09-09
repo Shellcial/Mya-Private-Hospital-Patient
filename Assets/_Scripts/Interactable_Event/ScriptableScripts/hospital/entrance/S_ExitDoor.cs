@@ -21,14 +21,14 @@ public class S_ExitDoor : InteractableObject
             isOpen = true;
             Vector3 targetValue = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y - openValue, transform.eulerAngles.z);
             GameManager.Instance.PauseGame();
-            transform.DORotate(targetValue, duration, RotateMode.Fast).SetEase(Ease.InOutSine).OnComplete(
+            GameManager.Instance.FadeOutAudioMixer(3f);
+            GeneralUIManager.Instance.FadeInBlack(3f).Forget();
+            transform.DORotate(targetValue, duration).SetEase(Ease.InOutSine).OnComplete(
                 () =>
                 {
-                    SceneManager.LoadScene("Gummy_Road");
+                    SceneManager_HospitalLeave.Instance.GoToGummyEnding();
                 }
             );
-
-            GeneralUIManager.Instance.FadeInBlack(2f).Forget();
         }   
     }
 }

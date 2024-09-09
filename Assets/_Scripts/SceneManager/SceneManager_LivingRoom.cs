@@ -54,7 +54,7 @@ public class SceneManager_LivingRoom : Singleton<SceneManager_LivingRoom>, IScen
 
     public void InitializeScene()
     {
-
+        PlayerController.Instance.respawnPosition = playerStartPosition;
     }
 
     public void SwitchScene()
