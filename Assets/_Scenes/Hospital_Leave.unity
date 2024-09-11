@@ -4267,14 +4267,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 238952806}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.896, y: 2.068, z: 2.97}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 15.896, y: 2.068, z: 6.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1760782500}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &238952808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4304,13 +4304,13 @@ Light:
   m_GameObject: {fileID: 238952806}
   m_Enabled: 1
   serializedVersion: 10
-  m_Type: 2
+  m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 0.76792455, b: 0.76792455, a: 1}
-  m_Intensity: 5
-  m_Range: 5
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
+  m_Intensity: 10
+  m_Range: 20
+  m_SpotAngle: 179
+  m_InnerSpotAngle: 10
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -14861,6 +14861,7 @@ MonoBehaviour:
     m_Signals:
     - {fileID: 11400000, guid: 6d75c5c3105df4c438fa6f805244ffdb, type: 2}
     - {fileID: 11400000, guid: 38c8291d1d2531143a978087254ae1ac, type: 2}
+    - {fileID: 11400000, guid: 8d1aa4fcd036d9646913248870e4a797, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -14881,6 +14882,20 @@ MonoBehaviour:
         - m_Target: {fileID: 1491804621}
           m_TargetAssemblyTypeName: MyaEnding, Assembly-CSharp
           m_MethodName: PlayVideo
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1491804621}
+          m_TargetAssemblyTypeName: MyaEnding, Assembly-CSharp
+          m_MethodName: RotateCamera
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -22390,14 +22405,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1365989592}
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 15.733114, y: 1.28, z: -4.343}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 315913678}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1376909144
 GameObject:
   m_ObjectHideFlags: 0
@@ -22432,7 +22447,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 315913678}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -7.218, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -7.002, y: -0.131, z: 0.001}
 --- !u!114 &1376909146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27850,7 +27865,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1798774567}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.358, y: 2.068, z: -1.56}
+  m_LocalPosition: {x: 15.8, y: 1.07, z: -5.57}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -27888,9 +27903,9 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 0.9283019, b: 0.9283019, a: 1}
-  m_Intensity: 10
-  m_Range: 10
+  m_Color: {r: 1, g: 0.76862746, b: 0.76862746, a: 1}
+  m_Intensity: 1
+  m_Range: 5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
