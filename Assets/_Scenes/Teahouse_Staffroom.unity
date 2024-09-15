@@ -7386,7 +7386,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameData:
-    isPooRoomVideoForcelyStopped: 0
     isGetReceptionKey: 0
 --- !u!1 &291994112
 GameObject:
@@ -71462,7 +71461,7 @@ PrefabInstance:
     - target: {fileID: 4165013289672477609, guid: e1d4fee8e17a2b340bafda108931daf6,
         type: 3}
       propertyPath: smoothSpeed
-      value: 0.03
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 4165013289672477610, guid: e1d4fee8e17a2b340bafda108931daf6,
         type: 3}

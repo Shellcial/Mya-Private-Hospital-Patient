@@ -1,10 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using Cysharp.Threading.Tasks;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class ChangeScene : MonoBehaviour
+public class GoGeneralWardScene : MonoBehaviour
 {
     private bool _isTriggered = false; 
     void OnTriggerEnter(Collider other){
@@ -15,7 +13,6 @@ public class ChangeScene : MonoBehaviour
     }
 
     void LeaveRoom(){
-        GLogger.Log("load scene");
         SceneManager_PooRoom.Instance.SwitchScene();
     }
 }

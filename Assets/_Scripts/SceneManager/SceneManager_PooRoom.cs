@@ -15,11 +15,12 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
     public Vector3 playerStartPosition{
         get{
             // real position
-            // return new Vector3(-0.239f,0.529f,-0.19f);
-            // debug position
-            return new Vector3(5.07f,0.79f,1.2f);
+            return new Vector3(-0.239f,0.529f,-0.19f);
         }
     }
+
+    // debug position
+    private Vector3 debugStartPosition = new Vector3(5.07f,0.79f,1.2f);
 
     public Vector3 playerStartRotation{
         get{
@@ -29,7 +30,7 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
 
     public Vector3 playerCameraStartPosition{
         get{
-            return new Vector3(0,0.8f,0);
+            return new Vector3(0,0.5f,0);
         }
     }
 
@@ -101,21 +102,29 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
         
         InitializeScene();
 
-        GeneralUIManager.Instance.SetBlack();
-        GameManager.Instance.PauseGame();
+        if (!isTest){
+            GeneralUIManager.Instance.SetBlack();
+            GameManager.Instance.PauseGame();
+        }
         GameManager.Instance.LockCursor(true);
     }
 
     async UniTask Start()
     {
-        PlayerController.Instance.respawnPosition = playerStartPosition;
-        _pandaSDFAnimator.speed = 0;
         GameManager.Instance.FadeInAudioMixer(0f);
         PlayerController.Instance.HideCursor(0f);
         FlatAudioManager.instance.SetAndFade("ambience_horror2", 2f, 0f, 0.1f);
-        await UniTask.Delay(1000);
-        _wakeUpAudio.Play();
-        await UniTask.Delay(3000);
+        if (!isTest){
+            PlayerController.Instance.respawnPosition = playerStartPosition;
+            _pandaSDFAnimator.speed = 0;
+            await UniTask.Delay(1000);
+            _wakeUpAudio.Play();
+            await UniTask.Delay(3000);
+        }
+        else{
+            GameManager.Instance.ResumeGame();
+            player.GetComponent<CharacterController>().enabled = true;
+        }
         GeneralUIManager.Instance.FadeOutBlack(6f).Forget();
     }
 
@@ -160,14 +169,13 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
     public void InitializeScene(){
         player = GameObject.Find("Player");
 
-        player.transform.localPosition = playerStartPosition;
-        player.transform.localRotation = Quaternion.Euler(playerStartRotation);
-
-        cameraPlayer = player.transform.Find("Character_Camera");
-        cameraPlayer.localPosition = playerCameraStartPosition;
-        cameraPlayer.localRotation = Quaternion.Euler(playerCameraStartRotation);
-        
         if (!isTest){
+            player.transform.localPosition = playerStartPosition;
+            player.transform.localRotation = Quaternion.Euler(playerStartRotation);
+
+            cameraPlayer = player.transform.Find("Character_Camera");
+            cameraPlayer.localPosition = playerCameraStartPosition;
+            cameraPlayer.localRotation = Quaternion.Euler(playerCameraStartRotation);
             //assign wake up animator to it. 
             if (player.GetComponent<Animator>() != null){
                 Destroy(player.GetComponent<Animator>());
@@ -184,6 +192,13 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
             StartCoroutine(PlayVideo());
         }
         else{
+            player.transform.localPosition = debugStartPosition;
+            player.transform.localRotation = Quaternion.Euler(playerStartRotation);
+
+            cameraPlayer = player.transform.Find("Character_Camera");
+            cameraPlayer.localPosition = playerCameraStartPosition;
+            cameraPlayer.localRotation = Quaternion.Euler(playerCameraStartRotation);
+
             if (_volume.profile.TryGet(out Bloom bloom)){
                 bloom.intensity.value = 0.1f;
             }
@@ -239,7 +254,7 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
         GameManager.Instance.PauseGame();
         GameManager.Instance.FadeOutAudioMixer(2f);
         await GeneralUIManager.Instance.FadeInBlack(2f);
-        SceneManager.LoadScene("Corridor_Connector");
+        SceneManager.LoadScene("Hospital_General_Ward");
     }
 
     IEnumerator PlayVideo(){

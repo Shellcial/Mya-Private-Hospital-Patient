@@ -1,16 +1,22 @@
 using System.Collections.Generic;
 using UnityEngine.InputSystem;
 
-public class PathToTeahouseDialogue : AbstractInputActionsController
+public class PooRoomDialogue : AbstractInputActionsController
 {
     private List<string> dialogueList = new List<string>(){
-        "我有時會在假日出去嘗試一些新餐廳（主要是找新甜品吃）",
-        "最近在網上看到有很多人推薦一間叫「幻花茶屋」的餐廳，今天便決定試試",
-        "但是，跟着網上寫的地址及地圖走，郤來到了偏僻的郊外",
-        "沿着山路走，不知走了多久，終於看到標示着幻花茶屋的路牌",
-        "轉左走就是幻花茶屋……還有一間醫院叫「米亞私立醫院」？",
-        "為甚麼在這麼偏僻的地方會有醫院？",
-        "路牌上好像還寫着轉右有甚麼東西，不過被啡色的污漬弄污了",
+        "終於到了，明明是在深山中一樣的地方，郤有超多人光顧呢",
+        "一……二……三……四……",
+        "驟眼看整間店有4位店員，每一位也是超級可愛的女孩子，不怪得會有這麼多人光顧",
+        "入座後，替我下單的是一位粉紅色頭髮，戴着熊貓耳朵頭飾的女孩子",
+        "她推薦我一定要嘗試她們店親自調製的屎水",
+        "看了看餐牌的圖片，估計是朱古力及咖啡類型的飲品吧",
+        "雖然名稱充滿着惡趣味，不過就試一下吧。",
+        "喝了一口，和想像中的味道完全不同",
+        "原本以為是朱古力或者咖啡味，但這味道郤是從未品嘗過的",
+        "說不上難吃，難以形容的味道。",
+        "……總感覺，肚子好像越來越痛了……",
+        "在洗手間待了一會，但肚子依然很痛……",
+        "對了，剛剛路牌寫着旁邊有間醫院，試試去那兒看醫生吧。"
     };
 
     private List<int> pauseNumbers = new List<int>(){
@@ -43,8 +49,7 @@ public class PathToTeahouseDialogue : AbstractInputActionsController
                     case 4:
                         SceneManager_Path_To_Teahouse.Instance.ShowRoadSign();
                         break;
-                    case 7:
-                        DialogueManager.Instance.ClearText();
+                    case 6:
                         SceneManager_Path_To_Teahouse.Instance.SwitchScene();
                         break;
                     default:

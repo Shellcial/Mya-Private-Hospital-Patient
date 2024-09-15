@@ -50,10 +50,11 @@ public class GameData
         };
 
         sceneCheckPoints = new Dictionary<string, bool>(){
+            {"Prologue", false},
             {"Teahouse", false},
             {"Hospital_Entrance", false},
             {"Hospital_Poo_Room", false},
-            {"Hospital_corridor", false},
+            {"Hospital_Ward", false},
         };
 
         isGetReceptionKey = false;
