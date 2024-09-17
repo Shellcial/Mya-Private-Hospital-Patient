@@ -29,21 +29,23 @@ public class SceneManager_Path_To_Teahouse : Singleton<SceneManager_Path_To_Teah
 		await Task.Delay(1000);
 		DialogueManager.Instance.ShowDialogueText(true);
 		await Task.Delay(500);
-		DialogueManager.Instance.isDialogueEnable = true;
 		GetComponent<PathToTeahouseDialogue>().ClickSentence();
+		await Task.Delay(100);
+		DialogueManager.Instance.isDialogueEnable = true;
     }
 
 	public async void ShowPathVisual(){
 		DialogueManager.Instance.ClearText();
 		DialogueManager.Instance.ShowDialogueText(false, 0f);
-		FlatAudioManager.instance.SetAndFade("bird", 2f, 0f, 0.05f);
+		FlatAudioManager.instance.SetAndFade("bird", 2f, 0f, 1f);
 		DialogueManager.Instance.isDialogueEnable = false;
 		await GeneralUIManager.Instance.FadeOutBlack(2f);
 		await Task.Delay(500);
 		DialogueManager.Instance.ShowDialogueText(true);
 		await Task.Delay(500);
-		DialogueManager.Instance.isDialogueEnable = true;
 		GetComponent<PathToTeahouseDialogue>().ClickSentence();
+		await Task.Delay(100);
+		DialogueManager.Instance.isDialogueEnable = true;
 	}
 
 	public async void ShowRoadSign(){
@@ -54,11 +56,13 @@ public class SceneManager_Path_To_Teahouse : Singleton<SceneManager_Path_To_Teah
 		await Task.Delay(2500);
 		DialogueManager.Instance.ShowDialogueText(true);
 		await Task.Delay(500);
-		DialogueManager.Instance.isDialogueEnable = true;
 		GetComponent<PathToTeahouseDialogue>().ClickSentence();
+		await Task.Delay(100);
+		DialogueManager.Instance.isDialogueEnable = true;
 	}
 
     public async void SwitchScene(){
+		DialogueManager.Instance.ClearText();
 		DialogueManager.Instance.isDialogueEnable = false;
 		GameManager.Instance.FadeOutAudioMixer(2f);
 		DialogueManager.Instance.ShowDialogue(false,1f);

@@ -13,10 +13,6 @@ public class PathToTeahouseDialogue : AbstractInputActionsController
         "路牌上好像還寫着轉右有甚麼東西，不過被啡色的污漬弄污了",
     };
 
-    private List<int> pauseNumbers = new List<int>(){
-        1, 3, 5
-    };
-
     private int currentSentence = 0;
 
     void Awake()
@@ -31,7 +27,7 @@ public class PathToTeahouseDialogue : AbstractInputActionsController
 
     public void ClickSentence(){
         GLogger.Log(DialogueManager.Instance.isDialogueEnable);
-        if (DialogueManager.Instance.isDialogueEnable){
+        if (DialogueManager.Instance.isDialogueEnable && currentSentence <= dialogueList.Count){
             if (DialogueManager.Instance.isSentencePlaying){
                 DialogueManager.Instance.JumpSentence(dialogueList[currentSentence-1]);
             }
@@ -44,7 +40,6 @@ public class PathToTeahouseDialogue : AbstractInputActionsController
                         SceneManager_Path_To_Teahouse.Instance.ShowRoadSign();
                         break;
                     case 7:
-                        DialogueManager.Instance.ClearText();
                         SceneManager_Path_To_Teahouse.Instance.SwitchScene();
                         break;
                     default:

@@ -84,6 +84,7 @@ public class DialogueManager : Singleton<DialogueManager>
     }
 
     public void ClearText(){
+        isSentencePlaying = false;
         _dialogueText.SetText("");
     }
 }

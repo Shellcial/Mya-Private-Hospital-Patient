@@ -378,6 +378,7 @@ public class PlayerController : MonoBehaviour
     public void HideCursor(float duration=0.5f){
         cursorDisplay.transform.parent.GetComponent<CanvasGroup>().DOFade(0, duration);
     }
+    
     public void ShowCursor(float duration=0.5f){
         cursorDisplay.transform.parent.GetComponent<CanvasGroup>().DOFade(1, duration);
     }

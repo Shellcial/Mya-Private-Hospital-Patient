@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000002, guid: fc2c9a9de325c704b97c5f8a97242ae2,
+  m_LightingDataAsset: {fileID: 112000002, guid: 20ccd0bba3d373548a099f767c836096,
     type: 2}
   m_LightingSettings: {fileID: 1455721426}
 --- !u!196 &4
@@ -11794,47 +11794,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 685884226}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &713035850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
-  m_Name: Teahouse_Staffroom_LM0
-  m_EditorClassIdentifier: 
-  resolution: 2048
-  bitmask: 1
-  id: 0
-  sortingID: 0
-  isImplicit: 1
-  area: 2085.3096
-  totalVertexCount: 0
-  vertexCounter: 0
-  sceneLodLevel: -1
-  sceneName: 
-  containsTerrains: 0
-  probes: 0
-  mode: 1
-  renderMode: 1000
-  renderDirMode: 1000
-  atlasPacker: 1000
-  computeSSS: 0
-  sssSamples: 16
-  sssDensity: 10
-  sssColor: {r: 1, g: 1, b: 1, a: 1}
-  sssScale: 1
-  fakeShadowBias: 0
-  transparentSelfShadow: 0
-  flipNormal: 0
-  parentName: 
-  overridePath: 
-  fixPos3D: 0
-  voxelSize: {x: 1, y: 1, z: 1}
-  passedFilter: 0
 --- !u!1001 &714947529
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19234,6 +19193,47 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &945284440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
+  m_Name: Teahouse_Staffroom_LMA7
+  m_EditorClassIdentifier: 
+  resolution: 128
+  bitmask: 1
+  id: 3
+  sortingID: 3
+  isImplicit: 1
+  area: 0
+  totalVertexCount: 0
+  vertexCounter: 0
+  sceneLodLevel: -1
+  sceneName: 
+  containsTerrains: 0
+  probes: 0
+  mode: 1
+  renderMode: 1000
+  renderDirMode: 1000
+  atlasPacker: 1000
+  computeSSS: 0
+  sssSamples: 16
+  sssDensity: 10
+  sssColor: {r: 1, g: 1, b: 1, a: 1}
+  sssScale: 1
+  fakeShadowBias: 0
+  transparentSelfShadow: 0
+  flipNormal: 0
+  parentName: 
+  overridePath: 
+  fixPos3D: 0
+  voxelSize: {x: 1, y: 1, z: 1}
+  passedFilter: 0
 --- !u!1001 &945700818
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19784,6 +19784,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: -4942048072228855323, guid: 7ed130fb60bb3224197e64fc531ee352,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7ed130fb60bb3224197e64fc531ee352,
         type: 3}
       propertyPath: m_Name
@@ -20142,6 +20147,47 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1073284729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
+  m_Name: Teahouse_Staffroom_LMA5
+  m_EditorClassIdentifier: 
+  resolution: 256
+  bitmask: 1
+  id: 1
+  sortingID: 1
+  isImplicit: 1
+  area: 0
+  totalVertexCount: 0
+  vertexCounter: 0
+  sceneLodLevel: -1
+  sceneName: 
+  containsTerrains: 0
+  probes: 0
+  mode: 1
+  renderMode: 1000
+  renderDirMode: 1000
+  atlasPacker: 1000
+  computeSSS: 0
+  sssSamples: 16
+  sssDensity: 10
+  sssColor: {r: 1, g: 1, b: 1, a: 1}
+  sssScale: 1
+  fakeShadowBias: 0
+  transparentSelfShadow: 0
+  flipNormal: 0
+  parentName: 
+  overridePath: 
+  fixPos3D: 0
+  voxelSize: {x: 1, y: 1, z: 1}
+  passedFilter: 0
 --- !u!1 &1079769301
 GameObject:
   m_ObjectHideFlags: 0
@@ -22593,6 +22639,47 @@ MeshRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 239412811}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1281824362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
+  m_Name: Teahouse_Staffroom_LM0
+  m_EditorClassIdentifier: 
+  resolution: 2048
+  bitmask: 1
+  id: 0
+  sortingID: 0
+  isImplicit: 1
+  area: 2085.3096
+  totalVertexCount: 0
+  vertexCounter: 0
+  sceneLodLevel: -1
+  sceneName: 
+  containsTerrains: 0
+  probes: 0
+  mode: 1
+  renderMode: 1000
+  renderDirMode: 1000
+  atlasPacker: 1000
+  computeSSS: 0
+  sssSamples: 16
+  sssDensity: 10
+  sssColor: {r: 1, g: 1, b: 1, a: 1}
+  sssScale: 1
+  fakeShadowBias: 0
+  transparentSelfShadow: 0
+  flipNormal: 0
+  parentName: 
+  overridePath: 
+  fixPos3D: 0
+  voxelSize: {x: 1, y: 1, z: 1}
+  passedFilter: 0
 --- !u!1 &1284317863
 GameObject:
   m_ObjectHideFlags: 0
@@ -22642,6 +22729,47 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1286963460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
+  m_Name: Teahouse_Staffroom_LMA4
+  m_EditorClassIdentifier: 
+  resolution: 1024
+  bitmask: 1
+  id: 4
+  sortingID: 4
+  isImplicit: 1
+  area: 0
+  totalVertexCount: 0
+  vertexCounter: 0
+  sceneLodLevel: -1
+  sceneName: 
+  containsTerrains: 0
+  probes: 0
+  mode: 1
+  renderMode: 1000
+  renderDirMode: 1000
+  atlasPacker: 1000
+  computeSSS: 0
+  sssSamples: 16
+  sssDensity: 10
+  sssColor: {r: 1, g: 1, b: 1, a: 1}
+  sssScale: 1
+  fakeShadowBias: 0
+  transparentSelfShadow: 0
+  flipNormal: 0
+  parentName: 
+  overridePath: 
+  fixPos3D: 0
+  voxelSize: {x: 1, y: 1, z: 1}
+  passedFilter: 0
 --- !u!1001 &1287490074
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23054,50 +23182,10 @@ Transform:
   m_Children:
   - {fileID: 265880950}
   - {fileID: 664761160}
+  - {fileID: 1629165506}
   m_Father: {fileID: 722399936}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1396699119
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
-  m_Name: Teahouse_Staffroom_LMA4
-  m_EditorClassIdentifier: 
-  resolution: 1024
-  bitmask: 1
-  id: 4
-  sortingID: 4
-  isImplicit: 1
-  area: 0
-  totalVertexCount: 0
-  vertexCounter: 0
-  sceneLodLevel: -1
-  sceneName: 
-  containsTerrains: 0
-  probes: 0
-  mode: 1
-  renderMode: 1000
-  renderDirMode: 1000
-  atlasPacker: 1000
-  computeSSS: 0
-  sssSamples: 16
-  sssDensity: 10
-  sssColor: {r: 1, g: 1, b: 1, a: 1}
-  sssScale: 1
-  fakeShadowBias: 0
-  transparentSelfShadow: 0
-  flipNormal: 0
-  parentName: 
-  overridePath: 
-  fixPos3D: 0
-  voxelSize: {x: 1, y: 1, z: 1}
-  passedFilter: 0
 --- !u!1001 &1406561946
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23659,6 +23747,47 @@ MeshRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 239412811}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1464102920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
+  m_Name: Teahouse_Staffroom_LMA6
+  m_EditorClassIdentifier: 
+  resolution: 128
+  bitmask: 1
+  id: 2
+  sortingID: 2
+  isImplicit: 1
+  area: 0
+  totalVertexCount: 0
+  vertexCounter: 0
+  sceneLodLevel: -1
+  sceneName: 
+  containsTerrains: 0
+  probes: 0
+  mode: 1
+  renderMode: 1000
+  renderDirMode: 1000
+  atlasPacker: 1000
+  computeSSS: 0
+  sssSamples: 16
+  sssDensity: 10
+  sssColor: {r: 1, g: 1, b: 1, a: 1}
+  sssScale: 1
+  fakeShadowBias: 0
+  transparentSelfShadow: 0
+  flipNormal: 0
+  parentName: 
+  overridePath: 
+  fixPos3D: 0
+  voxelSize: {x: 1, y: 1, z: 1}
+  passedFilter: 0
 --- !u!1 &1474464358
 GameObject:
   m_ObjectHideFlags: 0
@@ -29114,7 +29243,7 @@ MonoBehaviour:
   renderSettingsRTPVSceneView: 0
   renderSettingsRTPVWidth: 640
   renderSettingsRTPVHeight: 360
-  lastBakeTime: 43
+  lastBakeTime: 44
   enlightenWarningShown: 0
   enlightenWarningShown2: 0
   lightUIDs: 1d472f6cccf90c9beb50da1d989e3184f5a4305ccf847e5149b6c960cfd8f529751ed0918a8c8851a9c1f6a1e87e7ee24f34d74c1cc0b64c74ea1b02ea2f07e1
@@ -29600,371 +29729,371 @@ MonoBehaviour:
     cookie: {fileID: 0}
     angle: 30
   implicitGroups:
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 2014896241}
-  - {fileID: 2111955287}
-  - {fileID: 2111955287}
-  - {fileID: 1396699119}
-  - {fileID: 1396699119}
-  - {fileID: 713035850}
-  - {fileID: 2014896241}
-  - {fileID: 2014896241}
-  - {fileID: 1396699119}
-  - {fileID: 1396699119}
-  - {fileID: 1396699119}
-  - {fileID: 1396699119}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 1396699119}
-  - {fileID: 2014896241}
-  - {fileID: 2014896241}
-  - {fileID: 2111955287}
-  - {fileID: 2111955287}
-  - {fileID: 1396699119}
-  - {fileID: 1396699119}
-  - {fileID: 1396699119}
-  - {fileID: 1396699119}
-  - {fileID: 1396699119}
-  - {fileID: 713035850}
-  - {fileID: 2111955287}
-  - {fileID: 1396699119}
-  - {fileID: 1396699119}
-  - {fileID: 1396699119}
-  - {fileID: 1396699119}
-  - {fileID: 1396699119}
-  - {fileID: 1396699119}
-  - {fileID: 1613122973}
-  - {fileID: 1396699119}
-  - {fileID: 2111955287}
-  - {fileID: 1613122973}
-  - {fileID: 1396699119}
-  - {fileID: 1396699119}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 1396699119}
-  - {fileID: 1613122973}
-  - {fileID: 1396699119}
-  - {fileID: 1396699119}
-  - {fileID: 2111955287}
-  - {fileID: 1613122973}
-  - {fileID: 1396699119}
-  - {fileID: 713035850}
-  - {fileID: 1396699119}
-  - {fileID: 1396699119}
-  - {fileID: 1396699119}
-  - {fileID: 2111955287}
-  - {fileID: 1396699119}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 1396699119}
-  - {fileID: 1396699119}
-  - {fileID: 713035850}
-  - {fileID: 1396699119}
-  - {fileID: 1396699119}
-  - {fileID: 1396699119}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 1396699119}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 1396699119}
-  - {fileID: 1396699119}
-  - {fileID: 1396699119}
-  - {fileID: 713035850}
-  - {fileID: 1396699119}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 1396699119}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 1396699119}
-  - {fileID: 1396699119}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
-  - {fileID: 713035850}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 945284440}
+  - {fileID: 1073284729}
+  - {fileID: 1073284729}
+  - {fileID: 1286963460}
+  - {fileID: 1286963460}
+  - {fileID: 1281824362}
+  - {fileID: 945284440}
+  - {fileID: 945284440}
+  - {fileID: 1286963460}
+  - {fileID: 1286963460}
+  - {fileID: 1286963460}
+  - {fileID: 1286963460}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1286963460}
+  - {fileID: 945284440}
+  - {fileID: 945284440}
+  - {fileID: 1073284729}
+  - {fileID: 1073284729}
+  - {fileID: 1286963460}
+  - {fileID: 1286963460}
+  - {fileID: 1286963460}
+  - {fileID: 1286963460}
+  - {fileID: 1286963460}
+  - {fileID: 1281824362}
+  - {fileID: 1073284729}
+  - {fileID: 1286963460}
+  - {fileID: 1286963460}
+  - {fileID: 1286963460}
+  - {fileID: 1286963460}
+  - {fileID: 1286963460}
+  - {fileID: 1286963460}
+  - {fileID: 1464102920}
+  - {fileID: 1286963460}
+  - {fileID: 1073284729}
+  - {fileID: 1464102920}
+  - {fileID: 1286963460}
+  - {fileID: 1286963460}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1286963460}
+  - {fileID: 1464102920}
+  - {fileID: 1286963460}
+  - {fileID: 1286963460}
+  - {fileID: 1073284729}
+  - {fileID: 1464102920}
+  - {fileID: 1286963460}
+  - {fileID: 1281824362}
+  - {fileID: 1286963460}
+  - {fileID: 1286963460}
+  - {fileID: 1286963460}
+  - {fileID: 1073284729}
+  - {fileID: 1286963460}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1286963460}
+  - {fileID: 1286963460}
+  - {fileID: 1281824362}
+  - {fileID: 1286963460}
+  - {fileID: 1286963460}
+  - {fileID: 1286963460}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1286963460}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1286963460}
+  - {fileID: 1286963460}
+  - {fileID: 1286963460}
+  - {fileID: 1281824362}
+  - {fileID: 1286963460}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1286963460}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1286963460}
+  - {fileID: 1286963460}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
+  - {fileID: 1281824362}
   implicitGroupedObjects:
   - {fileID: 16318321}
   - {fileID: 16318322}
@@ -44475,47 +44604,6 @@ Transform:
   m_Father: {fileID: 184137133}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1613122973
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
-  m_Name: Teahouse_Staffroom_LMA6
-  m_EditorClassIdentifier: 
-  resolution: 128
-  bitmask: 1
-  id: 2
-  sortingID: 2
-  isImplicit: 1
-  area: 0
-  totalVertexCount: 0
-  vertexCounter: 0
-  sceneLodLevel: -1
-  sceneName: 
-  containsTerrains: 0
-  probes: 0
-  mode: 1
-  renderMode: 1000
-  renderDirMode: 1000
-  atlasPacker: 1000
-  computeSSS: 0
-  sssSamples: 16
-  sssDensity: 10
-  sssColor: {r: 1, g: 1, b: 1, a: 1}
-  sssScale: 1
-  fakeShadowBias: 0
-  transparentSelfShadow: 0
-  flipNormal: 0
-  parentName: 
-  overridePath: 
-  fixPos3D: 0
-  voxelSize: {x: 1, y: 1, z: 1}
-  passedFilter: 0
 --- !u!1001 &1614160184
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44770,6 +44858,71 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b18f72898707d7345af2e45d8df44e35, type: 3}
+--- !u!1 &1629165505
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1629165506}
+  - component: {fileID: 1629165507}
+  m_Layer: 0
+  m_Name: Reflection Probe (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1629165506
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629165505}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.554, y: -3.078, z: 1.996}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1386882716}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!215 &1629165507
+ReflectionProbe:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629165505}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Type: 0
+  m_Mode: 0
+  m_RefreshMode: 0
+  m_TimeSlicingMode: 0
+  m_Resolution: 128
+  m_UpdateFrequency: 0
+  m_BoxSize: {x: 9.719234, y: 6.822055, z: 7.597516}
+  m_BoxOffset: {x: -2.862484, y: -1.5889726, z: -0.76544905}
+  m_NearClip: 0.3
+  m_FarClip: 1000
+  m_ShadowDistance: 100
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IntensityMultiplier: 1
+  m_BlendDistance: 1
+  m_HDR: 1
+  m_BoxProjection: 0
+  m_RenderDynamicObjects: 0
+  m_UseOcclusionCulling: 1
+  m_Importance: 1
+  m_CustomBakedTexture: {fileID: 0}
 --- !u!1001 &1637896936
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46330,47 +46483,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1967546123}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2014896241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
-  m_Name: Teahouse_Staffroom_LMA7
-  m_EditorClassIdentifier: 
-  resolution: 128
-  bitmask: 1
-  id: 3
-  sortingID: 3
-  isImplicit: 1
-  area: 0
-  totalVertexCount: 0
-  vertexCounter: 0
-  sceneLodLevel: -1
-  sceneName: 
-  containsTerrains: 0
-  probes: 0
-  mode: 1
-  renderMode: 1000
-  renderDirMode: 1000
-  atlasPacker: 1000
-  computeSSS: 0
-  sssSamples: 16
-  sssDensity: 10
-  sssColor: {r: 1, g: 1, b: 1, a: 1}
-  sssScale: 1
-  fakeShadowBias: 0
-  transparentSelfShadow: 0
-  flipNormal: 0
-  parentName: 
-  overridePath: 
-  fixPos3D: 0
-  voxelSize: {x: 1, y: 1, z: 1}
-  passedFilter: 0
 --- !u!1 &2029048121 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5339408507114889607, guid: cff10743ce312254b82a54036abe5896,
@@ -46680,47 +46792,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2098552429}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2111955287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
-  m_Name: Teahouse_Staffroom_LMA5
-  m_EditorClassIdentifier: 
-  resolution: 256
-  bitmask: 1
-  id: 1
-  sortingID: 1
-  isImplicit: 1
-  area: 0
-  totalVertexCount: 0
-  vertexCounter: 0
-  sceneLodLevel: -1
-  sceneName: 
-  containsTerrains: 0
-  probes: 0
-  mode: 1
-  renderMode: 1000
-  renderDirMode: 1000
-  atlasPacker: 1000
-  computeSSS: 0
-  sssSamples: 16
-  sssDensity: 10
-  sssColor: {r: 1, g: 1, b: 1, a: 1}
-  sssScale: 1
-  fakeShadowBias: 0
-  transparentSelfShadow: 0
-  flipNormal: 0
-  parentName: 
-  overridePath: 
-  fixPos3D: 0
-  voxelSize: {x: 1, y: 1, z: 1}
-  passedFilter: 0
 --- !u!1 &2120685948
 GameObject:
   m_ObjectHideFlags: 0
