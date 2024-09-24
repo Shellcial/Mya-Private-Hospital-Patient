@@ -35,7 +35,7 @@ public class S_ReceptionDoor : InteractableObject
             }
             }
             else{
-                FlatAudioManager.instance.Play("door_locked", false);
+                FlatAudioManager.Instance.Play("door_locked", false);
             }
         }   
     }

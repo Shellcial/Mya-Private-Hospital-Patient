@@ -68,7 +68,7 @@ public class SceneManager_HospitalLeave : Singleton<SceneManager_HospitalLeave>,
     {
         GameManager.Instance.FadeInAudioMixer(0f);
         GeneralUIManager.Instance.FadeOutBlack(2f).Forget();
-        FlatAudioManager.instance.SetAndFade("ambience_horror", 2f, 0f, 0.1f);
+        FlatAudioManager.Instance.SetAndFade("ambience_horror", 2f, 0f, 0.1f);
         PlayerController.Instance.ShowCursor();
         await UniTask.Delay(1000);
         GameManager.Instance.ResumeGame();

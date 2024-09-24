@@ -5,6 +5,6 @@ using UnityEngine;
 public class MoveSpeaker : MonoBehaviour
 {
     public void PlaySpeakerMoveSound(){
-        FlatAudioManager.instance.Play("speaker_move", false);
+        FlatAudioManager.Instance.Play("speaker_move", false);
     }
 }

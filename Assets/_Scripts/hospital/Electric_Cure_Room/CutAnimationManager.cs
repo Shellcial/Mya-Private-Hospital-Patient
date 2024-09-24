@@ -50,6 +50,8 @@ public class CutAnimationManager : MonoBehaviour
     void MoveCamera(){
         startCameraPosition = _playerCamera.transform.position;
         startCameraRotation = _playerCamera.transform.eulerAngles;
+        FlatAudioManager.Instance.Play("slient_footsteps", false);
+        FlatAudioManager.Instance.SetAndFade("horror_ambience1", 5f, 0f, 1f);
         _playerCamera.transform.DOMove(targetCameraPosition, _inAnimationTime).SetEase(Ease.InOutSine).OnComplete(()=>{
             StartCoroutine(StartAnimation());
         });
@@ -63,6 +65,9 @@ public class CutAnimationManager : MonoBehaviour
         foreach (Animator animator in _animatorList){
             animator.speed = 1f;
         }
+        FlatAudioManager.Instance.Play("panda_run_light_flicker_033", false);
+        FlatAudioManager.Instance.SetAndFade("horror_ambience2", 3f, 0f, 1f);
+        FlatAudioManager.Instance.SetAndFade("horror_ambience3", 3f, 0f, 1f);
     }
 
     public void ReturnPosition(){

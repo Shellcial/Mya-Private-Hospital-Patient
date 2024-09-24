@@ -5,13 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class ExitLivingRoom : MonoBehaviour
 {
+    bool _isTrigger = false;
+
     void OnTriggerEnter(Collider other)
     {
-        ExitScene();
-    }
-    
-    public async void ExitScene(){
-        await GeneralUIManager.Instance.FadeInBlack();
-        SceneManager.LoadScene("Ending_Credits");
+        if (!_isTrigger){
+            _isTrigger = true;
+            SceneManager_LivingRoom.Instance.SwitchScene();
+        }
     }
 }

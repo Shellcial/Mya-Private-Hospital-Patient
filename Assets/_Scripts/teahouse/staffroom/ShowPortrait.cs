@@ -87,7 +87,7 @@ public class ShowPortrait : MonoBehaviour
         if (outTween != null){
             outTween.Kill();
         }
-        FlatAudioManager.instance.Play("magic_reveal", false);
+        FlatAudioManager.Instance.Play("magic_reveal", false);
         inTween = _portraitMaterial.DOFloat(0.85f, "_fade_value", showTime).SetEase(Ease.Linear);
         GameManager.Instance.gameDataManager.UnlockIllustration(_portraitString.ToString());
     }

@@ -3,44 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneManager_LivingRoom : Singleton<SceneManager_LivingRoom>, ISceneManager
+public class SceneManager_LivingRoom : Singleton<SceneManager_LivingRoom>
 {
-    public Vector3 playerStartPosition{
-        get{
-            return new Vector3(-8.4f,0.492f, 15.517f);
-        }
-    }
-
-    public Vector3 playerStartRotation{
-        get{
-            return new Vector3(0,0,0);
-        }
-    }
-
-    public Vector3 playerCameraStartPosition{
-        get{
-            return new Vector3(0,0.8f,0);
-        }
-    }
-
-    public Vector3 playerCameraStartRotation{
-        get{
-            return new Vector3(0,0,0);
-        }
-    }
-
-    public Vector3 sceneCameraStartPosition{
-        get{
-            return new Vector3(0,0,0);
-        }
-    }
-
-    public Vector3 sceneCameraStartRotation{
-        get{
-            return new Vector3(0,0,0);
-        }
-    }
-
     public bool isGetElectricKey { get; private set; }
 
     void Start()
@@ -52,13 +16,11 @@ public class SceneManager_LivingRoom : Singleton<SceneManager_LivingRoom>, IScen
         isGetElectricKey = true;
     }
 
-    public void InitializeScene()
+    public async void SwitchScene()
     {
-        PlayerController.Instance.respawnPosition = playerStartPosition;
-    }
-
-    public void SwitchScene()
-    {
-
+        GameManager.Instance.PauseGame();
+        GameManager.Instance.FadeOutAudioMixer(2f);
+        await GeneralUIManager.Instance.FadeInBlack(2f);
+        SceneManager.LoadScene("Hospital_Leave");
     }
 }

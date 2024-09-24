@@ -22,7 +22,7 @@ public class S_SwitchLight : InteractableObject
     public override void Interact()
     {
         if (_isTriggerable){
-            FlatAudioManager.instance.Play("light_button", false);
+            FlatAudioManager.Instance.Play("light_button", false);
             _changeLight.SwitchLight();
             _switches[0].SetActive(_isOnDisplay);
             _isOnDisplay = !_isOnDisplay;

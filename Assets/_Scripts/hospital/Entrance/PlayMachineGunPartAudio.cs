@@ -5,10 +5,10 @@ using UnityEngine;
 public class PlayMachineGunPartAudio : MonoBehaviour
 {
     public void PlayPipeExtend(){
-        FlatAudioManager.instance.Play("machine_move", false);
+        FlatAudioManager.Instance.Play("machine_move", false);
     }
 
     public void PlayPipeTransform(){
-        FlatAudioManager.instance.Play("machine_move2", false);
+        FlatAudioManager.Instance.Play("machine_move2", false);
     }
 }

@@ -44,7 +44,7 @@ public class ControllerPassword : MonoBehaviour
             CheckPassword();
         }
         else{
-            FlatAudioManager.instance.Play("press_password", false);
+            FlatAudioManager.Instance.Play("press_password", false);
         }
     }
 
@@ -53,7 +53,7 @@ public class ControllerPassword : MonoBehaviour
             if (_password[i] != _receivedPassword[i]){
                 _receivedPassword.Clear();
                 ResetButtonIndex();
-                FlatAudioManager.instance.Play("wrong_password", false);
+                FlatAudioManager.Instance.Play("wrong_password", false);
                 return;
             }            
         }

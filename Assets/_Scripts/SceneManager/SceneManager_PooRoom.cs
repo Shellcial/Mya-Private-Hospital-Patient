@@ -20,7 +20,8 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
     }
 
     // debug position
-    private Vector3 debugStartPosition = new Vector3(5.07f,0.79f,1.2f);
+    // private Vector3 debugStartPosition = new Vector3(5.07f,0.79f,1.2f);
+    private Vector3 debugStartPosition = new Vector3(-72.6f,0.79f,47.61723f);
 
     public Vector3 playerStartRotation{
         get{
@@ -84,8 +85,6 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
     private bool _isVideoStarted = false;
     private Color _blackColor = new Color(0,0,0,1);
     private Color _whiteColor = new Color(1,1,1,1);
-    [SerializeField]
-    private AudioSource _wakeUpAudio;
 
     override protected void Awake(){
 		if( !Instance )
@@ -113,12 +112,12 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
     {
         GameManager.Instance.FadeInAudioMixer(0f);
         PlayerController.Instance.HideCursor(0f);
-        FlatAudioManager.instance.SetAndFade("ambience_horror2", 2f, 0f, 0.1f);
+        FlatAudioManager.Instance.SetAndFade("ambience_horror2", 2f, 0f, 0.1f);
         if (!isTest){
             PlayerController.Instance.respawnPosition = playerStartPosition;
             _pandaSDFAnimator.speed = 0;
             await UniTask.Delay(1000);
-            _wakeUpAudio.Play();
+            FlatAudioManager.Instance.Play("mya_wake_up", false);
             await UniTask.Delay(3000);
         }
         else{
@@ -223,7 +222,7 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
     }
 
     private void EndVideo(){
-        FlatAudioManager.instance.Play("open_door", false);
+        FlatAudioManager.Instance.Play("open_door", false);
         if (_volume.profile.TryGet(out Bloom bloom)){
             bloom.intensity.value = 0.1f;
         }
@@ -239,7 +238,7 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
         _isVideoEnded = true;
         _controllerPassword.StopPassword();
         _screenPart2.GetComponent<Renderer>().sharedMaterial.SetColor("_BaseColor", _blackColor);
-        FlatAudioManager.instance.Play("ambience_horror2", false);
+        FlatAudioManager.Instance.SetAndFade("ambience_horror2", 2f, 0f, 0.1f);
         StartCoroutine(OpenDoor());
     }
     
@@ -250,14 +249,14 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
 
     public async void SwitchScene()
     {
-        // additive load scene
         GameManager.Instance.PauseGame();
         GameManager.Instance.FadeOutAudioMixer(2f);
         await GeneralUIManager.Instance.FadeInBlack(2f);
-        SceneManager.LoadScene("Hospital_General_Ward");
+        SceneManager.LoadScene("General_Ward");
     }
 
     IEnumerator PlayVideo(){
+        _videoPlayer.Prepare();
         yield return new WaitForSeconds(22);
         player.GetComponent<CharacterController>().enabled = true;
         GameManager.Instance.ResumeGame();
@@ -268,7 +267,7 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
         _isVideoStarted = true;
         _screenPart2.GetComponent<Renderer>().sharedMaterial.SetColor("_BaseColor", _whiteColor);
         _controllerPassword.EnablePassword();
-        FlatAudioManager.instance.SetAndFade("ambience_horror2", 2f, 0.1f, 0f);
+        FlatAudioManager.Instance.SetAndFade("ambience_horror2", 2f, 0.1f, 0f);
     }
 
     public void TurnOnLight(){

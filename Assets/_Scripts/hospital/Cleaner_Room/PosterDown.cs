@@ -33,10 +33,10 @@ public class PosterDown : MonoBehaviour
     }
 
     public void PlaySlipSound(){
-        FlatAudioManager.instance.Play("paper_slip", false);
+        FlatAudioManager.Instance.Play("paper_slip", false);
     }
     
     public void PlayFallSound(){
-        FlatAudioManager.instance.Play("paper_fall", false);
+        FlatAudioManager.Instance.Play("paper_fall", false);
     }
 }

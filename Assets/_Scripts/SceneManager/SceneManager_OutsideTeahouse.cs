@@ -26,7 +26,7 @@ public class SceneManager_OutsideTeahouse : Singleton<SceneManager_OutsideTeahou
 
     async void Start(){
 		GameManager.Instance.FadeInAudioMixer(2f);
-        FlatAudioManager.instance.SetAndFade("bird", 2f, 0f, 1f);
+        FlatAudioManager.Instance.SetAndFade("bird", 2f, 0f, 1f);
         await GeneralUIManager.Instance.FadeOutBlack(2f);
 		DialogueManager.Instance.ShowDialogue(true);
         DialogueManager.Instance.ShowDialogueText(true);

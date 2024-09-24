@@ -25,7 +25,7 @@ public class StartMachineGunPartII : MonoBehaviour
 
     public void StartLightAnimation(){
         lightAnimator.speed = 1;
-        FlatAudioManager.instance.Play("alarm", false);
+        FlatAudioManager.Instance.Play("alarm", false);
     }
 
     public void StartGunPartIIParts(){
@@ -38,12 +38,12 @@ public class StartMachineGunPartII : MonoBehaviour
     }
 
     public void GoBlack(){
-        FlatAudioManager.instance.Stop("smoke");
-        FlatAudioManager.instance.Stop("shake");
-        FlatAudioManager.instance.Stop("alarm");
-        FlatAudioManager.instance.Stop("gear_move_high");
-        FlatAudioManager.instance.Stop("machine_move");
-        FlatAudioManager.instance.Stop("machine_move2");
+        FlatAudioManager.Instance.Stop("smoke");
+        FlatAudioManager.Instance.Stop("shake");
+        FlatAudioManager.Instance.Stop("alarm");
+        FlatAudioManager.Instance.Stop("gear_move_high");
+        FlatAudioManager.Instance.Stop("machine_move");
+        FlatAudioManager.Instance.Stop("machine_move2");
         GeneralUIManager.Instance.FadeInBlack(0).Forget();
         GameManager.Instance.FadeOutAudioMixer(2f);
         StartCoroutine(GoToNextScene());
@@ -57,21 +57,21 @@ public class StartMachineGunPartII : MonoBehaviour
 
     public void StartSmoke(){
         _pandaSmoke.SetActive(true);
-        FlatAudioManager.instance.SetAndFade("smoke", 1f, 0, 0.5f);
+        FlatAudioManager.Instance.SetAndFade("smoke", 1f, 0, 0.5f);
     }
 
     public void PlayScan(){
-        FlatAudioManager.instance.Play("scan", false);
+        FlatAudioManager.Instance.Play("scan", false);
     }
     public void StopScan(){
-        FlatAudioManager.instance.Stop("scan");
+        FlatAudioManager.Instance.Stop("scan");
     }
 
     public void PlayShake(){
-        FlatAudioManager.instance.Play("shake", false);
+        FlatAudioManager.Instance.Play("shake", false);
     }
 
     public void PlayShoot(){
-        FlatAudioManager.instance.Play("shoot", false);
+        FlatAudioManager.Instance.Play("shoot", false);
     }
 }

@@ -254,7 +254,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3200349380209119012}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -561,7 +561,7 @@ MonoBehaviour:
   m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ac7161ade744cd441b5c6ed9e93a9394, type: 2}
-  m_sharedMaterial: {fileID: 8287404852114011056, guid: ac7161ade744cd441b5c6ed9e93a9394,
+  m_sharedMaterial: {fileID: -6910624825070520430, guid: ac7161ade744cd441b5c6ed9e93a9394,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}

@@ -33,7 +33,7 @@ public class S_PuzzleWheel : InteractableObject
 
         Vector3 targetValue = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y, transform.eulerAngles.z - 90f);
         int randomAudio = Random.Range(1, 5);
-        FlatAudioManager.instance.Play("wood_wipe_"+randomAudio, false);
+        FlatAudioManager.Instance.Play("wood_wipe_"+randomAudio, false);
         transform.DORotate(targetValue, _duration, RotateMode.Fast).SetEase(Ease.InOutSine).OnComplete(()=>{
             _isPlayingAnimation = false;
         });

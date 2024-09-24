@@ -23,7 +23,7 @@ public class S_KamenekoCard : InteractableObject
     
     public override void Interact()
     {
-        FlatAudioManager.instance.Play("kameneko_card", false);
+        FlatAudioManager.Instance.Play("kameneko_card", false);
         GameManager.Instance.gameDataManager.UnlockCard(_cardIndex.ToString());
         this.gameObject.SetActive(false);
     }

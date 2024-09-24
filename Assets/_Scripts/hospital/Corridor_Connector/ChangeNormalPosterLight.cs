@@ -9,6 +9,11 @@ public class ChangeNormalPosterLight : MonoBehaviour
     private Animator _normalPosterLights;
 
     private bool _isTriggered = false;
+    [SerializeField]
+    private int lightOrder;
+
+    [SerializeField]
+    private AudioSource _corridorAmbience;
     void Start(){
         _normalPosterLights.speed = 0;
     }
@@ -18,7 +23,22 @@ public class ChangeNormalPosterLight : MonoBehaviour
         if (!_isTriggered){
             _isTriggered = true;
             _normalPosterLights.speed = 1;
-            GameManager.Instance.gameDataManager.UnlockIllustration("corridor_posters");
+            switch (lightOrder){
+                case 0:
+                    _corridorAmbience.Play();
+                    FlatAudioManager.Instance.Play("lights_off", false);
+                    break;
+                case 1:
+                    FlatAudioManager.Instance.Play("light_flicker_start", false);
+                    break;
+                case 2:
+                    FlatAudioManager.Instance.Play("light_flicker_start", false);
+                    GameManager.Instance.gameDataManager.UnlockIllustration("corridor_posters");
+                    break;
+                default:
+                    GLogger.LogError("index out of range of corridor light trigger");
+                    break;
+            }
         }
     }
 }

@@ -81,7 +81,7 @@ public class SceneManager_TeahouseStaffroom : Singleton<SceneManager_TeahouseSta
     public async UniTask Start()
     {
         GameManager.Instance.FadeInAudioMixer(0f);
-        FlatAudioManager.instance.SetAndFade("ambience_wind", 2f, 0f, 0.05f);
+        FlatAudioManager.Instance.SetAndFade("ambience_wind", 2f, 0f, 0.05f);
         GeneralUIManager.Instance.FadeOutBlack(2f).Forget();
         PlayerController.Instance.ShowCursor();
         await UniTask.Delay(1000);
@@ -90,7 +90,7 @@ public class SceneManager_TeahouseStaffroom : Singleton<SceneManager_TeahouseSta
 
     public async void SwitchScene()
     {
-        FlatAudioManager.instance.Play("exit_door", false);
+        FlatAudioManager.Instance.Play("exit_door", false);
         GameManager.Instance.FadeOutAudioMixer(2f);
         await GeneralUIManager.Instance.FadeInBlack(2f);
         SceneManager.LoadScene("Hospital_Entrance");

@@ -3,7 +3,12 @@ guid: fb05495d0f6dbc54cbd1350628b15f3c
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cut_paper_fall
+    second: {fileID: 2100000, guid: d538eee6c9fe0e747a08eb0e6ff50093, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

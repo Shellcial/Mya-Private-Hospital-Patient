@@ -1,38 +1,37 @@
 using System.Collections;
 using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
+using DG.Tweening;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class TitleUIManager : MonoBehaviour
+public class TitleUIManager : Singleton<TitleUIManager>
 {
-    [Header("FirstButton")]
-    [SerializeField] GameObject startButton;
-    void Awake(){
-        GeneralUIManager.Instance.SetBlack();       
-    }
+    public MainPageManager mainPageManager;
+	public BTSPageManager bTSPageManager;
+    // Tween 
+
+    protected override void Awake()
+	{
+		if( !Instance )
+		{
+			Instance = this;
+		}
+		else if( Instance != this )
+		{
+			Destroy( gameObject );
+			return;
+		}
+
+        GeneralUIManager.Instance.SetBlack();
+        mainPageManager.EnterPage(0f);
+	}
 
     async void Start(){
-        EventSystem.current.SetSelectedGameObject(startButton);
         await GeneralUIManager.Instance.FadeOutBlack(2f);           
-    }
-
-    public void ChooseLoad(){
-
-    }
-
-    public void OpenSetting(){
-
-    }
-
-    public void OpenBlooper(){
-
-    }
-
-    public void SelectButton(){
-
     }
 }

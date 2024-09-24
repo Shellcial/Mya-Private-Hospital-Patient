@@ -46,7 +46,7 @@ public class StartMachineGunPartIII : MonoBehaviour
     }
 
     public IEnumerator StartAnimation(){
-        FlatAudioManager.instance.Play("gear_move_high", false);
+        FlatAudioManager.Instance.Play("gear_move_high", false);
         float _startScaleTime = 0.5f;
 
         _upperParent.SetActive(true);

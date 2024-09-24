@@ -27,7 +27,7 @@ public class S_StaffroomDoor : InteractableObject
                 SceneManager_TeahouseStaffroom.Instance.SwitchScene(); 
             }
             else{
-                FlatAudioManager.instance.Play("staffroom_door", false);
+                FlatAudioManager.Instance.Play("staffroom_door", false);
             }
 
             transform.DORotate(targetValue, duration, RotateMode.Fast).SetEase(Ease.InOutSine);

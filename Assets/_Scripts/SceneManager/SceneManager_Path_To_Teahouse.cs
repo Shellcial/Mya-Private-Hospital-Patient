@@ -37,7 +37,7 @@ public class SceneManager_Path_To_Teahouse : Singleton<SceneManager_Path_To_Teah
 	public async void ShowPathVisual(){
 		DialogueManager.Instance.ClearText();
 		DialogueManager.Instance.ShowDialogueText(false, 0f);
-		FlatAudioManager.instance.SetAndFade("bird", 2f, 0f, 1f);
+		FlatAudioManager.Instance.SetAndFade("bird", 2f, 0f, 1f);
 		DialogueManager.Instance.isDialogueEnable = false;
 		await GeneralUIManager.Instance.FadeOutBlack(2f);
 		await Task.Delay(500);

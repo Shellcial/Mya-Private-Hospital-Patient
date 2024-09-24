@@ -41,7 +41,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["ceiling.002","ceiling.019","ceiling_glass.002","ceiling_glass.008","ground.012","ground.015","Cylinder.028","Cylinder.021"],"padding":[15,15,162,162,14,14,7,8],"unwrapper":[0,0,0,0,0,0,0,0]}'
+    - '#BAKERY{"meshName":["ceiling.002","ceiling.019","ceiling_glass.002","ceiling_glass.008","ground.012","ground.015","Cylinder.028","Cylinder.021"],"padding":[15,15,81,81,7,7,3,4],"unwrapper":[0,0,0,0,0,0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:

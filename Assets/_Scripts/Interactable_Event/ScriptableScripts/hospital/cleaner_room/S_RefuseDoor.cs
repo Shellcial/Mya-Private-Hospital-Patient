@@ -32,7 +32,7 @@ public class S_RefuseDoor : InteractableObject
                 _openValue = -_openValue;
             }
             
-            FlatAudioManager.instance.Play("refuse_door_open_1", false);
+            FlatAudioManager.Instance.Play("refuse_door_open_1", false);
 
             Vector3 targetValue = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y - _openValue, transform.eulerAngles.z);
             transform.DORotate(targetValue, duration, RotateMode.Fast).SetEase(Ease.InOutSine);
@@ -42,7 +42,7 @@ public class S_RefuseDoor : InteractableObject
             _linkedDoor.transform.DORotate(targetValue, duration, RotateMode.Fast).SetEase(Ease.InOutSine);
 
             if (isFinalDoor){
-                FlatAudioManager.instance.Play("refuse_door_open_2", false);
+                FlatAudioManager.Instance.Play("refuse_door_open_2", false);
                 StartCoroutine(MovePandaHead());
             }
         }   

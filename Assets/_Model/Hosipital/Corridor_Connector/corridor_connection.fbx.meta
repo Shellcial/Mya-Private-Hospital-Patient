@@ -3,7 +3,12 @@ guid: 7671377a78f8cae498019b458f1816c2
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light_bulb_glass
+    second: {fileID: 2100000, guid: 8db6a6b5708a72c4b927be1e953f4040, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -31,7 +36,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["ceiling.006","ceiling_glass.006","Cylinder.023","Cylinder.025","ceiling.001","ceiling_glass.001","Cylinder.014","ground.004","Cylinder.001","Cylinder.006","floor_signage.001","ground.001","ground.010","ground.011","lift_area_notice","Text.002","Cylinder.002","ground.009","ground.014","Cylinder.012","ceiling.010"],"padding":[17,162,13,256,15,162,215,15,225,29,241,17,23,23,256,256,9,12,8,9,8],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
+    - '#BAKERY{"meshName":["ceiling.006","ceiling_glass.006","Cylinder.023","Cylinder.025","ceiling.001","ceiling_glass.001","Cylinder.014","ground.004","Cylinder.001","Cylinder.006","floor_signage.001","ground.001","ground.010","ground.011","lift_area_notice","Text.002","Cylinder.002","ground.009","ground.014","Cylinder.012","ceiling.010"],"padding":[8,81,6,167,7,81,107,7,112,14,120,8,11,11,198,135,4,6,4,4,4],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:

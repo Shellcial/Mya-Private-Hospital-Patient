@@ -39,7 +39,7 @@ public class StartMachineGunCamera : MonoBehaviour
         _playerCamera.transform.DORotate(new Vector3(0,-90,0), 2f).SetEase(Ease.InOutSine);
         _playerCamera.transform.DOMove(_targetPos, 3f).SetEase(Ease.InOutSine);
         yield return new WaitForSeconds(4f);
-        FlatAudioManager.instance.Play("gear_move_low", false);
+        FlatAudioManager.Instance.Play("gear_move_low", false);
         yield return new WaitForSeconds(1f);
         _playerCamera.transform.DORotate(_targetRot, 1f).SetEase(Ease.InOutSine);
         yield return new WaitForSeconds(2f);

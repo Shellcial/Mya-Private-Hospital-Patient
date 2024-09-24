@@ -8,14 +8,13 @@ public class FlatAudioManager : Singleton<FlatAudioManager>
 {
     public Sound[] sounds;
 
-    public static FlatAudioManager instance;
     //public AudioSource[] audioSlot;
     
     override protected void Awake()
     {
-        if (instance == null)
+        if (Instance == null)
         {
-            instance = this;
+            Instance = this;
         }
         else
         {

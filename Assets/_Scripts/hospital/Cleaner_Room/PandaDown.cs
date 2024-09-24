@@ -10,7 +10,7 @@ public class PandaDown : MonoBehaviour
         if (!isTriggered){
             if (other.gameObject.layer == LayerMask.NameToLayer("PandaHead")){
                 isTriggered = true;
-                FlatAudioManager.instance.Play("head_drop", false);
+                FlatAudioManager.Instance.Play("head_drop", false);
             }
         }
     }
