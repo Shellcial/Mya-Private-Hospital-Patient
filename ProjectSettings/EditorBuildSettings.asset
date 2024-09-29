@@ -24,20 +24,11 @@ EditorBuildSettings:
     path: Assets/_Scenes/Poo_Room.unity
     guid: f16ed03829196fb4db61515c74dda37b
   - enabled: 1
-    path: Assets/_Scenes/Corridor_Connector.unity
-    guid: d66fd45f9bf54d74984413e35c2949be
-  - enabled: 1
-    path: Assets/_Scenes/Cleaner_Room.unity
-    guid: 75fd9be082baad446860d5370a7f2603
-  - enabled: 1
-    path: Assets/_Scenes/Electric_Cure_Room.unity
-    guid: c00b8e19dd1c3b7438b98a8fbb86a4fd
-  - enabled: 1
     path: Assets/_Scenes/General_Ward.unity
     guid: 5c3305f8d856199419caa55941d8c85a
   - enabled: 1
-    path: Assets/_Scenes/Living_Room.unity
-    guid: d4a9dc59d6232bf4993bc30353d58a6f
+    path: Assets/_Scenes/Hospital_Leave.unity
+    guid: b21463e7735c8cb4382a1941f6203db4
   - enabled: 1
     path: Assets/_Scenes/Gummy_Road.unity
     guid: c902adcbc52dbb9409da6e9948d3ba97

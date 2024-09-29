@@ -1,17 +1,10 @@
 using System.Collections.Generic;
 using DG.Tweening;
-using Tayx.Graphy.Utils;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class BTSPageManager : ICanvasPage
 {
-
-    void Awake(){
-        LeavePage(0f);
-        fadeWaitTime = moveHoverTime - lineFadeTime * 2f;
-        _masterHoverLine.DOFade(0, 0f);
-    }
     private bool isFirstHover = true;
     [SerializeField]
     private CanvasGroup _masterHoverLine;
@@ -31,18 +24,29 @@ public class BTSPageManager : ICanvasPage
     [SerializeField]
     private List<GameObject> _btsPages = new List<GameObject>();
     [SerializeField]
+    private List<Scrollbar> _scrollbars = new List<Scrollbar>();
+    [SerializeField]
     private List<Button> buttons = new List<Button>();
-    // private List<bool> _isTriggerable = new List<bool>();
+    private List<bool> _isTriggerable = new List<bool>();
     private int LastSelectedIndex; 
+
+    [SerializeField]
+    private Slider _slider;
+
+    void Awake(){
+        LeavePage(0f);
+        fadeWaitTime = moveHoverTime - lineFadeTime * 2f;
+        _masterHoverLine.DOFade(0, 0f);
+    }
+
     void Start(){
         // get bool from Game manager save file 
         OpenBTS(-1);
-        // _btsPages.Clear();
+        _isTriggerable.Clear();
         Dictionary<string, bool> cardStats = GameManager.Instance.gameDataManager.gameData.cardStats;
         int i = 0;
         foreach (bool isEnable in cardStats.Values){
-            GLogger.Log(isEnable);
-            // _isTriggerable.Add(isEnable);
+            _isTriggerable.Add(isEnable);
             // _okayImages[i].gameObject.SetActive(isEnable);
             // _lockedImages[i].gameObject.SetActive(!isEnable);
             buttons[i].interactable = isEnable;
@@ -81,15 +85,16 @@ public class BTSPageManager : ICanvasPage
     public void OpenBTS(int index){
         for (int i = 0; i < _btsPages.Count; i++){
             _btsPages[i].SetActive(i == index);
+            if (i == index){
+                _scrollbars[index].value = 0;
+            }
         }
         LastSelectedIndex = index;
     }
 
-    
-    // public void SetTriggerable(bool triggerable){
-    //     __isTriggerable = triggerable;
-    //     if (__isTriggerable){
-
-    //     }
-    // }
+    void Update(){
+        if (LastSelectedIndex >= 0){
+            _slider.value = 1 - _scrollbars[LastSelectedIndex].value;
+        }
+    }
 }

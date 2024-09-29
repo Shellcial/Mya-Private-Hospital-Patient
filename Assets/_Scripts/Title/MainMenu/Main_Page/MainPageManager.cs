@@ -43,7 +43,6 @@ public class MainPageManager : ICanvasPage
     }
 
     public void ExitHoverMainMenu(){
-        GLogger.Log("exit");
         isFirstHover = true;
         _masterHoverLine.DOFade(0, directFadeTime);
     }

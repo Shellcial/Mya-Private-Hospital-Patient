@@ -12,7 +12,10 @@ using UnityEngine.UI;
 public class TitleUIManager : Singleton<TitleUIManager>
 {
     public MainPageManager mainPageManager;
+    public LoadPageManager loadPageManager;
+    public CreditPageManager creditPageManager;
 	public BTSPageManager bTSPageManager;
+	public GalleryPageManager galleryPageManager;
     // Tween 
 
     protected override void Awake()

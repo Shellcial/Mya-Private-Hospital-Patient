@@ -29,8 +29,8 @@ public class GameData
             {"cleaner_room_mya_poster", false},
             {"cleaner_room_gummy_poster", false},
             {"corridor_posters", false},
-            {"general_ward_little_cat_poster", false},
             {"general_ward_mya_poster", false},
+            {"general_ward_little_cat_poster", false},
             {"gummy_tachie", false},  
         };
 

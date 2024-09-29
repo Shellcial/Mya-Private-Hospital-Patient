@@ -35,7 +35,8 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
+    extraUserProperties:
+    - '#BAKERY{"meshName":["ceiling_glass.004","ceiling_glass.011","ceiling_glass.012","ceiling_glass.013","ceiling.001","ceilling_air_duct.001","Cylinder.003","Cylinder.017","Cylinder.019","Cylinder.020","ground.001","ceiling.004","ceilling_air_duct.004","Cylinder.002","Cylinder.012","Cylinder.013","Cylinder.014","ground.004","ceiling.019","ceiling_glass.010","Cylinder.064","Cylinder.065","Cylinder.066","ground.010","ceiling.002","ceiling_glass.002","Cylinder.004","Cylinder.005","Cylinder.006","ground.002","ceiling.003","ceiling_glass.003","Cylinder.007","Cylinder.008","Cylinder.009","ground.003","ceiling.005","ceiling_glass.005","Cylinder.010","Cylinder.011","Cylinder.015","ground.005","ceiling_glass.007","Cylinder.053","Cylinder.054","ground.008","Cylinder.055","Cylinder.034","Cylinder.016","ceiling.006"],"padding":[256,256,256,256,17,53,256,13,67,110,17,17,53,78,256,57,13,17,17,162,225,47,9,17,17,162,225,47,9,17,17,162,225,47,9,17,17,162,225,47,9,17,162,225,47,17,9,14,14,17],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:
