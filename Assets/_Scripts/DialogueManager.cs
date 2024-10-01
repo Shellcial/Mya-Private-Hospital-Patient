@@ -76,6 +76,7 @@ public class DialogueManager : Singleton<DialogueManager>
 
     IEnumerator ShowText(float delay = 0.1f){
         isSentencePlaying = true;
+        GLogger.Log("show text: " + showingWords);
         for (int i = 0; i < showingWords.Length; i++){
             _dialogueText.SetText(showingWords.Substring(0, i));
             yield return new WaitForSeconds(delay);

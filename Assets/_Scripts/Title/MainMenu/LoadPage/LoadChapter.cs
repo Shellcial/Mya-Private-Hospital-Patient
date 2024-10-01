@@ -2,11 +2,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 using UnityEngine.UI;
+using System.Collections;
 
 public class LoadChapter : MonoBehaviour
 {
+    public int _currentPositionIndex = 0;
+    public int _currentTextureIndex = 0;
     [SerializeField]
-    private int _currentPositionIndex = 0;
+    private Canvas _canvas;
     [SerializeField]
     private CanvasGroup _canvasGroup;
 
@@ -15,6 +18,7 @@ public class LoadChapter : MonoBehaviour
     public RawImage chapterImage;
     public GameObject blackImage;
     public RawImage farOverlay;
+    public Button clickButton;
     private float fadeAnimationTime = 0.5f;
     private List<Vector2> targetPos = new List<Vector2>(){
         new Vector2(-1447f, 232.9421f),
@@ -42,20 +46,22 @@ public class LoadChapter : MonoBehaviour
         AdjustIndex();
     }
 
-    public void Move(bool isMoveleft, float animationTime, int centerIndex){
+    public void Move(bool isMoveleft, int centerIndex){
         int imageChangeIndex = centerIndex;
 
         if (isMoveleft){
             // change Position
             _currentPositionIndex += 1;
             AdjustIndex();
-            _rectTransform.DOLocalMove(targetPos[_currentPositionIndex], animationTime).SetEase(Ease.OutSine);
-            _rectTransform.DOScale(targetScale[_currentPositionIndex], animationTime).SetEase(Ease.OutSine);
+            _rectTransform.DOLocalMove(targetPos[_currentPositionIndex], fadeAnimationTime).SetEase(Ease.OutSine);
+            _rectTransform.DOScale(targetScale[_currentPositionIndex], fadeAnimationTime).SetEase(Ease.OutSine);
             
             // assign new image
-            if (_currentPositionIndex == targetPos.Count-1){
-                imageChangeIndex = AdjustImageIndex(imageChangeIndex+2);
+            if (_currentPositionIndex == 1){
+                imageChangeIndex = AdjustImageIndex(imageChangeIndex+3);
                 chapterImage.texture = _loadChapterTextures[imageChangeIndex];
+                _currentTextureIndex = imageChangeIndex;
+                TitleUIManager.Instance.loadPageManager.EnableChapter(this, _currentTextureIndex);
             }
         }
         else {
@@ -63,15 +69,18 @@ public class LoadChapter : MonoBehaviour
             _currentPositionIndex -= 1;
             AdjustIndex();
             
-            _rectTransform.DOLocalMove(targetPos[_currentPositionIndex], animationTime).SetEase(Ease.OutSine);
-            _rectTransform.DOScale(targetScale[_currentPositionIndex], animationTime).SetEase(Ease.OutSine);
+            _rectTransform.DOLocalMove(targetPos[_currentPositionIndex], fadeAnimationTime).SetEase(Ease.OutSine);
+            _rectTransform.DOScale(targetScale[_currentPositionIndex], fadeAnimationTime).SetEase(Ease.OutSine);
 
             // assign new image
-            if (_currentPositionIndex == 0){
-                imageChangeIndex = AdjustImageIndex(imageChangeIndex - 2);
+            if (_currentPositionIndex == targetPos.Count-2){
+                imageChangeIndex = AdjustImageIndex(imageChangeIndex - 3);
                 chapterImage.texture = _loadChapterTextures[imageChangeIndex];
+                _currentTextureIndex = imageChangeIndex;
+                TitleUIManager.Instance.loadPageManager.EnableChapter(this, _currentTextureIndex);
             }
         }
+        
     }
 
     public int AdjustImageIndex(int imageChangeIndex){
@@ -86,7 +95,7 @@ public class LoadChapter : MonoBehaviour
         }
     }
 
-    public void AdjustIndex(){
+    public async void AdjustIndex(){
         if (_currentPositionIndex >= targetPos.Count){
             _currentPositionIndex = 0;
         }
@@ -97,30 +106,49 @@ public class LoadChapter : MonoBehaviour
         switch (_currentPositionIndex){
             case 0:
                 _canvasGroup.DOFade(0, fadeAnimationTime);
+                StartCoroutine(ChangeSortingOrder(-1));
+                clickButton.interactable = false;
                 break;
             case 1:
-                farOverlay.DOFade(0.6f, fadeAnimationTime);
+                farOverlay.DOFade(0.9f, fadeAnimationTime);
                 _canvasGroup.DOFade(1, fadeAnimationTime);
+                StartCoroutine(ChangeSortingOrder(0));
+                clickButton.interactable = false;
                 break;
             case 2:
-                farOverlay.DOFade(0.3f, fadeAnimationTime);
+                farOverlay.DOFade(0.5f, fadeAnimationTime);
+                StartCoroutine(ChangeSortingOrder(1));
+                clickButton.interactable = false;
                 break;
             case 3:
                 farOverlay.DOFade(0, fadeAnimationTime);
+                StartCoroutine(ChangeSortingOrder(2));
+                clickButton.interactable = true;
                 break;
             case 4:
-                farOverlay.DOFade(0.3f, fadeAnimationTime);
+                farOverlay.DOFade(0.5f, fadeAnimationTime);
+                StartCoroutine(ChangeSortingOrder(1));
+                clickButton.interactable = false;
                 break;
             case 5:
-                farOverlay.DOFade(0.6f, fadeAnimationTime);
+                farOverlay.DOFade(0.9f, fadeAnimationTime);
                 _canvasGroup.DOFade(1, fadeAnimationTime);
+                StartCoroutine(ChangeSortingOrder(0));
+                clickButton.interactable = false;
                 break;
             case 6:
                 _canvasGroup.DOFade(0, fadeAnimationTime);
+                StartCoroutine(ChangeSortingOrder(-1));
+                clickButton.interactable = false;
                 break;
             default:
                 GLogger.LogError("load index out of range: " + _currentPositionIndex);
                 break;
         }
+    }
+
+    IEnumerator ChangeSortingOrder(int _newOrder){
+        yield return new WaitForSeconds(fadeAnimationTime/2);
+        _canvas.sortingOrder = _newOrder;
     }
 }

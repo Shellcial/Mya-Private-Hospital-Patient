@@ -65,7 +65,7 @@ public class SceneManager_OutsideTeahouse : Singleton<SceneManager_OutsideTeahou
         await GeneralUIManager.Instance.FadeOutBlack(1f);
 		DialogueManager.Instance.ShowDialogue(true);
         await Task.Delay(500);
-		GetComponent<OutsideTeahouseDialogue>().ClickSentence();
+		GetComponent<OutsideTeahouseDialogue>().ClickSentence(true);
         await Task.Delay(100);
 		DialogueManager.Instance.isDialogueEnable = true;
 	}
@@ -75,7 +75,7 @@ public class SceneManager_OutsideTeahouse : Singleton<SceneManager_OutsideTeahou
 		DialogueManager.Instance.isDialogueEnable = false;
         coffee.SetActive(false);
         await Task.Delay(500);
-        GetComponent<OutsideTeahouseDialogue>().ClickSentence();
+        GetComponent<OutsideTeahouseDialogue>().ClickSentence(true);
         await Task.Delay(100);
         DialogueManager.Instance.isDialogueEnable = true;
     } 
@@ -85,7 +85,7 @@ public class SceneManager_OutsideTeahouse : Singleton<SceneManager_OutsideTeahou
 		DialogueManager.Instance.isDialogueEnable = false;
         distortionMaterial.material.DOFloat( 0.01f, "_distortion_strength",2f);
         await Task.Delay(1000);
-        GetComponent<OutsideTeahouseDialogue>().ClickSentence();
+        GetComponent<OutsideTeahouseDialogue>().ClickSentence(true);
         await Task.Delay(100);
         DialogueManager.Instance.isDialogueEnable = true;
     }
@@ -98,7 +98,7 @@ public class SceneManager_OutsideTeahouse : Singleton<SceneManager_OutsideTeahou
         await Task.Delay(500);
         DialogueManager.Instance.ShowDialogue(true);
         await Task.Delay(500);
-        GetComponent<OutsideTeahouseDialogue>().ClickSentence();
+        GetComponent<OutsideTeahouseDialogue>().ClickSentence(true);
         await Task.Delay(100);
         DialogueManager.Instance.isDialogueEnable = true;
     }

@@ -16,6 +16,7 @@ public class SceneManager_LivingRoom : Singleton<SceneManager_LivingRoom>
     }
     async UniTask Start()
     {
+        GameManager.Instance.gameDataManager.UnlockScene("Hospital_Ward");
         GameManager.Instance.FadeInAudioMixer(2f);
         PlayerController.Instance.ShowCursor();
         await GeneralUIManager.Instance.FadeOutBlack(2f);

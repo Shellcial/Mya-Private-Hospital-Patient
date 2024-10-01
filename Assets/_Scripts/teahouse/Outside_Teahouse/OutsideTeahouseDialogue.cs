@@ -38,8 +38,14 @@ public class OutsideTeahouseDialogue : AbstractInputActionsController
     }
 
     
-    public void ClickSentence(){
-        if (DialogueManager.Instance.isDialogueEnable && currentSentence <= dialogueList.Count){
+    public void ClickSentence(bool isByPass=false){
+        if (!isByPass){
+            if (!DialogueManager.Instance.isDialogueEnable){
+                return;
+            }
+        }
+
+        if (currentSentence <= dialogueList.Count){
             if (DialogueManager.Instance.isSentencePlaying){
                 DialogueManager.Instance.JumpSentence(dialogueList[currentSentence-1]);
             }

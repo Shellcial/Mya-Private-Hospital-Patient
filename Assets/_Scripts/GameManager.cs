@@ -32,7 +32,6 @@ public class GameManager : Singleton<GameManager>
 
     void Start()
     {
-
         Application.targetFrameRate = 60;
     }
 
@@ -40,6 +39,10 @@ public class GameManager : Singleton<GameManager>
         // for debug only
         if (Input.GetKeyUp(KeyCode.L)){
             gameDataManager.LogWholeSaving();
+        }
+
+        if (Input.GetKeyUp(KeyCode.S)){
+            gameDataManager.SaveGame();
         }
     }
 

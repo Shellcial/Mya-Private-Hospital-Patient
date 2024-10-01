@@ -76,7 +76,7 @@ public class GalleryPageManager : ICanvasPage
 
     public void ExitPhoto(){
         if (isClickable){
-            fullSizeCanvasGroups.DOFade(0, 0.5f).OnComplete(()=>{
+            fullSizeCanvasGroups.DOFade(0, 0.2f).OnComplete(()=>{
                 fullSizeCanvasGroups.interactable = false;
                 fullSizeCanvasGroups.blocksRaycasts = false;
                 fullSizePhotos[selectedIndex].gameObject.SetActive(false);

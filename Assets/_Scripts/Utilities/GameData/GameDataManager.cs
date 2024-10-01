@@ -24,15 +24,15 @@ public class GameDataManager : MonoBehaviour
             if (!Directory.Exists(savePath))
             {
                 Directory.CreateDirectory(Application.persistentDataPath + "/" + folderName);
-                GLogger.Log("file does not exist and is created: " + savePath);
+                // GLogger.Log("file does not exist and is created: " + savePath);
                 
             }
             else{
-                GLogger.Log("file exist: " + savePath);
+                // GLogger.Log("file exist: " + savePath);
             }
         }
         catch {
-            GLogger.Log("cannot create save folder, user temp save data only");
+            GLogger.LogWarning("cannot create save folder, user temp save data only");
         }
 
     }
@@ -94,7 +94,7 @@ public class GameDataManager : MonoBehaviour
 
     public void UnlockScene(string _sceneName){
         GLogger.Log("set unlock scene: " + _sceneName);
-        gameData.IllustrationStats[_sceneName] = true;
+        gameData.sceneCheckPoints[_sceneName] = true;
         SaveGame();
     }
 

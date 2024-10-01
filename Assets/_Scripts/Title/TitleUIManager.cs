@@ -16,8 +16,9 @@ public class TitleUIManager : Singleton<TitleUIManager>
     public CreditPageManager creditPageManager;
 	public BTSPageManager bTSPageManager;
 	public GalleryPageManager galleryPageManager;
-    // Tween 
-
+    public bool isEnterChapter = false;
+	[SerializeField]
+	private CanvasGroup _coverMainMenu;
     protected override void Awake()
 	{
 		if( !Instance )
@@ -32,9 +33,16 @@ public class TitleUIManager : Singleton<TitleUIManager>
 
         GeneralUIManager.Instance.SetBlack();
         mainPageManager.EnterPage(0f);
+        isEnterChapter = false;
+		_coverMainMenu.blocksRaycasts = false;
 	}
 
     async void Start(){
         await GeneralUIManager.Instance.FadeOutBlack(2f);           
     }
+
+	public void EnteringChapter(){
+		isEnterChapter = true;
+		_coverMainMenu.blocksRaycasts = true;
+	}
 }

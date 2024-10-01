@@ -4,8 +4,8 @@ using UnityEngine.InputSystem;
 public class PathToTeahouseDialogue : AbstractInputActionsController
 {
     private List<string> dialogueList = new List<string>(){
-        "我有時會在假日出去嘗試一些新餐廳（主要是找新甜品吃）",
-        "最近在網上看到有很多人推薦一間叫「幻花茶屋」的餐廳，今天便決定試試",
+        "我有時會在假日找一些新甜品吃",
+        "最近在網上看到有很多人推薦一間叫「幻花茶屋」的咖啡廳，今天便決定試試",
         "但是，跟着網上寫的地址及地圖走，郤來到了偏僻的郊外",
         "沿着山路走，不知走了多久，終於看到標示着幻花茶屋的路牌",
         "轉左走就是幻花茶屋……還有一間醫院叫「米亞私立醫院」？",
@@ -25,9 +25,15 @@ public class PathToTeahouseDialogue : AbstractInputActionsController
         ClickSentence();
     }
 
-    public void ClickSentence(){
-        GLogger.Log(DialogueManager.Instance.isDialogueEnable);
-        if (DialogueManager.Instance.isDialogueEnable && currentSentence <= dialogueList.Count){
+    public void ClickSentence(bool isByPass = false){
+
+        if (!isByPass){
+            if (!DialogueManager.Instance.isDialogueEnable){
+                return;
+            }
+        }
+
+        if (currentSentence <= dialogueList.Count){
             if (DialogueManager.Instance.isSentencePlaying){
                 DialogueManager.Instance.JumpSentence(dialogueList[currentSentence-1]);
             }
@@ -43,6 +49,7 @@ public class PathToTeahouseDialogue : AbstractInputActionsController
                         SceneManager_Path_To_Teahouse.Instance.SwitchScene();
                         break;
                     default:
+                        GLogger.Log("Show dialogue: " + dialogueList[currentSentence]);
                         DialogueManager.Instance.ShowNextSentence(dialogueList[currentSentence]);
                         break;
                 } 

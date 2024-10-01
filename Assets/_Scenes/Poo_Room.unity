@@ -44701,6 +44701,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 720124169}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &720726281 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3911ad51ef3bdb54286676e5e4397e46,
+    type: 3}
+  m_PrefabInstance: {fileID: 55721539}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &720726282
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720726281}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.92975783, y: 1.2669233, z: 0.27188867}
+  m_Center: {x: -5.0393305, y: 0.6337927, z: 3.9766617}
 --- !u!1 &722074453
 GameObject:
   m_ObjectHideFlags: 0
@@ -76547,7 +76566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 391912a94780d9c45b1f58b5ae0b8922, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTest: 0
+  isTest: 1
   _volume: {fileID: 1450368812}
   _referenceAnimator: {fileID: 9100000, guid: e896011422cda1144b35aa41b162c0f2, type: 2}
   _videoPlayer: {fileID: 1898214625}
@@ -82085,7 +82104,7 @@ MonoBehaviour:
     group: {fileID: -7337552946077702326, guid: 47330d671a01177479ffa9077ccf26a0,
       type: 2}
   - name: paper_slip
-    clip: {fileID: 8300000, guid: 066e207f8bdc3ea4aa5c927718247006, type: 3}
+    clip: {fileID: 8300000, guid: d8503b53b2cdc4145917004973a1930e, type: 3}
     volume: 0.5
     pitch: 1
     loop: 0
@@ -82093,7 +82112,7 @@ MonoBehaviour:
     group: {fileID: -7337552946077702326, guid: 47330d671a01177479ffa9077ccf26a0,
       type: 2}
   - name: paper_fall
-    clip: {fileID: 8300000, guid: 066e207f8bdc3ea4aa5c927718247006, type: 3}
+    clip: {fileID: 8300000, guid: d4f33939902df5a4497287eb690534e2, type: 3}
     volume: 0.5
     pitch: 1
     loop: 0
@@ -112663,7 +112682,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: bdf095cd536f44b47a4ff66a233cca57,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -0.000007532838
+      value: -0.0000065741106
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: bdf095cd536f44b47a4ff66a233cca57,
         type: 3}

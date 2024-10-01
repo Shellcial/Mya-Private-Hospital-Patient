@@ -20,8 +20,8 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
     }
 
     // debug position
-    // private Vector3 debugStartPosition = new Vector3(5.07f,0.79f,1.2f);
-    private Vector3 debugStartPosition = new Vector3(-72.6f,0.79f,47.61723f);
+    private Vector3 debugStartPosition = new Vector3(5.07f,0.79f,1.2f);
+    // private Vector3 debugStartPosition = new Vector3(-72.6f,0.79f,47.61723f);
 
     public Vector3 playerStartRotation{
         get{

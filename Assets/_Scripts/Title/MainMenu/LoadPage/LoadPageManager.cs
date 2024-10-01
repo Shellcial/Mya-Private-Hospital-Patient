@@ -19,7 +19,7 @@ public class LoadPageManager : ICanvasPage
     [SerializeField]
     private RawImage clickableRight;
     public List<LoadChapter> chapters = new List<LoadChapter>();
-    public int currentSelectedIndex = 0;
+    public int currentSelectedTexture = 0;
     [SerializeField]
     private TextMeshProUGUI chapterTitleText;
     [SerializeField]
@@ -43,76 +43,90 @@ public class LoadPageManager : ICanvasPage
     void Awake(){
         SpecialLeavePage();
         _isTriggerable.Clear();
-        currentSelectedIndex = 0;
+        currentSelectedTexture = 0;
         SetChapterText();
 
-        Dictionary<string, bool> cardStats = GameManager.Instance.gameDataManager.gameData.sceneCheckPoints;
-        int i = 0;
-        foreach (bool isEnable in cardStats.Values){
+        Dictionary<string, bool> sceneCheckPoints = GameManager.Instance.gameDataManager.gameData.sceneCheckPoints;
+
+        foreach (bool isEnable in sceneCheckPoints.Values){
             _isTriggerable.Add(isEnable);
-                // buttons[i].interactable = isEnable;
-                chapters[i].blackImage.SetActive(isEnable);
-                chapters[i].chapterImage.enabled = !isEnable;
-            i++;
+        }
+
+        for (int i=0; i < chapters.Count; i++){
+            EnableChapter(chapters[i], chapters[i]._currentTextureIndex);
         }
     }
 
+    public void EnableChapter(LoadChapter chapter, int textureIndex){
+        bool isEnable = _isTriggerable[textureIndex];
+        
+        chapter.clickButton.interactable = isEnable;
+        chapter.blackImage.SetActive(!isEnable);
+        chapter.chapterImage.enabled = isEnable;
+    }
+
     void SetChapterText(){
-        chapterTitleText.SetText(chapterTitle[currentSelectedIndex]);
-        chapterDescriptionText.SetText(chapterDescription[currentSelectedIndex]);
+        chapterTitleText.SetText(chapterTitle[currentSelectedTexture]);
+        chapterDescriptionText.SetText(chapterDescription[currentSelectedTexture]);
     }
 
     public void MoveLeft(){
-        GLogger.Log("clicked: ");
-        GeneralClickEvent(1);
+        // left image will move to center, so images are going right actually
+        if (!TitleUIManager.Instance.isEnterChapter){     
+            GeneralClickEvent(-1);
 
-        arrow.DOFade(0,_quickFadeTime).OnComplete(()=>{
-            SetChapterText();
-        });
+            foreach(LoadChapter chapter in chapters){
+                chapter.Move(true, currentSelectedTexture);
+            }
 
-        arrow.DOFade(1,_quickFadeTime).SetDelay(_animationTime-_quickFadeTime).OnComplete(()=>{
-            clickableLeft.raycastTarget = false;
-            clickableRight.raycastTarget = false;
-        });
-        foreach(LoadChapter chapter in chapters){
-            chapter.Move(true, _animationTime, currentSelectedIndex);
+            arrow.DOFade(0,_quickFadeTime).OnComplete(()=>{
+                SetChapterText();
+            });
+
+            arrow.DOFade(1,_quickFadeTime).SetDelay(_animationTime-_quickFadeTime).OnComplete(()=>{
+                clickableLeft.raycastTarget = true;
+                clickableRight.raycastTarget = true;
+            });
+            
         }
     }
 
     public void MoveRight(){
-        GeneralClickEvent(-1);
+        // right image will move to center, so images are going left actually
+        if (!TitleUIManager.Instance.isEnterChapter){     
+            GeneralClickEvent(1);
 
-        arrow.DOFade(0,_quickFadeTime).OnComplete(()=>{
-            SetChapterText();
-        });;
+            foreach(LoadChapter chapter in chapters){
+                chapter.Move(false, currentSelectedTexture);
+            }
 
-        arrow.DOFade(1,_quickFadeTime).SetDelay(_animationTime-_quickFadeTime).OnComplete(()=>{
-            clickableLeft.raycastTarget = false;
-            clickableRight.raycastTarget = false;
-        });
+            arrow.DOFade(0,_quickFadeTime).OnComplete(()=>{
+                SetChapterText();
+            });;
 
-        foreach(LoadChapter chapter in chapters){
-            chapter.Move(false, _animationTime, currentSelectedIndex);
+            arrow.DOFade(1,_quickFadeTime).SetDelay(_animationTime-_quickFadeTime).OnComplete(()=>{
+                clickableLeft.raycastTarget = true;
+                clickableRight.raycastTarget = true;
+            });
         }
     }
 
     public void GeneralClickEvent(int index){
-        GLogger.Log("clicked: " + index);
-        currentSelectedIndex += index;
-        
-        if (currentSelectedIndex < 0){
-            currentSelectedIndex = chapterTitle.Count-1;
+        currentSelectedTexture += index;
+
+        if (currentSelectedTexture < 0){
+            currentSelectedTexture = chapterTitle.Count-1;
         }
-        else if (currentSelectedIndex >= chapterTitle.Count){
-            currentSelectedIndex = chapterTitle.Count-1;
+        else if (currentSelectedTexture >= chapterTitle.Count){
+            currentSelectedTexture = currentSelectedTexture - chapterTitle.Count;
         }
 
         clickableLeft.raycastTarget = false;
         clickableRight.raycastTarget = false;
         chapterTitleText.DOFade(0, _quickFadeTime);
         chapterDescriptionText.DOFade(0, _quickFadeTime);
-        chapterTitleText.DOFade(0, _quickFadeTime).SetDelay(_animationTime-_quickFadeTime);
-        chapterDescriptionText.DOFade(0, _quickFadeTime).SetDelay(_animationTime-_quickFadeTime);
+        chapterTitleText.DOFade(1, _quickFadeTime).SetDelay(_animationTime-_quickFadeTime);
+        chapterDescriptionText.DOFade(1, _quickFadeTime).SetDelay(_animationTime-_quickFadeTime);
     }
 
     public void SpecialEnterPage(){

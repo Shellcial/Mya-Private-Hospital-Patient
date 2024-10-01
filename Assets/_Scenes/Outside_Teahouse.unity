@@ -19992,10 +19992,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2023412331, guid: bdb12c8d001d65d40b5ddf192760c082, type: 3}
-      propertyPath: m_Alpha
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3200349379824365025, guid: bdb12c8d001d65d40b5ddf192760c082,
         type: 3}
       propertyPath: m_Name
@@ -20104,23 +20100,6 @@ PrefabInstance:
     - target: {fileID: 3200349379824365053, guid: bdb12c8d001d65d40b5ddf192760c082,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3200349381101485495, guid: bdb12c8d001d65d40b5ddf192760c082,
-        type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: ac7161ade744cd441b5c6ed9e93a9394,
-        type: 2}
-    - target: {fileID: 3200349381101485495, guid: bdb12c8d001d65d40b5ddf192760c082,
-        type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: 8287404852114011056, guid: ac7161ade744cd441b5c6ed9e93a9394,
-        type: 2}
-    - target: {fileID: 3200349381101485495, guid: bdb12c8d001d65d40b5ddf192760c082,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

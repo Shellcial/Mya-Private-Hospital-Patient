@@ -25,11 +25,12 @@ public class SceneManager_Path_To_Teahouse : Singleton<SceneManager_Path_To_Teah
 	}
 
     async void Start(){
+		GameManager.Instance.gameDataManager.UnlockScene("Prologue");
 		GameManager.Instance.FadeInAudioMixer(2f);
 		await Task.Delay(1000);
 		DialogueManager.Instance.ShowDialogueText(true);
 		await Task.Delay(500);
-		GetComponent<PathToTeahouseDialogue>().ClickSentence();
+		GetComponent<PathToTeahouseDialogue>().ClickSentence(true);
 		await Task.Delay(100);
 		DialogueManager.Instance.isDialogueEnable = true;
     }
@@ -43,7 +44,7 @@ public class SceneManager_Path_To_Teahouse : Singleton<SceneManager_Path_To_Teah
 		await Task.Delay(500);
 		DialogueManager.Instance.ShowDialogueText(true);
 		await Task.Delay(500);
-		GetComponent<PathToTeahouseDialogue>().ClickSentence();
+		GetComponent<PathToTeahouseDialogue>().ClickSentence(true);
 		await Task.Delay(100);
 		DialogueManager.Instance.isDialogueEnable = true;
 	}
@@ -56,7 +57,7 @@ public class SceneManager_Path_To_Teahouse : Singleton<SceneManager_Path_To_Teah
 		await Task.Delay(2500);
 		DialogueManager.Instance.ShowDialogueText(true);
 		await Task.Delay(500);
-		GetComponent<PathToTeahouseDialogue>().ClickSentence();
+		GetComponent<PathToTeahouseDialogue>().ClickSentence(true);
 		await Task.Delay(100);
 		DialogueManager.Instance.isDialogueEnable = true;
 	}

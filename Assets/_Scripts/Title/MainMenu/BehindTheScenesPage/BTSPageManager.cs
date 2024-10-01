@@ -17,10 +17,6 @@ public class BTSPageManager : ICanvasPage
 
     [SerializeField]
     private List<RawImage> _lineIamges = new List<RawImage>();
-    // [SerializeField]
-    // private List<Image> _okayImages = new List<Image>();
-    // [SerializeField]
-    // private List<Image> _lockedImages = new List<Image>();
     [SerializeField]
     private List<GameObject> _btsPages = new List<GameObject>();
     [SerializeField]
@@ -47,9 +43,8 @@ public class BTSPageManager : ICanvasPage
         int i = 0;
         foreach (bool isEnable in cardStats.Values){
             _isTriggerable.Add(isEnable);
-            // _okayImages[i].gameObject.SetActive(isEnable);
-            // _lockedImages[i].gameObject.SetActive(!isEnable);
             buttons[i].interactable = isEnable;
+            buttons[i].GetComponent<Image>().raycastTarget = isEnable;
             i++;
         }
     }
@@ -86,7 +81,7 @@ public class BTSPageManager : ICanvasPage
         for (int i = 0; i < _btsPages.Count; i++){
             _btsPages[i].SetActive(i == index);
             if (i == index){
-                _scrollbars[index].value = 0;
+                _scrollbars[index].value = 1;
             }
         }
         LastSelectedIndex = index;
