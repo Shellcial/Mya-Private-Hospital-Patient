@@ -57,6 +57,7 @@ public class GalleryPageManager : ICanvasPage
             _isTriggerable.Add(isEnable);
             i++;
         }
+        _slider.value = 1;
     }
 
     void Update(){

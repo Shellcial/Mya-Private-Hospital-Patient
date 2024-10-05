@@ -6,11 +6,22 @@ using UnityEngine.SceneManagement;
 
 public class ClickChapter : MonoBehaviour
 {
+    public bool isEscUsage;
     public async void Onclick(){
         // GLogger.Log("click chapter");
         if (!TitleUIManager.Instance.isEnterChapter){
-            TitleUIManager.Instance.EnteringChapter();
-            await GeneralUIManager.Instance.FadeInBlack();
+
+            if (isEscUsage){
+                MenuController.Instance.GoToSpecialChapter();
+            }
+            else {
+                TitleUIManager.Instance.EnteringChapter();
+                await GeneralUIManager.Instance.FadeInBlack();
+            }
+
+            GameManager.Instance.FadeOutAudioMixer(2f);
+            await GeneralUIManager.Instance.FadeInBlack(2f);
+
             switch (TitleUIManager.Instance.loadPageManager.currentSelectedTexture){
                 case 0:
                     SceneManager.LoadScene("Path_To_Teahouse");

@@ -46,6 +46,10 @@ public class GameManager : Singleton<GameManager>
         }
     }
 
+    // public void DisplayMouseCursor(){
+    //     Cursor.visible = true;
+    // }
+
     public void LockCursor(bool isLocked)
     {
         if (isLocked)
@@ -92,9 +96,13 @@ public class GameManager : Singleton<GameManager>
 
     public void FreezePlayer()
     {
+        MenuController.Instance.CheckMenu();
+        FreezePlayerMove();
+    }
+
+    public void FreezePlayerMove(){
         PlayerController.Instance.HideCursor();
         PlayerController.Instance.ZoomOut();
-        MenuController.Instance.CheckMenu();
         isPlayerMovable = false;
     }
 

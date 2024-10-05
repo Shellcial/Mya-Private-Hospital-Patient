@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Threading.Tasks;
 using DG.Tweening;
+using Cysharp.Threading.Tasks;
 
 public class SceneManager_OutsideTeahouse : Singleton<SceneManager_OutsideTeahouse>
 {
@@ -30,7 +30,7 @@ public class SceneManager_OutsideTeahouse : Singleton<SceneManager_OutsideTeahou
         await GeneralUIManager.Instance.FadeOutBlack(2f);
 		DialogueManager.Instance.ShowDialogue(true);
         DialogueManager.Instance.ShowDialogueText(true);
-		await Task.Delay(500);
+		await UniTask.Delay(500);
 		DialogueManager.Instance.isDialogueEnable = true;
 		GetComponent<OutsideTeahouseDialogue>().ClickSentence();
     }
@@ -61,12 +61,12 @@ public class SceneManager_OutsideTeahouse : Singleton<SceneManager_OutsideTeahou
         _outsideCamera.gameObject.SetActive(false);
         _insideCamera.gameObject.SetActive(true);
         directionalLight.intensity = 2;
-        await Task.Delay(1000);
+        await UniTask.Delay(1000);
         await GeneralUIManager.Instance.FadeOutBlack(1f);
 		DialogueManager.Instance.ShowDialogue(true);
-        await Task.Delay(500);
+        await UniTask.Delay(500);
 		GetComponent<OutsideTeahouseDialogue>().ClickSentence(true);
-        await Task.Delay(100);
+        await UniTask.Delay(100);
 		DialogueManager.Instance.isDialogueEnable = true;
 	}
 
@@ -74,9 +74,9 @@ public class SceneManager_OutsideTeahouse : Singleton<SceneManager_OutsideTeahou
         DialogueManager.Instance.ClearText();
 		DialogueManager.Instance.isDialogueEnable = false;
         coffee.SetActive(false);
-        await Task.Delay(500);
+        await UniTask.Delay(500);
         GetComponent<OutsideTeahouseDialogue>().ClickSentence(true);
-        await Task.Delay(100);
+        await UniTask.Delay(100);
         DialogueManager.Instance.isDialogueEnable = true;
     } 
 
@@ -84,9 +84,9 @@ public class SceneManager_OutsideTeahouse : Singleton<SceneManager_OutsideTeahou
         DialogueManager.Instance.ClearText();
 		DialogueManager.Instance.isDialogueEnable = false;
         distortionMaterial.material.DOFloat( 0.01f, "_distortion_strength",2f);
-        await Task.Delay(1000);
+        await UniTask.Delay(1000);
         GetComponent<OutsideTeahouseDialogue>().ClickSentence(true);
-        await Task.Delay(100);
+        await UniTask.Delay(100);
         DialogueManager.Instance.isDialogueEnable = true;
     }
 
@@ -95,11 +95,11 @@ public class SceneManager_OutsideTeahouse : Singleton<SceneManager_OutsideTeahou
         DialogueManager.Instance.isDialogueEnable = false;
         DialogueManager.Instance.ShowDialogue(false, 2f);
         await GeneralUIManager.Instance.FadeInBlack(2f);
-        await Task.Delay(500);
+        await UniTask.Delay(500);
         DialogueManager.Instance.ShowDialogue(true);
-        await Task.Delay(500);
+        await UniTask.Delay(500);
         GetComponent<OutsideTeahouseDialogue>().ClickSentence(true);
-        await Task.Delay(100);
+        await UniTask.Delay(100);
         DialogueManager.Instance.isDialogueEnable = true;
     }
 

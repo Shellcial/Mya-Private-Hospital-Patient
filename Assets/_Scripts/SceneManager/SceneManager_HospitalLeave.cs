@@ -87,7 +87,7 @@ public class SceneManager_HospitalLeave : Singleton<SceneManager_HospitalLeave>,
     }
 
     public void GoToGummyEnding(){
-        SceneManager.LoadScene("Gummy_Road");
+        SceneManager.LoadScene("Path_To_Teahouse_Night");
     }
 
     public void GoToCredits(){

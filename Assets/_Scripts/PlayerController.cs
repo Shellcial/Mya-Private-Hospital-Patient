@@ -326,6 +326,11 @@ public class PlayerController : MonoBehaviour
 
     private void CastRayOnClick(InputAction.CallbackContext context)
     {
+        if (!GameManager.Instance.GetPlayerStatus())
+        {
+            return;
+        }
+        
         //objects must be interactable so that previousHoverTarget is not null
         // GLogger.Log("previousHoverTarget: " + previousHoverTarget);
         if (previousHoverTarget != null)

@@ -19,6 +19,8 @@ public class TitleUIManager : Singleton<TitleUIManager>
     public bool isEnterChapter = false;
 	[SerializeField]
 	private CanvasGroup _coverMainMenu;
+	[SerializeField]
+	private bool isESCMenu;
     protected override void Awake()
 	{
 		if( !Instance )
@@ -31,14 +33,18 @@ public class TitleUIManager : Singleton<TitleUIManager>
 			return;
 		}
 
-        GeneralUIManager.Instance.SetBlack();
-        mainPageManager.EnterPage(0f);
-        isEnterChapter = false;
-		_coverMainMenu.blocksRaycasts = false;
+		if (!isESCMenu){
+			GeneralUIManager.Instance.SetBlack();
+			mainPageManager.EnterPage(0f);
+			isEnterChapter = false;
+			_coverMainMenu.blocksRaycasts = false;
+		}
 	}
 
     async void Start(){
-        await GeneralUIManager.Instance.FadeOutBlack(2f);           
+		if (!isESCMenu){
+        	await GeneralUIManager.Instance.FadeOutBlack(2f);           
+		}
     }
 
 	public void EnteringChapter(){

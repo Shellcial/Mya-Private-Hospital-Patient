@@ -1,8 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using UnityEngine;
+using Cysharp.Threading.Tasks;
 using UnityEngine.SceneManagement;
 
 public class SceneManager_Path_To_Teahouse : Singleton<SceneManager_Path_To_Teahouse>
@@ -27,11 +23,11 @@ public class SceneManager_Path_To_Teahouse : Singleton<SceneManager_Path_To_Teah
     async void Start(){
 		GameManager.Instance.gameDataManager.UnlockScene("Prologue");
 		GameManager.Instance.FadeInAudioMixer(2f);
-		await Task.Delay(1000);
+		await UniTask.Delay(1000);
 		DialogueManager.Instance.ShowDialogueText(true);
-		await Task.Delay(500);
+		await UniTask.Delay(500);
 		GetComponent<PathToTeahouseDialogue>().ClickSentence(true);
-		await Task.Delay(100);
+		await UniTask.Delay(100);
 		DialogueManager.Instance.isDialogueEnable = true;
     }
 
@@ -41,11 +37,11 @@ public class SceneManager_Path_To_Teahouse : Singleton<SceneManager_Path_To_Teah
 		FlatAudioManager.Instance.SetAndFade("bird", 2f, 0f, 1f);
 		DialogueManager.Instance.isDialogueEnable = false;
 		await GeneralUIManager.Instance.FadeOutBlack(2f);
-		await Task.Delay(500);
+		await UniTask.Delay(500);
 		DialogueManager.Instance.ShowDialogueText(true);
-		await Task.Delay(500);
+		await UniTask.Delay(500);
 		GetComponent<PathToTeahouseDialogue>().ClickSentence(true);
-		await Task.Delay(100);
+		await UniTask.Delay(100);
 		DialogueManager.Instance.isDialogueEnable = true;
 	}
 
@@ -54,11 +50,11 @@ public class SceneManager_Path_To_Teahouse : Singleton<SceneManager_Path_To_Teah
 		DialogueManager.Instance.ShowDialogueText(false, 0f);
 		DialogueManager.Instance.isDialogueEnable = false;
 		DialogueManager.Instance.ShowCloseUp(true, 2f);
-		await Task.Delay(2500);
+		await UniTask.Delay(2500);
 		DialogueManager.Instance.ShowDialogueText(true);
-		await Task.Delay(500);
+		await UniTask.Delay(500);
 		GetComponent<PathToTeahouseDialogue>().ClickSentence(true);
-		await Task.Delay(100);
+		await UniTask.Delay(100);
 		DialogueManager.Instance.isDialogueEnable = true;
 	}
 

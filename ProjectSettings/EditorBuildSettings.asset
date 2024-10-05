@@ -30,8 +30,8 @@ EditorBuildSettings:
     path: Assets/_Scenes/Hospital_Leave.unity
     guid: b21463e7735c8cb4382a1941f6203db4
   - enabled: 1
-    path: Assets/_Scenes/Gummy_Road.unity
-    guid: c902adcbc52dbb9409da6e9948d3ba97
+    path: Assets/_Scenes/Path_To_Teahouse_Night.unity
+    guid: edf50d81b93ea7c40ab9b058f05ed568
   - enabled: 1
     path: Assets/_Scenes/Ending_Credits.unity
     guid: 90c213fcc0199ca4ba5c772a4ae67ae4

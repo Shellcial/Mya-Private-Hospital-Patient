@@ -83,9 +83,10 @@ public class SceneManager_TeahouseStaffroom : Singleton<SceneManager_TeahouseSta
         GameManager.Instance.FadeInAudioMixer(0f);
         FlatAudioManager.Instance.SetAndFade("ambience_wind", 2f, 0f, 0.05f);
         GeneralUIManager.Instance.FadeOutBlack(2f).Forget();
-        PlayerController.Instance.ShowCursor();
+        // PlayerController.Instance.ShowCursor();
         await UniTask.Delay(1000);
-        GameManager.Instance.ResumeGame();
+        // GameManager.Instance.ResumeGame();
+        MenuController.Instance.SpecialOpenTutorial();
     }
 
     public async void SwitchScene()
