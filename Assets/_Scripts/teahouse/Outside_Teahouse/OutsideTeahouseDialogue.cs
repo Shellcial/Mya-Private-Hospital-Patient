@@ -4,15 +4,14 @@ using UnityEngine.InputSystem;
 
 public class OutsideTeahouseDialogue : AbstractInputActionsController
 {
-    [SerializeField]
     private List<string> dialogueList = new List<string>(){
-        "終於到了，明明是在深山中一樣的地方，郤有超多人光顧",
-        "驟眼看整間店只有4位店員，但是每一位也是超級可愛的女孩子，不怪得會有這麼多人光顧",
+        "終於到了，明明是深山一樣的地方，郤有超多人光顧",
+        "……嗯，驟眼看店員都是超級可愛的女孩子，不怪得有這麼多人光顧",
 
         "入座後，替我下單的是一位粉紅色頭髮，戴着熊貓耳朵頭飾的女孩子",
         "她推薦一定要嘗試由她親自調製的屎水",
         "看了看餐牌的圖片，估計是朱古力或者咖啡類型的飲品吧",
-        "雖然命名充滿着惡趣味，不過就試一下吧",
+        "雖然命名充滿着惡趣味，不過就試一下",
 
         "……",
         "喝了一口，味道完全不像朱古力或者咖啡",
@@ -52,16 +51,16 @@ public class OutsideTeahouseDialogue : AbstractInputActionsController
             else{
                 switch (currentSentence){
                     case 2:
-                        SceneManager_OutsideTeahouse.Instance.GetInHouse();
+                        SceneManager_OutsideTeahouse.Instance.GetInHouse(dialogueList[currentSentence]);
                         break;
                     case 6:
-                        SceneManager_OutsideTeahouse.Instance.TakeCoffee();
+                        SceneManager_OutsideTeahouse.Instance.TakeCoffee(dialogueList[currentSentence]);
                         break;
                     case 9:
-                        SceneManager_OutsideTeahouse.Instance.FeelDizzy();
+                        SceneManager_OutsideTeahouse.Instance.FeelDizzy(dialogueList[currentSentence]);
                         break;
                     case 11:
-                        SceneManager_OutsideTeahouse.Instance.GoToilet();
+                        SceneManager_OutsideTeahouse.Instance.GoToilet(dialogueList[currentSentence]);
                         break;
                     case 13:
                         SceneManager_OutsideTeahouse.Instance.SwitchScene();

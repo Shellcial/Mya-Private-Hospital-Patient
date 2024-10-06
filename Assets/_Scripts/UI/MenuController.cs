@@ -19,7 +19,7 @@ public class MenuController : MonoBehaviour
     private TutorialMenu _tutorialMenu;
     [SerializeField]
     private LoadPageManager _loadMenu;
-    public bool isAllowOpen = false;
+    private bool isAllowOpen = false;
     // use isFading to avoid instant trigger repetatedly
     public bool isFading = false;
     private bool _isMenuOpen = false;
@@ -27,6 +27,13 @@ public class MenuController : MonoBehaviour
     private RawImage overlay;
     [SerializeField]
     private CanvasGroup leaveOverlay;
+    private List<string> noESCMenuScene = new List<string>(){
+        "Title_Scene",
+        "Path_To_Teahouse",
+        "Outside_Teahouse",
+        "Path_To_Teahouse_Night"
+    };
+
     void Awake(){
         if (Instance == null)
         {
@@ -40,6 +47,19 @@ public class MenuController : MonoBehaviour
 
         isFading = false;
         leaveOverlay.blocksRaycasts = false;
+        string currentSceneName = SceneManager.GetActiveScene().name; 
+
+        isAllowOpen = true;
+
+        foreach(string name in noESCMenuScene){
+            if (currentSceneName == name){
+                isAllowOpen = false;
+                break;
+            }
+        }
+
+        GLogger.Log("current scene: " + currentSceneName);
+        GLogger.Log("is ESC menu allow: " + isAllowOpen);
     }
     
     void Start()
@@ -50,8 +70,6 @@ public class MenuController : MonoBehaviour
     }
 
     void TriggerMenu(InputAction.CallbackContext context){
-        GLogger.Log(GameManager.Instance.GetGameStatus());
-        GLogger.Log(context.performed);
         if (isAllowOpen && !isFading){
             if (context.performed){
                 if (GameManager.Instance.GetGameStatus()){

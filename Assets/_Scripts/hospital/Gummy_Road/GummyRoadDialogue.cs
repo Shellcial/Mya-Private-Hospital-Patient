@@ -47,16 +47,16 @@ public class GummyRoadDialogue : AbstractInputActionsController
                         SceneManager_Gummy_Road.Instance.PlayFootstepSounds(dialogueList[currentSentence]);
                         break;
                     case 2:
-                        SceneManager_Gummy_Road.Instance.FadeBlack1();
+                        SceneManager_Gummy_Road.Instance.FadeBlack1(dialogueList[currentSentence]);
                         break;
                     case 3:
-                        SceneManager_Gummy_Road.Instance.FadeBlack2();
+                        SceneManager_Gummy_Road.Instance.FadeBlack2(dialogueList[currentSentence]);
                         break;
                     case 4:
-                        SceneManager_Gummy_Road.Instance.FadeBlack3();
+                        SceneManager_Gummy_Road.Instance.FadeBlack3(dialogueList[currentSentence]);
                         break;
                     case 6:
-                        SceneManager_Gummy_Road.Instance.ShowGummy();
+                        SceneManager_Gummy_Road.Instance.ShowGummy(dialogueList[currentSentence]);
                         break;
                     case 9:
                         SceneManager_Gummy_Road.Instance.SwitchScene();

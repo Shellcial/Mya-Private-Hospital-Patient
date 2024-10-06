@@ -53,40 +53,45 @@ public class SceneManager_Gummy_Road : Singleton<SceneManager_Gummy_Road>
         FlatAudioManager.Instance.Play("panda_footsteps", false);
         await UniTask.Delay(1000);
         DialogueManager.Instance.isDialogueEnable = true;
-        GetComponent<GummyRoadDialogue>().ClickSentence();
+        DialogueManager.Instance.ShowNextSentence(text);
+        // GetComponent<GummyRoadDialogue>().ClickSentence();
     }
 
-    public void FadeBlack1(){
+    public void FadeBlack1(string text){
         DialogueManager.Instance.ClearText();
         DialogueManager.Instance.isDialogueEnable = false;
         gradualBlack1.DOFade(0.5f, 1f).OnComplete(()=>{
             DialogueManager.Instance.isDialogueEnable = true;
-            GetComponent<GummyRoadDialogue>().ClickSentence();
+            DialogueManager.Instance.ShowNextSentence(text);
+            // GetComponent<GummyRoadDialogue>().ClickSentence();
         });
     }
 
-    public void FadeBlack2(){
+    public void FadeBlack2(string text){
         wholeBlack.DOFade(0.5f, 3f);
+        DialogueManager.Instance.ShowNextSentence(text);
     }
 
-    public void FadeBlack3(){
+    public void FadeBlack3(string text){
         DialogueManager.Instance.ClearText();
         DialogueManager.Instance.isDialogueEnable = false;
         gradualBlack1.DOFade(1f, 2f);
         gradualBlack2.DOFade(1f, 2f).OnComplete(()=>{
             DialogueManager.Instance.isDialogueEnable = true;
-            GetComponent<GummyRoadDialogue>().ClickSentence();
+            DialogueManager.Instance.ShowNextSentence(text);
+            // GetComponent<GummyRoadDialogue>().ClickSentence();
         });
     }
 
-    public async void ShowGummy(){
+    public async void ShowGummy(string text){
         FlatAudioManager.Instance.Play("gummy_footsteps", false);
         DialogueManager.Instance.isDialogueEnable = false;
         wholeBlack.DOFade(0.5f, 2f);
         gummyImage.DOFade(1, 2f);
         await UniTask.Delay(500);
         DialogueManager.Instance.isDialogueEnable = true;
-        GetComponent<GummyRoadDialogue>().ClickSentence();
+        // GetComponent<GummyRoadDialogue>().ClickSentence();
+        DialogueManager.Instance.ShowNextSentence(text);
     }
 
     public async void SwitchScene(){

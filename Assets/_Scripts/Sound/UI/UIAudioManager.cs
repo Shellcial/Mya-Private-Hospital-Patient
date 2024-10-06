@@ -15,6 +15,7 @@ public class UIAudioManager : Singleton<UIAudioManager>
         if (Instance == null)
         {
             Instance = this;
+            DontDestroyOnLoad( gameObject );
         }
         else
         {

@@ -4,13 +4,13 @@ using UnityEngine.InputSystem;
 public class PathToTeahouseDialogue : AbstractInputActionsController
 {
     private List<string> dialogueList = new List<string>(){
-        "我有時會在假日找一些新甜品吃",
-        "最近在網上看到有很多人推薦一間叫「幻花茶屋」的咖啡廳，今天便決定試試",
-        "但是，跟着網上寫的地址及地圖走，郤來到了偏僻的郊外",
-        "沿着山路走，不知走了多久，終於看到標示着幻花茶屋的路牌",
+        "最近在網上看到很多人推薦一間叫「幻花茶屋」的餐廳",
+        "本來想試試這間新餐廳，因此跟着網上寫的地址走……",
+        "郤不知怎麼來到了偏僻的郊外",
+        "啊，前面有個路牌",
         "轉左走就是幻花茶屋……還有一間醫院叫「米亞私立醫院」？",
         "為甚麼在這麼偏僻的地方會有醫院？",
-        "路牌上好像還寫着轉右有甚麼東西，不過被啡色的污漬弄污了",
+        "路牌上好像還寫着右邊有甚麼東西，不過被啡色的污漬弄污了",
     };
 
     private int currentSentence = 0;
@@ -40,16 +40,16 @@ public class PathToTeahouseDialogue : AbstractInputActionsController
             else{
                 switch (currentSentence){
                     case 2:
-                        SceneManager_Path_To_Teahouse.Instance.ShowPathVisual();
+                        SceneManager_Path_To_Teahouse.Instance.ShowPathVisual(dialogueList[currentSentence]);
                         break;
                     case 4:
-                        SceneManager_Path_To_Teahouse.Instance.ShowRoadSign();
+                        SceneManager_Path_To_Teahouse.Instance.ShowRoadSign(dialogueList[currentSentence]);
                         break;
                     case 7:
                         SceneManager_Path_To_Teahouse.Instance.SwitchScene();
                         break;
                     default:
-                        GLogger.Log("Show dialogue: " + dialogueList[currentSentence]);
+                        // GLogger.Log("Show dialogue: " + dialogueList[currentSentence]);
                         DialogueManager.Instance.ShowNextSentence(dialogueList[currentSentence]);
                         break;
                 } 

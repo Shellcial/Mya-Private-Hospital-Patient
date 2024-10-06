@@ -53,7 +53,7 @@ public class SceneManager_OutsideTeahouse : Singleton<SceneManager_OutsideTeahou
         _insideCamera.gameObject.SetActive(false);
     }
 
-	public async void GetInHouse(){
+	public async void GetInHouse(string  text){
 		DialogueManager.Instance.ClearText();
 		DialogueManager.Instance.ShowDialogue(false, 1f);
 		DialogueManager.Instance.isDialogueEnable = false;
@@ -62,43 +62,53 @@ public class SceneManager_OutsideTeahouse : Singleton<SceneManager_OutsideTeahou
         _insideCamera.gameObject.SetActive(true);
         directionalLight.intensity = 2;
         await UniTask.Delay(1000);
+        FlatAudioManager.Instance.Play("place_cup", false);
+        await UniTask.Delay(500);
         await GeneralUIManager.Instance.FadeOutBlack(1f);
 		DialogueManager.Instance.ShowDialogue(true);
         await UniTask.Delay(500);
-		GetComponent<OutsideTeahouseDialogue>().ClickSentence(true);
+        DialogueManager.Instance.ShowNextSentence(text);
+		// GetComponent<OutsideTeahouseDialogue>().ClickSentence(true);
         await UniTask.Delay(100);
 		DialogueManager.Instance.isDialogueEnable = true;
 	}
 
-    public async void TakeCoffee(){
+    public async void TakeCoffee(string  text){
         DialogueManager.Instance.ClearText();
 		DialogueManager.Instance.isDialogueEnable = false;
+        FlatAudioManager.Instance.Play("place_cup", false);
         coffee.SetActive(false);
         await UniTask.Delay(500);
-        GetComponent<OutsideTeahouseDialogue>().ClickSentence(true);
+        DialogueManager.Instance.ShowNextSentence(text);
+        // GetComponent<OutsideTeahouseDialogue>().ClickSentence(true);
         await UniTask.Delay(100);
         DialogueManager.Instance.isDialogueEnable = true;
     } 
 
-    public async void FeelDizzy(){
+    public async void FeelDizzy(string  text){
         DialogueManager.Instance.ClearText();
 		DialogueManager.Instance.isDialogueEnable = false;
-        distortionMaterial.material.DOFloat( 0.01f, "_distortion_strength",2f);
+        distortionMaterial.material.DOFloat(0.01f, "_distortion_strength",2f);
         await UniTask.Delay(1000);
-        GetComponent<OutsideTeahouseDialogue>().ClickSentence(true);
+        DialogueManager.Instance.ShowNextSentence(text);
+        // GetComponent<OutsideTeahouseDialogue>().ClickSentence(true);
         await UniTask.Delay(100);
         DialogueManager.Instance.isDialogueEnable = true;
     }
 
-    public async void GoToilet(){
+    public async void GoToilet(string  text){
         DialogueManager.Instance.ClearText();
         DialogueManager.Instance.isDialogueEnable = false;
         DialogueManager.Instance.ShowDialogue(false, 2f);
         await GeneralUIManager.Instance.FadeInBlack(2f);
-        await UniTask.Delay(500);
+        FlatAudioManager.Instance.Play("toilet_flush", false);
+        await UniTask.Delay(5000);
+        FlatAudioManager.Instance.Play("wash_hand", false);
+        await UniTask.Delay(1000);
         DialogueManager.Instance.ShowDialogue(true);
         await UniTask.Delay(500);
-        GetComponent<OutsideTeahouseDialogue>().ClickSentence(true);
+        DialogueManager.Instance.ShowNextSentence(text);
+        // GetComponent<OutsideTeahouseDialogue>().ClickSentence(true);
         await UniTask.Delay(100);
         DialogueManager.Instance.isDialogueEnable = true;
     }

@@ -40,9 +40,11 @@ public class LoadChapter : MonoBehaviour
         new Vector2(0.4f, 0.4f),
     };
     private List<Texture> _loadChapterTextures = new List<Texture>();
+    private LoadPageManager _loadPageManager;
 
     void Awake(){
-        _loadChapterTextures = TitleUIManager.Instance.loadPageManager.loadChapterTextures;
+        _loadPageManager = this.transform.parent.parent.parent.GetComponent<LoadPageManager>();
+        _loadChapterTextures = _loadPageManager.loadChapterTextures;
         AdjustIndex();
     }
 
@@ -61,7 +63,7 @@ public class LoadChapter : MonoBehaviour
                 imageChangeIndex = AdjustImageIndex(imageChangeIndex+3);
                 chapterImage.texture = _loadChapterTextures[imageChangeIndex];
                 _currentTextureIndex = imageChangeIndex;
-                TitleUIManager.Instance.loadPageManager.EnableChapter(this, _currentTextureIndex);
+                _loadPageManager.EnableChapter(this, _currentTextureIndex);
             }
         }
         else {
@@ -77,7 +79,7 @@ public class LoadChapter : MonoBehaviour
                 imageChangeIndex = AdjustImageIndex(imageChangeIndex - 3);
                 chapterImage.texture = _loadChapterTextures[imageChangeIndex];
                 _currentTextureIndex = imageChangeIndex;
-                TitleUIManager.Instance.loadPageManager.EnableChapter(this, _currentTextureIndex);
+                _loadPageManager.EnableChapter(this, _currentTextureIndex);
             }
         }
         

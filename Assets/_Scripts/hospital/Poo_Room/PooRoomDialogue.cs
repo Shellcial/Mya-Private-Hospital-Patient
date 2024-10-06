@@ -44,10 +44,10 @@ public class PooRoomDialogue : AbstractInputActionsController
             else{
                 switch (currentSentence){
                     case 2:
-                        SceneManager_Path_To_Teahouse.Instance.ShowPathVisual();
+                        SceneManager_Path_To_Teahouse.Instance.ShowPathVisual(dialogueList[currentSentence]);
                         break;
                     case 4:
-                        SceneManager_Path_To_Teahouse.Instance.ShowRoadSign();
+                        SceneManager_Path_To_Teahouse.Instance.ShowRoadSign(dialogueList[currentSentence]);
                         break;
                     case 6:
                         SceneManager_Path_To_Teahouse.Instance.SwitchScene();
