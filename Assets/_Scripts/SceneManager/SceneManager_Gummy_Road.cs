@@ -34,7 +34,6 @@ public class SceneManager_Gummy_Road : Singleton<SceneManager_Gummy_Road>
 
 		GeneralUIManager.Instance.SetBlack();
 		GameManager.Instance.PauseGame();
-		GameManager.Instance.LockCursor(true);
 	}
 
     async void Start(){
@@ -45,6 +44,7 @@ public class SceneManager_Gummy_Road : Singleton<SceneManager_Gummy_Road>
         DialogueManager.Instance.ShowDialogueText(true);
 		await UniTask.Delay(500);
 		DialogueManager.Instance.isDialogueEnable = true;
+        GameManager.Instance.ResumeGame();
 		GetComponent<GummyRoadDialogue>().ClickSentence();
     }
 
@@ -95,11 +95,13 @@ public class SceneManager_Gummy_Road : Singleton<SceneManager_Gummy_Road>
     }
 
     public async void SwitchScene(){
+        GameManager.Instance.gameDataManager.gameData.otherStats["gummy_ending"] = true;
         DialogueManager.Instance.ClearText();
         DialogueManager.Instance.isDialogueEnable = false;
 		GameManager.Instance.FadeOutAudioMixer(2f);
 		DialogueManager.Instance.ShowDialogue(false,2f);
 		await GeneralUIManager.Instance.FadeInBlack(2f);
+        await UniTask.Delay(1000);
         SceneManager.LoadScene("Ending_Credits");
     }
 }

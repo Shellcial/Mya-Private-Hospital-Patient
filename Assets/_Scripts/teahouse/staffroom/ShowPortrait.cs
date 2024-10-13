@@ -7,7 +7,7 @@ public class ShowPortrait : MonoBehaviour
 {
     private float inTime;
     private float outTime;
-    private float inTriggerTime = 3f;
+    private float inTriggerTime = 1f;
     private float outTriggerTime = 1f;
     private GameObject player;  
     private bool isPlayerIn = false;

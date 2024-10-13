@@ -12,6 +12,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: card_reader
+    second: {fileID: 2100000, guid: 6d7c62408eafd524cbf4528a79c35e6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: elevator_signal
     second: {fileID: 2100000, guid: 464103ae0bc966542aef4a97381a4826, type: 2}
   - first:

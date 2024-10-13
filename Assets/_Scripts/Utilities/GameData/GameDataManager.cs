@@ -14,6 +14,7 @@ public class GameDataManager : MonoBehaviour
     private void Awake(){
         CreateFolder();
         gameData = LoadGame();
+        SaveGame();
     }
 
     //create folder for once only if there is none in the path

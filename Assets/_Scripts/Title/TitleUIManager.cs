@@ -38,6 +38,7 @@ public class TitleUIManager : Singleton<TitleUIManager>
 			mainPageManager.EnterPage(0f);
 			isEnterChapter = false;
 			_coverMainMenu.blocksRaycasts = false;
+			GameManager.Instance.FadeInAudioMixer(2f);
 		}
 	}
 
@@ -48,6 +49,7 @@ public class TitleUIManager : Singleton<TitleUIManager>
     }
 
 	public void EnteringChapter(){
+		UIAudioManager.Instance.Play("start", true);
 		isEnterChapter = true;
 		_coverMainMenu.blocksRaycasts = true;
 	}

@@ -69,4 +69,8 @@ public class GummyRoadDialogue : AbstractInputActionsController
             }
         }
     }
+
+    void OnDestroy(){
+        playerInput.actions["Click"].performed -= LeftClick;
+    }
 }

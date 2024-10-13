@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 using Cysharp.Threading.Tasks;
+using UnityEngine.SceneManagement;
 
 // class to control fade in/out black/white overlay
 public class GeneralUIManager : Singleton<GeneralUIManager>

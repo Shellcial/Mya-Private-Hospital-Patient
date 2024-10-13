@@ -38,6 +38,7 @@ public class MyaEnding : MonoBehaviour
     IEnumerator PlayMyaEnding(){
         yield return new WaitForSeconds(4f);
         _myaEndingDirector.Play();
+        FlatAudioManager.Instance.Play("overhead_door_close", false);
     }
 
     //  call from director
@@ -46,12 +47,13 @@ public class MyaEnding : MonoBehaviour
     }
 
     public void RotateCamera(){
-        characterCamera.transform.DORotate(secondRotation, 1f).SetEase(Ease.OutBounce);
+        characterCamera.transform.DORotate(secondRotation, 1f).SetEase(Ease.Linear);
     }
 
     //  call from director
     public void EndMyaEnding(){
         GeneralUIManager.Instance.FadeInBlack(0f).Forget();
+        GameManager.Instance.gameDataManager.gameData.otherStats["mya_ending"] = true;
         GameManager.Instance.FadeOutAudioMixer(2f);
         StartCoroutine(LeaveEnding());
     }

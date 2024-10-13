@@ -6,15 +6,10 @@ using UnityEngine;
 [Serializable]
 public class GameData
 {
-    [SerializeField]
     public Dictionary<string, bool> IllustrationStats {get; private set;}
-    [SerializeField]
     public Dictionary<string, bool> otherStats {get; private set;}
-    [SerializeField]
     public Dictionary<string, bool> cardStats {get; private set;}
-    [SerializeField]
     public Dictionary<string, bool> sceneCheckPoints {get; private set;}
-    [SerializeField]
     public bool isGetReceptionKey;
 
     public GameData(){

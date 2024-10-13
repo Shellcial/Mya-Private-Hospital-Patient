@@ -28,6 +28,7 @@ public class ReadyLive : MonoBehaviour
             _isTrigger = true;
             // GameManager.Instance.PauseGame();
             // play audio
+            FlatAudioManager.Instance.Play("announcement", false);
             StartCoroutine(StartAnimation());
         }
     }
@@ -43,13 +44,14 @@ public class ReadyLive : MonoBehaviour
         }
 
         yield return new WaitForSeconds(_fadeTime);
+        
+        FlatAudioManager.Instance.Play("announcement", false);
 
+        yield return new WaitForSeconds(_fadeTime);
         // change video
         _livingRoomScreenRenderer.material.SetTexture("_EmissionMap", _liveReadyTexture);
         _liveReadyAudio.Play();
         _liveReadyVideo.Play();
-        
-        yield return new WaitForSeconds(3f);
         // GameManager.Instance.ResumeGame();
     }
 }

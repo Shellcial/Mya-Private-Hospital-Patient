@@ -51,11 +51,37 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
-    group: {fileID: 0}
+    group: {fileID: -7337552946077702326, guid: 47330d671a01177479ffa9077ccf26a0,
+      type: 2}
   - name: highlight
     clip: {fileID: 8300000, guid: 08cbf4198125e374cb4e30a0727156a2, type: 3}
     volume: 0.5
     pitch: 1
     loop: 0
     source: {fileID: 0}
-    group: {fileID: 0}
+    group: {fileID: -7337552946077702326, guid: 47330d671a01177479ffa9077ccf26a0,
+      type: 2}
+  - name: start
+    clip: {fileID: 8300000, guid: 2f600ec3b7083ae40ab83661ef2881b4, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    group: {fileID: -7337552946077702326, guid: 47330d671a01177479ffa9077ccf26a0,
+      type: 2}
+  - name: exit
+    clip: {fileID: 8300000, guid: 1b57af54d6084e44e992d7f24a2cc1ed, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    group: {fileID: -7337552946077702326, guid: 47330d671a01177479ffa9077ccf26a0,
+      type: 2}
+  - name: deny
+    clip: {fileID: 8300000, guid: b570a68b30df869489ecca54d3d29eab, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    group: {fileID: -7337552946077702326, guid: 47330d671a01177479ffa9077ccf26a0,
+      type: 2}

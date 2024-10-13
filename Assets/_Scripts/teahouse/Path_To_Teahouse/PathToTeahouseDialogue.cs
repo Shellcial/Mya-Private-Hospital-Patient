@@ -26,6 +26,10 @@ public class PathToTeahouseDialogue : AbstractInputActionsController
     }
 
     public void ClickSentence(bool isByPass = false){
+        
+        if (!GameManager.Instance.GetPlayerStatus()){
+            return;
+        }
 
         if (!isByPass){
             if (!DialogueManager.Instance.isDialogueEnable){
@@ -56,5 +60,9 @@ public class PathToTeahouseDialogue : AbstractInputActionsController
                 currentSentence++;
             }
         }
+    }
+
+    void OnDestroy(){
+        playerInput.actions["Click"].performed -= LeftClick;
     }
 }

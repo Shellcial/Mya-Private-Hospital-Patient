@@ -2,6 +2,7 @@ using UnityEngine;
 using DG.Tweening;
 using TMPro;
 using System.Collections;
+using UnityEngine.UI;
 public class DialogueManager : Singleton<DialogueManager>
 {
 
@@ -16,6 +17,10 @@ public class DialogueManager : Singleton<DialogueManager>
     public bool isSentencePlaying = false; 
     private string showingWords = "";
     private Coroutine textCoroutine;
+    [SerializeField]
+    private RawImage _arrow;
+    [SerializeField]
+    private Animator _arrowAnim;
     protected override void Awake(){
         isDialogueEnable = false;
         isSentencePlaying = false;
@@ -31,6 +36,7 @@ public class DialogueManager : Singleton<DialogueManager>
         }
 
         _dialogueCanvasGroup = GetComponent<CanvasGroup>();
+        HideArrow();    
     }
     
     public void ShowDialogue(bool isShow, float duration = 0.5f){
@@ -67,9 +73,11 @@ public class DialogueManager : Singleton<DialogueManager>
         }
         _dialogueText.SetText(newWords);
         isSentencePlaying = false;
+        ShowArrow();
     }
 
     public void ShowNextSentence(string newWords, float delay = 0.05f){
+        HideArrow();
         showingWords = newWords;
         textCoroutine = StartCoroutine(ShowText(delay));
     }
@@ -82,10 +90,21 @@ public class DialogueManager : Singleton<DialogueManager>
             yield return new WaitForSeconds(delay);
         }
         isSentencePlaying = false;
+        ShowArrow();
     }
 
     public void ClearText(){
         isSentencePlaying = false;
         _dialogueText.SetText("");
+        HideArrow();
+    }
+
+    public void ShowArrow(){
+        _arrow.enabled = true;
+        _arrowAnim.Play("Base Layer.Move", -1, 0);
+    }
+
+    public void HideArrow(){
+        _arrow.enabled = false;
     }
 }

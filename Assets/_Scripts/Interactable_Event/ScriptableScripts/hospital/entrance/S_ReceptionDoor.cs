@@ -25,6 +25,7 @@ public class S_ReceptionDoor : InteractableObject
                 DisableInteract();
 
                 isOpen = true;
+                FlatAudioManager.Instance.Play("open_locked_door", false);
                 Vector3 targetValue = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y - openValue, transform.eulerAngles.z);
                 transform.DORotate(targetValue, duration, RotateMode.Fast).SetEase(Ease.InOutSine).OnComplete(
                     () =>

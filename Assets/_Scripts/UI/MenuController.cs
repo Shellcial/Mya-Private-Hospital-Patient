@@ -29,10 +29,18 @@ public class MenuController : MonoBehaviour
     private CanvasGroup leaveOverlay;
     private List<string> noESCMenuScene = new List<string>(){
         "Title_Scene",
+        "Ending_Credits"
+    };
+
+    private List<string> dialogueScene = new List<string>(){
         "Path_To_Teahouse",
         "Outside_Teahouse",
         "Path_To_Teahouse_Night"
     };
+
+    private bool isDialogueScene = false;
+    [SerializeField]
+    private RawImage escMenuFade; 
 
     void Awake(){
         if (Instance == null)
@@ -58,12 +66,30 @@ public class MenuController : MonoBehaviour
             }
         }
 
-        GLogger.Log("current scene: " + currentSceneName);
-        GLogger.Log("is ESC menu allow: " + isAllowOpen);
+        isDialogueScene = false;
+
+        foreach(string name in dialogueScene){
+            if (currentSceneName == name){
+                isDialogueScene = true;
+                break;
+            }
+        }
+        escMenuFade.DOFade(0,0);
+        _wholeESCMenu.alpha = 0;
+        _wholeESCMenu.blocksRaycasts = false;
+        _wholeESCMenu.interactable = false;
     }
     
     void Start()
     {   
+        // set general canvas to behind or in front
+        if (SceneManager.GetActiveScene().name == "Title_Scene"){
+            GeneralUIManager.Instance.GetComponent<Canvas>().sortingOrder = 120;
+        }
+        else{
+            GeneralUIManager.Instance.GetComponent<Canvas>().sortingOrder = -50;
+        }
+
         menuInputActions = new MainMenu_InputActions();
         menuInputActions.Menu.Enable();
         menuInputActions.Menu.ESC.performed += TriggerMenu;
@@ -89,7 +115,7 @@ public class MenuController : MonoBehaviour
         GameManager.Instance.LockCursor(false);
         isFading = true;
         _isMenuOpen = true;
-
+        ShowOverlay();
         _wholeESCMenu.DOFade(1, 0.2f);
         _wholeESCMenu.blocksRaycasts = true;
         _wholeESCMenu.interactable = true;
@@ -100,7 +126,10 @@ public class MenuController : MonoBehaviour
     }
 
     public void CloseMenu(){
-        GameManager.Instance.LockCursor(true);
+        if (!isDialogueScene){
+            GameManager.Instance.LockCursor(true);
+        }
+
         isFading = true;
         _isMenuOpen = false;
         _wholeESCMenu.DOFade(0, 0.2f);
@@ -129,24 +158,34 @@ public class MenuController : MonoBehaviour
     }
 
     public void ShowOverlay(){
-        overlay.DOFade(0.5f, 0.2f);
+        if (!isDialogueScene){
+            overlay.DOFade(0.7f, 0.2f);
+        }
+        else{
+            overlay.DOFade(0.9f, 0.2f);
+        }
     }
 
     public void HideOverlay(){
-        overlay.DOFade(0f, 0.2f);
+        if (!isDialogueScene){
+            overlay.DOFade(0f, 0.2f);
+        }
+        else{
+            // overlay.DOFade(0.9f, 0.2f);
+        }
     }
 
     public async void GoBackToTitle(){
-        leaveOverlay.blocksRaycasts = true;
-        isFading = true;
-        GameManager.Instance.FadeOutAudioMixer(2f);
-        await GeneralUIManager.Instance.FadeInBlack(2f);
-        SceneManager.LoadScene("Title_Scene");
+        if (!TitleUIManager.Instance.isEnterChapter){
+            CoverMenu(2f);
+            GameManager.Instance.FadeOutAudioMixer(2f);
+            await GeneralUIManager.Instance.FadeInBlack(2f);
+            SceneManager.LoadScene("Title_Scene");
+        }
     }
 
     public void GoToSpecialChapter(){
-        leaveOverlay.blocksRaycasts = true;
-        isFading = true;
+        CoverMenu(2f);
     }
 
     public void SpecialOpenTutorial(){
@@ -166,5 +205,18 @@ public class MenuController : MonoBehaviour
         _tutorialMenu.EnterPage();
         ShowOverlay();
         StartCoroutine(ReactivateTrigger());
+    }
+    public void CoverMenu(float duration){
+        leaveOverlay.blocksRaycasts = true;
+        escMenuFade.DOFade(1,duration);
+        _wholeESCMenu.blocksRaycasts = true;
+        _wholeESCMenu.interactable = false;
+        UIAudioManager.Instance.Play("start", true);
+        TitleUIManager.Instance.isEnterChapter = true;
+        isFading = true;
+    }
+
+    void OnDestroy(){
+        menuInputActions.Menu.ESC.performed -= TriggerMenu;
     }
 }

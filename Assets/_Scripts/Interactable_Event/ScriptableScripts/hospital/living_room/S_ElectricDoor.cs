@@ -12,7 +12,7 @@ public class S_ElectricDoor : InteractableObject
     private Transform _rightDoor;
     private float _targetLeftZ = -10.876f; 
     private float _targetrightZ = -7.169f;
-    private float _doorOpenTime = 3f;
+    private float _doorOpenTime = 2f;
 
     private Color _color = new Color(0,1,0,1);
     [SerializeField]
@@ -26,6 +26,8 @@ public class S_ElectricDoor : InteractableObject
     public override void Interact()
     {
         if (SceneManager_LivingRoom.Instance.isGetElectricKey && !isTrigger){
+            FlatAudioManager.Instance.Play("door_beep", false);
+            FlatAudioManager.Instance.Play("door_open", false);
             isTrigger = true;
             _leftDoor.DOLocalMoveZ(_targetLeftZ, _doorOpenTime).SetEase(Ease.InOutSine);
             _rightDoor.DOLocalMoveZ(_targetrightZ, _doorOpenTime).SetEase(Ease.InOutSine);

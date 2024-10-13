@@ -17,7 +17,6 @@ public class SceneManager_Path_To_Teahouse : Singleton<SceneManager_Path_To_Teah
 
 		GeneralUIManager.Instance.SetBlack();
 		GameManager.Instance.PauseGame();
-		GameManager.Instance.LockCursor(true);
 	}
 
     async void Start(){
@@ -27,6 +26,7 @@ public class SceneManager_Path_To_Teahouse : Singleton<SceneManager_Path_To_Teah
 		await UniTask.Delay(1000);
 		DialogueManager.Instance.ShowDialogueText(true);
 		await UniTask.Delay(500);
+		GameManager.Instance.ResumeGame();
 		GetComponent<PathToTeahouseDialogue>().ClickSentence(true);
 		await UniTask.Delay(100);
 		DialogueManager.Instance.isDialogueEnable = true;
@@ -51,7 +51,7 @@ public class SceneManager_Path_To_Teahouse : Singleton<SceneManager_Path_To_Teah
 		DialogueManager.Instance.ShowDialogueText(false, 0f);
 		DialogueManager.Instance.isDialogueEnable = false;
 		DialogueManager.Instance.ShowCloseUp(true, 2f);
-		await UniTask.Delay(2500);
+		await UniTask.Delay(2000);
 		DialogueManager.Instance.ShowDialogueText(true);
 		await UniTask.Delay(500);
 		DialogueManager.Instance.ShowNextSentence(text);
@@ -64,8 +64,9 @@ public class SceneManager_Path_To_Teahouse : Singleton<SceneManager_Path_To_Teah
 		DialogueManager.Instance.ClearText();
 		DialogueManager.Instance.isDialogueEnable = false;
 		GameManager.Instance.FadeOutAudioMixer(2f);
-		DialogueManager.Instance.ShowDialogue(false,1f);
-		await GeneralUIManager.Instance.FadeInBlack();
+		GameManager.Instance.PauseGame();
+		DialogueManager.Instance.ShowDialogue(false, 2f);
+		await GeneralUIManager.Instance.FadeInBlack(2f);
         SceneManager.LoadScene("Outside_Teahouse");
     }
 }

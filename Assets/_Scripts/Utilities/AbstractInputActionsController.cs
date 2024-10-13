@@ -7,7 +7,6 @@ public class AbstractInputActionsController : MonoBehaviour
     public bool AutoStartInputs;
     public virtual void InitiateInputActions(){
         playerInput = GetComponent<PlayerInput>();
-        GLogger.Log(playerInput);
         if (AutoStartInputs){
             EnablePlayerInput();
         }

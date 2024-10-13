@@ -51,7 +51,7 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
             return new Vector3(0,0,0);
         }
     }
-    public bool isTest = false;
+    private bool isTest = false;
     [SerializeField]
     private Volume _volume;
     private GameObject player;
@@ -90,8 +90,6 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
 		if( !Instance )
 		{
 			Instance = this;
-
-			DontDestroyOnLoad( gameObject );
 		}
 		else if( Instance != this )
 		{
@@ -170,6 +168,7 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
 
         if (!isTest){
             player.transform.localPosition = playerStartPosition;
+            PlayerController.Instance.respawnPosition = new Vector3(5.07f,0.79f,1.2f);
             player.transform.localRotation = Quaternion.Euler(playerStartRotation);
 
             cameraPlayer = player.transform.Find("Character_Camera");

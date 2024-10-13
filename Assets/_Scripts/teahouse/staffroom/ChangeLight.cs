@@ -22,7 +22,7 @@ public class ChangeLight : MonoBehaviour
     private Renderer _insideLight;
     [SerializeField]
     private List<Renderer> foodMaterial = new List<Renderer>();
-    private Vector4 _correctFoodColor = new Vector4(0.2f, 0.2f, 0.2f);
+    private Vector4 _correctFoodColor = new Vector4(0.4f, 0.4f, 0.4f);
     private float _coldIntensity = 2f;
     private float _originalIntensity = 7f;
     private Vector4 _emissionColor = new Vector4(0.7490196f, 0.6078432f, 0.4941176f);

@@ -6,7 +6,7 @@ public class SceneManager_HospitalLeave : Singleton<SceneManager_HospitalLeave>,
 {
     public Vector3 playerStartPosition{
         get{
-            return new Vector3(-20.734f,0.776f,3.91f);
+            return new Vector3(-20.734f,0.6f,3.91f);
         }
     }
 
@@ -41,15 +41,12 @@ public class SceneManager_HospitalLeave : Singleton<SceneManager_HospitalLeave>,
     
     private GameObject player;
     private Transform cameraPlayer;
-
     public CarbinetPassword carbinetPassword;
 
     override protected void Awake(){
 		if( !Instance )
 		{
 			Instance = this;
-
-			DontDestroyOnLoad( gameObject );
 		}
 		else if( Instance != this )
 		{

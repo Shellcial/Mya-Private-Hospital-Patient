@@ -20,7 +20,7 @@ public class OutsideTeahouseDialogue : AbstractInputActionsController
         "……",
         "……肚子突然有點痛……",
 
-        "借用了一下餐廳的洗手間，但肚子越來越痛。",
+        "借用了一下餐廳的洗手間，但肚子依然很痛。",
         "對了，剛剛路牌寫着旁邊有間醫院，試試去那兒看醫生吧。"
     };
 
@@ -38,6 +38,10 @@ public class OutsideTeahouseDialogue : AbstractInputActionsController
 
     
     public void ClickSentence(bool isByPass=false){
+        if (!GameManager.Instance.GetPlayerStatus()){
+            return;
+        }
+        
         if (!isByPass){
             if (!DialogueManager.Instance.isDialogueEnable){
                 return;
@@ -72,5 +76,9 @@ public class OutsideTeahouseDialogue : AbstractInputActionsController
                 currentSentence++;
             }
         }
+    }
+
+    void OnDestroy(){
+        playerInput.actions["Click"].performed -= LeftClick;
     }
 }

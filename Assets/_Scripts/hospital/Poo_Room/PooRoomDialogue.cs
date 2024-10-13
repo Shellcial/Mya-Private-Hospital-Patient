@@ -60,4 +60,8 @@ public class PooRoomDialogue : AbstractInputActionsController
             }
         }
     }
+
+    void OnDestroy(){
+        playerInput.actions["Click"].performed -= LeftClick;
+    }
 }

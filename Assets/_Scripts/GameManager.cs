@@ -15,11 +15,11 @@ public class GameManager : Singleton<GameManager>
 		{
 			Instance = this;
             gameDataManager = GetComponent<GameDataManager>();
-			DontDestroyOnLoad( gameObject );
+			DontDestroyOnLoad(gameObject);
 		}
 		else if( Instance != this )
 		{
-			Destroy( gameObject );
+			Destroy(gameObject);
 			return;
 		}
 
@@ -45,11 +45,7 @@ public class GameManager : Singleton<GameManager>
             gameDataManager.SaveGame();
         }
     }
-
-    // public void DisplayMouseCursor(){
-    //     Cursor.visible = true;
-    // }
-
+    
     public void LockCursor(bool isLocked)
     {
         if (isLocked)
@@ -61,6 +57,7 @@ public class GameManager : Singleton<GameManager>
             Cursor.lockState = CursorLockMode.None;
         }
     }
+
     public void EnablePointerControl(bool isEnable)
     {
         if (isEnable)
@@ -88,6 +85,7 @@ public class GameManager : Singleton<GameManager>
         isGameStarted = false;
         FreezePlayer();
     }
+
     public void ResumeGame()
     {
         isGameStarted = true;

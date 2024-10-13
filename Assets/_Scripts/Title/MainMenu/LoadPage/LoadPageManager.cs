@@ -8,7 +8,7 @@ using UnityEngine.UI;
 
 public class LoadPageManager : ICanvasPage
 {
-    private List<bool> _isTriggerable = new List<bool>();
+    public List<bool> isTriggerable = new List<bool>();
     [SerializeField]
     private List<Image> disableImages = new List<Image>();
     private float _animationTime = 0.5f;
@@ -38,27 +38,37 @@ public class LoadPageManager : ICanvasPage
         "醫院病房：醫院內充斥各種臭味及污漬，走廊及房間充滿着熊貓造型的裝飾。",
         "醫院大廳：一群在大廳內看着大螢幕的熊貓，究竟牠們是在等待着甚麼？",
     };
+
+    private string chapterLockedTitle = "未解鎖章節";
+    private List<string> chapterLockedDescription = new List<string>(){
+        "來到深山，發現了一間……",
+        "感覺這……怪怪的……",
+        "肚子痛，幸好旁邊就有醫……",
+        "醒來後發現身處一間不斷播……的……",
+        "CDFAAGFEFGGF……要快點離開……DADADADA……"
+    };
+
     public List<Texture> loadChapterTextures = new List<Texture>();
 
     void Awake(){
         SpecialLeavePage();
-        _isTriggerable.Clear();
+        isTriggerable.Clear();
         currentSelectedTexture = 0;
-        SetChapterText();
 
         Dictionary<string, bool> sceneCheckPoints = GameManager.Instance.gameDataManager.gameData.sceneCheckPoints;
 
         foreach (bool isEnable in sceneCheckPoints.Values){
-            _isTriggerable.Add(isEnable);
+            isTriggerable.Add(isEnable);
         }
 
+        SetChapterText();
         for (int i=0; i < chapters.Count; i++){
             EnableChapter(chapters[i], chapters[i]._currentTextureIndex);
         }
     }
 
     public void EnableChapter(LoadChapter chapter, int textureIndex){
-        bool isEnable = _isTriggerable[textureIndex];
+        bool isEnable = isTriggerable[textureIndex];
         
         chapter.clickButton.interactable = isEnable;
         chapter.blackImage.SetActive(!isEnable);
@@ -66,8 +76,14 @@ public class LoadPageManager : ICanvasPage
     }
 
     void SetChapterText(){
-        chapterTitleText.SetText(chapterTitle[currentSelectedTexture]);
-        chapterDescriptionText.SetText(chapterDescription[currentSelectedTexture]);
+        if (isTriggerable[currentSelectedTexture]){
+            chapterTitleText.SetText(chapterTitle[currentSelectedTexture]);
+            chapterDescriptionText.SetText(chapterDescription[currentSelectedTexture]);
+        }
+        else{
+            chapterTitleText.SetText(chapterLockedTitle);
+            chapterDescriptionText.SetText(chapterLockedDescription[currentSelectedTexture]);
+        }
     }
 
     public void MoveLeft(){

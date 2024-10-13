@@ -9,7 +9,7 @@ public class CreditPageManager : ICanvasPage
     }
 
     public void OpenLink(string link){
-        GLogger.Log(link);
+        UIAudioManager.Instance.Play("simple_click", true);
         Application.OpenURL(link);
     }
 }

@@ -7,7 +7,7 @@ public class SceneManager_HospitalEntrance : Singleton<SceneManager_HospitalEntr
     public Vector3 playerStartPosition{
         get{
             // correct start
-            return new Vector3(15.281f,0.776f,-17.43f);
+            return new Vector3(15.281f,0.6f,-17.43f);
             // return new Vector3(-18.662f,0.776f,3.91f);
             // test start in middle
             // return new Vector3(-2.19f,0.776f,3.91f);
@@ -52,8 +52,6 @@ public class SceneManager_HospitalEntrance : Singleton<SceneManager_HospitalEntr
 		if( !Instance )
 		{
 			Instance = this;
-
-			DontDestroyOnLoad( gameObject );
 		}
 		else if( Instance != this )
 		{
@@ -82,6 +80,7 @@ public class SceneManager_HospitalEntrance : Singleton<SceneManager_HospitalEntr
         player = GameObject.Find("Player");
 
         player.transform.localPosition = playerStartPosition;
+        PlayerController.Instance.respawnPosition = new Vector3(15.281f,0.66f,-17.43f);;
         player.transform.localRotation = Quaternion.Euler(playerStartRotation);
 
         cameraPlayer = player.transform.Find("Character_Camera");

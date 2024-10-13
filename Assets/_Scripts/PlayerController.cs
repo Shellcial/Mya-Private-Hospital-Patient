@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using DG.Tweening;
+using UnityEngine.SceneManagement;
 
 //this class control the player movement and object click event
 
@@ -13,9 +14,9 @@ public class PlayerController : MonoBehaviour
     private PlayerInputActions playerInputActions;
 
     //control movement
-    public float moveSpeed = 2f;
-    public float startMoveSpeed = 2f;
-    public float fastMoveSpeed = 3f;
+    private float moveSpeed = 2f;
+    private float startMoveSpeed = 2f;
+    private float fastMoveSpeed = 3f;
     private Vector2 _smoothedInputVector2;
     private Vector2 _smoothInputVelocity; //no need to use this value in this case
     public float smoothSpeed = 0.1f;
@@ -26,7 +27,7 @@ public class PlayerController : MonoBehaviour
     private Tween zoomTween;
 
     //control rotation
-    private float mouseRotationSensitivity = 5f;
+    private float mouseRotationSensitivity = 4f;
     private float horizontalRotation = 0f;
     private float verticalRotation = 0f;
     private Transform cameraPlayer;
@@ -52,6 +53,13 @@ public class PlayerController : MonoBehaviour
     public static PlayerController Instance;
     private Camera _characterCamera;
     public Vector3 respawnPosition = new Vector3(0, 0.8f, 0);
+    private List<string> dialogueScene = new List<string>(){
+        "Path_To_Teahouse",
+        "Outside_Teahouse",
+        "Path_To_Teahouse_Night"
+    };
+
+    public bool isDialogueScene = false;
     private void Awake()
     {
         if (Instance == null)
@@ -91,11 +99,22 @@ public class PlayerController : MonoBehaviour
         highlightedLayer = LayerMask.NameToLayer("Highlighted");
 
         EnableDefaultLeftClick(true);
+
+        string currentSceneName = SceneManager.GetActiveScene().name; 
+        
+        isDialogueScene = false;
+
+        foreach(string name in dialogueScene){
+            if (currentSceneName == name){
+                isDialogueScene = true;
+                break;
+            }
+        }
     }
 
     private void FixedUpdate()
     {
-        if (!GameManager.Instance.GetPlayerStatus())
+        if (!GameManager.Instance.GetPlayerStatus() || isDialogueScene)
         {
             return;
         }
@@ -326,7 +345,7 @@ public class PlayerController : MonoBehaviour
 
     private void CastRayOnClick(InputAction.CallbackContext context)
     {
-        if (!GameManager.Instance.GetPlayerStatus())
+        if (!GameManager.Instance.GetPlayerStatus() || isDialogueScene)
         {
             return;
         }
@@ -386,5 +405,13 @@ public class PlayerController : MonoBehaviour
     
     public void ShowCursor(float duration=0.5f){
         cursorDisplay.transform.parent.GetComponent<CanvasGroup>().DOFade(1, duration);
+    }
+
+    void OnDestroy(){
+        playerInputActions.Player.Accelerate.performed -= SpeedUp;
+        playerInputActions.Player.Accelerate.canceled -= SlowDown;
+        playerInputActions.Player.RightClick.performed -= ZoomCamera;
+        playerInputActions.Player.RightClick.canceled -= ZoomCamera;
+        EnableDefaultLeftClick(false);
     }
 }

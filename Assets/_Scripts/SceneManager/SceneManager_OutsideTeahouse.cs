@@ -21,7 +21,6 @@ public class SceneManager_OutsideTeahouse : Singleton<SceneManager_OutsideTeahou
 
 		GeneralUIManager.Instance.SetBlack();
 		GameManager.Instance.PauseGame();
-		GameManager.Instance.LockCursor(true);
 	}
 
     async void Start(){
@@ -32,6 +31,7 @@ public class SceneManager_OutsideTeahouse : Singleton<SceneManager_OutsideTeahou
         DialogueManager.Instance.ShowDialogueText(true);
 		await UniTask.Delay(500);
 		DialogueManager.Instance.isDialogueEnable = true;
+        GameManager.Instance.ResumeGame();
 		GetComponent<OutsideTeahouseDialogue>().ClickSentence();
     }
 
@@ -119,6 +119,7 @@ public class SceneManager_OutsideTeahouse : Singleton<SceneManager_OutsideTeahou
         DialogueManager.Instance.isDialogueEnable = false;
 		GameManager.Instance.FadeOutAudioMixer(2f);
 		DialogueManager.Instance.ShowDialogue(false,2f);
+        GameManager.Instance.PauseGame();
 		await GeneralUIManager.Instance.FadeInBlack(2f);
         SceneManager.LoadScene("Teahouse_Staffroom");
     }

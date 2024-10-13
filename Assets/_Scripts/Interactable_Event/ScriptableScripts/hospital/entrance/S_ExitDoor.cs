@@ -20,6 +20,7 @@ public class S_ExitDoor : InteractableObject
 
             isOpen = true;
             Vector3 targetValue = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y - openValue, transform.eulerAngles.z);
+            FlatAudioManager.Instance.Play("open_exit_door", false);
             GameManager.Instance.PauseGame();
             GameManager.Instance.FadeOutAudioMixer(3f);
             GeneralUIManager.Instance.FadeInBlack(3f).Forget();

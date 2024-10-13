@@ -8,11 +8,22 @@ public class SceneManager_LivingRoom : Singleton<SceneManager_LivingRoom>
 {
     public bool isGetElectricKey { get; private set; }
 
-    void Awake(){
+    protected override void Awake(){
+        if( !Instance )
+		{
+			Instance = this;
+		}
+		else if( Instance != this )
+		{
+			Destroy( gameObject );
+			return;
+		}
+
         GeneralUIManager.Instance.SetBlack();
         GameManager.Instance.PauseGame();
         GameManager.Instance.LockCursor(true);
         isGetElectricKey = false;
+        PlayerController.Instance.respawnPosition = new Vector3(-53.5f, 0.66f, 117.124f);
     }
     async UniTask Start()
     {
@@ -20,7 +31,7 @@ public class SceneManager_LivingRoom : Singleton<SceneManager_LivingRoom>
         GameManager.Instance.FadeInAudioMixer(2f);
         PlayerController.Instance.ShowCursor();
         await GeneralUIManager.Instance.FadeOutBlack(2f);
-        // FlatAudioManager.Instance.SetAndFade("ambience_horror", 2f, 0f, 0.1f)
+        FlatAudioManager.Instance.SetAndFade("ambience_horror2", 2f, 0f, 0.1f);
         GameManager.Instance.ResumeGame();
     }
 
