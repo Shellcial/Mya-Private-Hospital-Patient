@@ -23,7 +23,7 @@ public class GameManager : Singleton<GameManager>
 			return;
 		}
 
-        GLogger.SetLogLevel(GLogger.LogLevel.Info);
+        GLogger.SetLogLevel(GLogger.LogLevel.Error);
         _masterMixer = Resources.Load<AudioMixer>("Master");
         // GameManager.Instance.gameDataManager.gameData.isGetReceptionKey = false;
         // GameManager.Instance.gameDataManager.gameData.isGetReceptionKey = true;

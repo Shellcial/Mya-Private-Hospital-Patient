@@ -6317,6 +6317,14 @@ MonoBehaviour:
     loop: 1
     source: {fileID: 0}
     group: {fileID: 642737913509799947, guid: 47330d671a01177479ffa9077ccf26a0, type: 2}
+  - name: leave_footsteps
+    clip: {fileID: 8300000, guid: 33c89b8ef29c61b4b8d2e0ea5a2da012, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    group: {fileID: -7337552946077702326, guid: 47330d671a01177479ffa9077ccf26a0,
+      type: 2}
 --- !u!1001 &161279281
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -1570,7 +1570,7 @@ MonoBehaviour:
     group: {fileID: 642737913509799947, guid: 47330d671a01177479ffa9077ccf26a0, type: 2}
   - name: panda_footsteps
     clip: {fileID: 8300000, guid: 33c89b8ef29c61b4b8d2e0ea5a2da012, type: 3}
-    volume: 0.5
+    volume: 0.3
     pitch: 1
     loop: 0
     source: {fileID: 0}

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
@@ -16,11 +17,13 @@ public class CreditManager : MonoBehaviour
     private List<CreditText> creditTextsList = new List<CreditText>();
     private bool _isFirstClicked = false;
     [SerializeField]
-    private TextMeshProUGUI _jumpText;
+    private CanvasGroup _jumpGroups;
+    [SerializeField]
+    private Image _fillCircle;
     [SerializeField]
     private RawImage overlay;
     private bool isFading = false;
-    private float maximumY = 7130;
+    private float maximumY = 8068;
     private float minY = -3300;
     private bool isFadingNotice = false;
     private int totalScore = 0;
@@ -29,23 +32,32 @@ public class CreditManager : MonoBehaviour
     
     [SerializeField]
     private TextMeshProUGUI extra0;
+
+    bool isStart = false;
+    private bool isDirectSwitchScene = false;
     // Start is called before the first frame update
     void Awake()
     {
        GameManager.Instance.FadeInAudioMixer(2f);
        creditTexts.localPosition = new Vector2(creditTexts.localPosition.x, minY); 
-       _jumpText.DOFade(0, 0f);
+       _jumpGroups.DOFade(0, 0f);
+       _fillCircle.fillAmount = 0;
+        isStart = false;
     }
 
-    void Start(){
+    async void Start(){
         UpdateAllCredit();
         extra0.SetText("");
         GameManager.Instance.LockCursor(false);
+        await UniTask.Delay(1000);
+        isStart = true;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (!isStart) return;
+
         float rectY = creditTexts.localPosition.y + moveSpeed * Time.deltaTime;
         rectY = Mathf.Clamp(rectY, minY, maximumY);
 
@@ -55,6 +67,24 @@ public class CreditManager : MonoBehaviour
         }
         else if (rectY <= maximumY){
             creditTexts.localPosition = new Vector2(creditTexts.localPosition.x, rectY);
+        }
+
+        if (_isFirstClicked && !isFading && Input.GetKey(KeyCode.Mouse0)){
+            _fillCircle.fillAmount += Time.deltaTime;
+
+            if (_fillCircle.fillAmount >= 1){
+                isFading = true;
+                DirectSwitchScene();
+            }
+        }
+        else if (isDirectSwitchScene){
+            _fillCircle.fillAmount = 1;
+        }
+        else {
+            _fillCircle.fillAmount -= Time.deltaTime;
+            if (_fillCircle.fillAmount <= 0){
+                _fillCircle.fillAmount = 0;
+            }
         }
     }
 
@@ -97,15 +127,13 @@ public class CreditManager : MonoBehaviour
     }
 
     public void ClickPage(){
+        if (!isStart) return;
+
         if (!_isFirstClicked || !isFadingNotice){
             isFadingNotice = true;
-            _jumpText.DOFade(1, 0.2f).OnComplete(()=>{
+            _jumpGroups.DOFade(1, 1f).OnComplete(()=>{
                 _isFirstClicked = true;
             });
-        }
-        else if (!isFading){
-            isFading = true;
-            DirectSwitchScene();
         }
     }
 
@@ -128,6 +156,7 @@ public class CreditManager : MonoBehaviour
     }
 
     public void DirectSwitchScene(){
+        isDirectSwitchScene = true;
         overlay.DOFade(1, 1f).OnComplete(()=>{
             SceneManager.LoadScene("Title_Scene");
         });

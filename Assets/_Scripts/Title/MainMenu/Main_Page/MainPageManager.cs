@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using System.Collections;
 
 public class MainPageManager : ICanvasPage
 {
@@ -18,9 +19,18 @@ public class MainPageManager : ICanvasPage
     [SerializeField]
     private List<RawImage> _lineIamges = new List<RawImage>();
 
+    [SerializeField]
+    AudioSource audioSource;
+
     void Awake(){
         fadeWaitTime = moveHoverTime - lineFadeTime * 2f;
         _masterHoverLine.DOFade(0, 0f);
+        StartCoroutine(StartTitleMusic());
+    }
+
+    IEnumerator StartTitleMusic(){
+        yield return new WaitForSeconds(1f);
+        audioSource.Play();
     }
 
     public void OnHoverMainMenu(int targetIndex){

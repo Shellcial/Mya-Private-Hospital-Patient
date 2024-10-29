@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/_Scenes/Poo_Room.unity
     guid: f16ed03829196fb4db61515c74dda37b
   - enabled: 1
+    path: Assets/_Scenes/Escape_Dialogue.unity
+    guid: 640668f6023a3184ca76a22ffe3017a5
+  - enabled: 1
     path: Assets/_Scenes/General_Ward.unity
     guid: 5c3305f8d856199419caa55941d8c85a
   - enabled: 1

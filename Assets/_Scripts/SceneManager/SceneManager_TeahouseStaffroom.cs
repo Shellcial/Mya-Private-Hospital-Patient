@@ -92,8 +92,12 @@ public class SceneManager_TeahouseStaffroom : Singleton<SceneManager_TeahouseSta
     public async void SwitchScene()
     {
         FlatAudioManager.Instance.Play("exit_door", false);
+        await GeneralUIManager.Instance.FadeInBlack(1f);
+        await UniTask.Delay(1000);
+        FlatAudioManager.Instance.Play("leave_footsteps", true);
+        await UniTask.Delay(1500);
         GameManager.Instance.FadeOutAudioMixer(2f);
-        await GeneralUIManager.Instance.FadeInBlack(2f);
+        await UniTask.Delay(2000);
         SceneManager.LoadScene("Hospital_Entrance");
     }
 }

@@ -3004,7 +3004,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: cd1fc2f346e7d5a438a10c6c8e0526fc, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3013,7 +3013,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1.6300106
-  MaxDistance: 4
+  MaxDistance: 5.201191
   Pan2D: 0
   rolloffMode: 2
   BypassEffects: 0
@@ -13751,7 +13751,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.2
+  m_Intensity: 1
   m_Range: 4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -21217,7 +21217,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.8
+  m_Intensity: 1
   m_Range: 4
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -28639,17 +28639,17 @@ PrefabInstance:
     - target: {fileID: 3594134729655415560, guid: bdf49cbde2184c34197d447e988a88e4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.631
+      value: -4.5406
       objectReference: {fileID: 0}
     - target: {fileID: 3594134729655415560, guid: bdf49cbde2184c34197d447e988a88e4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.61626625
+      value: 0.4558
       objectReference: {fileID: 0}
     - target: {fileID: 3594134729655415560, guid: bdf49cbde2184c34197d447e988a88e4,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 11.8808
+      value: 11.8448
       objectReference: {fileID: 0}
     - target: {fileID: 3594134729655415560, guid: bdf49cbde2184c34197d447e988a88e4,
         type: 3}

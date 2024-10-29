@@ -5,14 +5,14 @@ using UnityEngine.InputSystem;
 public class GummyRoadDialogue : AbstractInputActionsController
 {
     private List<string> dialogueList = new List<string>(){
-        "明明沿着來時的小徑走，但怎樣也走不出這座樹林。",
+        "本來想沿着來時的路回去，但怎樣也走不出這座森林。",
         "……",
         "……",
-        "已經…走了很久了…",
+        "已經…走不動了…",
         "糟糕……頭……有點暈……",
         "……",
         "……",
-        "好像看到……前面有人走過來……",
+        "好像……有人走過來……",
         "……"
     };
 

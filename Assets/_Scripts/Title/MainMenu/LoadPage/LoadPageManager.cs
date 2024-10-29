@@ -50,6 +50,11 @@ public class LoadPageManager : ICanvasPage
 
     public List<Texture> loadChapterTextures = new List<Texture>();
 
+    bool isPageMoving = false;
+    [SerializeField]
+    private GameObject leftBlock;
+    [SerializeField]
+    private GameObject rightBlock;
     void Awake(){
         SpecialLeavePage();
         isTriggerable.Clear();
@@ -65,6 +70,9 @@ public class LoadPageManager : ICanvasPage
         for (int i=0; i < chapters.Count; i++){
             EnableChapter(chapters[i], chapters[i]._currentTextureIndex);
         }
+
+        leftBlock.SetActive(false);
+        rightBlock.SetActive(false);
     }
 
     public void EnableChapter(LoadChapter chapter, int textureIndex){
@@ -88,7 +96,7 @@ public class LoadPageManager : ICanvasPage
 
     public void MoveLeft(){
         // left image will move to center, so images are going right actually
-        if (!TitleUIManager.Instance.isEnterChapter){     
+        if (!TitleUIManager.Instance.isEnterChapter && !isPageMoving){     
             GeneralClickEvent(-1);
 
             foreach(LoadChapter chapter in chapters){
@@ -100,8 +108,9 @@ public class LoadPageManager : ICanvasPage
             });
 
             arrow.DOFade(1,_quickFadeTime).SetDelay(_animationTime-_quickFadeTime).OnComplete(()=>{
-                clickableLeft.raycastTarget = true;
-                clickableRight.raycastTarget = true;
+                leftBlock.SetActive(false);
+                rightBlock.SetActive(false);
+                isPageMoving = false;
             });
             
         }
@@ -109,7 +118,7 @@ public class LoadPageManager : ICanvasPage
 
     public void MoveRight(){
         // right image will move to center, so images are going left actually
-        if (!TitleUIManager.Instance.isEnterChapter){     
+        if (!TitleUIManager.Instance.isEnterChapter && !isPageMoving){     
             GeneralClickEvent(1);
 
             foreach(LoadChapter chapter in chapters){
@@ -121,8 +130,9 @@ public class LoadPageManager : ICanvasPage
             });;
 
             arrow.DOFade(1,_quickFadeTime).SetDelay(_animationTime-_quickFadeTime).OnComplete(()=>{
-                clickableLeft.raycastTarget = true;
-                clickableRight.raycastTarget = true;
+                leftBlock.SetActive(false);
+                rightBlock.SetActive(false);
+                isPageMoving = false;
             });
         }
     }
@@ -137,8 +147,9 @@ public class LoadPageManager : ICanvasPage
             currentSelectedTexture = currentSelectedTexture - chapterTitle.Count;
         }
 
-        clickableLeft.raycastTarget = false;
-        clickableRight.raycastTarget = false;
+        isPageMoving = true;
+        leftBlock.SetActive(true);
+        rightBlock.SetActive(true);
         chapterTitleText.DOFade(0, _quickFadeTime);
         chapterDescriptionText.DOFade(0, _quickFadeTime);
         chapterTitleText.DOFade(1, _quickFadeTime).SetDelay(_animationTime-_quickFadeTime);

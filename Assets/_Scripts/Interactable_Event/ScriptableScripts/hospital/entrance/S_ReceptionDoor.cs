@@ -21,19 +21,19 @@ public class S_ReceptionDoor : InteractableObject
         if (!isOpen){
             if (SceneManager.GetActiveScene().name == "Hospital_Leave"){
                 if (GameManager.Instance.gameDataManager.gameData.isGetReceptionKey){
-                //open door
-                DisableInteract();
+                    //open door
+                    DisableInteract();
 
-                isOpen = true;
-                FlatAudioManager.Instance.Play("open_locked_door", false);
-                Vector3 targetValue = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y - openValue, transform.eulerAngles.z);
-                transform.DORotate(targetValue, duration, RotateMode.Fast).SetEase(Ease.InOutSine).OnComplete(
-                    () =>
-                    {
-                        EndAnimation(true);
-                    }
-                );
-            }
+                    isOpen = true;
+                    FlatAudioManager.Instance.Play("open_locked_door", false);
+                    Vector3 targetValue = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y - openValue, transform.eulerAngles.z);
+                    transform.DORotate(targetValue, duration, RotateMode.Fast).SetEase(Ease.InOutSine).OnComplete(
+                        () =>
+                        {
+                            EndAnimation(true);
+                        }
+                    );
+                }
             }
             else{
                 FlatAudioManager.Instance.Play("door_locked", false);

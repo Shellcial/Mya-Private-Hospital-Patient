@@ -70,7 +70,7 @@ public class GameDataManager : MonoBehaviour
             else
             {
                 // File does not exist
-                GLogger.LogWarning("Save file not found in: " + saveFilePath + " - use new data instead");
+                GLogger.Log("Save file not found in: " + saveFilePath + " - use new data instead");
                 return new GameData();
             }
         }

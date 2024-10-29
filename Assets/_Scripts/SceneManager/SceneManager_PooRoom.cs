@@ -251,7 +251,7 @@ public class SceneManager_PooRoom : Singleton<SceneManager_PooRoom>, ISceneManag
         GameManager.Instance.PauseGame();
         GameManager.Instance.FadeOutAudioMixer(2f);
         await GeneralUIManager.Instance.FadeInBlack(2f);
-        SceneManager.LoadScene("General_Ward");
+        SceneManager.LoadScene("Escape_Dialogue");
     }
 
     IEnumerator PlayVideo(){

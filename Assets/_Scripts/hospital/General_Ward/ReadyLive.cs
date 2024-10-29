@@ -36,11 +36,11 @@ public class ReadyLive : MonoBehaviour
     IEnumerator StartAnimation(){
         yield return new WaitForSeconds(3f);
         foreach (Light light in _allLights){
-            light.DOIntensity(1f, _fadeTime);
+            light.DOIntensity(0.1f, _fadeTime);
         }
 
         foreach (Light light in _allSpots){
-            light.DOIntensity(0.02f, _fadeTime);
+            light.DOIntensity(0.01f, _fadeTime);
         }
 
         yield return new WaitForSeconds(_fadeTime);

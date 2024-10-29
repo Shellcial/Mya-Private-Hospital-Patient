@@ -48,11 +48,11 @@ public class SceneManager_Gummy_Road : Singleton<SceneManager_Gummy_Road>
 		GetComponent<GummyRoadDialogue>().ClickSentence();
     }
 
-    public async void PlayFootstepSounds(string text){
-        DialogueManager.Instance.isDialogueEnable = false;
+    public void PlayFootstepSounds(string text){
+        // DialogueManager.Instance.isDialogueEnable = false;
         FlatAudioManager.Instance.Play("panda_footsteps", false);
-        await UniTask.Delay(1000);
-        DialogueManager.Instance.isDialogueEnable = true;
+        // await UniTask.Delay(1000);
+        // DialogueManager.Instance.isDialogueEnable = true;
         DialogueManager.Instance.ShowNextSentence(text);
         // GetComponent<GummyRoadDialogue>().ClickSentence();
     }
@@ -96,6 +96,7 @@ public class SceneManager_Gummy_Road : Singleton<SceneManager_Gummy_Road>
 
     public async void SwitchScene(){
         GameManager.Instance.gameDataManager.gameData.otherStats["gummy_ending"] = true;
+        GameManager.Instance.gameDataManager.gameData.IllustrationStats["gummy_tachie"] = true;
         DialogueManager.Instance.ClearText();
         DialogueManager.Instance.isDialogueEnable = false;
 		GameManager.Instance.FadeOutAudioMixer(2f);

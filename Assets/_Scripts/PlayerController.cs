@@ -56,7 +56,8 @@ public class PlayerController : MonoBehaviour
     private List<string> dialogueScene = new List<string>(){
         "Path_To_Teahouse",
         "Outside_Teahouse",
-        "Path_To_Teahouse_Night"
+        "Path_To_Teahouse_Night",
+        "Escape_Dialogue"
     };
 
     public bool isDialogueScene = false;
